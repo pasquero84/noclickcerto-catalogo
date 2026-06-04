@@ -1,7 +1,16 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/catalogo.json", "headers": { "Access-Control-Allow-Origin": "*", "Cache-Control": "s-maxage=300" }, "dest": "/catalogo.json" },
+    {
+      "src": "/catalogo.json",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "s-maxage=60, stale-while-revalidate=300"
+      },
+      "dest": "/catalogo.json"
+    },
+    { "src": "/admin", "dest": "/admin/index.html" },
+    { "src": "/admin/", "dest": "/admin/index.html" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
