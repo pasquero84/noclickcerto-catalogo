@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/catalogo.json", "headers": { "Access-Control-Allow-Origin": "*", "Cache-Control": "s-maxage=300" }, "dest": "/catalogo.json" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
