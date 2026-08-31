@@ -894,22 +894,30 @@ function ensureDraft(codigo) {
 // ═══════════════════════════════════════════
 // SUPPLIER TABLE PROCESSOR
 // ═══════════════════════════════════════════
-const MARGEM = 0.28;
-const DESCONTO_PIX = 0.10;
+// Fórmula fechada com o Stefano em 31/08/2026: margem fixa em R$ (não mais
+// percentual), e o Pix é a base — cartão e link são a base com sobretaxa da
+// maquininha/gateway embutida, mostrados no catálogo como desconto sobre o Pix.
+const MARGEM_ATE_4K = 650;
+const MARGEM_ACIMA_4K = 850;
+const LIMITE_MARGEM = 4000; // baseado no custo do fornecedor
+const TAXA_CARTAO = 0.11;   // cartão presencial, até 10x
+const TAXA_LINK = 0.17;     // link de pagamento, até 10x
 const PARCELAS = 10;
-const TAXA_ANT = 0.11;
 
 function calcPrecos(custo) {
-  const venda = Math.round(custo * (1 + MARGEM) * 100) / 100;
-  const pix = Math.round(venda * (1 - DESCONTO_PIX) * 100) / 100;
-  const parcel = Math.round((venda / PARCELAS) * 100) / 100;
-  const liquido = Math.round(venda * (1 - TAXA_ANT) * 100) / 100;
+  const margem = custo <= LIMITE_MARGEM ? MARGEM_ATE_4K : MARGEM_ACIMA_4K;
+  const pix = Math.round((custo + margem) * 100) / 100;
+  const cartao = Math.round(pix * (1 + TAXA_CARTAO) * 100) / 100;
+  const link = Math.round(pix * (1 + TAXA_LINK) * 100) / 100;
+  const parcel = Math.round((link / PARCELAS) * 100) / 100;
   return {
-    preco_venda: venda,
+    preco_venda: cartao,   // campo legado = referência "De:" do cartão presencial
     preco_pix: pix,
+    preco_cartao: cartao,
+    preco_link: link,
     preco_10x: parcel,
-    lucro_pix: Math.round((pix - custo) * 100) / 100,
-    lucro_cartao: Math.round((liquido - custo) * 100) / 100
+    lucro_pix: margem,
+    lucro_cartao: margem
   };
 }
 
@@ -1075,7 +1083,7 @@ function renderPreview(changes) {
       ? '<span class="preview-badge prev-new">NOVO</span>'
       : '<span class="preview-badge prev-updated">ATUALIZADO</span>';
     const priceChange = c.tipo === 'updated' && c.custoAnterior !== c.custo
-      ? `<div class="preview-item-price"><span class="old">PIX R$ ${fmt(c.custoAnterior * (1 + MARGEM) * (1 - DESCONTO_PIX))}</span> → <span class="new">PIX R$ ${fmt(c.preco_pix)}</span></div>`
+      ? `<div class="preview-item-price"><span class="old">PIX R$ ${fmt(calcPrecos(c.custoAnterior).preco_pix)}</span> → <span class="new">PIX R$ ${fmt(c.preco_pix)}</span></div>`
       : `<div class="preview-item-price">PIX R$ ${fmt(c.preco_pix)}</div>`;
     html += `
     <div class="preview-item">
@@ -1112,6 +1120,7 @@ async function confirmarPublicacao() {
       if (idx >= 0) {
         prods[idx] = {...prods[idx], ...{
           custo: c.custo, preco_venda: c.preco_venda, preco_pix: c.preco_pix,
+          preco_cartao: c.preco_cartao, preco_link: c.preco_link,
           preco_10x: c.preco_10x, lucro_pix: c.lucro_pix, lucro_cartao: c.lucro_cartao,
           fornecedor: c.fornecedor
         }};
@@ -1121,7 +1130,8 @@ async function confirmarPublicacao() {
         codigo: c.codigo, nome: c.nome, nome_interno: c.nomeOriginal,
         categoria: c.categoria, condicao: c.condicao, status: c.status,
         fornecedor: c.fornecedor, custo: c.custo,
-        preco_venda: c.preco_venda, preco_pix: c.preco_pix, preco_10x: c.preco_10x,
+        preco_venda: c.preco_venda, preco_pix: c.preco_pix,
+        preco_cartao: c.preco_cartao, preco_link: c.preco_link, preco_10x: c.preco_10x,
         lucro_pix: c.lucro_pix, lucro_cartao: c.lucro_cartao,
         bateria: null, origem: null, garantia: null
       });
