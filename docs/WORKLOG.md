@@ -18,3 +18,19 @@
   Pix R$1.650 / Cartão R$1.831,50 / Link R$1.930,50 / 10x R$193,05, e virada
   de margem em R$4.000/R$4.001 confirmada (R$650→R$850). HTML do card
   conferido via DOM, bate com o esperado.
+
+## 2026-08-31 (cont.) — Claude
+- Novo motor de ingestão de fornecedor em `scripts/`:
+  - `parse-fornecedor.mjs` — lê o texto cru do WhatsApp. Parser stateful,
+    lida com os 2 formatos vistos em produção (preço na linha do nome +
+    cores soltas embaixo; nome sem preço + uma linha por cor com preço).
+    Bugs achados e corrigidos no teste com dados reais: "8/256" lido como
+    preço 256; produto ("MACBOOK NEO 8/256") confundido com cabeçalho de
+    seção; MacBook herdando categoria iPhone da seção anterior.
+  - `consolidar.mjs` — aplica a regra nova: um cadastro por produto, preço
+    do fornecedor MAIS CARO, união das cores. Bug grave achado no teste:
+    a chave removia 4G/5G, fazendo "Note15 4G" (R$1.230) colidir com
+    "Note15 5G" (R$1.540) — o 4G seria vendido pelo preço do 5G.
+- Amostras reais de 31/08 em `scripts/amostras/` (EasyStore e Trend Shop).
+- Testado: EasyStore 14/14 produtos, Trend 3/3, consolidação identificou
+  corretamente 3 produtos presentes nos dois fornecedores.
