@@ -53,3 +53,17 @@
   tabela "ficou nota 4", faltava imagem do aparelho e as cores.
   A ilustração é cacheada por modelo em `_criativos/arte/` — regerar só
   apagando o PNG (cada imagem consome crédito da chave compartilhada).
+- Redesign do catálogo (brief do Stefano, 31/08): tema claro, mobile-first,
+  card com hierarquia de e-commerce (tag → imagem → nome → variante → PREÇO →
+  parcela → confiança → CTA). Toda a lógica preservada (fetch do JSON,
+  filtros, busca, WhatsApp, /p/). Sem foto do fornecedor (183 de 184 produtos),
+  o card usa uma SILHUETA do aparelho desenhada na COR REAL do produto — é
+  informação verdadeira, diferente de foto genérica que não é daquele aparelho.
+- 🔴 `fetch('/catalogo.json')` agora usa `cache:'no-cache'`. Sem isso o
+  navegador servia o catálogo do cache e o CLIENTE VIA PREÇO ANTIGO — flagrado
+  ao vivo (página com 181 produtos e preço velho, servidor já em 184).
+- `auditor.mjs`: trava de preço antes de publicar (ideia do Stefano). Três
+  referências internas, não preço de mercado externo: histórico do próprio
+  produto (queda >40%), mediana dos pares (categoria+geração; categorias
+  heterogêneas comparam por faixa de preço) e piso absoluto por categoria.
+  Item reprovado vira "Consultar Disponibilidade"; o resto publica.
