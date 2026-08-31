@@ -47,3 +47,9 @@
   cores do mesmo aparelho (o catálogo tem uma linha por cor) e mostra os 3
   preços, garantia calculada pela geração do iPhone, e CTA de WhatsApp já
   com o código do produto na mensagem. Botão ↗ adicionado em cada card.
+- `criativo-produto.mjs`: arte 1080x1350 de UM produto, com ilustração gerada
+  por `gpt-image-2` (chave OpenAI compartilhada do WaveFlow) + dados reais do
+  catálogo, bolinhas de cor e os 3 preços. Feedback do Stefano: a arte só de
+  tabela "ficou nota 4", faltava imagem do aparelho e as cores.
+  A ilustração é cacheada por modelo em `_criativos/arte/` — regerar só
+  apagando o PNG (cada imagem consome crédito da chave compartilhada).
