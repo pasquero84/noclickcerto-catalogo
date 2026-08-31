@@ -34,3 +34,10 @@
 - Amostras reais de 31/08 em `scripts/amostras/` (EasyStore e Trend Shop).
 - Testado: EasyStore 14/14 produtos, Trend 3/3, consolidação identificou
   corretamente 3 produtos presentes nos dois fornecedores.
+- `ingerir.mjs` + `criativo.mjs`: pipeline até a publicação e gerador de arte
+  1080x1080 (Chrome headless, sem dependência nova). Aplicada a tabela de
+  31/08: 184 produtos no ar. Selo de garantia é condicional — a regra de
+  3/6 meses vale só pra seminovo; lacrado mostra "lacrado de fábrica".
+- ⚠️ `GITHUB_TOKEN` do Vercel está com "Bad credentials": o `/api/save` do
+  admin não publica mais. Contornado com `vercel --prod`. Precisa gerar
+  token novo pro botão Publicar do admin voltar a funcionar.
