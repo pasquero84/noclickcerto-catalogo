@@ -11,6 +11,7 @@
     },
     { "src": "/admin", "dest": "/admin/index.html" },
     { "src": "/admin/", "dest": "/admin/index.html" },
+    { "src": "/p/([A-Za-z]{3}-\\d{4})", "dest": "/api/p?c=$1" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }

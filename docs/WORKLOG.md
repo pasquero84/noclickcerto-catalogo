@@ -41,3 +41,9 @@
 - ⚠️ `GITHUB_TOKEN` do Vercel está com "Bad credentials": o `/api/save` do
   admin não publica mais. Contornado com `vercel --prod`. Precisa gerar
   token novo pro botão Publicar do admin voltar a funcionar.
+- Página de produto compartilhável: `/p/<CODIGO>` (`api/p.js` + rewrite no
+  `vercel.json`). Renderizada no servidor de propósito — o preview do
+  WhatsApp (Open Graph) não funciona em página feita só por JS. Agrupa as
+  cores do mesmo aparelho (o catálogo tem uma linha por cor) e mostra os 3
+  preços, garantia calculada pela geração do iPhone, e CTA de WhatsApp já
+  com o código do produto na mensagem. Botão ↗ adicionado em cada card.
