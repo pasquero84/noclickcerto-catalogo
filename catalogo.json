@@ -3,7 +3,7 @@
     "sistema": "NoClickCerto",
     "versao": "2.0",
     "ultima_atualizacao": "2026-08-31",
-    "total_produtos": 181,
+    "total_produtos": 184,
     "whatsapp": "5512992006037",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
@@ -37,10 +37,10 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 7050,
-      "preco_venda": 8769.0,
-      "preco_pix": 7900,
-      "preco_10x": 924.3,
+      "custo": 7125,
+      "preco_venda": 8852.25,
+      "preco_pix": 7975,
+      "preco_10x": 933.08,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
@@ -54,8 +54,14 @@
         "https://raw.githubusercontent.com/pasquero84/noclickcerto-catalogo/main/imagens/iph-0001_1780671329305.webp"
       ],
       "foto_url": "https://raw.githubusercontent.com/pasquero84/noclickcerto-catalogo/main/imagens/iph-0001_1780671329305.webp",
-      "preco_cartao": 8769.0,
-      "preco_link": 9243.0
+      "preco_cartao": 8852.25,
+      "preco_link": 9330.75,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Laranja",
+        "Silver"
+      ]
     },
     {
       "codigo": "IPH-0002",
@@ -64,17 +70,23 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 7050,
-      "preco_venda": 8769.0,
-      "preco_pix": 7900,
-      "preco_10x": 924.3,
+      "custo": 7125,
+      "preco_venda": 8852.25,
+      "preco_pix": 7975,
+      "preco_10x": 933.08,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8769.0,
-      "preco_link": 9243.0
+      "preco_cartao": 8852.25,
+      "preco_link": 9330.75,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Laranja",
+        "Silver"
+      ]
     },
     {
       "codigo": "IPH-0003",
@@ -83,17 +95,23 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 7385,
-      "preco_venda": 9140.85,
-      "preco_pix": 8235,
-      "preco_10x": 963.5,
+      "custo": 7125,
+      "preco_venda": 8852.25,
+      "preco_pix": 7975,
+      "preco_10x": 933.08,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 9140.85,
-      "preco_link": 9634.95
+      "preco_cartao": 8852.25,
+      "preco_link": 9330.75,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Laranja",
+        "Silver"
+      ]
     },
     {
       "codigo": "IPH-0004",
@@ -274,7 +292,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3550,
-      "preco_venda": 4662.0,
+      "preco_venda": 4662,
       "preco_pix": 4200,
       "preco_10x": 491.4,
       "lucro_pix": 650,
@@ -282,8 +300,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 4662.0,
-      "preco_link": 4914.0
+      "preco_cartao": 4662,
+      "preco_link": 4914
     },
     {
       "codigo": "IPH-0014",
@@ -293,7 +311,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 6850,
-      "preco_venda": 8547.0,
+      "preco_venda": 8547,
       "preco_pix": 7700,
       "preco_10x": 900.9,
       "lucro_pix": 850,
@@ -301,8 +319,8 @@
       "bateria": "—",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 8547.0,
-      "preco_link": 9009.0
+      "preco_cartao": 8547,
+      "preco_link": 9009
     },
     {
       "codigo": "IPH-0015",
@@ -349,17 +367,21 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 4950,
-      "preco_venda": 6438.0,
-      "preco_pix": 5800,
-      "preco_10x": 678.6,
+      "custo": 4800,
+      "preco_venda": 6271.5,
+      "preco_pix": 5650,
+      "preco_10x": 661.05,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": "90%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 6438.0,
-      "preco_link": 6786.0
+      "preco_cartao": 6271.5,
+      "preco_link": 6610.5,
+      "cores": [
+        "Desert",
+        "Preto"
+      ]
     },
     {
       "codigo": "IPH-0018",
@@ -368,17 +390,20 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 3990,
-      "preco_venda": 5150.4,
-      "preco_pix": 4640,
-      "preco_10x": 542.88,
+      "custo": 3950,
+      "preco_venda": 5106,
+      "preco_pix": 4600,
+      "preco_10x": 538.2,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "90%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 5150.4,
-      "preco_link": 5428.8
+      "preco_cartao": 5106,
+      "preco_link": 5382,
+      "cores": [
+        "Preto"
+      ]
     },
     {
       "codigo": "IPH-0019",
@@ -388,7 +413,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3750,
-      "preco_venda": 4884.0,
+      "preco_venda": 4884,
       "preco_pix": 4400,
       "preco_10x": 514.8,
       "lucro_pix": 650,
@@ -396,8 +421,8 @@
       "bateria": "90%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4884.0,
-      "preco_link": 5148.0
+      "preco_cartao": 4884,
+      "preco_link": 5148
     },
     {
       "codigo": "IPH-0020",
@@ -407,7 +432,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3750,
-      "preco_venda": 4884.0,
+      "preco_venda": 4884,
       "preco_pix": 4400,
       "preco_10x": 514.8,
       "lucro_pix": 650,
@@ -415,8 +440,8 @@
       "bateria": "90%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4884.0,
-      "preco_link": 5148.0
+      "preco_cartao": 4884,
+      "preco_link": 5148
     },
     {
       "codigo": "IPH-0021",
@@ -425,17 +450,20 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 3500,
-      "preco_venda": 4606.5,
-      "preco_pix": 4150,
-      "preco_10x": 485.55,
+      "custo": 3350,
+      "preco_venda": 4440,
+      "preco_pix": 4000,
+      "preco_10x": 468,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "90%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4606.5,
-      "preco_link": 4855.5
+      "preco_cartao": 4440,
+      "preco_link": 4680,
+      "cores": [
+        "Azul"
+      ]
     },
     {
       "codigo": "IPH-0022",
@@ -502,7 +530,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3150,
-      "preco_venda": 4218.0,
+      "preco_venda": 4218,
       "preco_pix": 3800,
       "preco_10x": 444.6,
       "lucro_pix": 650,
@@ -510,8 +538,8 @@
       "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4218.0,
-      "preco_link": 4446.0
+      "preco_cartao": 4218,
+      "preco_link": 4446
     },
     {
       "codigo": "IPH-0026",
@@ -521,16 +549,16 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3350,
-      "preco_venda": 4440.0,
+      "preco_venda": 4440,
       "preco_pix": 4000,
-      "preco_10x": 468.0,
+      "preco_10x": 468,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4440.0,
-      "preco_link": 4680.0
+      "preco_cartao": 4440,
+      "preco_link": 4680
     },
     {
       "codigo": "IPH-0027",
@@ -540,16 +568,16 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3350,
-      "preco_venda": 4440.0,
+      "preco_venda": 4440,
       "preco_pix": 4000,
-      "preco_10x": 468.0,
+      "preco_10x": 468,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4440.0,
-      "preco_link": 4680.0
+      "preco_cartao": 4440,
+      "preco_link": 4680
     },
     {
       "codigo": "IPH-0028",
@@ -635,7 +663,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1850,
-      "preco_venda": 2775.0,
+      "preco_venda": 2775,
       "preco_pix": 2500,
       "preco_10x": 292.5,
       "lucro_pix": 650,
@@ -643,8 +671,8 @@
       "bateria": "83%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2775.0,
-      "preco_link": 2925.0
+      "preco_cartao": 2775,
+      "preco_link": 2925
     },
     {
       "codigo": "IPH-0033",
@@ -654,7 +682,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1850,
-      "preco_venda": 2775.0,
+      "preco_venda": 2775,
       "preco_pix": 2500,
       "preco_10x": 292.5,
       "lucro_pix": 650,
@@ -662,8 +690,8 @@
       "bateria": "83%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2775.0,
-      "preco_link": 2925.0
+      "preco_cartao": 2775,
+      "preco_link": 2925
     },
     {
       "codigo": "IPH-0034",
@@ -673,7 +701,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1850,
-      "preco_venda": 2775.0,
+      "preco_venda": 2775,
       "preco_pix": 2500,
       "preco_10x": 292.5,
       "lucro_pix": 650,
@@ -681,8 +709,8 @@
       "bateria": "83%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2775.0,
-      "preco_link": 2925.0
+      "preco_cartao": 2775,
+      "preco_link": 2925
     },
     {
       "codigo": "IPH-0035",
@@ -711,7 +739,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3552.0,
+      "preco_venda": 3552,
       "preco_pix": 3200,
       "preco_10x": 374.4,
       "lucro_pix": 650,
@@ -719,8 +747,8 @@
       "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3552.0,
-      "preco_link": 3744.0
+      "preco_cartao": 3552,
+      "preco_link": 3744
     },
     {
       "codigo": "IPH-0037",
@@ -730,7 +758,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3552.0,
+      "preco_venda": 3552,
       "preco_pix": 3200,
       "preco_10x": 374.4,
       "lucro_pix": 650,
@@ -738,8 +766,8 @@
       "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3552.0,
-      "preco_link": 3744.0
+      "preco_cartao": 3552,
+      "preco_link": 3744
     },
     {
       "codigo": "IPH-0038",
@@ -749,7 +777,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3552.0,
+      "preco_venda": 3552,
       "preco_pix": 3200,
       "preco_10x": 374.4,
       "lucro_pix": 650,
@@ -757,8 +785,8 @@
       "bateria": "88%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3552.0,
-      "preco_link": 3744.0
+      "preco_cartao": 3552,
+      "preco_link": 3744
     },
     {
       "codigo": "IPH-0039",
@@ -768,7 +796,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3552.0,
+      "preco_venda": 3552,
       "preco_pix": 3200,
       "preco_10x": 374.4,
       "lucro_pix": 650,
@@ -776,8 +804,8 @@
       "bateria": "88%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3552.0,
-      "preco_link": 3744.0
+      "preco_cartao": 3552,
+      "preco_link": 3744
     },
     {
       "codigo": "IPH-0040",
@@ -787,7 +815,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3552.0,
+      "preco_venda": 3552,
       "preco_pix": 3200,
       "preco_10x": 374.4,
       "lucro_pix": 650,
@@ -795,8 +823,8 @@
       "bateria": "88%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3552.0,
-      "preco_link": 3744.0
+      "preco_cartao": 3552,
+      "preco_link": 3744
     },
     {
       "codigo": "IPH-0041",
@@ -806,7 +834,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3552.0,
+      "preco_venda": 3552,
       "preco_pix": 3200,
       "preco_10x": 374.4,
       "lucro_pix": 650,
@@ -814,8 +842,8 @@
       "bateria": "88%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3552.0,
-      "preco_link": 3744.0
+      "preco_cartao": 3552,
+      "preco_link": 3744
     },
     {
       "codigo": "IPH-0042",
@@ -939,7 +967,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2150,
-      "preco_venda": 3108.0,
+      "preco_venda": 3108,
       "preco_pix": 2800,
       "preco_10x": 327.6,
       "lucro_pix": 650,
@@ -947,8 +975,8 @@
       "bateria": "100%",
       "origem": "UAE",
       "garantia": "3 meses",
-      "preco_cartao": 3108.0,
-      "preco_link": 3276.0
+      "preco_cartao": 3108,
+      "preco_link": 3276
     },
     {
       "codigo": "IPH-0049",
@@ -958,7 +986,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2150,
-      "preco_venda": 3108.0,
+      "preco_venda": 3108,
       "preco_pix": 2800,
       "preco_10x": 327.6,
       "lucro_pix": 650,
@@ -966,8 +994,8 @@
       "bateria": "100%",
       "origem": "UAE",
       "garantia": "3 meses",
-      "preco_cartao": 3108.0,
-      "preco_link": 3276.0
+      "preco_cartao": 3108,
+      "preco_link": 3276
     },
     {
       "codigo": "IPH-0050",
@@ -977,7 +1005,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2150,
-      "preco_venda": 3108.0,
+      "preco_venda": 3108,
       "preco_pix": 2800,
       "preco_10x": 327.6,
       "lucro_pix": 650,
@@ -985,8 +1013,8 @@
       "bateria": "100%",
       "origem": "UAE",
       "garantia": "3 meses",
-      "preco_cartao": 3108.0,
-      "preco_link": 3276.0
+      "preco_cartao": 3108,
+      "preco_link": 3276
     },
     {
       "codigo": "IPH-0051",
@@ -1089,18 +1117,23 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 6549,
-      "preco_venda": 8212.89,
-      "preco_pix": 7399,
-      "preco_10x": 865.68,
+      "fornecedor": "FOR001",
+      "custo": 6450,
+      "preco_venda": 8103,
+      "preco_pix": 7300,
+      "preco_10x": 854.1,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8212.89,
-      "preco_link": 8656.83
+      "preco_cartao": 8103,
+      "preco_link": 8541,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Silver"
+      ]
     },
     {
       "codigo": "IPH-0057",
@@ -1108,18 +1141,23 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 6549,
-      "preco_venda": 8212.89,
-      "preco_pix": 7399,
-      "preco_10x": 865.68,
+      "fornecedor": "FOR001",
+      "custo": 6450,
+      "preco_venda": 8103,
+      "preco_pix": 7300,
+      "preco_10x": 854.1,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8212.89,
-      "preco_link": 8656.83
+      "preco_cartao": 8103,
+      "preco_link": 8541,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Silver"
+      ]
     },
     {
       "codigo": "IPH-0058",
@@ -1127,18 +1165,23 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 6749,
-      "preco_venda": 8434.89,
-      "preco_pix": 7599,
-      "preco_10x": 889.08,
+      "fornecedor": "FOR001",
+      "custo": 6450,
+      "preco_venda": 8103,
+      "preco_pix": 7300,
+      "preco_10x": 854.1,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8434.89,
-      "preco_link": 8890.83
+      "preco_cartao": 8103,
+      "preco_link": 8541,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Silver"
+      ]
     },
     {
       "codigo": "IPH-0059",
@@ -1148,7 +1191,7 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 5250,
-      "preco_venda": 6771.0,
+      "preco_venda": 6771,
       "preco_pix": 6100,
       "preco_10x": 713.7,
       "lucro_pix": 850,
@@ -1156,8 +1199,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 6771.0,
-      "preco_link": 7137.0
+      "preco_cartao": 6771,
+      "preco_link": 7137
     },
     {
       "codigo": "IPH-0060",
@@ -1338,7 +1381,7 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1650,
-      "preco_venda": 2553.0,
+      "preco_venda": 2553,
       "preco_pix": 2300,
       "preco_10x": 269.1,
       "lucro_pix": 650,
@@ -1346,8 +1389,8 @@
       "bateria": "90%+",
       "origem": "USA",
       "garantia": "1 mês",
-      "preco_cartao": 2553.0,
-      "preco_link": 2691.0
+      "preco_cartao": 2553,
+      "preco_link": 2691
     },
     {
       "codigo": "IPH-0070",
@@ -1357,16 +1400,16 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1350,
-      "preco_venda": 2220.0,
+      "preco_venda": 2220,
       "preco_pix": 2000,
-      "preco_10x": 234.0,
+      "preco_10x": 234,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "75%+",
       "origem": "USA",
       "garantia": "1 mês",
-      "preco_cartao": 2220.0,
-      "preco_link": 2340.0
+      "preco_cartao": 2220,
+      "preco_link": 2340
     },
     {
       "codigo": "IPD-0001",
@@ -1452,7 +1495,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 5850,
-      "preco_venda": 7437.0,
+      "preco_venda": 7437,
       "preco_pix": 6700,
       "preco_10x": 783.9,
       "lucro_pix": 850,
@@ -1460,8 +1503,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 7437.0,
-      "preco_link": 7839.0
+      "preco_cartao": 7437,
+      "preco_link": 7839
     },
     {
       "codigo": "MCB-0003",
@@ -1471,7 +1514,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 5850,
-      "preco_venda": 7437.0,
+      "preco_venda": 7437,
       "preco_pix": 6700,
       "preco_10x": 783.9,
       "lucro_pix": 850,
@@ -1479,8 +1522,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 7437.0,
-      "preco_link": 7839.0
+      "preco_cartao": 7437,
+      "preco_link": 7839
     },
     {
       "codigo": "APW-0001",
@@ -1756,7 +1799,7 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 50,
-      "preco_venda": 777.0,
+      "preco_venda": 777,
       "preco_pix": 700,
       "preco_10x": 81.9,
       "lucro_pix": 650,
@@ -1764,8 +1807,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 777.0,
-      "preco_link": 819.0
+      "preco_cartao": 777,
+      "preco_link": 819
     },
     {
       "codigo": "ROB-0001",
@@ -2097,17 +2140,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 850,
-      "preco_venda": 1665.0,
-      "preco_pix": 1500,
-      "preco_10x": 175.5,
+      "custo": 960,
+      "preco_venda": 1787.1,
+      "preco_pix": 1610,
+      "preco_10x": 188.37,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1665.0,
-      "preco_link": 1755.0
+      "preco_cartao": 1787.1,
+      "preco_link": 1883.7
     },
     {
       "codigo": "XMI-0013",
@@ -2116,36 +2159,36 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 850,
-      "preco_venda": 1665.0,
-      "preco_pix": 1500,
-      "preco_10x": 175.5,
+      "custo": 960,
+      "preco_venda": 1787.1,
+      "preco_pix": 1610,
+      "preco_10x": 188.37,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1665.0,
-      "preco_link": 1755.0
+      "preco_cartao": 1787.1,
+      "preco_link": 1883.7
     },
     {
       "codigo": "XMI-0014",
       "nome": "Redmi 15C 8/256 Verde",
       "categoria": "Xiaomi",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 850,
-      "preco_venda": 1665.0,
-      "preco_pix": 1500,
-      "preco_10x": 175.5,
+      "custo": 960,
+      "preco_venda": 1787.1,
+      "preco_pix": 1610,
+      "preco_10x": 188.37,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1665.0,
-      "preco_link": 1755.0
+      "preco_cartao": 1787.1,
+      "preco_link": 1883.7
     },
     {
       "codigo": "XMI-0015",
@@ -2154,55 +2197,55 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 670,
-      "preco_venda": 1465.2,
-      "preco_pix": 1320,
-      "preco_10x": 154.44,
+      "custo": 780,
+      "preco_venda": 1587.3,
+      "preco_pix": 1430,
+      "preco_10x": 167.31,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1465.2,
-      "preco_link": 1544.4
+      "preco_cartao": 1587.3,
+      "preco_link": 1673.1
     },
     {
       "codigo": "XMI-0016",
       "nome": "Redmi 15C 4/128 Azul",
       "categoria": "Xiaomi",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 670,
-      "preco_venda": 1465.2,
-      "preco_pix": 1320,
-      "preco_10x": 154.44,
+      "custo": 780,
+      "preco_venda": 1587.3,
+      "preco_pix": 1430,
+      "preco_10x": 167.31,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1465.2,
-      "preco_link": 1544.4
+      "preco_cartao": 1587.3,
+      "preco_link": 1673.1
     },
     {
       "codigo": "XMI-0017",
       "nome": "Redmi Note 14S 8/256 Preto",
       "categoria": "Xiaomi",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1130,
-      "preco_venda": 1975.8,
-      "preco_pix": 1780,
-      "preco_10x": 208.26,
+      "custo": 1220,
+      "preco_venda": 2075.7,
+      "preco_pix": 1870,
+      "preco_10x": 218.79,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1975.8,
-      "preco_link": 2082.6
+      "preco_cartao": 2075.7,
+      "preco_link": 2187.9
     },
     {
       "codigo": "XMI-0018",
@@ -2211,17 +2254,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1130,
-      "preco_venda": 1975.8,
-      "preco_pix": 1780,
-      "preco_10x": 208.26,
+      "custo": 1220,
+      "preco_venda": 2075.7,
+      "preco_pix": 1870,
+      "preco_10x": 218.79,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1975.8,
-      "preco_link": 2082.6
+      "preco_cartao": 2075.7,
+      "preco_link": 2187.9
     },
     {
       "codigo": "XMI-0019",
@@ -2344,17 +2387,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1075,
-      "preco_venda": 1914.75,
-      "preco_pix": 1725,
-      "preco_10x": 201.82,
+      "custo": 1230,
+      "preco_venda": 2086.8,
+      "preco_pix": 1880,
+      "preco_10x": 219.96,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1914.75,
-      "preco_link": 2018.25
+      "preco_cartao": 2086.8,
+      "preco_link": 2199.6
     },
     {
       "codigo": "XMI-0026",
@@ -2363,17 +2406,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1075,
-      "preco_venda": 1914.75,
-      "preco_pix": 1725,
-      "preco_10x": 201.82,
+      "custo": 1230,
+      "preco_venda": 2086.8,
+      "preco_pix": 1880,
+      "preco_10x": 219.96,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1914.75,
-      "preco_link": 2018.25
+      "preco_cartao": 2086.8,
+      "preco_link": 2199.6
     },
     {
       "codigo": "XMI-0027",
@@ -2420,17 +2463,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1630,
-      "preco_venda": 2530.8,
-      "preco_pix": 2280,
-      "preco_10x": 266.76,
+      "custo": 1790,
+      "preco_venda": 2708.4,
+      "preco_pix": 2440,
+      "preco_10x": 285.48,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2530.8,
-      "preco_link": 2667.6
+      "preco_cartao": 2708.4,
+      "preco_link": 2854.8
     },
     {
       "codigo": "XMI-0030",
@@ -2439,17 +2482,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1630,
-      "preco_venda": 2530.8,
-      "preco_pix": 2280,
-      "preco_10x": 266.76,
+      "custo": 1790,
+      "preco_venda": 2708.4,
+      "preco_pix": 2440,
+      "preco_10x": 285.48,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2530.8,
-      "preco_link": 2667.6
+      "preco_cartao": 2708.4,
+      "preco_link": 2854.8
     },
     {
       "codigo": "XMI-0031",
@@ -2516,7 +2559,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 850,
-      "preco_venda": 1665.0,
+      "preco_venda": 1665,
       "preco_pix": 1500,
       "preco_10x": 175.5,
       "lucro_pix": 650,
@@ -2524,8 +2567,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1665.0,
-      "preco_link": 1755.0
+      "preco_cartao": 1665,
+      "preco_link": 1755
     },
     {
       "codigo": "XMI-0035",
@@ -2535,7 +2578,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 850,
-      "preco_venda": 1665.0,
+      "preco_venda": 1665,
       "preco_pix": 1500,
       "preco_10x": 175.5,
       "lucro_pix": 650,
@@ -2543,8 +2586,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1665.0,
-      "preco_link": 1755.0
+      "preco_cartao": 1665,
+      "preco_link": 1755
     },
     {
       "codigo": "XMI-0036",
@@ -2591,17 +2634,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 510,
-      "preco_venda": 1287.6,
-      "preco_pix": 1160,
-      "preco_10x": 135.72,
+      "custo": 600,
+      "preco_venda": 1387.5,
+      "preco_pix": 1250,
+      "preco_10x": 146.25,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1287.6,
-      "preco_link": 1357.2
+      "preco_cartao": 1387.5,
+      "preco_link": 1462.5
     },
     {
       "codigo": "XMI-0039",
@@ -2610,17 +2653,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 510,
-      "preco_venda": 1287.6,
-      "preco_pix": 1160,
-      "preco_10x": 135.72,
+      "custo": 600,
+      "preco_venda": 1387.5,
+      "preco_pix": 1250,
+      "preco_10x": 146.25,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1287.6,
-      "preco_link": 1357.2
+      "preco_cartao": 1387.5,
+      "preco_link": 1462.5
     },
     {
       "codigo": "XMI-0040",
@@ -2857,17 +2900,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1130,
-      "preco_venda": 1975.8,
-      "preco_pix": 1780,
-      "preco_10x": 208.26,
+      "custo": 1220,
+      "preco_venda": 2075.7,
+      "preco_pix": 1870,
+      "preco_10x": 218.79,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1975.8,
-      "preco_link": 2082.6
+      "preco_cartao": 2075.7,
+      "preco_link": 2187.9
     },
     {
       "codigo": "XMI-0053",
@@ -3086,7 +3129,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1250,
-      "preco_venda": 2109.0,
+      "preco_venda": 2109,
       "preco_pix": 1900,
       "preco_10x": 222.3,
       "lucro_pix": 650,
@@ -3094,8 +3137,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2109.0,
-      "preco_link": 2223.0
+      "preco_cartao": 2109,
+      "preco_link": 2223
     },
     {
       "codigo": "RLM-0010",
@@ -3105,7 +3148,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1250,
-      "preco_venda": 2109.0,
+      "preco_venda": 2109,
       "preco_pix": 1900,
       "preco_10x": 222.3,
       "lucro_pix": 650,
@@ -3113,8 +3156,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2109.0,
-      "preco_link": 2223.0
+      "preco_cartao": 2109,
+      "preco_link": 2223
     },
     {
       "codigo": "FNE-0002",
@@ -3245,7 +3288,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 6350,
-      "preco_venda": 7992.0,
+      "preco_venda": 7992,
       "preco_pix": 7200,
       "preco_10x": 842.4,
       "lucro_pix": 850,
@@ -3253,8 +3296,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 7992.0,
-      "preco_link": 8424.0
+      "preco_cartao": 7992,
+      "preco_link": 8424
     },
     {
       "codigo": "ACS-0011",
@@ -3265,7 +3308,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 6350,
-      "preco_venda": 7992.0,
+      "preco_venda": 7992,
       "preco_pix": 7200,
       "preco_10x": 842.4,
       "lucro_pix": 850,
@@ -3273,8 +3316,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 7992.0,
-      "preco_link": 8424.0
+      "preco_cartao": 7992,
+      "preco_link": 8424
     },
     {
       "codigo": "ACS-0011",
@@ -3285,7 +3328,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3750,
-      "preco_venda": 4884.0,
+      "preco_venda": 4884,
       "preco_pix": 4400,
       "preco_10x": 514.8,
       "lucro_pix": 650,
@@ -3293,8 +3336,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 4884.0,
-      "preco_link": 5148.0
+      "preco_cartao": 4884,
+      "preco_link": 5148
     },
     {
       "codigo": "ACS-0011",
@@ -3465,7 +3508,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 5850,
-      "preco_venda": 7437.0,
+      "preco_venda": 7437,
       "preco_pix": 6700,
       "preco_10x": 783.9,
       "lucro_pix": 850,
@@ -3473,8 +3516,8 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 7437.0,
-      "preco_link": 7839.0
+      "preco_cartao": 7437,
+      "preco_link": 7839
     },
     {
       "codigo": "ACS-0012",
@@ -3485,7 +3528,7 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 5850,
-      "preco_venda": 7437.0,
+      "preco_venda": 7437,
       "preco_pix": 6700,
       "preco_10x": 783.9,
       "lucro_pix": 850,
@@ -3493,8 +3536,88 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 7437.0,
-      "preco_link": 7839.0
+      "preco_cartao": 7437,
+      "preco_link": 7839
+    },
+    {
+      "codigo": "IPH-0071",
+      "nome": "17Air 256Gb",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 5140,
+      "preco_venda": 6648.9,
+      "preco_pix": 5990,
+      "preco_cartao": 6648.9,
+      "preco_link": 7008.3,
+      "preco_10x": 700.83,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "bateria": null,
+      "cores": [
+        "Dourdo"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "MCB-0004",
+      "nome": "Macbook Neo (6GPU/5GPU/8 RAM/256 GB SSD)",
+      "categoria": "MacBook",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 4750,
+      "preco_venda": 6216,
+      "preco_pix": 5600,
+      "preco_cartao": 6216,
+      "preco_link": 6552,
+      "preco_10x": 655.2,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "bateria": null,
+      "cores": [
+        "Citrus",
+        "Silver"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0056",
+      "nome": "Note15 5G 8/256 azul",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1540,
+      "preco_venda": 2430.9,
+      "preco_pix": 2190,
+      "preco_cartao": 2430.9,
+      "preco_link": 2562.3,
+      "preco_10x": 256.23,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
     }
   ]
 }

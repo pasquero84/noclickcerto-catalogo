@@ -54,9 +54,12 @@ export function chaveProduto({ nomeOriginal, categoria, condicao }) {
 
   for (const re of RUIDO_NOME) n = n.replace(re, ' ');
 
-  // "iphone 17 pro" e "17 pro" são o mesmo — o prefixo da marca é opcional
-  // nas tabelas, então sai da chave.
-  n = n.replace(/\b(iphone|apple)\b/g, ' ');
+  // Prefixo de marca é opcional nas tabelas: EasyStore escreve "17 pro" e
+  // "Note15", o catálogo tem "iPhone 17 Pro" e "Redmi Note 15". Sem tirar
+  // isso, o mesmo aparelho entrava duas vezes.
+  // Sem \b: a EasyStore escreve "Redmi15C" colado, e \b não existe entre
+  // letra e dígito — o produto não casava com o "Redmi 15C" do catálogo.
+  n = n.replace(/(iphone|apple|redmi|xiaomi)/g, ' ');
 
   // Separa número colado em letra: "17pro" -> "17 pro", "15c" fica "15 c".
   n = n
