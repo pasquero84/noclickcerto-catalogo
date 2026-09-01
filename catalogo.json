@@ -2,15 +2,16 @@
   "meta": {
     "sistema": "NoClickCerto",
     "versao": "2.0",
-    "ultima_atualizacao": "2026-06-05",
-    "total_produtos": 181,
+    "ultima_atualizacao": "2026-09-01",
+    "total_produtos": 184,
     "whatsapp": "5512992006037",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
     "margem": 0.28,
     "desconto_pix": 0.1,
     "parcelas_cartao": 10,
-    "taxa_antecipacao": 0.11
+    "taxa_antecipacao": 0.11,
+    "versao_formula": "2026-08-31-margem-fixa"
   },
   "fornecedores": [
     {
@@ -36,23 +37,31 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 7050,
-      "preco_venda": 9024,
-      "preco_pix": 8121.6,
-      "preco_10x": 902.4,
-      "lucro_pix": 1071.6,
-      "lucro_cartao": 981.36,
+      "custo": 7125,
+      "preco_venda": 8852.25,
+      "preco_pix": 7975,
+      "preco_10x": 933.08,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "descricao": "",
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão japonesa. A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "destaque": false,
       "lancamento": false,
       "promocao": false,
       "fotos": [
-        "https://raw.githubusercontent.com/pasquero84/noclickcerto-catalogo/main/imagens/iph-0001_1780671329305.webp"
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
       ],
-      "foto_url": "https://raw.githubusercontent.com/pasquero84/noclickcerto-catalogo/main/imagens/iph-0001_1780671329305.webp"
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "preco_cartao": 8852.25,
+      "preco_link": 9330.75,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Laranja",
+        "Silver"
+      ]
     },
     {
       "codigo": "IPH-0002",
@@ -61,15 +70,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 7050,
-      "preco_venda": 9024,
-      "preco_pix": 8121.6,
-      "preco_10x": 902.4,
-      "lucro_pix": 1071.6,
-      "lucro_cartao": 981.36,
+      "custo": 7125,
+      "preco_venda": 8852.25,
+      "preco_pix": 7975,
+      "preco_10x": 933.08,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8852.25,
+      "preco_link": 9330.75,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Laranja",
+        "Silver"
+      ],
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão japonesa. A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0003",
@@ -78,15 +100,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 7385,
-      "preco_venda": 9452.8,
-      "preco_pix": 8507.52,
-      "preco_10x": 945.28,
-      "lucro_pix": 1122.52,
-      "lucro_cartao": 1027.99,
+      "custo": 7125,
+      "preco_venda": 8852.25,
+      "preco_pix": 7975,
+      "preco_10x": 933.08,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8852.25,
+      "preco_link": 9330.75,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Laranja",
+        "Silver"
+      ],
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0004",
@@ -96,14 +131,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 6900,
-      "preco_venda": 8832,
-      "preco_pix": 7948.8,
-      "preco_10x": 883.2,
-      "lucro_pix": 1048.8,
-      "lucro_cartao": 960.48,
+      "preco_venda": 8602.5,
+      "preco_pix": 7750,
+      "preco_10x": 906.75,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8602.5,
+      "preco_link": 9067.5,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0005",
@@ -113,14 +155,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 6700,
-      "preco_venda": 8576,
-      "preco_pix": 7718.4,
-      "preco_10x": 857.6,
-      "lucro_pix": 1018.4,
-      "lucro_cartao": 932.64,
+      "preco_venda": 8380.5,
+      "preco_pix": 7550,
+      "preco_10x": 883.35,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8380.5,
+      "preco_link": 8833.5,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0006",
@@ -130,14 +179,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 6700,
-      "preco_venda": 8576,
-      "preco_pix": 7718.4,
-      "preco_10x": 857.6,
-      "lucro_pix": 1018.4,
-      "lucro_cartao": 932.64,
+      "preco_venda": 8380.5,
+      "preco_pix": 7550,
+      "preco_10x": 883.35,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8380.5,
+      "preco_link": 8833.5,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0007",
@@ -147,14 +203,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 4390,
-      "preco_venda": 5619.2,
-      "preco_pix": 5057.28,
-      "preco_10x": 561.92,
-      "lucro_pix": 667.28,
-      "lucro_cartao": 611.09,
+      "preco_venda": 5816.4,
+      "preco_pix": 5240,
+      "preco_10x": 613.08,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 5816.4,
+      "preco_link": 6130.8,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0008",
@@ -164,14 +227,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 4390,
-      "preco_venda": 5619.2,
-      "preco_pix": 5057.28,
-      "preco_10x": 561.92,
-      "lucro_pix": 667.28,
-      "lucro_cartao": 611.09,
+      "preco_venda": 5816.4,
+      "preco_pix": 5240,
+      "preco_10x": 613.08,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 5816.4,
+      "preco_link": 6130.8,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0009",
@@ -181,14 +251,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 4390,
-      "preco_venda": 5619.2,
-      "preco_pix": 5057.28,
-      "preco_10x": 561.92,
-      "lucro_pix": 667.28,
-      "lucro_cartao": 611.09,
+      "preco_venda": 5816.4,
+      "preco_pix": 5240,
+      "preco_10x": 613.08,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 5816.4,
+      "preco_link": 6130.8,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0010",
@@ -198,14 +275,21 @@
       "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 4400,
-      "preco_venda": 5632,
-      "preco_pix": 5068.8,
-      "preco_10x": 563.2,
-      "lucro_pix": 668.8,
-      "lucro_cartao": 612.48,
+      "preco_venda": 5827.5,
+      "preco_pix": 5250,
+      "preco_10x": 614.25,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 5827.5,
+      "preco_link": 6142.5,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0011",
@@ -215,14 +299,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3500,
-      "preco_venda": 4480,
-      "preco_pix": 4032,
-      "preco_10x": 448,
-      "lucro_pix": 532,
-      "lucro_cartao": 487.2,
+      "preco_venda": 4606.5,
+      "preco_pix": 4150,
+      "preco_10x": 485.55,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4606.5,
+      "preco_link": 4855.5,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras · Conector USB-C\nVersão de entrada da geração 17\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0012",
@@ -232,14 +323,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 3449,
-      "preco_venda": 4414.72,
-      "preco_pix": 3973.25,
-      "preco_10x": 441.47,
-      "lucro_pix": 524.25,
-      "lucro_cartao": 480.1,
+      "preco_venda": 4549.89,
+      "preco_pix": 4099,
+      "preco_10x": 479.58,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4549.89,
+      "preco_link": 4795.83,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras · Conector USB-C\nVersão de entrada da geração 17\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0013",
@@ -249,65 +347,93 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3550,
-      "preco_venda": 4544,
-      "preco_pix": 4089.6,
-      "preco_10x": 454.4,
-      "lucro_pix": 539.6,
-      "lucro_cartao": 494.16,
+      "preco_venda": 4662,
+      "preco_pix": 4200,
+      "preco_10x": 491.4,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4662,
+      "preco_link": 4914,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0014",
-      "nome": "iPhone 17 Pro Max 256GB AS IS Silver",
+      "nome": "iPhone 17 Pro Max 256GB Nunca Ativo Silver",
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 6850,
-      "preco_venda": 8768,
-      "preco_pix": 7891.2,
-      "preco_10x": 876.8,
-      "lucro_pix": 1041.2,
-      "lucro_cartao": 953.52,
-      "bateria": "—",
+      "preco_venda": 8547,
+      "preco_pix": 7700,
+      "preco_10x": 900.9,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "bateria": "100%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 8547,
+      "preco_link": 9009,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-nunca-ativo-silver.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0015",
-      "nome": "iPhone 17 Pro Max 256GB AS IS Laranja",
+      "nome": "iPhone 17 Pro Max 256GB Nunca Ativo Laranja",
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 6800,
-      "preco_venda": 8704,
-      "preco_pix": 7833.6,
-      "preco_10x": 870.4,
-      "lucro_pix": 1033.6,
-      "lucro_cartao": 946.56,
-      "bateria": "—",
+      "preco_venda": 8491.5,
+      "preco_pix": 7650,
+      "preco_10x": 895.05,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "bateria": "100%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 8491.5,
+      "preco_link": 8950.5,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-nunca-ativo-laranja.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0016",
-      "nome": "iPhone 17 Pro Max 256GB AS IS Azul",
+      "nome": "iPhone 17 Pro Max 256GB Nunca Ativo Azul",
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 6800,
-      "preco_venda": 8704,
-      "preco_pix": 7833.6,
-      "preco_10x": 870.4,
-      "lucro_pix": 1033.6,
-      "lucro_cartao": 946.56,
-      "bateria": "—",
+      "preco_venda": 8491.5,
+      "preco_pix": 7650,
+      "preco_10x": 895.05,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "bateria": "100%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 8491.5,
+      "preco_link": 8950.5,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-nunca-ativo-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0017",
@@ -316,15 +442,26 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 4950,
-      "preco_venda": 6336,
-      "preco_pix": 5702.4,
-      "preco_10x": 633.6,
-      "lucro_pix": 752.4,
-      "lucro_cartao": 689.04,
+      "custo": 4800,
+      "preco_venda": 6271.5,
+      "preco_pix": 5650,
+      "preco_10x": 661.05,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": "90%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 6271.5,
+      "preco_link": 6610.5,
+      "cores": [
+        "Desert",
+        "Preto"
+      ],
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion, ilha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-pro-max-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0018",
@@ -333,15 +470,25 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 3990,
-      "preco_venda": 5107.2,
-      "preco_pix": 4596.48,
-      "preco_10x": 510.72,
-      "lucro_pix": 606.48,
-      "lucro_cartao": 555.41,
+      "custo": 3950,
+      "preco_venda": 5106,
+      "preco_pix": 4600,
+      "preco_10x": 538.2,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "90%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 5106,
+      "preco_link": 5382,
+      "cores": [
+        "Preto"
+      ],
+      "descricao": "Tela de 6,3\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion, ilha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-pro-desert.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0019",
@@ -351,14 +498,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3750,
-      "preco_venda": 4800,
-      "preco_pix": 4320,
-      "preco_10x": 480,
-      "lucro_pix": 570,
-      "lucro_cartao": 522,
+      "preco_venda": 4884,
+      "preco_pix": 4400,
+      "preco_10x": 514.8,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "90%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 4884,
+      "preco_link": 5148,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16.jpg"
+      ]
     },
     {
       "codigo": "IPH-0020",
@@ -368,14 +522,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3750,
-      "preco_venda": 4800,
-      "preco_pix": 4320,
-      "preco_10x": 480,
-      "lucro_pix": 570,
-      "lucro_cartao": 522,
+      "preco_venda": 4884,
+      "preco_pix": 4400,
+      "preco_10x": 514.8,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "90%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 4884,
+      "preco_link": 5148,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-verde.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16.jpg"
+      ]
     },
     {
       "codigo": "IPH-0021",
@@ -384,15 +545,25 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 3500,
-      "preco_venda": 4480,
-      "preco_pix": 4032,
-      "preco_10x": 448,
-      "lucro_pix": 532,
-      "lucro_cartao": 487.2,
+      "custo": 3350,
+      "preco_venda": 4440,
+      "preco_pix": 4000,
+      "preco_10x": 468,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "90%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 4440,
+      "preco_link": 4680,
+      "cores": [
+        "Azul"
+      ],
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16.jpg"
+      ]
     },
     {
       "codigo": "IPH-0022",
@@ -402,14 +573,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 4200,
-      "preco_venda": 5376,
-      "preco_pix": 4838.4,
-      "preco_10x": 537.6,
-      "lucro_pix": 638.4,
-      "lucro_cartao": 584.64,
+      "preco_venda": 5605.5,
+      "preco_pix": 5050,
+      "preco_10x": 590.85,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": "85%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 5605.5,
+      "preco_link": 5908.5,
+      "descricao": "Tela de 6,7\" · 512 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-max-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0023",
@@ -419,14 +597,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3800,
-      "preco_venda": 4864,
-      "preco_pix": 4377.6,
-      "preco_10x": 486.4,
-      "lucro_pix": 577.6,
-      "lucro_cartao": 528.96,
+      "preco_venda": 4939.5,
+      "preco_pix": 4450,
+      "preco_10x": 520.65,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 4939.5,
+      "preco_link": 5206.5,
+      "descricao": "Tela de 6,7\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-max-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0024",
@@ -436,14 +621,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3800,
-      "preco_venda": 4864,
-      "preco_pix": 4377.6,
-      "preco_10x": 486.4,
-      "lucro_pix": 577.6,
-      "lucro_cartao": 528.96,
+      "preco_venda": 4939.5,
+      "preco_pix": 4450,
+      "preco_10x": 520.65,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 4939.5,
+      "preco_link": 5206.5,
+      "descricao": "Tela de 6,7\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-max-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0025",
@@ -453,14 +645,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3150,
-      "preco_venda": 4032,
-      "preco_pix": 3628.8,
-      "preco_10x": 403.2,
-      "lucro_pix": 478.8,
-      "lucro_cartao": 438.48,
+      "preco_venda": 4218,
+      "preco_pix": 3800,
+      "preco_10x": 444.6,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 4218,
+      "preco_link": 4446,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-natural.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0026",
@@ -470,14 +669,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3350,
-      "preco_venda": 4288,
-      "preco_pix": 3859.2,
-      "preco_10x": 428.8,
-      "lucro_pix": 509.2,
-      "lucro_cartao": 466.32,
+      "preco_venda": 4440,
+      "preco_pix": 4000,
+      "preco_10x": 468,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 4440,
+      "preco_link": 4680,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0027",
@@ -487,14 +693,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3350,
-      "preco_venda": 4288,
-      "preco_pix": 3859.2,
-      "preco_10x": 428.8,
-      "lucro_pix": 509.2,
-      "lucro_cartao": 466.32,
+      "preco_venda": 4440,
+      "preco_pix": 4000,
+      "preco_10x": 468,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 4440,
+      "preco_link": 4680,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0028",
@@ -504,14 +717,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2500,
-      "preco_venda": 3200,
-      "preco_pix": 2880,
-      "preco_10x": 320,
-      "lucro_pix": 380,
-      "lucro_cartao": 348,
+      "preco_venda": 3496.5,
+      "preco_pix": 3150,
+      "preco_10x": 368.55,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "88%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3496.5,
+      "preco_link": 3685.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15.jpg"
+      ]
     },
     {
       "codigo": "IPH-0029",
@@ -521,14 +741,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2500,
-      "preco_venda": 3200,
-      "preco_pix": 2880,
-      "preco_10x": 320,
-      "lucro_pix": 380,
-      "lucro_cartao": 348,
+      "preco_venda": 3496.5,
+      "preco_pix": 3150,
+      "preco_10x": 368.55,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "88%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3496.5,
+      "preco_link": 3685.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15.jpg"
+      ]
     },
     {
       "codigo": "IPH-0030",
@@ -538,14 +765,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 3000,
-      "preco_venda": 3840,
-      "preco_pix": 3456,
-      "preco_10x": 384,
-      "lucro_pix": 456,
-      "lucro_cartao": 417.6,
+      "preco_venda": 4051.5,
+      "preco_pix": 3650,
+      "preco_10x": 427.05,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "89%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 4051.5,
+      "preco_link": 4270.5,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 89%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-pro-max-roxo.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0031",
@@ -555,14 +789,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2600,
-      "preco_venda": 3328,
-      "preco_pix": 2995.2,
-      "preco_10x": 332.8,
-      "lucro_pix": 395.2,
-      "lucro_cartao": 361.92,
+      "preco_venda": 3607.5,
+      "preco_pix": 3250,
+      "preco_10x": 380.25,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3607.5,
+      "preco_link": 3802.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-pro-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0032",
@@ -572,14 +813,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1850,
-      "preco_venda": 2368,
-      "preco_pix": 2131.2,
-      "preco_10x": 236.8,
-      "lucro_pix": 281.2,
-      "lucro_cartao": 257.52,
+      "preco_venda": 2775,
+      "preco_pix": 2500,
+      "preco_10x": 292.5,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "83%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2775,
+      "preco_link": 2925,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14.jpg"
+      ]
     },
     {
       "codigo": "IPH-0033",
@@ -589,14 +837,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1850,
-      "preco_venda": 2368,
-      "preco_pix": 2131.2,
-      "preco_10x": 236.8,
-      "lucro_pix": 281.2,
-      "lucro_cartao": 257.52,
+      "preco_venda": 2775,
+      "preco_pix": 2500,
+      "preco_10x": 292.5,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "83%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2775,
+      "preco_link": 2925,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14.jpg"
+      ]
     },
     {
       "codigo": "IPH-0034",
@@ -606,14 +861,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1850,
-      "preco_venda": 2368,
-      "preco_pix": 2131.2,
-      "preco_10x": 236.8,
-      "lucro_pix": 281.2,
-      "lucro_cartao": 257.52,
+      "preco_venda": 2775,
+      "preco_pix": 2500,
+      "preco_10x": 292.5,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "83%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2775,
+      "preco_link": 2925,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-roxo.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14.jpg"
+      ]
     },
     {
       "codigo": "IPH-0035",
@@ -623,14 +885,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1880,
-      "preco_venda": 2406.4,
-      "preco_pix": 2165.76,
-      "preco_10x": 240.64,
-      "lucro_pix": 285.76,
-      "lucro_cartao": 261.7,
+      "preco_venda": 2808.3,
+      "preco_pix": 2530,
+      "preco_10x": 296.01,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "83%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2808.3,
+      "preco_link": 2960.1,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14.jpg"
+      ]
     },
     {
       "codigo": "IPH-0036",
@@ -640,14 +909,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3264,
-      "preco_pix": 2937.6,
-      "preco_10x": 326.4,
-      "lucro_pix": 387.6,
-      "lucro_cartao": 354.96,
+      "preco_venda": 3552,
+      "preco_pix": 3200,
+      "preco_10x": 374.4,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3552,
+      "preco_link": 3744,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0037",
@@ -657,14 +933,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3264,
-      "preco_pix": 2937.6,
-      "preco_10x": 326.4,
-      "lucro_pix": 387.6,
-      "lucro_cartao": 354.96,
+      "preco_venda": 3552,
+      "preco_pix": 3200,
+      "preco_10x": 374.4,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3552,
+      "preco_link": 3744,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0038",
@@ -674,14 +957,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3264,
-      "preco_pix": 2937.6,
-      "preco_10x": 326.4,
-      "lucro_pix": 387.6,
-      "lucro_cartao": 354.96,
+      "preco_venda": 3552,
+      "preco_pix": 3200,
+      "preco_10x": 374.4,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "88%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3552,
+      "preco_link": 3744,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-dourado.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0039",
@@ -691,14 +981,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3264,
-      "preco_pix": 2937.6,
-      "preco_10x": 326.4,
-      "lucro_pix": 387.6,
-      "lucro_cartao": 354.96,
+      "preco_venda": 3552,
+      "preco_pix": 3200,
+      "preco_10x": 374.4,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "88%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3552,
+      "preco_link": 3744,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0040",
@@ -708,14 +1005,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3264,
-      "preco_pix": 2937.6,
-      "preco_10x": 326.4,
-      "lucro_pix": 387.6,
-      "lucro_cartao": 354.96,
+      "preco_venda": 3552,
+      "preco_pix": 3200,
+      "preco_10x": 374.4,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "88%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3552,
+      "preco_link": 3744,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0041",
@@ -725,14 +1029,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2550,
-      "preco_venda": 3264,
-      "preco_pix": 2937.6,
-      "preco_10x": 326.4,
-      "lucro_pix": 387.6,
-      "lucro_cartao": 354.96,
+      "preco_venda": 3552,
+      "preco_pix": 3200,
+      "preco_10x": 374.4,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "88%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3552,
+      "preco_link": 3744,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0042",
@@ -742,14 +1053,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2100,
-      "preco_venda": 2688,
-      "preco_pix": 2419.2,
-      "preco_10x": 268.8,
-      "lucro_pix": 319.2,
-      "lucro_cartao": 292.32,
+      "preco_venda": 3052.5,
+      "preco_pix": 2750,
+      "preco_10x": 321.75,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3052.5,
+      "preco_link": 3217.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0043",
@@ -759,14 +1077,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2100,
-      "preco_venda": 2688,
-      "preco_pix": 2419.2,
-      "preco_10x": 268.8,
-      "lucro_pix": 319.2,
-      "lucro_cartao": 292.32,
+      "preco_venda": 3052.5,
+      "preco_pix": 2750,
+      "preco_10x": 321.75,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3052.5,
+      "preco_link": 3217.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0044",
@@ -776,14 +1101,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1800,
-      "preco_venda": 2304,
-      "preco_pix": 2073.6,
-      "preco_10x": 230.4,
-      "lucro_pix": 273.6,
-      "lucro_cartao": 250.56,
+      "preco_venda": 2719.5,
+      "preco_pix": 2450,
+      "preco_10x": 286.65,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "84%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2719.5,
+      "preco_link": 2866.5,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13.jpg"
+      ]
     },
     {
       "codigo": "IPH-0045",
@@ -793,14 +1125,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1690,
-      "preco_venda": 2163.2,
-      "preco_pix": 1946.88,
-      "preco_10x": 216.32,
-      "lucro_pix": 256.88,
-      "lucro_cartao": 235.25,
+      "preco_venda": 2597.4,
+      "preco_pix": 2340,
+      "preco_10x": 273.78,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "84%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2597.4,
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13.jpg"
+      ]
     },
     {
       "codigo": "IPH-0046",
@@ -810,14 +1149,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1690,
-      "preco_venda": 2163.2,
-      "preco_pix": 1946.88,
-      "preco_10x": 216.32,
-      "lucro_pix": 256.88,
-      "lucro_cartao": 235.25,
+      "preco_venda": 2597.4,
+      "preco_pix": 2340,
+      "preco_10x": 273.78,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "84%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2597.4,
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-rosa.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13.jpg"
+      ]
     },
     {
       "codigo": "IPH-0047",
@@ -827,14 +1173,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1690,
-      "preco_venda": 2163.2,
-      "preco_pix": 1946.88,
-      "preco_10x": 216.32,
-      "lucro_pix": 256.88,
-      "lucro_cartao": 235.25,
+      "preco_venda": 2597.4,
+      "preco_pix": 2340,
+      "preco_10x": 273.78,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "84%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2597.4,
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13.jpg"
+      ]
     },
     {
       "codigo": "IPH-0048",
@@ -844,14 +1197,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2150,
-      "preco_venda": 2752,
-      "preco_pix": 2476.8,
-      "preco_10x": 275.2,
-      "lucro_pix": 326.8,
-      "lucro_cartao": 299.28,
+      "preco_venda": 3108,
+      "preco_pix": 2800,
+      "preco_10x": 327.6,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "100%",
       "origem": "UAE",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3108,
+      "preco_link": 3276,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-max-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0049",
@@ -861,14 +1221,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2150,
-      "preco_venda": 2752,
-      "preco_pix": 2476.8,
-      "preco_10x": 275.2,
-      "lucro_pix": 326.8,
-      "lucro_cartao": 299.28,
+      "preco_venda": 3108,
+      "preco_pix": 2800,
+      "preco_10x": 327.6,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "100%",
       "origem": "UAE",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3108,
+      "preco_link": 3276,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-max-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0050",
@@ -878,14 +1245,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2150,
-      "preco_venda": 2752,
-      "preco_pix": 2476.8,
-      "preco_10x": 275.2,
-      "lucro_pix": 326.8,
-      "lucro_cartao": 299.28,
+      "preco_venda": 3108,
+      "preco_pix": 2800,
+      "preco_10x": 327.6,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "100%",
       "origem": "UAE",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3108,
+      "preco_link": 3276,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-max-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0051",
@@ -895,14 +1269,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1740,
-      "preco_venda": 2227.2,
-      "preco_pix": 2004.48,
-      "preco_10x": 222.72,
-      "lucro_pix": 264.48,
-      "lucro_cartao": 242.21,
+      "preco_venda": 2652.9,
+      "preco_pix": 2390,
+      "preco_10x": 279.63,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "100%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2652.9,
+      "preco_link": 2796.3,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-gold.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0052",
@@ -912,14 +1293,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1690,
-      "preco_venda": 2163.2,
-      "preco_pix": 1946.88,
-      "preco_10x": 216.32,
-      "lucro_pix": 256.88,
-      "lucro_cartao": 235.25,
+      "preco_venda": 2597.4,
+      "preco_pix": 2340,
+      "preco_10x": 273.78,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "100%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2597.4,
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0053",
@@ -929,14 +1317,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1690,
-      "preco_venda": 2163.2,
-      "preco_pix": 1946.88,
-      "preco_10x": 216.32,
-      "lucro_pix": 256.88,
-      "lucro_cartao": 235.25,
+      "preco_venda": 2597.4,
+      "preco_pix": 2340,
+      "preco_10x": 273.78,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "100%",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 2597.4,
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0054",
@@ -946,14 +1341,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 7099,
-      "preco_venda": 9086.72,
-      "preco_pix": 8178.05,
-      "preco_10x": 908.67,
-      "lucro_pix": 1079.05,
-      "lucro_cartao": 988.18,
+      "preco_venda": 8823.39,
+      "preco_pix": 7949,
+      "preco_10x": 930.03,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8823.39,
+      "preco_link": 9300.33,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão nacional, homologada pela Anatel.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0055",
@@ -963,14 +1365,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 7199,
-      "preco_venda": 9214.72,
-      "preco_pix": 8293.25,
-      "preco_10x": 921.47,
-      "lucro_pix": 1094.25,
-      "lucro_cartao": 1002.1,
+      "preco_venda": 8934.39,
+      "preco_pix": 8049,
+      "preco_10x": 941.73,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8934.39,
+      "preco_link": 9417.33,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão nacional, homologada pela Anatel.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0056",
@@ -978,16 +1387,28 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 6549,
-      "preco_venda": 8382.72,
-      "preco_pix": 7544.45,
-      "preco_10x": 838.27,
-      "lucro_pix": 995.45,
-      "lucro_cartao": 911.62,
+      "fornecedor": "FOR001",
+      "custo": 6450,
+      "preco_venda": 8103,
+      "preco_pix": 7300,
+      "preco_10x": 854.1,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8103,
+      "preco_link": 8541,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Silver"
+      ],
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0057",
@@ -995,16 +1416,28 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 6549,
-      "preco_venda": 8382.72,
-      "preco_pix": 7544.45,
-      "preco_10x": 838.27,
-      "lucro_pix": 995.45,
-      "lucro_cartao": 911.62,
+      "fornecedor": "FOR001",
+      "custo": 6450,
+      "preco_venda": 8103,
+      "preco_pix": 7300,
+      "preco_10x": 854.1,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8103,
+      "preco_link": 8541,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Silver"
+      ],
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0058",
@@ -1012,16 +1445,28 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 6749,
-      "preco_venda": 8638.72,
-      "preco_pix": 7774.85,
-      "preco_10x": 863.87,
-      "lucro_pix": 1025.85,
-      "lucro_cartao": 939.46,
+      "fornecedor": "FOR001",
+      "custo": 6450,
+      "preco_venda": 8103,
+      "preco_pix": 7300,
+      "preco_10x": 854.1,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8103,
+      "preco_link": 8541,
+      "cores": [
+        "Azul",
+        "Branco",
+        "Silver"
+      ],
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0059",
@@ -1031,14 +1476,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 5250,
-      "preco_venda": 6720,
-      "preco_pix": 6048,
-      "preco_10x": 672,
-      "lucro_pix": 798,
-      "lucro_cartao": 730.8,
+      "preco_venda": 6771,
+      "preco_pix": 6100,
+      "preco_10x": 713.7,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 6771,
+      "preco_link": 7137,
+      "descricao": "Tela de 6,3\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion, ilha dinâmica, botão de Controle da Câmera e Botão de Ação\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0060",
@@ -1048,14 +1500,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 3749,
-      "preco_venda": 4798.72,
-      "preco_pix": 4318.85,
-      "preco_10x": 479.87,
-      "lucro_pix": 569.85,
-      "lucro_cartao": 521.86,
+      "preco_venda": 4882.89,
+      "preco_pix": 4399,
+      "preco_10x": 514.68,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4882.89,
+      "preco_link": 5146.83,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0061",
@@ -1065,14 +1524,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 3749,
-      "preco_venda": 4798.72,
-      "preco_pix": 4318.85,
-      "preco_10x": 479.87,
-      "lucro_pix": 569.85,
-      "lucro_cartao": 521.86,
+      "preco_venda": 4882.89,
+      "preco_pix": 4399,
+      "preco_10x": 514.68,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4882.89,
+      "preco_link": 5146.83,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0062",
@@ -1082,14 +1548,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 3849,
-      "preco_venda": 4926.72,
-      "preco_pix": 4434.05,
-      "preco_10x": 492.67,
-      "lucro_pix": 585.05,
-      "lucro_cartao": 535.78,
+      "preco_venda": 4993.89,
+      "preco_pix": 4499,
+      "preco_10x": 526.38,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4993.89,
+      "preco_link": 5263.83,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0063",
@@ -1099,14 +1572,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 3680,
-      "preco_venda": 4710.4,
-      "preco_pix": 4239.36,
-      "preco_10x": 471.04,
-      "lucro_pix": 559.36,
-      "lucro_cartao": 512.26,
+      "preco_venda": 4806.3,
+      "preco_pix": 4330,
+      "preco_10x": 506.61,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4806.3,
+      "preco_link": 5066.1,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0064",
@@ -1116,14 +1596,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 3470,
-      "preco_venda": 4441.6,
-      "preco_pix": 3997.44,
-      "preco_10x": 444.16,
-      "lucro_pix": 527.44,
-      "lucro_cartao": 483.02,
+      "preco_venda": 4573.2,
+      "preco_pix": 4120,
+      "preco_10x": 482.04,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4573.2,
+      "preco_link": 4820.4,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0065",
@@ -1133,14 +1620,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 3549,
-      "preco_venda": 4542.72,
-      "preco_pix": 4088.45,
-      "preco_10x": 454.27,
-      "lucro_pix": 539.45,
-      "lucro_cartao": 494.02,
+      "preco_venda": 4660.89,
+      "preco_pix": 4199,
+      "preco_10x": 491.28,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4660.89,
+      "preco_link": 4912.83,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ]
     },
     {
       "codigo": "IPH-0066",
@@ -1150,14 +1644,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 2400,
-      "preco_venda": 3072,
-      "preco_pix": 2764.8,
-      "preco_10x": 307.2,
-      "lucro_pix": 364.8,
-      "lucro_cartao": 334.08,
+      "preco_venda": 3385.5,
+      "preco_pix": 3050,
+      "preco_10x": 356.85,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
-      "garantia": "3 meses"
+      "garantia": "3 meses",
+      "preco_cartao": 3385.5,
+      "preco_link": 3568.5,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-verde.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0067",
@@ -1167,14 +1668,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 2430,
-      "preco_venda": 3110.4,
-      "preco_pix": 2799.36,
-      "preco_10x": 311.04,
-      "lucro_pix": 369.36,
-      "lucro_cartao": 338.26,
+      "preco_venda": 3418.8,
+      "preco_pix": 3080,
+      "preco_10x": 360.36,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "95%+",
       "origem": "USA",
-      "garantia": "1 mês"
+      "garantia": "1 mês",
+      "preco_cartao": 3418.8,
+      "preco_link": 3603.6,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 95%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-gold.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0068",
@@ -1184,14 +1692,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1800,
-      "preco_venda": 2304,
-      "preco_pix": 2073.6,
-      "preco_10x": 230.4,
-      "lucro_pix": 273.6,
-      "lucro_cartao": 250.56,
+      "preco_venda": 2719.5,
+      "preco_pix": 2450,
+      "preco_10x": 286.65,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "90%+",
       "origem": "USA",
-      "garantia": "1 mês"
+      "garantia": "1 mês",
+      "preco_cartao": 2719.5,
+      "preco_link": 2866.5,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0069",
@@ -1201,14 +1716,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1650,
-      "preco_venda": 2112,
-      "preco_pix": 1900.8,
-      "preco_10x": 211.2,
-      "lucro_pix": 250.8,
-      "lucro_cartao": 229.68,
+      "preco_venda": 2553,
+      "preco_pix": 2300,
+      "preco_10x": 269.1,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "90%+",
       "origem": "USA",
-      "garantia": "1 mês"
+      "garantia": "1 mês",
+      "preco_cartao": 2553,
+      "preco_link": 2691,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-grafite.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0070",
@@ -1218,14 +1740,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1350,
-      "preco_venda": 1728,
-      "preco_pix": 1555.2,
-      "preco_10x": 172.8,
-      "lucro_pix": 205.2,
-      "lucro_cartao": 187.92,
+      "preco_venda": 2220,
+      "preco_pix": 2000,
+      "preco_10x": 234,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": "75%+",
       "origem": "USA",
-      "garantia": "1 mês"
+      "garantia": "1 mês",
+      "preco_cartao": 2220,
+      "preco_link": 2340,
+      "descricao": "Tela de 5,8\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 75%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-11-pro-verde.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-11-pro.jpg"
+      ]
     },
     {
       "codigo": "IPD-0001",
@@ -1234,15 +1763,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR002",
-      "custo": 16,
-      "preco_venda": 20.48,
-      "preco_pix": 18.43,
-      "preco_10x": 2.05,
-      "lucro_pix": 2.43,
-      "lucro_cartao": 2.23,
+      "custo": 1650,
+      "preco_venda": 2553,
+      "preco_pix": 2300,
+      "preco_10x": 269.1,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2553,
+      "preco_link": 2691,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/ipad-ipad-11.jpg",
+      "fotos": [
+        "/imagens/produtos/ipad-ipad-11.jpg"
+      ]
     },
     {
       "codigo": "IPD-0002",
@@ -1252,14 +1788,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1999,
-      "preco_venda": 2558.72,
-      "preco_pix": 2302.85,
-      "preco_10x": 255.87,
-      "lucro_pix": 303.85,
-      "lucro_cartao": 278.26,
+      "preco_venda": 2940.39,
+      "preco_pix": 2649,
+      "preco_10x": 309.93,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2940.39,
+      "preco_link": 3099.33,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/ipad-ipad-11.jpg",
+      "fotos": [
+        "/imagens/produtos/ipad-ipad-11.jpg"
+      ]
     },
     {
       "codigo": "IPD-0003",
@@ -1269,14 +1812,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1999,
-      "preco_venda": 2558.72,
-      "preco_pix": 2302.85,
-      "preco_10x": 255.87,
-      "lucro_pix": 303.85,
-      "lucro_cartao": 278.26,
+      "preco_venda": 2940.39,
+      "preco_pix": 2649,
+      "preco_10x": 309.93,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2940.39,
+      "preco_link": 3099.33,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/ipad-ipad-11.jpg",
+      "fotos": [
+        "/imagens/produtos/ipad-ipad-11.jpg"
+      ]
     },
     {
       "codigo": "MCB-0001",
@@ -1285,15 +1835,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 2025,
-      "preco_venda": 2592,
-      "preco_pix": 2332.8,
-      "preco_10x": 259.2,
-      "lucro_pix": 307.8,
-      "lucro_cartao": 281.88,
+      "custo": 5025,
+      "preco_venda": 6521.25,
+      "preco_pix": 5875,
+      "preco_10x": 687.38,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 6521.25,
+      "preco_link": 6873.75,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg",
+      "fotos": [
+        "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg"
+      ]
     },
     {
       "codigo": "MCB-0002",
@@ -1303,14 +1860,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 5850,
-      "preco_venda": 7488,
-      "preco_pix": 6739.2,
-      "preco_10x": 748.8,
-      "lucro_pix": 889.2,
-      "lucro_cartao": 814.32,
+      "preco_venda": 7437,
+      "preco_pix": 6700,
+      "preco_10x": 783.9,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 7437,
+      "preco_link": 7839,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg",
+      "fotos": [
+        "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg"
+      ]
     },
     {
       "codigo": "MCB-0003",
@@ -1320,14 +1884,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 5850,
-      "preco_venda": 7488,
-      "preco_pix": 6739.2,
-      "preco_10x": 748.8,
-      "lucro_pix": 889.2,
-      "lucro_cartao": 814.32,
+      "preco_venda": 7437,
+      "preco_pix": 6700,
+      "preco_10x": 783.9,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 7437,
+      "preco_link": 7839,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/macbook-macbook-air-13-m4-2025-sky-blue.jpg",
+      "fotos": [
+        "/imagens/produtos/macbook-macbook-air-13-m4-2025-sky-blue.jpg"
+      ]
     },
     {
       "codigo": "APW-0001",
@@ -1337,14 +1908,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 2099,
-      "preco_venda": 2686.72,
-      "preco_pix": 2418.05,
-      "preco_10x": 268.67,
-      "lucro_pix": 319.05,
-      "lucro_cartao": 292.18,
+      "preco_venda": 3051.39,
+      "preco_pix": 2749,
+      "preco_10x": 321.63,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 3051.39,
+      "preco_link": 3216.33,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-spacegray.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-spacegray.jpg"
+      ]
     },
     {
       "codigo": "APW-0002",
@@ -1354,14 +1932,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 2099,
-      "preco_venda": 2686.72,
-      "preco_pix": 2418.05,
-      "preco_10x": 268.67,
-      "lucro_pix": 319.05,
-      "lucro_cartao": 292.18,
+      "preco_venda": 3051.39,
+      "preco_pix": 2749,
+      "preco_10x": 321.63,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 3051.39,
+      "preco_link": 3216.33,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-rose.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-rose.jpg"
+      ]
     },
     {
       "codigo": "APW-0003",
@@ -1371,14 +1956,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 2180,
-      "preco_venda": 2790.4,
-      "preco_pix": 2511.36,
-      "preco_10x": 279.04,
-      "lucro_pix": 331.36,
-      "lucro_cartao": 303.46,
+      "preco_venda": 3141.3,
+      "preco_pix": 2830,
+      "preco_10x": 331.11,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 3141.3,
+      "preco_link": 3311.1,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-jetblack.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-jetblack.jpg"
+      ]
     },
     {
       "codigo": "APW-0004",
@@ -1388,14 +1980,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1999,
-      "preco_venda": 2558.72,
-      "preco_pix": 2302.85,
-      "preco_10x": 255.87,
-      "lucro_pix": 303.85,
-      "lucro_cartao": 278.26,
+      "preco_venda": 2940.39,
+      "preco_pix": 2649,
+      "preco_10x": 309.93,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2940.39,
+      "preco_link": 3099.33,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-s11-gps-42mm-s-m-spacegray.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-s11-gps-42mm-s-m-spacegray.jpg"
+      ]
     },
     {
       "codigo": "APW-0005",
@@ -1405,14 +2004,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1499,
-      "preco_venda": 1918.72,
-      "preco_pix": 1726.85,
-      "preco_10x": 191.87,
-      "lucro_pix": 227.85,
-      "lucro_cartao": 208.66,
+      "preco_venda": 2385.39,
+      "preco_pix": 2149,
+      "preco_10x": 251.43,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2385.39,
+      "preco_link": 2514.33,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-se-3-gps-40mm-s-m.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-se-3-gps-40mm-s-m.jpg"
+      ]
     },
     {
       "codigo": "APW-0006",
@@ -1422,14 +2028,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1549,
-      "preco_venda": 1982.72,
-      "preco_pix": 1784.45,
-      "preco_10x": 198.27,
-      "lucro_pix": 235.45,
-      "lucro_cartao": 215.62,
+      "preco_venda": 2440.89,
+      "preco_pix": 2199,
+      "preco_10x": 257.28,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2440.89,
+      "preco_link": 2572.83,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-se-3-gps-40mm-s-m.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-se-3-gps-40mm-s-m.jpg"
+      ]
     },
     {
       "codigo": "ACS-0001",
@@ -1439,14 +2052,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 110,
-      "preco_venda": 140.8,
-      "preco_pix": 126.72,
-      "preco_10x": 14.08,
-      "lucro_pix": 16.72,
-      "lucro_cartao": 15.31,
+      "preco_venda": 244.2,
+      "preco_pix": 220,
+      "preco_10x": 25.74,
+      "lucro_pix": 110,
+      "lucro_cartao": 110,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 244.2,
+      "preco_link": 257.4,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-fonte-20w-usb-c-apple.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-20w-usb-c-apple.jpg"
+      ]
     },
     {
       "codigo": "ACS-0002",
@@ -1456,14 +2076,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 110,
-      "preco_venda": 140.8,
-      "preco_pix": 126.72,
-      "preco_10x": 14.08,
-      "lucro_pix": 16.72,
-      "lucro_cartao": 15.31,
+      "preco_venda": 244.2,
+      "preco_pix": 220,
+      "preco_10x": 25.74,
+      "lucro_pix": 110,
+      "lucro_cartao": 110,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 244.2,
+      "preco_link": 257.4,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-cabo-lightning-2m-apple.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-cabo-lightning-2m-apple.jpg"
+      ]
     },
     {
       "codigo": "ACS-0003",
@@ -1473,14 +2100,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 60,
-      "preco_venda": 76.8,
-      "preco_pix": 69.12,
-      "preco_10x": 7.68,
-      "lucro_pix": 9.12,
-      "lucro_cartao": 8.35,
+      "preco_venda": 133.2,
+      "preco_pix": 120,
+      "preco_10x": 14.04,
+      "lucro_pix": 60,
+      "lucro_cartao": 60,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 133.2,
+      "preco_link": 140.4,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-cabo-tipo-c-c-1m-apple.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-cabo-tipo-c-c-1m-apple.jpg"
+      ]
     },
     {
       "codigo": "ACS-0004",
@@ -1490,14 +2124,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 80,
-      "preco_venda": 102.4,
-      "preco_pix": 92.16,
-      "preco_10x": 10.24,
-      "lucro_pix": 12.16,
-      "lucro_cartao": 11.14,
+      "preco_venda": 177.6,
+      "preco_pix": 160,
+      "preco_10x": 18.72,
+      "lucro_pix": 80,
+      "lucro_cartao": 80,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 177.6,
+      "preco_link": 187.2,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-earpods-usb-c-apple.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-earpods-usb-c-apple.jpg"
+      ]
     },
     {
       "codigo": "ACS-0005",
@@ -1507,14 +2148,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 430,
-      "preco_venda": 550.4,
-      "preco_pix": 495.36,
-      "preco_10x": 55.04,
-      "lucro_pix": 65.36,
-      "lucro_cartao": 59.86,
+      "preco_venda": 954.6,
+      "preco_pix": 860,
+      "preco_10x": 100.62,
+      "lucro_pix": 430,
+      "lucro_cartao": 430,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 954.6,
+      "preco_link": 1006.2,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-airtag-pack-com-4.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-airtag-pack-com-4.jpg"
+      ]
     },
     {
       "codigo": "ACS-0006",
@@ -1524,14 +2172,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 15,
-      "preco_venda": 19.2,
-      "preco_pix": 17.28,
-      "preco_10x": 1.92,
-      "lucro_pix": 2.28,
-      "lucro_cartao": 2.09,
+      "preco_venda": 33.3,
+      "preco_pix": 30,
+      "preco_10x": 3.51,
+      "lucro_pix": 15,
+      "lucro_cartao": 15,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 33.3,
+      "preco_link": 35.1,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-cabo-lightning.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-cabo-lightning.jpg"
+      ]
     },
     {
       "codigo": "ACS-0007",
@@ -1541,14 +2196,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 60,
-      "preco_venda": 76.8,
-      "preco_pix": 69.12,
-      "preco_10x": 7.68,
-      "lucro_pix": 9.12,
-      "lucro_cartao": 8.35,
+      "preco_venda": 133.2,
+      "preco_pix": 120,
+      "preco_10x": 14.04,
+      "lucro_pix": 60,
+      "lucro_cartao": 60,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 133.2,
+      "preco_link": 140.4,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-fonte-35w.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-35w.jpg"
+      ]
     },
     {
       "codigo": "ACS-0008",
@@ -1558,14 +2220,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 40,
-      "preco_venda": 51.2,
-      "preco_pix": 46.08,
-      "preco_10x": 5.12,
-      "lucro_pix": 6.08,
-      "lucro_cartao": 5.57,
+      "preco_venda": 88.8,
+      "preco_pix": 80,
+      "preco_10x": 9.36,
+      "lucro_pix": 40,
+      "lucro_cartao": 40,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 88.8,
+      "preco_link": 93.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-fonte-20w.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-20w.jpg"
+      ]
     },
     {
       "codigo": "ACS-0009",
@@ -1575,14 +2244,21 @@
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 50,
-      "preco_venda": 64,
-      "preco_pix": 57.6,
-      "preco_10x": 6.4,
-      "lucro_pix": 7.6,
-      "lucro_cartao": 6.96,
+      "preco_venda": 111,
+      "preco_pix": 100,
+      "preco_10x": 11.7,
+      "lucro_pix": 50,
+      "lucro_cartao": 50,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 111,
+      "preco_link": 117,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-fone-tipo-c.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fone-tipo-c.jpg"
+      ]
     },
     {
       "codigo": "ROB-0001",
@@ -1592,14 +2268,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 995,
-      "preco_venda": 1273.6,
-      "preco_pix": 1146.24,
-      "preco_10x": 127.36,
-      "lucro_pix": 151.24,
-      "lucro_cartao": 138.5,
+      "preco_venda": 1825.95,
+      "preco_pix": 1645,
+      "preco_10x": 192.47,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1825.95,
+      "preco_link": 1924.65,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/robo-robot-vacuum-s40c.jpg",
+      "fotos": [
+        "/imagens/produtos/robo-robot-vacuum-s40c.jpg"
+      ]
     },
     {
       "codigo": "FNE-0001",
@@ -1609,14 +2292,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 500,
-      "preco_venda": 640,
-      "preco_pix": 576,
-      "preco_10x": 64,
-      "lucro_pix": 76,
-      "lucro_cartao": 69.6,
+      "preco_venda": 1110,
+      "preco_pix": 1000,
+      "preco_10x": 117,
+      "lucro_pix": 500,
+      "lucro_cartao": 500,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1110,
+      "preco_link": 1170,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/fone-buds-5-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/fone-buds-5-pro.jpg"
+      ]
     },
     {
       "codigo": "TAB-0001",
@@ -1626,14 +2316,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1240,
-      "preco_venda": 1587.2,
-      "preco_pix": 1428.48,
-      "preco_10x": 158.72,
-      "lucro_pix": 188.48,
-      "lucro_cartao": 172.61,
+      "preco_venda": 2097.9,
+      "preco_pix": 1890,
+      "preco_10x": 221.13,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2097.9,
+      "preco_link": 2211.3,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/tablet-redmi-pad-2.jpg",
+      "fotos": [
+        "/imagens/produtos/tablet-redmi-pad-2.jpg"
+      ]
     },
     {
       "codigo": "TAB-0002",
@@ -1643,14 +2340,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1240,
-      "preco_venda": 1587.2,
-      "preco_pix": 1428.48,
-      "preco_10x": 158.72,
-      "lucro_pix": 188.48,
-      "lucro_cartao": 172.61,
+      "preco_venda": 2097.9,
+      "preco_pix": 1890,
+      "preco_10x": 221.13,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2097.9,
+      "preco_link": 2211.3,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/tablet-redmi-pad-2.jpg",
+      "fotos": [
+        "/imagens/produtos/tablet-redmi-pad-2.jpg"
+      ]
     },
     {
       "codigo": "TAB-0003",
@@ -1660,14 +2364,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1010,
-      "preco_venda": 1292.8,
-      "preco_pix": 1163.52,
-      "preco_10x": 129.28,
-      "lucro_pix": 153.52,
-      "lucro_cartao": 140.59,
+      "preco_venda": 1842.6,
+      "preco_pix": 1660,
+      "preco_10x": 194.22,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1842.6,
+      "preco_link": 1942.2,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/tablet-redmi-pad-se.jpg",
+      "fotos": [
+        "/imagens/produtos/tablet-redmi-pad-se.jpg"
+      ]
     },
     {
       "codigo": "TAB-0004",
@@ -1677,14 +2388,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1010,
-      "preco_venda": 1292.8,
-      "preco_pix": 1163.52,
-      "preco_10x": 129.28,
-      "lucro_pix": 153.52,
-      "lucro_cartao": 140.59,
+      "preco_venda": 1842.6,
+      "preco_pix": 1660,
+      "preco_10x": 194.22,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1842.6,
+      "preco_link": 1942.2,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/tablet-redmi-pad-se.jpg",
+      "fotos": [
+        "/imagens/produtos/tablet-redmi-pad-se.jpg"
+      ]
     },
     {
       "codigo": "XMI-0001",
@@ -1694,14 +2412,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 630,
-      "preco_venda": 806.4,
-      "preco_pix": 725.76,
-      "preco_10x": 80.64,
-      "lucro_pix": 95.76,
-      "lucro_cartao": 87.7,
+      "preco_venda": 1420.8,
+      "preco_pix": 1280,
+      "preco_10x": 149.76,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1420.8,
+      "preco_link": 1497.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0002",
@@ -1711,14 +2436,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 630,
-      "preco_venda": 806.4,
-      "preco_pix": 725.76,
-      "preco_10x": 80.64,
-      "lucro_pix": 95.76,
-      "lucro_cartao": 87.7,
+      "preco_venda": 1420.8,
+      "preco_pix": 1280,
+      "preco_10x": 149.76,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1420.8,
+      "preco_link": 1497.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0003",
@@ -1728,14 +2460,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 630,
-      "preco_venda": 806.4,
-      "preco_pix": 725.76,
-      "preco_10x": 80.64,
-      "lucro_pix": 95.76,
-      "lucro_cartao": 87.7,
+      "preco_venda": 1420.8,
+      "preco_pix": 1280,
+      "preco_10x": 149.76,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1420.8,
+      "preco_link": 1497.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0004",
@@ -1745,14 +2484,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 520,
-      "preco_venda": 665.6,
-      "preco_pix": 599.04,
-      "preco_10x": 66.56,
-      "lucro_pix": 79.04,
-      "lucro_cartao": 72.38,
+      "preco_venda": 1298.7,
+      "preco_pix": 1170,
+      "preco_10x": 136.89,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1298.7,
+      "preco_link": 1368.9,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0005",
@@ -1762,14 +2508,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 520,
-      "preco_venda": 665.6,
-      "preco_pix": 599.04,
-      "preco_10x": 66.56,
-      "lucro_pix": 79.04,
-      "lucro_cartao": 72.38,
+      "preco_venda": 1298.7,
+      "preco_pix": 1170,
+      "preco_10x": 136.89,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1298.7,
+      "preco_link": 1368.9,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0006",
@@ -1779,14 +2532,21 @@
       "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 670,
-      "preco_venda": 857.6,
-      "preco_pix": 771.84,
-      "preco_10x": 85.76,
-      "lucro_pix": 101.84,
-      "lucro_cartao": 93.26,
+      "preco_venda": 1465.2,
+      "preco_pix": 1320,
+      "preco_10x": 154.44,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1465.2,
+      "preco_link": 1544.4,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0007",
@@ -1796,14 +2556,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 670,
-      "preco_venda": 857.6,
-      "preco_pix": 771.84,
-      "preco_10x": 85.76,
-      "lucro_pix": 101.84,
-      "lucro_cartao": 93.26,
+      "preco_venda": 1465.2,
+      "preco_pix": 1320,
+      "preco_10x": 154.44,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1465.2,
+      "preco_link": 1544.4,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0008",
@@ -1813,14 +2580,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 590,
-      "preco_venda": 755.2,
-      "preco_pix": 679.68,
-      "preco_10x": 75.52,
-      "lucro_pix": 89.68,
-      "lucro_cartao": 82.13,
+      "preco_venda": 1376.4,
+      "preco_pix": 1240,
+      "preco_10x": 145.08,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1376.4,
+      "preco_link": 1450.8,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0009",
@@ -1830,14 +2604,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 590,
-      "preco_venda": 755.2,
-      "preco_pix": 679.68,
-      "preco_10x": 75.52,
-      "lucro_pix": 89.68,
-      "lucro_cartao": 82.13,
+      "preco_venda": 1376.4,
+      "preco_pix": 1240,
+      "preco_10x": 145.08,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1376.4,
+      "preco_link": 1450.8,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0010",
@@ -1847,14 +2628,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 590,
-      "preco_venda": 755.2,
-      "preco_pix": 679.68,
-      "preco_10x": 75.52,
-      "lucro_pix": 89.68,
-      "lucro_cartao": 82.13,
+      "preco_venda": 1376.4,
+      "preco_pix": 1240,
+      "preco_10x": 145.08,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1376.4,
+      "preco_link": 1450.8,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0011",
@@ -1864,14 +2652,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 975,
-      "preco_venda": 1248,
-      "preco_pix": 1123.2,
-      "preco_10x": 124.8,
-      "lucro_pix": 148.2,
-      "lucro_cartao": 135.72,
+      "preco_venda": 1803.75,
+      "preco_pix": 1625,
+      "preco_10x": 190.12,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1803.75,
+      "preco_link": 1901.25,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15.jpg"
+      ]
     },
     {
       "codigo": "XMI-0012",
@@ -1880,15 +2675,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 850,
-      "preco_venda": 1088,
-      "preco_pix": 979.2,
-      "preco_10x": 108.8,
-      "lucro_pix": 129.2,
-      "lucro_cartao": 118.32,
+      "custo": 960,
+      "preco_venda": 1787.1,
+      "preco_pix": 1610,
+      "preco_10x": 188.37,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1787.1,
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0013",
@@ -1897,32 +2699,46 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 850,
-      "preco_venda": 1088,
-      "preco_pix": 979.2,
-      "preco_10x": 108.8,
-      "lucro_pix": 129.2,
-      "lucro_cartao": 118.32,
+      "custo": 960,
+      "preco_venda": 1787.1,
+      "preco_pix": 1610,
+      "preco_10x": 188.37,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1787.1,
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0014",
       "nome": "Redmi 15C 8/256 Verde",
       "categoria": "Xiaomi",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 850,
-      "preco_venda": 1088,
-      "preco_pix": 979.2,
-      "preco_10x": 108.8,
-      "lucro_pix": 129.2,
-      "lucro_cartao": 118.32,
+      "custo": 960,
+      "preco_venda": 1787.1,
+      "preco_pix": 1610,
+      "preco_10x": 188.37,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1787.1,
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0015",
@@ -1931,49 +2747,70 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 670,
-      "preco_venda": 857.6,
-      "preco_pix": 771.84,
-      "preco_10x": 85.76,
-      "lucro_pix": 101.84,
-      "lucro_cartao": 93.26,
+      "custo": 780,
+      "preco_venda": 1587.3,
+      "preco_pix": 1430,
+      "preco_10x": 167.31,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1587.3,
+      "preco_link": 1673.1,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0016",
       "nome": "Redmi 15C 4/128 Azul",
       "categoria": "Xiaomi",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 670,
-      "preco_venda": 857.6,
-      "preco_pix": 771.84,
-      "preco_10x": 85.76,
-      "lucro_pix": 101.84,
-      "lucro_cartao": 93.26,
+      "custo": 780,
+      "preco_venda": 1587.3,
+      "preco_pix": 1430,
+      "preco_10x": 167.31,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1587.3,
+      "preco_link": 1673.1,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0017",
       "nome": "Redmi Note 14S 8/256 Preto",
       "categoria": "Xiaomi",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1130,
-      "preco_venda": 1446.4,
-      "preco_pix": 1301.76,
-      "preco_10x": 144.64,
-      "lucro_pix": 171.76,
-      "lucro_cartao": 157.3,
+      "custo": 1220,
+      "preco_venda": 2075.7,
+      "preco_pix": 1870,
+      "preco_10x": 218.79,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2075.7,
+      "preco_link": 2187.9,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14s.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14s.jpg"
+      ]
     },
     {
       "codigo": "XMI-0018",
@@ -1982,15 +2819,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1130,
-      "preco_venda": 1446.4,
-      "preco_pix": 1301.76,
-      "preco_10x": 144.64,
-      "lucro_pix": 171.76,
-      "lucro_cartao": 157.3,
+      "custo": 1220,
+      "preco_venda": 2075.7,
+      "preco_pix": 1870,
+      "preco_10x": 218.79,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2075.7,
+      "preco_link": 2187.9,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14s.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14s.jpg"
+      ]
     },
     {
       "codigo": "XMI-0019",
@@ -2000,14 +2844,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1495,
-      "preco_venda": 1913.6,
-      "preco_pix": 1722.24,
-      "preco_10x": 191.36,
-      "lucro_pix": 227.24,
-      "lucro_cartao": 208.1,
+      "preco_venda": 2380.95,
+      "preco_pix": 2145,
+      "preco_10x": 250.97,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2380.95,
+      "preco_link": 2509.65,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0020",
@@ -2017,14 +2868,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1495,
-      "preco_venda": 1913.6,
-      "preco_pix": 1722.24,
-      "preco_10x": 191.36,
-      "lucro_pix": 227.24,
-      "lucro_cartao": 208.1,
+      "preco_venda": 2380.95,
+      "preco_pix": 2145,
+      "preco_10x": 250.97,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2380.95,
+      "preco_link": 2509.65,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0021",
@@ -2034,14 +2892,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 960,
-      "preco_venda": 1228.8,
-      "preco_pix": 1105.92,
-      "preco_10x": 122.88,
-      "lucro_pix": 145.92,
-      "lucro_cartao": 133.63,
+      "preco_venda": 1787.1,
+      "preco_pix": 1610,
+      "preco_10x": 188.37,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1787.1,
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14.jpg"
+      ]
     },
     {
       "codigo": "XMI-0022",
@@ -2051,14 +2916,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 960,
-      "preco_venda": 1228.8,
-      "preco_pix": 1105.92,
-      "preco_10x": 122.88,
-      "lucro_pix": 145.92,
-      "lucro_cartao": 133.63,
+      "preco_venda": 1787.1,
+      "preco_pix": 1610,
+      "preco_10x": 188.37,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1787.1,
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14.jpg"
+      ]
     },
     {
       "codigo": "XMI-0023",
@@ -2068,14 +2940,21 @@
       "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 1310,
-      "preco_venda": 1676.8,
-      "preco_pix": 1509.12,
-      "preco_10x": 167.68,
-      "lucro_pix": 199.12,
-      "lucro_cartao": 182.35,
+      "preco_venda": 2175.6,
+      "preco_pix": 1960,
+      "preco_10x": 229.32,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2175.6,
+      "preco_link": 2293.2,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14-pro-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14-pro-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0024",
@@ -2085,14 +2964,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 960,
-      "preco_venda": 1228.8,
-      "preco_pix": 1105.92,
-      "preco_10x": 122.88,
-      "lucro_pix": 145.92,
-      "lucro_cartao": 133.63,
+      "preco_venda": 1787.1,
+      "preco_pix": 1610,
+      "preco_10x": 188.37,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1787.1,
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15.jpg"
+      ]
     },
     {
       "codigo": "XMI-0025",
@@ -2101,15 +2987,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1075,
-      "preco_venda": 1376,
-      "preco_pix": 1238.4,
-      "preco_10x": 137.6,
-      "lucro_pix": 163.4,
-      "lucro_cartao": 149.64,
+      "custo": 1230,
+      "preco_venda": 2086.8,
+      "preco_pix": 1880,
+      "preco_10x": 219.96,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2086.8,
+      "preco_link": 2199.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0026",
@@ -2118,15 +3011,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1075,
-      "preco_venda": 1376,
-      "preco_pix": 1238.4,
-      "preco_10x": 137.6,
-      "lucro_pix": 163.4,
-      "lucro_cartao": 149.64,
+      "custo": 1230,
+      "preco_venda": 2086.8,
+      "preco_pix": 1880,
+      "preco_10x": 219.96,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2086.8,
+      "preco_link": 2199.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0027",
@@ -2136,14 +3036,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1335,
-      "preco_venda": 1708.8,
-      "preco_pix": 1537.92,
-      "preco_10x": 170.88,
-      "lucro_pix": 202.92,
-      "lucro_cartao": 185.83,
+      "preco_venda": 2203.35,
+      "preco_pix": 1985,
+      "preco_10x": 232.24,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2203.35,
+      "preco_link": 2322.45,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0028",
@@ -2153,14 +3060,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1335,
-      "preco_venda": 1708.8,
-      "preco_pix": 1537.92,
-      "preco_10x": 170.88,
-      "lucro_pix": 202.92,
-      "lucro_cartao": 185.83,
+      "preco_venda": 2203.35,
+      "preco_pix": 1985,
+      "preco_10x": 232.24,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2203.35,
+      "preco_link": 2322.45,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0029",
@@ -2169,15 +3083,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1630,
-      "preco_venda": 2086.4,
-      "preco_pix": 1877.76,
-      "preco_10x": 208.64,
-      "lucro_pix": 247.76,
-      "lucro_cartao": 226.9,
+      "custo": 1790,
+      "preco_venda": 2708.4,
+      "preco_pix": 2440,
+      "preco_10x": 285.48,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2708.4,
+      "preco_link": 2854.8,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0030",
@@ -2186,15 +3107,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1630,
-      "preco_venda": 2086.4,
-      "preco_pix": 1877.76,
-      "preco_10x": 208.64,
-      "lucro_pix": 247.76,
-      "lucro_cartao": 226.9,
+      "custo": 1790,
+      "preco_venda": 2708.4,
+      "preco_pix": 2440,
+      "preco_10x": 285.48,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2708.4,
+      "preco_link": 2854.8,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0031",
@@ -2204,14 +3132,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 685,
-      "preco_venda": 876.8,
-      "preco_pix": 789.12,
-      "preco_10x": 87.68,
-      "lucro_pix": 104.12,
-      "lucro_cartao": 95.35,
+      "preco_venda": 1481.85,
+      "preco_pix": 1335,
+      "preco_10x": 156.19,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1481.85,
+      "preco_link": 1561.95,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0032",
@@ -2221,14 +3156,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 685,
-      "preco_venda": 876.8,
-      "preco_pix": 789.12,
-      "preco_10x": 87.68,
-      "lucro_pix": 104.12,
-      "lucro_cartao": 95.35,
+      "preco_venda": 1481.85,
+      "preco_pix": 1335,
+      "preco_10x": 156.19,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1481.85,
+      "preco_link": 1561.95,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0033",
@@ -2238,14 +3180,21 @@
       "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 685,
-      "preco_venda": 876.8,
-      "preco_pix": 789.12,
-      "preco_10x": 87.68,
-      "lucro_pix": 104.12,
-      "lucro_cartao": 95.35,
+      "preco_venda": 1481.85,
+      "preco_pix": 1335,
+      "preco_10x": 156.19,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1481.85,
+      "preco_link": 1561.95,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0034",
@@ -2255,14 +3204,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 850,
-      "preco_venda": 1088,
-      "preco_pix": 979.2,
-      "preco_10x": 108.8,
-      "lucro_pix": 129.2,
-      "lucro_cartao": 118.32,
+      "preco_venda": 1665,
+      "preco_pix": 1500,
+      "preco_10x": 175.5,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1665,
+      "preco_link": 1755,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0035",
@@ -2272,14 +3228,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 850,
-      "preco_venda": 1088,
-      "preco_pix": 979.2,
-      "preco_10x": 108.8,
-      "lucro_pix": 129.2,
-      "lucro_cartao": 118.32,
+      "preco_venda": 1665,
+      "preco_pix": 1500,
+      "preco_10x": 175.5,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1665,
+      "preco_link": 1755,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0036",
@@ -2289,14 +3252,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 720,
-      "preco_venda": 921.6,
-      "preco_pix": 829.44,
-      "preco_10x": 92.16,
-      "lucro_pix": 109.44,
-      "lucro_cartao": 100.22,
+      "preco_venda": 1520.7,
+      "preco_pix": 1370,
+      "preco_10x": 160.29,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1520.7,
+      "preco_link": 1602.9,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c81-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c81-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0037",
@@ -2306,14 +3276,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 720,
-      "preco_venda": 921.6,
-      "preco_pix": 829.44,
-      "preco_10x": 92.16,
-      "lucro_pix": 109.44,
-      "lucro_cartao": 100.22,
+      "preco_venda": 1520.7,
+      "preco_pix": 1370,
+      "preco_10x": 160.29,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1520.7,
+      "preco_link": 1602.9,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c81-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c81-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0038",
@@ -2322,15 +3299,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 510,
-      "preco_venda": 652.8,
-      "preco_pix": 587.52,
-      "preco_10x": 65.28,
-      "lucro_pix": 77.52,
-      "lucro_cartao": 70.99,
+      "custo": 600,
+      "preco_venda": 1387.5,
+      "preco_pix": 1250,
+      "preco_10x": 146.25,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1387.5,
+      "preco_link": 1462.5,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0039",
@@ -2339,15 +3323,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 510,
-      "preco_venda": 652.8,
-      "preco_pix": 587.52,
-      "preco_10x": 65.28,
-      "lucro_pix": 77.52,
-      "lucro_cartao": 70.99,
+      "custo": 600,
+      "preco_venda": 1387.5,
+      "preco_pix": 1250,
+      "preco_10x": 146.25,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1387.5,
+      "preco_link": 1462.5,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0040",
@@ -2357,14 +3348,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 510,
-      "preco_venda": 652.8,
-      "preco_pix": 587.52,
-      "preco_10x": 65.28,
-      "lucro_pix": 77.52,
-      "lucro_cartao": 70.99,
+      "preco_venda": 1287.6,
+      "preco_pix": 1160,
+      "preco_10x": 135.72,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1287.6,
+      "preco_link": 1357.2,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0041",
@@ -2374,14 +3372,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 610,
-      "preco_venda": 780.8,
-      "preco_pix": 702.72,
-      "preco_10x": 78.08,
-      "lucro_pix": 92.72,
-      "lucro_cartao": 84.91,
+      "preco_venda": 1398.6,
+      "preco_pix": 1260,
+      "preco_10x": 147.42,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1398.6,
+      "preco_link": 1474.2,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0042",
@@ -2391,14 +3396,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 610,
-      "preco_venda": 780.8,
-      "preco_pix": 702.72,
-      "preco_10x": 78.08,
-      "lucro_pix": 92.72,
-      "lucro_cartao": 84.91,
+      "preco_venda": 1398.6,
+      "preco_pix": 1260,
+      "preco_10x": 147.42,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1398.6,
+      "preco_link": 1474.2,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0043",
@@ -2408,14 +3420,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 610,
-      "preco_venda": 780.8,
-      "preco_pix": 702.72,
-      "preco_10x": 78.08,
-      "lucro_pix": 92.72,
-      "lucro_cartao": 84.91,
+      "preco_venda": 1398.6,
+      "preco_pix": 1260,
+      "preco_10x": 147.42,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1398.6,
+      "preco_link": 1474.2,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0044",
@@ -2425,14 +3444,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1490,
-      "preco_venda": 1907.2,
-      "preco_pix": 1716.48,
-      "preco_10x": 190.72,
-      "lucro_pix": 226.48,
-      "lucro_cartao": 207.41,
+      "preco_venda": 2375.4,
+      "preco_pix": 2140,
+      "preco_10x": 250.38,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2375.4,
+      "preco_link": 2503.8,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0045",
@@ -2442,14 +3468,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1490,
-      "preco_venda": 1907.2,
-      "preco_pix": 1716.48,
-      "preco_10x": 190.72,
-      "lucro_pix": 226.48,
-      "lucro_cartao": 207.41,
+      "preco_venda": 2375.4,
+      "preco_pix": 2140,
+      "preco_10x": 250.38,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2375.4,
+      "preco_link": 2503.8,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0046",
@@ -2459,14 +3492,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1490,
-      "preco_venda": 1907.2,
-      "preco_pix": 1716.48,
-      "preco_10x": 190.72,
-      "lucro_pix": 226.48,
-      "lucro_cartao": 207.41,
+      "preco_venda": 2375.4,
+      "preco_pix": 2140,
+      "preco_10x": 250.38,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2375.4,
+      "preco_link": 2503.8,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0047",
@@ -2476,14 +3516,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1930,
-      "preco_venda": 2470.4,
-      "preco_pix": 2223.36,
-      "preco_10x": 247.04,
-      "lucro_pix": 293.36,
-      "lucro_cartao": 268.66,
+      "preco_venda": 2863.8,
+      "preco_pix": 2580,
+      "preco_10x": 301.86,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2863.8,
+      "preco_link": 3018.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x7-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x7-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0048",
@@ -2493,14 +3540,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1860,
-      "preco_venda": 2380.8,
-      "preco_pix": 2142.72,
-      "preco_10x": 238.08,
-      "lucro_pix": 282.72,
-      "lucro_cartao": 258.91,
+      "preco_venda": 2786.1,
+      "preco_pix": 2510,
+      "preco_10x": 293.67,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2786.1,
+      "preco_link": 2936.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0049",
@@ -2510,14 +3564,21 @@
       "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 1860,
-      "preco_venda": 2380.8,
-      "preco_pix": 2142.72,
-      "preco_10x": 238.08,
-      "lucro_pix": 282.72,
-      "lucro_cartao": 258.91,
+      "preco_venda": 2786.1,
+      "preco_pix": 2510,
+      "preco_10x": 293.67,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2786.1,
+      "preco_link": 2936.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0050",
@@ -2527,14 +3588,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2900,
-      "preco_venda": 3712,
-      "preco_pix": 3340.8,
-      "preco_10x": 371.2,
-      "lucro_pix": 440.8,
-      "lucro_cartao": 403.68,
+      "preco_venda": 3940.5,
+      "preco_pix": 3550,
+      "preco_10x": 415.35,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 3940.5,
+      "preco_link": 4153.5,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-max-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x8-pro-max-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0051",
@@ -2544,14 +3612,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 2900,
-      "preco_venda": 3712,
-      "preco_pix": 3340.8,
-      "preco_10x": 371.2,
-      "lucro_pix": 440.8,
-      "lucro_cartao": 403.68,
+      "preco_venda": 3940.5,
+      "preco_pix": 3550,
+      "preco_10x": 415.35,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 3940.5,
+      "preco_link": 4153.5,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-max-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x8-pro-max-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0052",
@@ -2560,15 +3635,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1130,
-      "preco_venda": 1446.4,
-      "preco_pix": 1301.76,
-      "preco_10x": 144.64,
-      "lucro_pix": 171.76,
-      "lucro_cartao": 157.3,
+      "custo": 1220,
+      "preco_venda": 2075.7,
+      "preco_pix": 1870,
+      "preco_10x": 218.79,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2075.7,
+      "preco_link": 2187.9,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14s.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14s.jpg"
+      ]
     },
     {
       "codigo": "XMI-0053",
@@ -2578,14 +3660,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1495,
-      "preco_venda": 1913.6,
-      "preco_pix": 1722.24,
-      "preco_10x": 191.36,
-      "lucro_pix": 227.24,
-      "lucro_cartao": 208.1,
+      "preco_venda": 2380.95,
+      "preco_pix": 2145,
+      "preco_10x": 250.97,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2380.95,
+      "preco_link": 2509.65,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0054",
@@ -2595,14 +3684,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1335,
-      "preco_venda": 1708.8,
-      "preco_pix": 1537.92,
-      "preco_10x": 170.88,
-      "lucro_pix": 202.92,
-      "lucro_cartao": 185.83,
+      "preco_venda": 2203.35,
+      "preco_pix": 1985,
+      "preco_10x": 232.24,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2203.35,
+      "preco_link": 2322.45,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0055",
@@ -2612,14 +3708,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1930,
-      "preco_venda": 2470.4,
-      "preco_pix": 2223.36,
-      "preco_10x": 247.04,
-      "lucro_pix": 293.36,
-      "lucro_cartao": 268.66,
+      "preco_venda": 2863.8,
+      "preco_pix": 2580,
+      "preco_10x": 301.86,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2863.8,
+      "preco_link": 3018.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x7-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x7-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "RLM-0001",
@@ -2629,14 +3732,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 720,
-      "preco_venda": 921.6,
-      "preco_pix": 829.44,
-      "preco_10x": 92.16,
-      "lucro_pix": 109.44,
-      "lucro_cartao": 100.22,
+      "preco_venda": 1520.7,
+      "preco_pix": 1370,
+      "preco_10x": 160.29,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1520.7,
+      "preco_link": 1602.9,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-note-70.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-note-70.jpg"
+      ]
     },
     {
       "codigo": "RLM-0002",
@@ -2646,14 +3756,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 720,
-      "preco_venda": 921.6,
-      "preco_pix": 829.44,
-      "preco_10x": 92.16,
-      "lucro_pix": 109.44,
-      "lucro_cartao": 100.22,
+      "preco_venda": 1520.7,
+      "preco_pix": 1370,
+      "preco_10x": 160.29,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1520.7,
+      "preco_link": 1602.9,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-note-70.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-note-70.jpg"
+      ]
     },
     {
       "codigo": "RLM-0003",
@@ -2663,14 +3780,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 840,
-      "preco_venda": 1075.2,
-      "preco_pix": 967.68,
-      "preco_10x": 107.52,
-      "lucro_pix": 127.68,
-      "lucro_cartao": 116.93,
+      "preco_venda": 1653.9,
+      "preco_pix": 1490,
+      "preco_10x": 174.33,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1653.9,
+      "preco_link": 1743.3,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-note-70.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-note-70.jpg"
+      ]
     },
     {
       "codigo": "RLM-0004",
@@ -2680,14 +3804,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 840,
-      "preco_venda": 1075.2,
-      "preco_pix": 967.68,
-      "preco_10x": 107.52,
-      "lucro_pix": 127.68,
-      "lucro_cartao": 116.93,
+      "preco_venda": 1653.9,
+      "preco_pix": 1490,
+      "preco_10x": 174.33,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1653.9,
+      "preco_link": 1743.3,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-note-70.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-note-70.jpg"
+      ]
     },
     {
       "codigo": "RLM-0005",
@@ -2697,14 +3828,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 760,
-      "preco_venda": 972.8,
-      "preco_pix": 875.52,
-      "preco_10x": 97.28,
-      "lucro_pix": 115.52,
-      "lucro_cartao": 105.79,
+      "preco_venda": 1565.1,
+      "preco_pix": 1410,
+      "preco_10x": 164.97,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1565.1,
+      "preco_link": 1649.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c71.jpg"
+      ]
     },
     {
       "codigo": "RLM-0006",
@@ -2714,14 +3852,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 760,
-      "preco_venda": 972.8,
-      "preco_pix": 875.52,
-      "preco_10x": 97.28,
-      "lucro_pix": 115.52,
-      "lucro_cartao": 105.79,
+      "preco_venda": 1565.1,
+      "preco_pix": 1410,
+      "preco_10x": 164.97,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1565.1,
+      "preco_link": 1649.7,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c71.jpg"
+      ]
     },
     {
       "codigo": "RLM-0007",
@@ -2731,14 +3876,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1030,
-      "preco_venda": 1318.4,
-      "preco_pix": 1186.56,
-      "preco_10x": 131.84,
-      "lucro_pix": 156.56,
-      "lucro_cartao": 143.38,
+      "preco_venda": 1864.8,
+      "preco_pix": 1680,
+      "preco_10x": 196.56,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1864.8,
+      "preco_link": 1965.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c71-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c71-5g.jpg"
+      ]
     },
     {
       "codigo": "RLM-0008",
@@ -2748,14 +3900,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1030,
-      "preco_venda": 1318.4,
-      "preco_pix": 1186.56,
-      "preco_10x": 131.84,
-      "lucro_pix": 156.56,
-      "lucro_cartao": 143.38,
+      "preco_venda": 1864.8,
+      "preco_pix": 1680,
+      "preco_10x": 196.56,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1864.8,
+      "preco_link": 1965.6,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c71-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c71-5g.jpg"
+      ]
     },
     {
       "codigo": "RLM-0009",
@@ -2765,14 +3924,21 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1250,
-      "preco_venda": 1600,
-      "preco_pix": 1440,
-      "preco_10x": 160,
-      "lucro_pix": 190,
-      "lucro_cartao": 174,
+      "preco_venda": 2109,
+      "preco_pix": 1900,
+      "preco_10x": 222.3,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2109,
+      "preco_link": 2223,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c85.jpg"
+      ]
     },
     {
       "codigo": "RLM-0010",
@@ -2782,32 +3948,46 @@
       "status": "Disponível",
       "fornecedor": "FOR001",
       "custo": 1250,
-      "preco_venda": 1600,
-      "preco_pix": 1440,
-      "preco_10x": 160,
-      "lucro_pix": 190,
-      "lucro_cartao": 174,
+      "preco_venda": 2109,
+      "preco_pix": 1900,
+      "preco_10x": 222.3,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2109,
+      "preco_link": 2223,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c85.jpg"
+      ]
     },
     {
       "codigo": "FNE-0002",
-      "nome": "🎧 AirPods Pro 3:",
+      "nome": "AirPods Pro 3",
       "nome_interno": "🎧 AirPods Pro 3:",
       "categoria": "Fone",
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR002",
       "custo": 1299,
-      "preco_venda": 1662.72,
-      "preco_pix": 1496.45,
-      "preco_10x": 166.27,
-      "lucro_pix": 197.45,
-      "lucro_cartao": 180.82,
+      "preco_venda": 1996.89,
+      "preco_pix": 1799,
+      "preco_10x": 210.48,
+      "lucro_pix": 500,
+      "lucro_cartao": 500,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 1996.89,
+      "preco_link": 2104.83,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/fone-airpods-pro-3.jpg",
+      "fotos": [
+        "/imagens/produtos/fone-airpods-pro-3.jpg"
+      ]
     },
     {
       "codigo": "ACS-0010",
@@ -2815,17 +3995,25 @@
       "nome_interno": "⚡ Cabo Lightning:",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR002",
       "custo": 15,
-      "preco_venda": 19.2,
-      "preco_pix": 17.28,
-      "preco_10x": 1.92,
-      "lucro_pix": 2.28,
-      "lucro_cartao": 2.09,
+      "preco_venda": 738.15,
+      "preco_pix": 665,
+      "preco_10x": 77.8,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 738.15,
+      "preco_link": 778.05,
+      "oculto": true,
+      "motivo_oculto": "linha com emoji virou produto duplicado",
+      "foto_url": "/imagens/produtos/acessorio-cabo-lightning.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-cabo-lightning.jpg"
+      ]
     },
     {
       "codigo": "ACS-0010",
@@ -2833,17 +4021,25 @@
       "nome_interno": "⚡ Fonte 35W:",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR002",
       "custo": 60,
-      "preco_venda": 76.8,
-      "preco_pix": 69.12,
-      "preco_10x": 7.68,
-      "lucro_pix": 9.12,
-      "lucro_cartao": 8.35,
+      "preco_venda": 788.1,
+      "preco_pix": 710,
+      "preco_10x": 83.07,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 788.1,
+      "preco_link": 830.7,
+      "oculto": true,
+      "motivo_oculto": "linha com emoji virou produto duplicado",
+      "foto_url": "/imagens/produtos/acessorio-fonte-35w.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-35w.jpg"
+      ]
     },
     {
       "codigo": "ACS-0010",
@@ -2851,17 +4047,25 @@
       "nome_interno": "⚡ Fonte 20W:",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR002",
       "custo": 40,
-      "preco_venda": 51.2,
-      "preco_pix": 46.08,
-      "preco_10x": 5.12,
-      "lucro_pix": 6.08,
-      "lucro_cartao": 5.57,
+      "preco_venda": 765.9,
+      "preco_pix": 690,
+      "preco_10x": 80.73,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 765.9,
+      "preco_link": 807.3,
+      "oculto": true,
+      "motivo_oculto": "linha com emoji virou produto duplicado",
+      "foto_url": "/imagens/produtos/acessorio-fonte-20w.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-20w.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -2869,17 +4073,25 @@
       "nome_interno": "ista atualizada  05/06/",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 2100,
-      "preco_venda": 2688,
-      "preco_pix": 2419.2,
-      "preco_10x": 268.8,
-      "lucro_pix": 319.2,
-      "lucro_cartao": 292.32,
+      "preco_venda": 3052.5,
+      "preco_pix": 2750,
+      "preco_10x": 321.75,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 3052.5,
+      "preco_link": 3217.5,
+      "oculto": true,
+      "motivo_oculto": "fragmento de cabecalho/data da tabela do fornecedor",
+      "foto_url": "/imagens/produtos/acessorio-ista-atualizada.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-ista-atualizada.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -2887,17 +4099,25 @@
       "nome_interno": "SILVE",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 6600,
-      "preco_venda": 8448,
-      "preco_pix": 7603.2,
-      "preco_10x": 844.8,
-      "lucro_pix": 1003.2,
-      "lucro_cartao": 918.72,
+      "preco_venda": 8269.5,
+      "preco_pix": 7450,
+      "preco_10x": 871.65,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 8269.5,
+      "preco_link": 8716.5,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-silve.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-silve.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -2905,17 +4125,25 @@
       "nome_interno": "LARANJA",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 6350,
-      "preco_venda": 8128,
-      "preco_pix": 7315.2,
-      "preco_10x": 812.8,
-      "lucro_pix": 965.2,
-      "lucro_cartao": 883.92,
+      "preco_venda": 7992,
+      "preco_pix": 7200,
+      "preco_10x": 842.4,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 7992,
+      "preco_link": 8424,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -2923,17 +4151,25 @@
       "nome_interno": "AZUL",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 6350,
-      "preco_venda": 8128,
-      "preco_pix": 7315.2,
-      "preco_10x": 812.8,
-      "lucro_pix": 965.2,
-      "lucro_cartao": 883.92,
+      "preco_venda": 7992,
+      "preco_pix": 7200,
+      "preco_10x": 842.4,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 7992,
+      "preco_link": 8424,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -2941,17 +4177,25 @@
       "nome_interno": "16 256GB  🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 3750,
-      "preco_venda": 4800,
-      "preco_pix": 4320,
-      "preco_10x": 480,
-      "lucro_pix": 570,
-      "lucro_cartao": 522,
+      "preco_venda": 4884,
+      "preco_pix": 4400,
+      "preco_10x": 514.8,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4884,
+      "preco_link": 5148,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-16.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-16.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -2959,17 +4203,25 @@
       "nome_interno": "15  256GB  🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 2600,
-      "preco_venda": 3328,
-      "preco_pix": 2995.2,
-      "preco_10x": 332.8,
-      "lucro_pix": 395.2,
-      "lucro_cartao": 361.92,
+      "preco_venda": 3607.5,
+      "preco_pix": 3250,
+      "preco_10x": 380.25,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 3607.5,
+      "preco_link": 3802.5,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-15.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-15.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -2977,17 +4229,25 @@
       "nome_interno": "15  128GB  🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 2500,
-      "preco_venda": 3200,
-      "preco_pix": 2880,
-      "preco_10x": 320,
-      "lucro_pix": 380,
-      "lucro_cartao": 348,
+      "preco_venda": 3496.5,
+      "preco_pix": 3150,
+      "preco_10x": 368.55,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 3496.5,
+      "preco_link": 3685.5,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-15.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-15.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -2995,17 +4255,25 @@
       "nome_interno": "14 PRO MAX 128 GB 🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 3000,
-      "preco_venda": 3840,
-      "preco_pix": 3456,
-      "preco_10x": 384,
-      "lucro_pix": 456,
-      "lucro_cartao": 417.6,
+      "preco_venda": 4051.5,
+      "preco_pix": 3650,
+      "preco_10x": 427.05,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4051.5,
+      "preco_link": 4270.5,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-14-pro-max.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-14-pro-max.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3013,17 +4281,25 @@
       "nome_interno": "BRANCO",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 1880,
-      "preco_venda": 2406.4,
-      "preco_pix": 2165.76,
-      "preco_10x": 240.64,
-      "lucro_pix": 285.76,
-      "lucro_cartao": 261.7,
+      "preco_venda": 2808.3,
+      "preco_pix": 2530,
+      "preco_10x": 296.01,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2808.3,
+      "preco_link": 2960.1,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3031,17 +4307,25 @@
       "nome_interno": "12PRO 128GB 🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 1690,
-      "preco_venda": 2163.2,
-      "preco_pix": 1946.88,
-      "preco_10x": 216.32,
-      "lucro_pix": 256.88,
-      "lucro_cartao": 235.25,
+      "preco_venda": 2597.4,
+      "preco_pix": 2340,
+      "preco_10x": 273.78,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 2597.4,
+      "preco_link": 2737.8,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-12pro.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-12pro.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3049,17 +4333,25 @@
       "nome_interno": "PRETO",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 4475,
-      "preco_venda": 5728,
-      "preco_pix": 5155.2,
-      "preco_10x": 572.8,
-      "lucro_pix": 680.2,
-      "lucro_cartao": 622.92,
+      "preco_venda": 5910.75,
+      "preco_pix": 5325,
+      "preco_10x": 623.02,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 5910.75,
+      "preco_link": 6230.25,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3067,17 +4359,25 @@
       "nome_interno": "PRETO",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 3575,
-      "preco_venda": 4576,
-      "preco_pix": 4118.4,
-      "preco_10x": 457.6,
-      "lucro_pix": 543.4,
-      "lucro_cartao": 497.64,
+      "preco_venda": 4689.75,
+      "preco_pix": 4225,
+      "preco_10x": 494.32,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 4689.75,
+      "preco_link": 4943.25,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3085,17 +4385,25 @@
       "nome_interno": "ROSA.",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 2075,
-      "preco_venda": 2656,
-      "preco_pix": 2390.4,
-      "preco_10x": 265.6,
-      "lucro_pix": 315.4,
-      "lucro_cartao": 288.84,
+      "preco_venda": 3024.75,
+      "preco_pix": 2725,
+      "preco_10x": 318.82,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 3024.75,
+      "preco_link": 3188.25,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3103,17 +4411,25 @@
       "nome_interno": "STARLIGHT",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 5850,
-      "preco_venda": 7488,
-      "preco_pix": 6739.2,
-      "preco_10x": 748.8,
-      "lucro_pix": 889.2,
-      "lucro_cartao": 814.32,
+      "preco_venda": 7437,
+      "preco_pix": 6700,
+      "preco_10x": 783.9,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 7437,
+      "preco_link": 7839,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3121,17 +4437,114 @@
       "nome_interno": "SKY BLUE",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 5850,
-      "preco_venda": 7488,
-      "preco_pix": 6739.2,
-      "preco_10x": 748.8,
-      "lucro_pix": 889.2,
-      "lucro_cartao": 814.32,
+      "preco_venda": 7437,
+      "preco_pix": 6700,
+      "preco_10x": 783.9,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
-      "garantia": null
+      "garantia": null,
+      "preco_cartao": 7437,
+      "preco_link": 7839,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-sky-blue.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-sky-blue.jpg"
+      ]
+    },
+    {
+      "codigo": "IPH-0071",
+      "nome": "iPhone 17 Air 256GB",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 5140,
+      "preco_venda": 6648.9,
+      "preco_pix": 5990,
+      "preco_cartao": 6648.9,
+      "preco_link": 7008.3,
+      "preco_10x": 700.83,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "bateria": null,
+      "cores": [
+        "Dourdo"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "Tela de 6,5\" · 256 GB de armazenamento · 1 câmera traseira · Conector USB-C\nModelo mais fino da linha, com ilha dinâmica\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": [
+        "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ],
+      "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+    },
+    {
+      "codigo": "MCB-0004",
+      "nome": "Macbook Neo (6GPU/5GPU/8 RAM/256 GB SSD)",
+      "categoria": "MacBook",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 4750,
+      "preco_venda": 6216,
+      "preco_pix": 5600,
+      "preco_cartao": 6216,
+      "preco_link": 6552,
+      "preco_10x": 655.2,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "bateria": null,
+      "cores": [
+        "Citrus",
+        "Silver"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": [
+        "/imagens/produtos/macbook-macbook-neo-6gpu-5gpu-8-ram-ssd.jpg"
+      ],
+      "foto_url": "/imagens/produtos/macbook-macbook-neo-6gpu-5gpu-8-ram-ssd.jpg"
+    },
+    {
+      "codigo": "XMI-0056",
+      "nome": "Note15 5G 8/256 azul",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1540,
+      "preco_venda": 2430.9,
+      "preco_pix": 2190,
+      "preco_cartao": 2430.9,
+      "preco_link": 2562.3,
+      "preco_10x": 256.23,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": [
+        "/imagens/produtos/xiaomi-note15-5g.jpg"
+      ],
+      "foto_url": "/imagens/produtos/xiaomi-note15-5g.jpg"
     }
   ]
 }
