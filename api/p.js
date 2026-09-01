@@ -16,7 +16,7 @@
 // que ver um produto com as cores disponíveis, não três produtos.
 // ============================================================
 
-const WA = '5512992006037';
+const WA = '5512991048039';
 const CORES_RE =
   /\b(Preto|Branco|Azul|Verde|Vermelho|Rosa|Roxo|Amarelo|Laranja|Dourado|Prata|Silver|Gold|Grafite|Cinza|Desert|Natural|Citrus|Titanium|Midnight|Starlight)\b/i;
 
@@ -267,7 +267,7 @@ ${foto ? `<meta property="og:image" content="${esc(foto.startsWith('http') ? fot
 <div class="ctabar"><div class="ctabar-in">
   <a class="cta" href="https://wa.me/${WA}?text=${msg}" target="_blank" rel="noopener">
     Quero esse — chamar no WhatsApp
-    <small>resposta rápida, direto com o Stefano</small>
+    <small>resposta na hora</small>
   </a>
 </div></div>
 </body></html>`);
