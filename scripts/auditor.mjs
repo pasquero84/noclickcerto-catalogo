@@ -78,6 +78,7 @@ function mediana(ns) {
 
 const grupos = new Map();
 for (const p of produtos) {
+  if (p.oculto) continue; // lixo já oculto não deve poluir a mediana de referência
   const k = chavePar(p);
   if (!grupos.has(k)) grupos.set(k, []);
   grupos.get(k).push(p.custo);
@@ -88,6 +89,7 @@ const reprovados = [];
 const brl = (v) => 'R$ ' + Number(v).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
 
 for (const p of produtos) {
+  if (p.oculto) continue; // já está fora da vitrine, não precisa auditar
   const motivos = [];
 
   // 1. histórico

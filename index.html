@@ -129,6 +129,8 @@ img{max-width:100%;display:block}
   background:linear-gradient(160deg,#fbfcfd 0%,#eef1f5 100%)}
 .c-ph svg{height:78%;width:auto;filter:drop-shadow(0 6px 14px rgba(16,24,40,.16))}
 .c-tags{position:absolute;top:10px;left:10px;display:flex;gap:6px;flex-wrap:wrap;max-width:calc(100% - 20px)}
+.c-ilus{position:absolute;bottom:7px;right:9px;font-size:9px;font-weight:700;color:var(--ink-3);
+  background:rgba(255,255,255,.85);padding:2px 7px;border-radius:6px;letter-spacing:.2px}
 .tag{font-size:10.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;
   padding:4px 9px;border-radius:6px;background:#fff;color:var(--ink);
   box-shadow:0 1px 3px rgba(16,24,40,.14)}
@@ -354,9 +356,15 @@ function card(p){
     ? '<span class="tag t-lac">Lacrado</span>'
     : '<span class="tag t-sem">Seminovo</span>');
 
+  // Selo "imagem ilustrativa": só aparece em imagem GERADA (pasta
+  // imagens/produtos/), nunca em foto real de fornecedor (imagens/fornecedor/
+  // ou URL externa) — pedido do Stefano, pra deixar claro o que é foto de
+  // verdade e o que é ilustração enquanto a foto real não chega.
+  const ehGerada = foto && foto.includes('/imagens/produtos/');
   const media=foto
     ? `<img src="${foto}" alt="${nome}" loading="lazy" decoding="async">`
     : `<div class="c-ph">${silhueta(cat,corDoProduto(p.nome))}</div>`;
+  const seloIlustrativo = (ehGerada || !foto) ? '<div class="c-ilus">Imagem ilustrativa</div>' : '';
 
   // Âncora De/Por: o "De" é o preço do link (mesmo produto, mesmo negócio,
   // maior porque embute a taxa do link) — não é número inventado, é a
@@ -375,7 +383,7 @@ function card(p){
     : (parseInt((p.nome.match(/\b(\d{1,2})\b/)||[])[1]||'0',10)>14 ? '6 meses de garantia' : '3 meses de garantia');
 
   return `<article class="card">
-    <div class="c-media"><div class="c-tags">${tags.join('')}</div>${media}</div>
+    <div class="c-media"><div class="c-tags">${tags.join('')}</div>${media}${seloIlustrativo}</div>
     <div class="c-body">
       <h3 class="c-name">${nome}</h3>
       ${variante?`<div class="c-var">${variante}</div>`:''}

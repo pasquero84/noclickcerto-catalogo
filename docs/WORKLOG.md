@@ -123,3 +123,21 @@
   material de terceiro (nomes de arquivo confirmaram): foto oficial de
   divulgação da Apple, foto de anúncio de capinha na Amazon, downloads
   genéricos do Google Images ("images.jpeg", "images (1).jpeg"). Recusados.
+
+## 2026-08-31 (checkout geral) — Claude
+- Selo "Imagem ilustrativa" adicionado nos produtos sem foto real (card e
+  página de produto) — pedido do Stefano, transparência sobre o que é
+  ilustração gerada vs foto de fornecedor.
+- `auditor.mjs` corrigido: estava usando itens `oculto:true` (lixo já
+  escondido) na mediana de referência, gerando falso alarme. Agora ignora
+  ocultos nos dois lados (auditados e referência).
+- Checkout geral de preço rodado antes de "ligar os motores":
+  - 🔴 2 erros REAIS bloqueados (`--aplicar`, viraram "Consultar
+    Disponibilidade"): iPad 11 com custo cadastrado R$16 (deveria ser bem
+    maior), MacBook Air M4 Midnight com custo R$2.025 vs R$5.850 dos irmãos
+    de mesma cor/spec (provável erro de digitação, falta um dígito).
+  - Checagem estrutural: 0 sem imagem, 0 sem descrição, 0 sem preço, 0 com
+    margem negativa/zero, 0 com cartão<Pix ou link<cartão (ordem de preço
+    sempre correta), 0 resíduo de "nota fiscal" indevida.
+  - Códigos duplicados (ACS-0010/11/12) confirmados — são todos os itens
+    lixo já ocultos, sem risco pro que está no ar.

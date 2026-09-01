@@ -155,6 +155,9 @@ ${foto ? `<meta property="og:image" content="${esc(foto.startsWith('http') ? fot
   .media{background:#fdfdfd;border:1px solid var(--line);border-radius:16px;
     aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:16px}
   .media img{width:100%;height:100%;object-fit:contain;padding:9%}
+  .media{position:relative}
+  .ilus{position:absolute;bottom:9px;right:11px;font-size:10px;font-weight:700;color:var(--ink-3);
+    background:rgba(255,255,255,.9);padding:3px 9px;border-radius:7px}
 
   .bdgs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:10px}
   .bdg{font-size:10.5px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;
@@ -213,6 +216,7 @@ ${foto ? `<meta property="og:image" content="${esc(foto.startsWith('http') ? fot
 
   <div class="media">
     ${foto ? `<img src="${esc(foto)}" alt="${esc(base)}">` : ''}
+    ${(!foto || foto.includes('/imagens/produtos/')) ? '<div class="ilus">Imagem ilustrativa</div>' : ''}
   </div>
 
   <div class="bdgs">

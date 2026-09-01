@@ -1761,7 +1761,7 @@
       "nome": "iPad 11 128GB Branco",
       "categoria": "iPad",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR002",
       "custo": 16,
       "preco_venda": 739.26,
@@ -1778,7 +1778,14 @@
       "foto_url": "/imagens/produtos/ipad-ipad-11.jpg",
       "fotos": [
         "/imagens/produtos/ipad-ipad-11.jpg"
-      ]
+      ],
+      "auditoria_bloqueio": {
+        "em": "2026-09-01",
+        "motivos": [
+          "R$ 16 é menos da metade da mediana dos pares (R$ 1.999)",
+          "custo abaixo do piso de iPad (R$ 500)"
+        ]
+      }
     },
     {
       "codigo": "IPD-0002",
@@ -1833,7 +1840,7 @@
       "nome": "MacBook Air 13 M4 16/256 2025 Midnight",
       "categoria": "MacBook",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 2025,
       "preco_venda": 2969.25,
@@ -1850,7 +1857,13 @@
       "foto_url": "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg",
       "fotos": [
         "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg"
-      ]
+      ],
+      "auditoria_bloqueio": {
+        "em": "2026-09-01",
+        "motivos": [
+          "R$ 2.025 é menos da metade da mediana dos pares (R$ 5.850)"
+        ]
+      }
     },
     {
       "codigo": "MCB-0002",
