@@ -37,7 +37,7 @@ function modeloBase(nome) {
 }
 
 function garantia(p) {
-  if (p.condicao !== 'Seminovo') return 'Lacrado de fábrica, com nota fiscal';
+  if (p.condicao !== 'Seminovo') return 'Lacrado de fábrica';
   const m = p.nome.match(/\b(\d{1,2})\b/);
   const geracao = m ? parseInt(m[1], 10) : null;
   if (p.categoria !== 'iPhone' || !geracao) return '3 meses de garantia';
@@ -96,7 +96,8 @@ export default async function handler(req, res) {
   const pix = barato.preco_pix;
   const cartao = barato.preco_cartao || Math.round(pix * 1.11 * 100) / 100;
   const link = barato.preco_link || Math.round(pix * 1.17 * 100) / 100;
-  const parcela = barato.preco_10x || Math.round((link / 10) * 100) / 100;
+  const parcelaLink = barato.preco_10x || Math.round((link / 10) * 100) / 100;
+  const parcelaCartao = Math.round((cartao / 10) * 100) / 100;
   const economia = Math.round(link - pix);
 
   const foto = alvo.foto_url || (Array.isArray(alvo.fotos) && alvo.fotos[0]) || null;
@@ -105,9 +106,9 @@ export default async function handler(req, res) {
   const descricao = [
     alvo.condicao === 'Seminovo'
       ? `Seminovo${alvo.bateria ? `, bateria ${alvo.bateria}` : ''}`
-      : 'Lacrado, com nota fiscal',
+      : 'Lacrado de fábrica',
     cores.length ? `${cores.length} cor${cores.length > 1 ? 'es' : ''}: ${cores.join(', ')}` : null,
-    `10× de ${brlCurto(parcela)} no link`,
+    `10× de ${brlCurto(parcelaLink)} no link`,
     'Entrega grátis em Ubatuba',
   ]
     .filter(Boolean)
@@ -175,9 +176,10 @@ ${foto ? `<meta property="og:image" content="${esc(foto.startsWith('http') ? fot
   .econ{font-size:12.5px;font-weight:700;color:var(--warn);margin-top:7px}
   .linhas{margin-top:14px;border-top:1px solid var(--line);padding-top:12px;
     display:flex;flex-direction:column;gap:8px}
-  .linha{display:flex;justify-content:space-between;align-items:baseline;font-size:13.5px}
+  .linha{display:flex;justify-content:space-between;align-items:baseline;font-size:13.5px;gap:10px}
   .linha span{color:var(--ink-2)}
-  .linha b{font-weight:700;font-size:15px;color:var(--ink)}
+  .linha small{display:block;color:var(--ink-3);font-size:11px;margin-top:1px}
+  .linha b{font-weight:700;font-size:15px;color:var(--ink);white-space:nowrap}
 
   .rot{font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;
     color:var(--ink-3);margin-bottom:10px}
@@ -228,9 +230,8 @@ ${foto ? `<meta property="og:image" content="${esc(foto.startsWith('http') ? fot
     <div class="pix"><b>${brlCurto(pix)}</b><span>no Pix</span></div>
     ${economia > 0 ? `<div class="econ">Economize ${brlCurto(economia)} pagando no Pix</div>` : ''}
     <div class="linhas">
-      <div class="linha"><span>Cartão presencial</span><b>${brl(cartao)}</b></div>
-      <div class="linha"><span>Link de pagamento, 10×</span><b>${brl(parcela)}</b></div>
-      <div class="linha"><span>Total no link</span><b>${brl(link)}</b></div>
+      <div class="linha"><div><span>Cartão presencial, 10×</span><small>total ${brl(cartao)}</small></div><b>${brl(parcelaCartao)}</b></div>
+      <div class="linha"><div><span>Link de pagamento, 10×</span><small>total ${brl(link)}</small></div><b>${brl(parcelaLink)}</b></div>
     </div>
   </div>
 

@@ -33,7 +33,16 @@ export function corDe(nome) {
   return m ? m[0].toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '') : null;
 }
 
+// iPhone: 31/08/2026, pedido explícito do Stefano — parar de tentar acertar
+// o desenho exato por geração (isso causou o bug real de um iPhone 17 exibir
+// foto de iPhone 11). Agora TODO iPhone da mesma cor usa a MESMA imagem
+// genérica premium, e a diferença entre modelos fica só no nome/preço, que
+// são reais. "Não tem problema, eu mesmo autorizo, 100%" — dito por ele.
 export function slugImagem(categoria, nome) {
+  if (categoria === 'iPhone') {
+    const cor = corDe(nome);
+    return cor ? `iphone-generico-${cor}` : 'iphone-generico';
+  }
   const base = slugFamilia(categoria, nome);
   if (!CATEGORIAS_POR_COR.has(categoria)) return base;
   const cor = corDe(nome);

@@ -46,6 +46,22 @@ export function slugFamilia(categoria, nome) {
     .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
+// Acessório é a categoria mais arriscada de generalizar: cabo, fonte, fone e
+// AirTag são objetos completamente diferentes. 31/08/2026 — o Stefano flagrou
+// um cabo sendo ilustrado junto com uma fonte, como se fosse kit (nenhum dos
+// itens do catálogo é kit de verdade). Detecta pelo NOME do produto, não pela
+// categoria genérica.
+const DESENHO_ACESSORIO = [
+  { re: /airtag/i, d: 'four small round white tracking tags with a metallic circular back, neatly arranged in a small tray, no cable, no charger, no other object' },
+  { re: /earpods|fone.*tipo.?c|fone.*usb/i, d: 'a single pair of white wired in-ear earphones with a thin cable, no charging case, no cable spool, no other object' },
+  { re: /^fonte|carregador|adapter|adaptador/i, d: 'a single small compact power adapter charging brick with prongs, standing alone, no cable attached, no other object' },
+  { re: /^cabo/i, d: 'a single charging cable neatly coiled into a loop, lying alone, no power adapter, no other object' },
+];
+function desenhoAcessorio(nome) {
+  const m = DESENHO_ACESSORIO.find((x) => x.re.test(nome));
+  return m ? m.d : null;
+}
+
 // Como cada categoria deve ser desenhada. Sem nome de marca no prompt: o
 // modelo recusa ou deforma logotipo real.
 // Características VISUAIS reais de cada geração. A imagem é gerada, não
@@ -93,6 +109,7 @@ const catalogo = JSON.parse(await Bun.file('catalogo.json').text());
 // família -> {categoria, nome, cor mais comum, quantos produtos}
 const familias = new Map();
 for (const p of catalogo.produtos) {
+  if (p.oculto) continue; // lixo de leitura de tabela — não gera imagem pra isso
   const slug = slugImagem(p.categoria, p.nome);
   if (!familias.has(slug)) {
     familias.set(slug, { slug, categoria: p.categoria, nome: familia(p.nome) || p.categoria, qtd: 0, cores: [] });
@@ -142,7 +159,13 @@ for (const f of faltando) {
   const corMaisComum = f.cores.sort((a, b) =>
     f.cores.filter((x) => x === b).length - f.cores.filter((x) => x === a).length)[0];
   const cor = COR_EN[corMaisComum] || 'space grey';
-  const desc = desenhoDoModelo(f.categoria, f.nome) || DESCRICAO[f.categoria] || DESCRICAO.iPhone;
+  // 31/08/2026: parou de tentar acertar o desenho por geração — causava
+  // bug real (iPhone 17 aparecendo com foto de iPhone 11) e o Stefano pediu
+  // pra simplificar: UMA imagem genérica premium pra todo iPhone, só a cor
+  // muda. Mesmo estilo que já tinha ficado bom no 17 Pro Max.
+  const desc = f.categoria === 'iPhone'
+    ? 'a premium 2025-generation smartphone with a full-width horizontal camera plateau bar across the top of the back holding three lenses in a row, flat titanium sides, pill-shaped cutout at the top of the screen'
+    : (f.categoria === 'Acessório' && desenhoAcessorio(f.nome)) || DESCRICAO[f.categoria] || DESCRICAO.iPhone;
 
   const prompt =
     `Professional e-commerce product photograph of ${desc}, finished in ${cor}. ` +

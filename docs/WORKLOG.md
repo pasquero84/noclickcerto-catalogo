@@ -85,3 +85,26 @@
 - Imagens de iPhone passam a ser por FAMÍLIA + COR (antes era só família — o
   card dizia "Azul" mostrando foto laranja). 113 imagens geradas no total,
   58 distintas cobrindo os 71 iPhones visíveis.
+
+## 2026-08-31 (2ª correção pós-feedback) — Claude
+- 🔴 **Removida a alegação falsa de "nota fiscal" em 7 lugares** (index.html,
+  api/p.js, 3 scripts de criativo, descricoes.mjs). Essa venda é complemento
+  de renda informal do Stefano, sem nota por padrão — só sob pedido, +8%,
+  emitida pelo fornecedor. Prometer nota fiscal incluída seria promessa que
+  não se cumpre. Registrado em memória (feedback_sem_nota_fiscal_padrao).
+- Imagens de iPhone SIMPLIFICADAS por pedido do Stefano: parou de tentar
+  acertar o desenho por geração (isso causou um bug real — iPhone 17
+  aparecendo com foto de iPhone 11). Agora todo iPhone da mesma cor
+  compartilha UMA imagem genérica premium (mesmo estilo do 17 Pro Max, que
+  ele aprovou). 15 cores cobrindo 71 produtos.
+- Acessórios: detecção do tipo real pelo nome (cabo vs fonte vs fone vs
+  AirTag) — antes usava uma descrição só pra "Acessório" e um cabo saía
+  ilustrado junto com uma fonte, como se fosse kit (nenhum item do catálogo
+  é kit de verdade).
+- Corrigido "AS IS" → "Nunca Ativo" (bateria 100%) nos 3 iPhone 17 Pro Max —
+  são aparelhos de troca de garantia, nunca ativados, só sem caixa.
+- `gerar-imagens.mjs` agora pula produtos `oculto:true` — antes gastava
+  geração de imagem em lixo de leitura de tabela.
+- Página de produto: cartão presencial agora mostra parcela em 10x (igual
+  ao link), com o total em letra pequena embaixo — pedido do Stefano pra
+  ficar no mesmo padrão.

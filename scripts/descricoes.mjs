@@ -101,7 +101,8 @@ export function descricaoDe(p) {
     const g = parseInt((p.nome.match(/\b(\d{1,2})\b/) || [])[1] || '0', 10);
     linhas.push(g > 14 ? 'Garantia de 6 meses.' : 'Garantia de 3 meses.');
   } else {
-    linhas.push('Aparelho novo, lacrado de fábrica, com nota fiscal.');
+    linhas.push('Aparelho novo, lacrado de fábrica.');
+    linhas.push('Nota fiscal disponível mediante solicitação, com acréscimo de 8%.');
   }
 
   linhas.push('Entrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.');

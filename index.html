@@ -371,7 +371,7 @@ function card(p){
     </div>`;
 
   const garantia = p.condicao==='Lacrado'
-    ? 'Lacrado com nota fiscal'
+    ? 'Lacrado de fábrica'
     : (parseInt((p.nome.match(/\b(\d{1,2})\b/)||[])[1]||'0',10)>14 ? '6 meses de garantia' : '3 meses de garantia');
 
   return `<article class="card">

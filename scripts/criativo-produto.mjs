@@ -110,7 +110,7 @@ const brlC = (v) => 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionD
 const geracao = parseInt((alvo.nome.match(/\b(\d{1,2})\b/) || [])[1] || '0', 10);
 const garantia =
   alvo.condicao !== 'Seminovo'
-    ? 'Lacrado com nota fiscal'
+    ? 'Lacrado de fábrica'
     : geracao > 14
       ? '6 meses de garantia'
       : '3 meses de garantia';

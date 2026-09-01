@@ -135,7 +135,7 @@ const html = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
   </header>
 
   <h1>iPhone<em>${condicao === 'Seminovo' ? 'seminovos' : 'lacrados'}</em></h1>
-  <div class="sub">${condicao === 'Seminovo' ? 'Bateria testada · aparelho conferido antes de entregar' : 'Novo, lacrado de fábrica · nota fiscal'}</div>
+  <div class="sub">${condicao === 'Seminovo' ? 'Bateria testada · aparelho conferido antes de entregar' : 'Novo, lacrado de fábrica'}</div>
 
   <div class="lista">
     ${linhas
@@ -158,7 +158,7 @@ const html = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
     <div class="selo"><b>Pagou até 15h</b><span>recebe em até 48h úteis</span></div>
     ${condicao === 'Seminovo'
       ? '<div class="selo"><b>Garantia real</b><span>até o 14: 3 meses<br>acima do 14: 6 meses</span></div>'
-      : '<div class="selo"><b>Lacrado de fábrica</b><span>com nota fiscal</span></div>'}
+      : '<div class="selo"><b>Lacrado de fábrica</b><span>direto do fornecedor</span></div>'}
   </div>
 
   <footer>
