@@ -22,7 +22,7 @@ for (const p of catalogo.produtos) {
   const temReal = p.foto_url && !String(p.foto_url).includes('/imagens/produtos/');
   if (temReal) { jaTinha++; continue; }
 
-  const slug = slugImagem(p.categoria, p.nome);
+  const slug = slugImagem(p.categoria, p.nome, p.condicao);
   const arquivo = `imagens/produtos/${slug}.jpg`;
   if (!(await Bun.file(arquivo).exists())) {
     semImagem++;

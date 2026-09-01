@@ -904,8 +904,18 @@ const TAXA_CARTAO = 0.11;   // cartão presencial, até 10x
 const TAXA_LINK = 0.17;     // link de pagamento, até 10x
 const PARCELAS = 10;
 
-function calcPrecos(custo) {
-  const margem = custo <= LIMITE_MARGEM ? MARGEM_ATE_4K : MARGEM_ACIMA_4K;
+const MARGEM_PCT_POR_CATEGORIA = { 'Acessório': 1.0 };
+const MARGEM_FIXA_POR_CATEGORIA = { 'Fone': 500 };
+
+function calcPrecos(custo, categoria) {
+  let margem;
+  if (categoria in MARGEM_PCT_POR_CATEGORIA) {
+    margem = Math.round(custo * MARGEM_PCT_POR_CATEGORIA[categoria] * 100) / 100;
+  } else if (categoria in MARGEM_FIXA_POR_CATEGORIA) {
+    margem = MARGEM_FIXA_POR_CATEGORIA[categoria];
+  } else {
+    margem = custo <= LIMITE_MARGEM ? MARGEM_ATE_4K : MARGEM_ACIMA_4K;
+  }
   const pix = Math.round((custo + margem) * 100) / 100;
   const cartao = Math.round(pix * (1 + TAXA_CARTAO) * 100) / 100;
   const link = Math.round(pix * (1 + TAXA_LINK) * 100) / 100;
@@ -1033,7 +1043,11 @@ function processarTabela() {
 
   for (const item of parsed) {
     const match = findMatch(item.nomeOriginal, prods);
-    const novosPrecos = calcPrecos(item.custo);
+    // categoria do produto já existente (se casou) ou detectada agora (se
+    // é novo) — precisa vir ANTES do calcPrecos, que agora decide a margem
+    // pela categoria (Acessório = %, Fone = fixo, resto = R$650/850).
+    const cat = match ? match.produto.categoria : detectCategory(item.nomeOriginal);
+    const novosPrecos = calcPrecos(item.custo, cat);
 
     if (match) {
       const p = match.produto;
@@ -1049,7 +1063,6 @@ function processarTabela() {
         fornecedor
       });
     } else {
-      const cat = detectCategory(item.nomeOriginal);
       const codigo = gerarCodigo(cat, prods);
       changes.push({
         tipo: 'new',

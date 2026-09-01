@@ -27,8 +27,23 @@ const TAXA_CARTAO = 0.11;
 const TAXA_LINK = 0.17;
 const PARCELAS = 10;
 
-export function calcPrecos(custo) {
-  const margem = custo <= LIMITE_MARGEM ? MARGEM_ATE_4K : MARGEM_ACIMA_4K;
+// Margens especiais por categoria, fechadas com o Stefano em 31/08/2026:
+// a fórmula de R$650/R$850 é pra CELULAR. Cabo/fonte/EarPods/AirTag
+// ("Acessório") a preço fixo ficavam absurdos (cabo de R$15 vendendo por
+// R$665) — ele pediu percentual pra esses. Fone SEM FIO (AirPods, Buds) é
+// caro feito celular, então margem fixa também, só que menor: R$500.
+const MARGEM_PCT_POR_CATEGORIA = { Acessório: 1.0 }; // 100% do custo
+const MARGEM_FIXA_POR_CATEGORIA = { Fone: 500 };
+
+export function calcPrecos(custo, categoria) {
+  let margem;
+  if (categoria in MARGEM_PCT_POR_CATEGORIA) {
+    margem = Math.round(custo * MARGEM_PCT_POR_CATEGORIA[categoria] * 100) / 100;
+  } else if (categoria in MARGEM_FIXA_POR_CATEGORIA) {
+    margem = MARGEM_FIXA_POR_CATEGORIA[categoria];
+  } else {
+    margem = custo <= LIMITE_MARGEM ? MARGEM_ATE_4K : MARGEM_ACIMA_4K;
+  }
   const pix = Math.round((custo + margem) * 100) / 100;
   const cartao = Math.round(pix * (1 + TAXA_CARTAO) * 100) / 100;
   const link = Math.round(pix * (1 + TAXA_LINK) * 100) / 100;

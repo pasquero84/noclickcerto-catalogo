@@ -110,9 +110,9 @@ const catalogo = JSON.parse(await Bun.file('catalogo.json').text());
 const familias = new Map();
 for (const p of catalogo.produtos) {
   if (p.oculto) continue; // lixo de leitura de tabela — não gera imagem pra isso
-  const slug = slugImagem(p.categoria, p.nome);
+  const slug = slugImagem(p.categoria, p.nome, p.condicao);
   if (!familias.has(slug)) {
-    familias.set(slug, { slug, categoria: p.categoria, nome: familia(p.nome) || p.categoria, qtd: 0, cores: [] });
+    familias.set(slug, { slug, categoria: p.categoria, condicao: p.condicao, nome: familia(p.nome) || p.categoria, qtd: 0, cores: [] });
   }
   const f = familias.get(slug);
   f.qtd++;
@@ -159,12 +159,14 @@ for (const f of faltando) {
   const corMaisComum = f.cores.sort((a, b) =>
     f.cores.filter((x) => x === b).length - f.cores.filter((x) => x === a).length)[0];
   const cor = COR_EN[corMaisComum] || 'space grey';
-  // 31/08/2026: parou de tentar acertar o desenho por geração — causava
-  // bug real (iPhone 17 aparecendo com foto de iPhone 11) e o Stefano pediu
-  // pra simplificar: UMA imagem genérica premium pra todo iPhone, só a cor
-  // muda. Mesmo estilo que já tinha ficado bom no 17 Pro Max.
+  // iPhone LACRADO: uma imagem genérica premium por cor (pedido do Stefano —
+  // é quase todo geração 17, e além disso já ganhou foto real por cima).
+  // iPhone SEMINOVO: ⚠️ revertido no mesmo dia pro desenho POR GERAÇÃO —
+  // seminovo cobre 11 a 17, e a imagem sempre-moderna ficava incoerente num
+  // aparelho antigo. "Estava ótimo anteriormente... pode desfazer."
+  const GENERICO_LACRADO = 'a premium 2025-generation smartphone with a full-width horizontal camera plateau bar across the top of the back holding three lenses in a row, flat titanium sides, pill-shaped cutout at the top of the screen';
   const desc = f.categoria === 'iPhone'
-    ? 'a premium 2025-generation smartphone with a full-width horizontal camera plateau bar across the top of the back holding three lenses in a row, flat titanium sides, pill-shaped cutout at the top of the screen'
+    ? (f.condicao === 'Lacrado' ? GENERICO_LACRADO : desenhoDoModelo(f.categoria, f.nome) || GENERICO_LACRADO)
     : (f.categoria === 'Acessório' && desenhoAcessorio(f.nome)) || DESCRICAO[f.categoria] || DESCRICAO.iPhone;
 
   const prompt =

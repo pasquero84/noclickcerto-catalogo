@@ -33,15 +33,25 @@ export function corDe(nome) {
   return m ? m[0].toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '') : null;
 }
 
-// iPhone: 31/08/2026, pedido explícito do Stefano — parar de tentar acertar
-// o desenho exato por geração (isso causou o bug real de um iPhone 17 exibir
-// foto de iPhone 11). Agora TODO iPhone da mesma cor usa a MESMA imagem
-// genérica premium, e a diferença entre modelos fica só no nome/preço, que
-// são reais. "Não tem problema, eu mesmo autorizo, 100%" — dito por ele.
-export function slugImagem(categoria, nome) {
+// iPhone LACRADO: imagem genérica única por cor (pedido do Stefano,
+// 31/08/2026 — "não tem problema, eu mesmo autorizo, 100%"). Na prática o
+// Lacrado é quase todo geração 17, então a imagem premium moderna bate bem
+// — e de qualquer forma o Lacrado já ganhou foto REAL do fornecedor por
+// cima disso (ver imagens/fornecedor/).
+//
+// iPhone SEMINOVO: ⚠️ REVERTIDO no mesmo dia — o seminovo cobre gerações de
+// 11 a 17, e a imagem genérica (sempre com cara de aparelho novo/atual)
+// ficava incoerente num iPhone 11 ou 13. Stefano: "estava ótimo
+// anteriormente... o que você fez nos seminovos pode desfazer." Volta a ser
+// uma imagem por família (categoria+modelo) + cor, respeitando a geração.
+export function slugImagem(categoria, nome, condicao) {
   if (categoria === 'iPhone') {
     const cor = corDe(nome);
-    return cor ? `iphone-generico-${cor}` : 'iphone-generico';
+    if (condicao === 'Lacrado') {
+      return cor ? `iphone-generico-${cor}` : 'iphone-generico';
+    }
+    const base = slugFamilia(categoria, nome);
+    return cor ? `${base}-${cor}` : base;
   }
   const base = slugFamilia(categoria, nome);
   if (!CATEGORIAS_POR_COR.has(categoria)) return base;

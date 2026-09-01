@@ -158,3 +158,25 @@
 - `wa-fornecedores/server.mjs`: o aviso automático de WhatsApp agora inclui
   quando o QA trava algo, não só "X novos, Y atualizados" — senão o
   bloqueio passaria silencioso até alguém abrir o catálogo.
+
+## 2026-08-31 (reversão seminovo + margens de acessório) — Claude
+- 🔴 **Revertida a imagem genérica nos iPhones SEMINOVO** — o Stefano flagrou:
+  "estava ótimo anteriormente... o que você fez pode desfazer". Seminovo
+  cobre gerações 11 a 17; a imagem genérica (sempre visual de flagship
+  2025) ficava incoerente num aparelho antigo. Voltou a ser imagem POR
+  GERAÇÃO + cor (`desenhoDoModelo`), como era antes da simplificação.
+  Lacrado continua genérico (é quase todo geração 17, e já tem foto real
+  por cima mesmo). `slugImagem()` agora recebe `condicao` e bifurca.
+  91 das 94 imagens necessárias já existiam (nunca foram apagadas); só
+  3 (iPhone 17 Pro Max "Nunca Ativo") precisaram de arquivo novo — sem
+  crédito na chave OpenAI, reaproveitadas as imagens já existentes do
+  17 Pro Max normal (mesmo aparelho, resultado idêntico).
+- **Margens especiais por categoria**, ditadas pelo Stefano: Acessório
+  (cabo/fonte/EarPods/AirTag) = 100% do custo (era R$650 fixo, deixava
+  cabo de R$15 vendendo por R$665); Fone sem fio (AirPods, Buds) = R$500
+  fixo (é caro feito celular, mas não no patamar de R$650/850).
+  iPhone/Xiaomi/etc. continuam na fórmula antiga, intocada.
+  Corrigido em `ingerir.mjs` (categoria) e replicado em `admin/index.html`
+  — achado e corrigido um bug ali: a categoria só era calculada DEPOIS de
+  chamar calcPrecos (ordem errada, ia quebrar a publicação pelo admin).
+  Nome "🎧 AirPods Pro 3:" limpo pra "AirPods Pro 3".
