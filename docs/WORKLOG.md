@@ -108,3 +108,18 @@
 - Página de produto: cartão presencial agora mostra parcela em 10x (igual
   ao link), com o total em letra pequena embaixo — pedido do Stefano pra
   ficar no mesmo padrão.
+
+## 2026-08-31 (foto real) — Claude
+- Primeira foto REAL aplicada: `imagens/fornecedor/iphone-lacrado-easystore.jpg`,
+  confirmada pelo Stefano como vinda da biblioteca do EasyStore (nome do
+  arquivo original batia: "iphone Easy.jpeg"). Mostra 3 caixas seladas
+  (azul, laranja, silver) numa foto real de mão.
+  Resolução baixa (387x516) e as 3 caixas sobrepostas impedem recorte limpo
+  por cor — usada como foto genérica de "iPhone Lacrado" nos 26 produtos
+  dessa condição, substituindo o ícone gerado por IA só nesse grupo.
+  Fica fora de `imagens/produtos/` de propósito — é o critério que
+  `aplicar-imagens.mjs` usa pra NUNCA sobrescrever foto real com a gerada.
+- Vários outros prints que o Stefano mandou foram identificados como
+  material de terceiro (nomes de arquivo confirmaram): foto oficial de
+  divulgação da Apple, foto de anúncio de capinha na Amazon, downloads
+  genéricos do Google Images ("images.jpeg", "images (1).jpeg"). Recusados.
