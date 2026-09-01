@@ -18,6 +18,7 @@
 
 import { parseTabelaFornecedor } from './parse-fornecedor.mjs';
 import { consolidar, chaveProduto } from './consolidar.mjs';
+import { auditarCatalogo, bloquear, relatorio } from './auditor.mjs';
 
 const MARGEM_ATE_4K = 650;
 const MARGEM_ACIMA_4K = 850;
@@ -81,6 +82,9 @@ const consolidado = consolidar(listas);
 //    pra um produto que já existe não entrar de novo com código novo.
 const catalogo = JSON.parse(await Bun.file('catalogo.json').text());
 const produtos = catalogo.produtos;
+// Snapshot ANTES de qualquer mudança de hoje — é a referência de histórico
+// que o QA usa pra pegar queda suspeita de preço no próprio produto.
+const antesDeHoje = new Map(produtos.map((p) => [p.codigo, { custo: p.custo }]));
 // Um produto do fornecedor pode casar com VÁRIOS do catálogo: a base antiga
 // tem uma linha por cor (XMI-0012 Preto, 0013 Azul, 0014 Verde = o mesmo
 // aparelho), enquanto a tabela nova traz as cores juntas. Se atualizasse só
@@ -156,9 +160,22 @@ for (const a of atualizados) {
   console.log(`      PIX ${R(a.antes)} → ${R(a.depois)}`);
 }
 
+// 3b. QA de preço — SEMPRE roda, mesmo em dry-run, pra avisar antes de
+// aplicar. Pedido do Stefano (31/08/2026, depois de um iPad com custo R$16
+// escapar pro ar): "toda vez que se atualizar ele tem que rodar e procurar
+// esse tipo de erro" — não é mais um script separado que alguém precisa
+// lembrar de rodar, é parte do próprio pipeline de ingestão.
+const reprovados = auditarCatalogo(produtos, antesDeHoje);
+console.log(relatorio(reprovados, produtos.length));
+
 if (!APLICAR) {
   console.log('\n(dry-run — nada foi gravado. use --aplicar)');
   process.exit(0);
+}
+
+if (reprovados.length) {
+  bloquear(reprovados);
+  console.log(`⚠️  ${reprovados.length} item(ns) travado(s) em "Consultar Disponibilidade" pelo QA — resto do catálogo segue normal`);
 }
 
 catalogo.meta.ultima_atualizacao = new Date().toISOString().slice(0, 10);

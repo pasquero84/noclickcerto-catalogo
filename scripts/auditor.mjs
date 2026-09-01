@@ -5,6 +5,11 @@
 // Ideia do Stefano (31/08/2026): "se sair o iPhone 17 Pro Max por R$700, isso
 // não existe — só em golpe. Provavelmente é erro de digitação do fornecedor ou
 // da margem. O agente não publica esse item e libera o resto do catálogo."
+// E depois (mesmo dia, achado um erro de verdade — iPad com custo R$16):
+// "tem que ter esse cara [o QA], mas toda vez que se atualizar ele tem que
+// rodar e procurar esse tipo de erro" — por isso virou FUNÇÃO reaproveitável
+// (auditarCatalogo), chamada de dentro de `ingerir.mjs` a cada publicação,
+// não só quando alguém lembra de rodar na mão.
 //
 // A referência NÃO é preço de mercado externo (fonte frágil, muda toda hora e
 // depende de scraping que quebra). São três sinais que já temos em casa e são
@@ -21,13 +26,14 @@
 // Item reprovado NÃO vai pro ar: fica com status "Consultar Disponibilidade"
 // e é reportado. O resto do catálogo publica normal.
 //
-// uso: bun scripts/auditor.mjs                    (audita catalogo.json local)
-//      bun scripts/auditor.mjs --aplicar          (marca reprovados p/ consulta)
+// uso standalone: bun scripts/auditor.mjs                 (audita catalogo.json local)
+//                 bun scripts/auditor.mjs --aplicar       (marca reprovados p/ consulta)
+// uso como lib:   import { auditarCatalogo } from './auditor.mjs'
 // ============================================================
 
 const QUEDA_MAX = 0.40;      // >40% abaixo do próprio preço anterior
 const ABAIXO_PARES = 0.50;   // <50% da mediana dos pares
-const PUBLICADO = 'https://catalogo.noclickcerto.com.br/catalogo.json';
+export const PUBLICADO_URL = 'https://catalogo.noclickcerto.com.br/catalogo.json';
 
 // Chão por categoria (custo do fornecedor, não preço de venda). Abaixo disso
 // é erro de digitação, não oportunidade.
@@ -36,21 +42,6 @@ const PISO_CUSTO = {
   Xiaomi: 250, Realme: 250, Tablet: 250, Fone: 40, Acessório: 15, Robô: 300,
 };
 
-const APLICAR = process.argv.includes('--aplicar');
-const catalogo = JSON.parse(await Bun.file('catalogo.json').text());
-const produtos = catalogo.produtos;
-
-// ── referência 1: o que está publicado hoje ──
-let publicado = new Map();
-try {
-  const r = await fetch(PUBLICADO, { signal: AbortSignal.timeout(15000) });
-  const j = await r.json();
-  for (const p of j.produtos || []) publicado.set(p.codigo, p);
-} catch {
-  console.log('(não consegui ler o catálogo publicado — auditoria segue sem o histórico)');
-}
-
-// ── referência 2: mediana dos pares (mesma categoria + geração + condição) ──
 function geracao(nome) {
   const m = nome.match(/\b(\d{1,2})\b/);
   return m ? m[1] : '?';
@@ -75,74 +66,102 @@ function mediana(ns) {
   const m = Math.floor(a.length / 2);
   return a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2;
 }
+export const brl = (v) => 'R$ ' + Number(v).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
 
-const grupos = new Map();
-for (const p of produtos) {
-  if (p.oculto) continue; // lixo já oculto não deve poluir a mediana de referência
-  const k = chavePar(p);
-  if (!grupos.has(k)) grupos.set(k, []);
-  grupos.get(k).push(p.custo);
-}
-
-// ── audita ──
-const reprovados = [];
-const brl = (v) => 'R$ ' + Number(v).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
-
-for (const p of produtos) {
-  if (p.oculto) continue; // já está fora da vitrine, não precisa auditar
-  const motivos = [];
-
-  // 1. histórico
-  const antes = publicado.get(p.codigo);
-  if (antes?.custo && p.custo < antes.custo * (1 - QUEDA_MAX)) {
-    const queda = Math.round((1 - p.custo / antes.custo) * 100);
-    motivos.push(`caiu ${queda}% vs publicado (${brl(antes.custo)} → ${brl(p.custo)})`);
+/**
+ * Audita uma lista de produtos. `publicadoMap` é um Map codigo->{custo} do
+ * estado ANTERIOR (do site no ar, ou de antes desta ingestão — qualquer
+ * "antes" confiável serve pro sinal de histórico).
+ * Retorna [{ produto, motivos }] — não muta nada, quem chama decide o que
+ * fazer (marcar Consultar Disponibilidade, só logar, etc).
+ */
+export function auditarCatalogo(produtos, publicadoMap = new Map()) {
+  const grupos = new Map();
+  for (const p of produtos) {
+    if (p.oculto) continue; // lixo já oculto não deve poluir a mediana de referência
+    const k = chavePar(p);
+    if (!grupos.has(k)) grupos.set(k, []);
+    grupos.get(k).push(p.custo);
   }
 
-  // 2. pares
-  const pares = (grupos.get(chavePar(p)) || []).filter((c) => c !== p.custo);
-  if (pares.length >= 2) {
-    const med = mediana(pares);
-    if (p.custo < med * ABAIXO_PARES) {
-      motivos.push(`${brl(p.custo)} é menos da metade da mediana dos pares (${brl(med)})`);
+  const reprovados = [];
+  for (const p of produtos) {
+    if (p.oculto) continue; // já está fora da vitrine, não precisa auditar
+    const motivos = [];
+
+    const antes = publicadoMap.get(p.codigo);
+    if (antes?.custo && p.custo < antes.custo * (1 - QUEDA_MAX)) {
+      const queda = Math.round((1 - p.custo / antes.custo) * 100);
+      motivos.push(`caiu ${queda}% vs antes (${brl(antes.custo)} → ${brl(p.custo)})`);
     }
+
+    const pares = (grupos.get(chavePar(p)) || []).filter((c) => c !== p.custo);
+    if (pares.length >= 2) {
+      const med = mediana(pares);
+      if (p.custo < med * ABAIXO_PARES) {
+        motivos.push(`${brl(p.custo)} é menos da metade da mediana dos pares (${brl(med)})`);
+      }
+    }
+
+    const piso = PISO_CUSTO[p.categoria];
+    if (piso && p.custo < piso) {
+      motivos.push(`custo abaixo do piso de ${p.categoria} (${brl(piso)})`);
+    }
+
+    if (motivos.length) reprovados.push({ produto: p, motivos });
+  }
+  return reprovados;
+}
+
+/** Aplica o bloqueio: marca Consultar Disponibilidade + guarda o motivo. */
+export function bloquear(reprovados) {
+  for (const { produto, motivos } of reprovados) {
+    produto.status = 'Consultar Disponibilidade';
+    produto.auditoria_bloqueio = { em: new Date().toISOString().slice(0, 10), motivos };
+  }
+}
+
+export function relatorio(reprovados, totalProdutos) {
+  const linhas = [`\nAuditoria de ${totalProdutos} produtos`];
+  if (!reprovados.length) {
+    linhas.push('✓ nenhum preço suspeito — catálogo liberado');
+    return linhas.join('\n');
+  }
+  linhas.push(`⚠️  ${reprovados.length} item(ns) REPROVADO(S) — não vão ao ar:\n`);
+  for (const { produto, motivos } of reprovados) {
+    linhas.push(`  ${produto.codigo}  ${produto.nome}`);
+    linhas.push(`     custo ${brl(produto.custo)} · venderia por ${brl(produto.preco_pix)} no Pix`);
+    for (const m of motivos) linhas.push(`     ✗ ${m}`);
+    linhas.push('');
+  }
+  return linhas.join('\n');
+}
+
+// ── CLI standalone ──
+if (import.meta.main) {
+  const APLICAR = process.argv.includes('--aplicar');
+  const catalogo = JSON.parse(await Bun.file('catalogo.json').text());
+
+  let publicado = new Map();
+  try {
+    const r = await fetch(PUBLICADO_URL, { signal: AbortSignal.timeout(15000) });
+    const j = await r.json();
+    for (const p of j.produtos || []) publicado.set(p.codigo, p);
+  } catch {
+    console.log('(não consegui ler o catálogo publicado — auditoria segue sem o histórico)');
   }
 
-  // 3. piso
-  const piso = PISO_CUSTO[p.categoria];
-  if (piso && p.custo < piso) {
-    motivos.push(`custo abaixo do piso de ${p.categoria} (${brl(piso)})`);
+  const reprovados = auditarCatalogo(catalogo.produtos, publicado);
+  console.log(relatorio(reprovados, catalogo.produtos.length));
+
+  if (!reprovados.length) process.exit(0);
+  if (!APLICAR) {
+    console.log('(auditoria apenas — use --aplicar pra marcar como "Consultar Disponibilidade")');
+    process.exit(2);
   }
 
-  if (motivos.length) reprovados.push({ produto: p, motivos });
-}
-
-// ── relatório ──
-console.log(`\nAuditoria de ${produtos.length} produtos`);
-console.log(`  referência: histórico publicado (${publicado.size} itens), pares e piso por categoria\n`);
-
-if (!reprovados.length) {
-  console.log('✓ nenhum preço suspeito — catálogo liberado pra publicar');
-  process.exit(0);
-}
-
-console.log(`⚠️  ${reprovados.length} item(ns) REPROVADO(S) — não devem ir ao ar:\n`);
-for (const { produto, motivos } of reprovados) {
-  console.log(`  ${produto.codigo}  ${produto.nome}`);
-  console.log(`     custo ${brl(produto.custo)} · venderia por ${brl(produto.preco_pix)} no Pix`);
-  for (const m of motivos) console.log(`     ✗ ${m}`);
-  console.log('');
-}
-
-if (!APLICAR) {
-  console.log('(auditoria apenas — use --aplicar pra marcar como "Consultar Disponibilidade")');
+  bloquear(reprovados);
+  await Bun.write('catalogo.json', JSON.stringify(catalogo, null, 2));
+  console.log(`✓ ${reprovados.length} item(ns) marcado(s) — o resto do catálogo segue normal`);
   process.exit(2);
 }
-
-for (const { produto, motivos } of reprovados) {
-  produto.status = 'Consultar Disponibilidade';
-  produto.auditoria_bloqueio = { em: new Date().toISOString().slice(0, 10), motivos };
-}
-await Bun.write('catalogo.json', JSON.stringify(catalogo, null, 2));
-console.log(`✓ ${reprovados.length} item(ns) marcado(s) como "Consultar Disponibilidade" — o resto do catálogo segue normal`);
-process.exit(2);

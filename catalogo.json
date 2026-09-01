@@ -1761,31 +1761,24 @@
       "nome": "iPad 11 128GB Branco",
       "categoria": "iPad",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR002",
-      "custo": 16,
-      "preco_venda": 739.26,
-      "preco_pix": 666,
-      "preco_10x": 77.92,
+      "custo": 1650,
+      "preco_venda": 2553,
+      "preco_pix": 2300,
+      "preco_10x": 269.1,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 739.26,
-      "preco_link": 779.22,
+      "preco_cartao": 2553,
+      "preco_link": 2691,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/ipad-ipad-11.jpg",
       "fotos": [
         "/imagens/produtos/ipad-ipad-11.jpg"
-      ],
-      "auditoria_bloqueio": {
-        "em": "2026-09-01",
-        "motivos": [
-          "R$ 16 é menos da metade da mediana dos pares (R$ 1.999)",
-          "custo abaixo do piso de iPad (R$ 500)"
-        ]
-      }
+      ]
     },
     {
       "codigo": "IPD-0002",
@@ -1840,30 +1833,24 @@
       "nome": "MacBook Air 13 M4 16/256 2025 Midnight",
       "categoria": "MacBook",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 2025,
-      "preco_venda": 2969.25,
-      "preco_pix": 2675,
-      "preco_10x": 312.98,
-      "lucro_pix": 650,
-      "lucro_cartao": 650,
+      "custo": 5025,
+      "preco_venda": 6521.25,
+      "preco_pix": 5875,
+      "preco_10x": 687.38,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2969.25,
-      "preco_link": 3129.75,
+      "preco_cartao": 6521.25,
+      "preco_link": 6873.75,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg",
       "fotos": [
         "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg"
-      ],
-      "auditoria_bloqueio": {
-        "em": "2026-09-01",
-        "motivos": [
-          "R$ 2.025 é menos da metade da mediana dos pares (R$ 5.850)"
-        ]
-      }
+      ]
     },
     {
       "codigo": "MCB-0002",

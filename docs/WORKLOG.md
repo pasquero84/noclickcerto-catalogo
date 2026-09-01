@@ -141,3 +141,20 @@
     sempre correta), 0 resíduo de "nota fiscal" indevida.
   - Códigos duplicados (ACS-0010/11/12) confirmados — são todos os itens
     lixo já ocultos, sem risco pro que está no ar.
+
+## 2026-08-31 (QA permanente) — Claude
+- 🔴 Corrigidos os 2 valores que o Stefano confirmou: iPad 11 128GB Branco
+  custo R$16→R$1.650 (Pix R$2.300), MacBook Air M4 Midnight custo
+  R$2.025→R$5.025 (Pix R$5.875). Ambos voltaram a vender.
+- **QA de preço virou parte permanente do pipeline**, não script avulso.
+  Pedido do Stefano: "toda vez que se atualizar ele tem que rodar e procurar
+  esse tipo de erro". `auditor.mjs` foi refatorado — a lógica virou função
+  exportável (`auditarCatalogo`, `bloquear`, `relatorio`) — e `ingerir.mjs`
+  chama isso automaticamente a cada ingestão, ANTES de gravar/publicar,
+  comparando contra o preço do produto de ANTES desta mesma rodada (não
+  depende de fetch externo). Testado com um erro simulado idêntico ao
+  exemplo do Stefano (17 Pro Max por R$700 de custo) — travou os 3 produtos
+  certos, com o motivo certo, sem publicar.
+- `wa-fornecedores/server.mjs`: o aviso automático de WhatsApp agora inclui
+  quando o QA trava algo, não só "X novos, Y atualizados" — senão o
+  bloqueio passaria silencioso até alguém abrir o catálogo.
