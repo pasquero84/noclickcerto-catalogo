@@ -102,9 +102,14 @@ img{max-width:100%;display:block}
 .sec-cnt{font-size:12.5px;color:var(--ink-3);font-weight:600}
 
 /* ── grade ────────────────────────────────────────────────── */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(288px,1fr));gap:16px}
-@media(max-width:560px){
-  .grid{grid-template-columns:1fr;gap:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+@media(max-width:640px){
+  /* pedido do Stefano: 2 itens por linha no celular, não 1 — a rolagem tem
+     que mostrar de 2 a 4 produtos por vez, não um catálogo "vertical infinito" */
+  .grid{grid-template-columns:1fr 1fr;gap:9px}
+}
+@media(max-width:380px){
+  .grid{gap:7px}
 }
 
 /* ── card ─────────────────────────────────────────────────── */
@@ -113,9 +118,13 @@ img{max-width:100%;display:block}
   transition:box-shadow .18s,border-color .18s,transform .18s}
 @media(hover:hover){.card:hover{box-shadow:var(--shadow-h);border-color:var(--line-strong);transform:translateY(-2px)}}
 
-.c-media{position:relative;background:var(--alt);aspect-ratio:4/3;
-  display:flex;align-items:center;justify-content:center;overflow:hidden}
-.c-media img{width:100%;height:100%;object-fit:cover}
+.c-media{position:relative;background:#fdfdfd;aspect-ratio:1/1;
+  display:flex;align-items:center;justify-content:center;overflow:hidden;
+  border-bottom:1px solid var(--line)}
+/* contain, não cover: a imagem gerada já vem com o produto centralizado em
+   fundo branco — cover estava cortando o aparelho nas bordas. Quadrado dá
+   espaço de sobra pro aparelho inteiro (é vertical, mais alto que largo). */
+.c-media img{width:100%;height:100%;object-fit:contain;padding:10%}
 .c-ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;
   background:linear-gradient(160deg,#fbfcfd 0%,#eef1f5 100%)}
 .c-ph svg{height:78%;width:auto;filter:drop-shadow(0 6px 14px rgba(16,24,40,.16))}
@@ -128,35 +137,46 @@ img{max-width:100%;display:block}
 .t-sem{background:#fff;color:var(--ink-2)}
 .t-con{background:var(--warn-bg);color:var(--warn)}
 
-.c-body{padding:14px 15px 0;display:flex;flex-direction:column;gap:3px;flex:1}
-.c-name{font-size:16.5px;font-weight:700;letter-spacing:-.3px;line-height:1.28;color:var(--ink)}
-.c-var{font-size:13px;color:var(--ink-2);font-weight:500}
+.c-body{padding:12px 12px 0;display:flex;flex-direction:column;gap:3px;flex:1}
+@media(min-width:641px){.c-body{padding:14px 15px 0}}
+.c-name{font-size:14px;font-weight:700;letter-spacing:-.2px;line-height:1.25;color:var(--ink)}
+@media(min-width:641px){.c-name{font-size:16.5px}}
+.c-var{font-size:11.5px;color:var(--ink-2);font-weight:500}
+@media(min-width:641px){.c-var{font-size:13px}}
 
 .c-price{margin-top:9px}
-.p-main{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap}
-.p-val{font-size:27px;font-weight:800;letter-spacing:-.9px;color:var(--ink);line-height:1.08}
-.p-pix{font-size:12px;font-weight:800;color:var(--pix);background:var(--pix-bg);
-  padding:3px 8px;border-radius:6px;letter-spacing:.3px}
-.p-sub{font-size:13px;color:var(--ink-2);margin-top:3px}
+.p-old{font-size:12px;color:var(--ink-3);text-decoration:line-through;font-weight:600}
+.p-main{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+.p-val{font-size:23px;font-weight:800;letter-spacing:-.8px;color:var(--ink);line-height:1.08}
+@media(min-width:641px){.p-val{font-size:27px}}
+.p-pix{font-size:10.5px;font-weight:800;color:var(--pix);background:var(--pix-bg);
+  padding:2.5px 7px;border-radius:6px;letter-spacing:.2px;white-space:nowrap}
+@media(min-width:641px){.p-pix{font-size:12px;padding:3px 8px}}
+.p-sub{font-size:11.5px;color:var(--ink-2);margin-top:3px}
+@media(min-width:641px){.p-sub{font-size:13px}}
+.p-econ{font-size:11px;font-weight:700;color:var(--warn);margin-top:2px}
 .p-sub b{color:var(--ink);font-weight:600}
 
-.c-perks{margin-top:11px;display:flex;flex-direction:column;gap:4px;
-  font-size:12.5px;color:var(--ink-2);font-weight:500}
+.c-perks{margin-top:9px;display:flex;flex-direction:column;gap:3px;
+  font-size:10.5px;color:var(--ink-2);font-weight:500}
+@media(min-width:641px){.c-perks{margin-top:11px;gap:4px;font-size:12.5px}}
 .c-perks div{display:flex;align-items:center;gap:6px}
 
-.c-foot{padding:13px 15px 15px;display:flex;gap:8px;margin-top:auto}
-.btn{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;
-  border-radius:11px;padding:13px 10px;font-size:13.5px;font-weight:700;
+.c-foot{padding:11px 12px 12px;display:flex;gap:6px;margin-top:auto}
+@media(min-width:641px){.c-foot{padding:13px 15px 15px;gap:8px}}
+.btn{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;
+  border-radius:10px;padding:11px 6px;font-size:11.5px;font-weight:700;
   font-family:inherit;cursor:pointer;border:none;text-align:center;
   line-height:1.2;letter-spacing:-.1px;transition:background .15s,transform .1s}
-@media(max-width:560px){.btn{font-size:14.5px;padding:14px}}
+@media(min-width:641px){.btn{font-size:14.5px;padding:14px}}
 .btn:active{transform:scale(.985)}
 .btn-wa{background:var(--wa);color:#fff}
 .btn-wa:active{background:var(--wa-hover)}
 .btn-con{background:var(--warn-bg);color:var(--warn);border:1.5px solid #f4d9ae}
-.btn-ver{flex:0 0 46px;background:var(--alt);border:1px solid var(--line-strong);
-  color:var(--ink-2);font-size:16px;border-radius:11px;display:flex;
+.btn-ver{flex:0 0 34px;background:var(--alt);border:1px solid var(--line-strong);
+  color:var(--ink-2);font-size:14px;border-radius:10px;display:flex;
   align-items:center;justify-content:center}
+@media(min-width:641px){.btn-ver{flex:0 0 46px;font-size:16px;border-radius:11px}}
 
 /* ── vazio / carregando ───────────────────────────────────── */
 .empty,.loading{grid-column:1/-1;text-align:center;padding:52px 20px;color:var(--ink-2)}
@@ -338,10 +358,16 @@ function card(p){
     ? `<img src="${foto}" alt="${nome}" loading="lazy" decoding="async">`
     : `<div class="c-ph">${silhueta(cat,corDoProduto(p.nome))}</div>`;
 
+  // Âncora De/Por: o "De" é o preço do link (mesmo produto, mesmo negócio,
+  // maior porque embute a taxa do link) — não é número inventado, é a
+  // própria fórmula de pagamento da casa. Ajuda a vender sem ser dark pattern.
+  const economia = p.preco_link ? Math.round(p.preco_link - p.preco_pix) : 0;
   const preco=isC?'':`
     <div class="c-price">
+      ${p.preco_link?`<div class="p-old">De ${R2(p.preco_link)}</div>`:''}
       <div class="p-main"><span class="p-val">${R(p.preco_pix)}</span><span class="p-pix">no Pix</span></div>
       <div class="p-sub">${p.preco_10x?`ou <b>10× ${R2(p.preco_10x)}</b> no link`:''}${p.preco_cartao?` · cartão ${R2(p.preco_cartao)}`:''}</div>
+      ${economia>0?`<div class="p-econ">Economize ${R(economia)} pagando no Pix</div>`:''}
     </div>`;
 
   const garantia = p.condicao==='Lacrado'
@@ -398,7 +424,13 @@ function render(){
    184 e preço novo). Preço errado na tela é prejuízo, não detalhe. */
 fetch('/catalogo.json',{cache:'no-cache'})
   .then(r=>r.json())
-  .then(data=>{P=data.produtos;buildFilters();render();})
+  .then(data=>{
+    /* itens marcados como oculto=true são lixo de leitura de tabela do
+       fornecedor (linha de cor que virou produto, data de cabeçalho etc).
+       Ficam no JSON pra não perder histórico, mas não vão pra vitrine. */
+    P=(data.produtos||[]).filter(p=>!p.oculto);
+    buildFilters();render();
+  })
   .catch(()=>{document.getElementById('app').innerHTML='<div class="sec"><div class="grid"><div class="empty"><b>Não consegui carregar os produtos</b><div>Tente recarregar a página.</div></div></div></div>';});
 </script>
 </body>

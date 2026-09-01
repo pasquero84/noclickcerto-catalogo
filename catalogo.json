@@ -46,7 +46,7 @@
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "descricao": "",
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão japonesa. A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "destaque": false,
       "lancamento": false,
       "promocao": false,
@@ -86,6 +86,11 @@
         "Branco",
         "Laranja",
         "Silver"
+      ],
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão japonesa. A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
       ]
     },
     {
@@ -111,6 +116,11 @@
         "Branco",
         "Laranja",
         "Silver"
+      ],
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
       ]
     },
     {
@@ -130,7 +140,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 8602.5,
-      "preco_link": 9067.5
+      "preco_link": 9067.5,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0005",
@@ -149,7 +164,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 8380.5,
-      "preco_link": 8833.5
+      "preco_link": 8833.5,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0006",
@@ -168,7 +188,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 8380.5,
-      "preco_link": 8833.5
+      "preco_link": 8833.5,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-laranja.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0007",
@@ -187,7 +212,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 5816.4,
-      "preco_link": 6130.8
+      "preco_link": 6130.8,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17.jpg"
+      ]
     },
     {
       "codigo": "IPH-0008",
@@ -206,7 +236,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 5816.4,
-      "preco_link": 6130.8
+      "preco_link": 6130.8,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17.jpg"
+      ]
     },
     {
       "codigo": "IPH-0009",
@@ -225,7 +260,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 5816.4,
-      "preco_link": 6130.8
+      "preco_link": 6130.8,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17.jpg"
+      ]
     },
     {
       "codigo": "IPH-0010",
@@ -244,7 +284,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 5827.5,
-      "preco_link": 6142.5
+      "preco_link": 6142.5,
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-roxo.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17.jpg"
+      ]
     },
     {
       "codigo": "IPH-0011",
@@ -263,7 +308,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4606.5,
-      "preco_link": 4855.5
+      "preco_link": 4855.5,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras · Conector USB-C\nVersão de entrada da geração 17\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17e-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17e.jpg"
+      ]
     },
     {
       "codigo": "IPH-0012",
@@ -282,7 +332,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4549.89,
-      "preco_link": 4795.83
+      "preco_link": 4795.83,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras · Conector USB-C\nVersão de entrada da geração 17\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17e-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17e.jpg"
+      ]
     },
     {
       "codigo": "IPH-0013",
@@ -301,7 +356,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4662,
-      "preco_link": 4914
+      "preco_link": 4914,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15.jpg"
+      ]
     },
     {
       "codigo": "IPH-0014",
@@ -320,7 +380,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 8547,
-      "preco_link": 9009
+      "preco_link": 9009,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-silver.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0015",
@@ -339,7 +404,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 8491.5,
-      "preco_link": 8950.5
+      "preco_link": 8950.5,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-laranja.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0016",
@@ -358,7 +428,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 8491.5,
-      "preco_link": 8950.5
+      "preco_link": 8950.5,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0017",
@@ -381,6 +456,11 @@
       "cores": [
         "Desert",
         "Preto"
+      ],
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion, ilha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-pro-max-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16-pro-max.jpg"
       ]
     },
     {
@@ -403,6 +483,11 @@
       "preco_link": 5382,
       "cores": [
         "Preto"
+      ],
+      "descricao": "Tela de 6,3\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion, ilha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-pro-desert.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16-pro.jpg"
       ]
     },
     {
@@ -422,7 +507,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 4884,
-      "preco_link": 5148
+      "preco_link": 5148,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16.jpg"
+      ]
     },
     {
       "codigo": "IPH-0020",
@@ -441,7 +531,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 4884,
-      "preco_link": 5148
+      "preco_link": 5148,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-verde.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16.jpg"
+      ]
     },
     {
       "codigo": "IPH-0021",
@@ -463,6 +558,11 @@
       "preco_link": 4680,
       "cores": [
         "Azul"
+      ],
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16.jpg"
       ]
     },
     {
@@ -482,7 +582,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 5605.5,
-      "preco_link": 5908.5
+      "preco_link": 5908.5,
+      "descricao": "Tela de 6,7\" · 512 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-max-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0023",
@@ -501,7 +606,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 4939.5,
-      "preco_link": 5206.5
+      "preco_link": 5206.5,
+      "descricao": "Tela de 6,7\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-max-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0024",
@@ -520,7 +630,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 4939.5,
-      "preco_link": 5206.5
+      "preco_link": 5206.5,
+      "descricao": "Tela de 6,7\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-max-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0025",
@@ -539,7 +654,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 4218,
-      "preco_link": 4446
+      "preco_link": 4446,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-natural.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0026",
@@ -558,7 +678,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 4440,
-      "preco_link": 4680
+      "preco_link": 4680,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0027",
@@ -577,7 +702,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 4440,
-      "preco_link": 4680
+      "preco_link": 4680,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-pro-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0028",
@@ -596,7 +726,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3496.5,
-      "preco_link": 3685.5
+      "preco_link": 3685.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15.jpg"
+      ]
     },
     {
       "codigo": "IPH-0029",
@@ -615,7 +750,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3496.5,
-      "preco_link": 3685.5
+      "preco_link": 3685.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15.jpg"
+      ]
     },
     {
       "codigo": "IPH-0030",
@@ -634,7 +774,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 4051.5,
-      "preco_link": 4270.5
+      "preco_link": 4270.5,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 89%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-pro-max-roxo.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0031",
@@ -653,7 +798,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3607.5,
-      "preco_link": 3802.5
+      "preco_link": 3802.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-pro-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0032",
@@ -672,7 +822,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2775,
-      "preco_link": 2925
+      "preco_link": 2925,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14.jpg"
+      ]
     },
     {
       "codigo": "IPH-0033",
@@ -691,7 +846,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2775,
-      "preco_link": 2925
+      "preco_link": 2925,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14.jpg"
+      ]
     },
     {
       "codigo": "IPH-0034",
@@ -710,7 +870,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2775,
-      "preco_link": 2925
+      "preco_link": 2925,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-roxo.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14.jpg"
+      ]
     },
     {
       "codigo": "IPH-0035",
@@ -729,7 +894,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2808.3,
-      "preco_link": 2960.1
+      "preco_link": 2960.1,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-14-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-14.jpg"
+      ]
     },
     {
       "codigo": "IPH-0036",
@@ -748,7 +918,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3552,
-      "preco_link": 3744
+      "preco_link": 3744,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0037",
@@ -767,7 +942,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3552,
-      "preco_link": 3744
+      "preco_link": 3744,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0038",
@@ -786,7 +966,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3552,
-      "preco_link": 3744
+      "preco_link": 3744,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-dourado.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0039",
@@ -805,7 +990,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3552,
-      "preco_link": 3744
+      "preco_link": 3744,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0040",
@@ -824,7 +1014,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3552,
-      "preco_link": 3744
+      "preco_link": 3744,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0041",
@@ -843,7 +1038,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3552,
-      "preco_link": 3744
+      "preco_link": 3744,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0042",
@@ -862,7 +1062,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3052.5,
-      "preco_link": 3217.5
+      "preco_link": 3217.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0043",
@@ -881,7 +1086,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3052.5,
-      "preco_link": 3217.5
+      "preco_link": 3217.5,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0044",
@@ -900,7 +1110,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2719.5,
-      "preco_link": 2866.5
+      "preco_link": 2866.5,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13.jpg"
+      ]
     },
     {
       "codigo": "IPH-0045",
@@ -919,7 +1134,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2597.4,
-      "preco_link": 2737.8
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13.jpg"
+      ]
     },
     {
       "codigo": "IPH-0046",
@@ -938,7 +1158,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2597.4,
-      "preco_link": 2737.8
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-rosa.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13.jpg"
+      ]
     },
     {
       "codigo": "IPH-0047",
@@ -957,7 +1182,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2597.4,
-      "preco_link": 2737.8
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13.jpg"
+      ]
     },
     {
       "codigo": "IPH-0048",
@@ -976,7 +1206,12 @@
       "origem": "UAE",
       "garantia": "3 meses",
       "preco_cartao": 3108,
-      "preco_link": 3276
+      "preco_link": 3276,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-max-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0049",
@@ -995,7 +1230,12 @@
       "origem": "UAE",
       "garantia": "3 meses",
       "preco_cartao": 3108,
-      "preco_link": 3276
+      "preco_link": 3276,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-max-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0050",
@@ -1014,7 +1254,12 @@
       "origem": "UAE",
       "garantia": "3 meses",
       "preco_cartao": 3108,
-      "preco_link": 3276
+      "preco_link": 3276,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-max-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0051",
@@ -1033,7 +1278,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2652.9,
-      "preco_link": 2796.3
+      "preco_link": 2796.3,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-gold.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0052",
@@ -1052,7 +1302,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2597.4,
-      "preco_link": 2737.8
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0053",
@@ -1071,7 +1326,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2597.4,
-      "preco_link": 2737.8
+      "preco_link": 2737.8,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 100%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0054",
@@ -1090,7 +1350,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 8823.39,
-      "preco_link": 9300.33
+      "preco_link": 9300.33,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão nacional, homologada pela Anatel.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-laranja.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0055",
@@ -1109,7 +1374,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 8934.39,
-      "preco_link": 9417.33
+      "preco_link": 9417.33,
+      "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão nacional, homologada pela Anatel.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-max-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0056",
@@ -1133,6 +1403,11 @@
         "Azul",
         "Branco",
         "Silver"
+      ],
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-laranja.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro.jpg"
       ]
     },
     {
@@ -1157,6 +1432,11 @@
         "Azul",
         "Branco",
         "Silver"
+      ],
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro.jpg"
       ]
     },
     {
@@ -1181,6 +1461,11 @@
         "Azul",
         "Branco",
         "Silver"
+      ],
+      "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-17-pro-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-pro.jpg"
       ]
     },
     {
@@ -1200,7 +1485,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 6771,
-      "preco_link": 7137
+      "preco_link": 7137,
+      "descricao": "Tela de 6,3\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion, ilha dinâmica, botão de Controle da Câmera e Botão de Ação\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-pro-desert.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0060",
@@ -1219,7 +1509,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4882.89,
-      "preco_link": 5146.83
+      "preco_link": 5146.83,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-hn-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16-hn.jpg"
+      ]
     },
     {
       "codigo": "IPH-0061",
@@ -1238,7 +1533,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4882.89,
-      "preco_link": 5146.83
+      "preco_link": 5146.83,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-hn-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16-hn.jpg"
+      ]
     },
     {
       "codigo": "IPH-0062",
@@ -1257,7 +1557,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4993.89,
-      "preco_link": 5263.83
+      "preco_link": 5263.83,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-16-hn-branco.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-16-hn.jpg"
+      ]
     },
     {
       "codigo": "IPH-0063",
@@ -1276,7 +1581,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4806.3,
-      "preco_link": 5066.1
+      "preco_link": 5066.1,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-plus-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-plus.jpg"
+      ]
     },
     {
       "codigo": "IPH-0064",
@@ -1295,7 +1605,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4573.2,
-      "preco_link": 4820.4
+      "preco_link": 4820.4,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-hn-preto.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-hn.jpg"
+      ]
     },
     {
       "codigo": "IPH-0065",
@@ -1314,7 +1629,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4660.89,
-      "preco_link": 4912.83
+      "preco_link": 4912.83,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-15-hn-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-15-hn.jpg"
+      ]
     },
     {
       "codigo": "IPH-0066",
@@ -1333,7 +1653,12 @@
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 3385.5,
-      "preco_link": 3568.5
+      "preco_link": 3568.5,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-verde.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0067",
@@ -1352,7 +1677,12 @@
       "origem": "USA",
       "garantia": "1 mês",
       "preco_cartao": 3418.8,
-      "preco_link": 3603.6
+      "preco_link": 3603.6,
+      "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 95%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-gold.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-13-pro-max.jpg"
+      ]
     },
     {
       "codigo": "IPH-0068",
@@ -1371,7 +1701,12 @@
       "origem": "USA",
       "garantia": "1 mês",
       "preco_cartao": 2719.5,
-      "preco_link": 2866.5
+      "preco_link": 2866.5,
+      "descricao": "Tela de 6,1\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-azul.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0069",
@@ -1390,7 +1725,12 @@
       "origem": "USA",
       "garantia": "1 mês",
       "preco_cartao": 2553,
-      "preco_link": 2691
+      "preco_link": 2691,
+      "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nSensor LiDAR\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-12-pro-grafite.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-12-pro.jpg"
+      ]
     },
     {
       "codigo": "IPH-0070",
@@ -1409,7 +1749,12 @@
       "origem": "USA",
       "garantia": "1 mês",
       "preco_cartao": 2220,
-      "preco_link": 2340
+      "preco_link": 2340,
+      "descricao": "Tela de 5,8\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 75%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/iphone-iphone-11-pro-verde.jpg",
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-11-pro.jpg"
+      ]
     },
     {
       "codigo": "IPD-0001",
@@ -1428,7 +1773,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 739.26,
-      "preco_link": 779.22
+      "preco_link": 779.22,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/ipad-ipad-11.jpg",
+      "fotos": [
+        "/imagens/produtos/ipad-ipad-11.jpg"
+      ]
     },
     {
       "codigo": "IPD-0002",
@@ -1447,7 +1797,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2940.39,
-      "preco_link": 3099.33
+      "preco_link": 3099.33,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/ipad-ipad-11.jpg",
+      "fotos": [
+        "/imagens/produtos/ipad-ipad-11.jpg"
+      ]
     },
     {
       "codigo": "IPD-0003",
@@ -1466,7 +1821,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2940.39,
-      "preco_link": 3099.33
+      "preco_link": 3099.33,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/ipad-ipad-11.jpg",
+      "fotos": [
+        "/imagens/produtos/ipad-ipad-11.jpg"
+      ]
     },
     {
       "codigo": "MCB-0001",
@@ -1485,7 +1845,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2969.25,
-      "preco_link": 3129.75
+      "preco_link": 3129.75,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg",
+      "fotos": [
+        "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg"
+      ]
     },
     {
       "codigo": "MCB-0002",
@@ -1504,7 +1869,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 7437,
-      "preco_link": 7839
+      "preco_link": 7839,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg",
+      "fotos": [
+        "/imagens/produtos/macbook-macbook-air-13-m4-2025.jpg"
+      ]
     },
     {
       "codigo": "MCB-0003",
@@ -1523,7 +1893,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 7437,
-      "preco_link": 7839
+      "preco_link": 7839,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/macbook-macbook-air-13-m4-2025-sky-blue.jpg",
+      "fotos": [
+        "/imagens/produtos/macbook-macbook-air-13-m4-2025-sky-blue.jpg"
+      ]
     },
     {
       "codigo": "APW-0001",
@@ -1542,7 +1917,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 3051.39,
-      "preco_link": 3216.33
+      "preco_link": 3216.33,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-spacegray.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-spacegray.jpg"
+      ]
     },
     {
       "codigo": "APW-0002",
@@ -1561,7 +1941,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 3051.39,
-      "preco_link": 3216.33
+      "preco_link": 3216.33,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-rose.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-rose.jpg"
+      ]
     },
     {
       "codigo": "APW-0003",
@@ -1580,7 +1965,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 3141.3,
-      "preco_link": 3311.1
+      "preco_link": 3311.1,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-jetblack.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-s11-gps-46mm-m-l-jetblack.jpg"
+      ]
     },
     {
       "codigo": "APW-0004",
@@ -1599,7 +1989,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2940.39,
-      "preco_link": 3099.33
+      "preco_link": 3099.33,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-s11-gps-42mm-s-m-spacegray.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-s11-gps-42mm-s-m-spacegray.jpg"
+      ]
     },
     {
       "codigo": "APW-0005",
@@ -1618,7 +2013,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2385.39,
-      "preco_link": 2514.33
+      "preco_link": 2514.33,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-se-3-gps-40mm-s-m.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-se-3-gps-40mm-s-m.jpg"
+      ]
     },
     {
       "codigo": "APW-0006",
@@ -1637,7 +2037,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2440.89,
-      "preco_link": 2572.83
+      "preco_link": 2572.83,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/apple-watch-apple-watch-se-3-gps-40mm-s-m.jpg",
+      "fotos": [
+        "/imagens/produtos/apple-watch-apple-watch-se-3-gps-40mm-s-m.jpg"
+      ]
     },
     {
       "codigo": "ACS-0001",
@@ -1656,7 +2061,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 843.6,
-      "preco_link": 889.2
+      "preco_link": 889.2,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-fonte-20w-usb-c-apple.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-20w-usb-c-apple.jpg"
+      ]
     },
     {
       "codigo": "ACS-0002",
@@ -1675,7 +2085,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 843.6,
-      "preco_link": 889.2
+      "preco_link": 889.2,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-cabo-lightning-2m-apple.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-cabo-lightning-2m-apple.jpg"
+      ]
     },
     {
       "codigo": "ACS-0003",
@@ -1694,7 +2109,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 788.1,
-      "preco_link": 830.7
+      "preco_link": 830.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-cabo-tipo-c-c-1m-apple.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-cabo-tipo-c-c-1m-apple.jpg"
+      ]
     },
     {
       "codigo": "ACS-0004",
@@ -1713,7 +2133,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 810.3,
-      "preco_link": 854.1
+      "preco_link": 854.1,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-earpods-usb-c-apple.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-earpods-usb-c-apple.jpg"
+      ]
     },
     {
       "codigo": "ACS-0005",
@@ -1732,7 +2157,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1198.8,
-      "preco_link": 1263.6
+      "preco_link": 1263.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-airtag-pack-com-4.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-airtag-pack-com-4.jpg"
+      ]
     },
     {
       "codigo": "ACS-0006",
@@ -1751,7 +2181,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 738.15,
-      "preco_link": 778.05
+      "preco_link": 778.05,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-cabo-lightning.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-cabo-lightning.jpg"
+      ]
     },
     {
       "codigo": "ACS-0007",
@@ -1770,7 +2205,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 788.1,
-      "preco_link": 830.7
+      "preco_link": 830.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-fonte-35w.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-35w.jpg"
+      ]
     },
     {
       "codigo": "ACS-0008",
@@ -1789,7 +2229,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 765.9,
-      "preco_link": 807.3
+      "preco_link": 807.3,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-fonte-20w.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-20w.jpg"
+      ]
     },
     {
       "codigo": "ACS-0009",
@@ -1808,7 +2253,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 777,
-      "preco_link": 819
+      "preco_link": 819,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/acessorio-fone-tipo-c.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fone-tipo-c.jpg"
+      ]
     },
     {
       "codigo": "ROB-0001",
@@ -1827,7 +2277,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1825.95,
-      "preco_link": 1924.65
+      "preco_link": 1924.65,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/robo-robot-vacuum-s40c.jpg",
+      "fotos": [
+        "/imagens/produtos/robo-robot-vacuum-s40c.jpg"
+      ]
     },
     {
       "codigo": "FNE-0001",
@@ -1846,7 +2301,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1276.5,
-      "preco_link": 1345.5
+      "preco_link": 1345.5,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/fone-buds-5-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/fone-buds-5-pro.jpg"
+      ]
     },
     {
       "codigo": "TAB-0001",
@@ -1865,7 +2325,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2097.9,
-      "preco_link": 2211.3
+      "preco_link": 2211.3,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/tablet-redmi-pad-2.jpg",
+      "fotos": [
+        "/imagens/produtos/tablet-redmi-pad-2.jpg"
+      ]
     },
     {
       "codigo": "TAB-0002",
@@ -1884,7 +2349,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2097.9,
-      "preco_link": 2211.3
+      "preco_link": 2211.3,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/tablet-redmi-pad-2.jpg",
+      "fotos": [
+        "/imagens/produtos/tablet-redmi-pad-2.jpg"
+      ]
     },
     {
       "codigo": "TAB-0003",
@@ -1903,7 +2373,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1842.6,
-      "preco_link": 1942.2
+      "preco_link": 1942.2,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/tablet-redmi-pad-se.jpg",
+      "fotos": [
+        "/imagens/produtos/tablet-redmi-pad-se.jpg"
+      ]
     },
     {
       "codigo": "TAB-0004",
@@ -1922,7 +2397,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1842.6,
-      "preco_link": 1942.2
+      "preco_link": 1942.2,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/tablet-redmi-pad-se.jpg",
+      "fotos": [
+        "/imagens/produtos/tablet-redmi-pad-se.jpg"
+      ]
     },
     {
       "codigo": "XMI-0001",
@@ -1941,7 +2421,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1420.8,
-      "preco_link": 1497.6
+      "preco_link": 1497.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0002",
@@ -1960,7 +2445,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1420.8,
-      "preco_link": 1497.6
+      "preco_link": 1497.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0003",
@@ -1979,7 +2469,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1420.8,
-      "preco_link": 1497.6
+      "preco_link": 1497.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0004",
@@ -1998,7 +2493,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1298.7,
-      "preco_link": 1368.9
+      "preco_link": 1368.9,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0005",
@@ -2017,7 +2517,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1298.7,
-      "preco_link": 1368.9
+      "preco_link": 1368.9,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a5.jpg"
+      ]
     },
     {
       "codigo": "XMI-0006",
@@ -2036,7 +2541,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1465.2,
-      "preco_link": 1544.4
+      "preco_link": 1544.4,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0007",
@@ -2055,7 +2565,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1465.2,
-      "preco_link": 1544.4
+      "preco_link": 1544.4,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0008",
@@ -2074,7 +2589,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1376.4,
-      "preco_link": 1450.8
+      "preco_link": 1450.8,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0009",
@@ -2093,7 +2613,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1376.4,
-      "preco_link": 1450.8
+      "preco_link": 1450.8,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0010",
@@ -2112,7 +2637,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1376.4,
-      "preco_link": 1450.8
+      "preco_link": 1450.8,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0011",
@@ -2131,7 +2661,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1803.75,
-      "preco_link": 1901.25
+      "preco_link": 1901.25,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15.jpg"
+      ]
     },
     {
       "codigo": "XMI-0012",
@@ -2150,7 +2685,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1787.1,
-      "preco_link": 1883.7
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0013",
@@ -2169,7 +2709,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1787.1,
-      "preco_link": 1883.7
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0014",
@@ -2188,7 +2733,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1787.1,
-      "preco_link": 1883.7
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0015",
@@ -2207,7 +2757,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1587.3,
-      "preco_link": 1673.1
+      "preco_link": 1673.1,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0016",
@@ -2226,7 +2781,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1587.3,
-      "preco_link": 1673.1
+      "preco_link": 1673.1,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-15c.jpg"
+      ]
     },
     {
       "codigo": "XMI-0017",
@@ -2245,7 +2805,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2075.7,
-      "preco_link": 2187.9
+      "preco_link": 2187.9,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14s.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14s.jpg"
+      ]
     },
     {
       "codigo": "XMI-0018",
@@ -2264,7 +2829,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2075.7,
-      "preco_link": 2187.9
+      "preco_link": 2187.9,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14s.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14s.jpg"
+      ]
     },
     {
       "codigo": "XMI-0019",
@@ -2283,7 +2853,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2380.95,
-      "preco_link": 2509.65
+      "preco_link": 2509.65,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0020",
@@ -2302,7 +2877,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2380.95,
-      "preco_link": 2509.65
+      "preco_link": 2509.65,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0021",
@@ -2321,7 +2901,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1787.1,
-      "preco_link": 1883.7
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14.jpg"
+      ]
     },
     {
       "codigo": "XMI-0022",
@@ -2340,7 +2925,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1787.1,
-      "preco_link": 1883.7
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14.jpg"
+      ]
     },
     {
       "codigo": "XMI-0023",
@@ -2359,7 +2949,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2175.6,
-      "preco_link": 2293.2
+      "preco_link": 2293.2,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14-pro-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14-pro-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0024",
@@ -2378,7 +2973,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1787.1,
-      "preco_link": 1883.7
+      "preco_link": 1883.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15.jpg"
+      ]
     },
     {
       "codigo": "XMI-0025",
@@ -2397,7 +2997,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2086.8,
-      "preco_link": 2199.6
+      "preco_link": 2199.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0026",
@@ -2416,7 +3021,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2086.8,
-      "preco_link": 2199.6
+      "preco_link": 2199.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0027",
@@ -2435,7 +3045,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2203.35,
-      "preco_link": 2322.45
+      "preco_link": 2322.45,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0028",
@@ -2454,7 +3069,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2203.35,
-      "preco_link": 2322.45
+      "preco_link": 2322.45,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0029",
@@ -2473,7 +3093,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2708.4,
-      "preco_link": 2854.8
+      "preco_link": 2854.8,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0030",
@@ -2492,7 +3117,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2708.4,
-      "preco_link": 2854.8
+      "preco_link": 2854.8,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0031",
@@ -2511,7 +3141,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1481.85,
-      "preco_link": 1561.95
+      "preco_link": 1561.95,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0032",
@@ -2530,7 +3165,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1481.85,
-      "preco_link": 1561.95
+      "preco_link": 1561.95,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0033",
@@ -2549,7 +3189,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1481.85,
-      "preco_link": 1561.95
+      "preco_link": 1561.95,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0034",
@@ -2568,7 +3213,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1665,
-      "preco_link": 1755
+      "preco_link": 1755,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0035",
@@ -2587,7 +3237,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1665,
-      "preco_link": 1755
+      "preco_link": 1755,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c85.jpg"
+      ]
     },
     {
       "codigo": "XMI-0036",
@@ -2606,7 +3261,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1520.7,
-      "preco_link": 1602.9
+      "preco_link": 1602.9,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c81-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c81-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0037",
@@ -2625,7 +3285,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1520.7,
-      "preco_link": 1602.9
+      "preco_link": 1602.9,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c81-pro.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c81-pro.jpg"
+      ]
     },
     {
       "codigo": "XMI-0038",
@@ -2644,7 +3309,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1387.5,
-      "preco_link": 1462.5
+      "preco_link": 1462.5,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0039",
@@ -2663,7 +3333,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1387.5,
-      "preco_link": 1462.5
+      "preco_link": 1462.5,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0040",
@@ -2682,7 +3357,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1287.6,
-      "preco_link": 1357.2
+      "preco_link": 1357.2,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0041",
@@ -2701,7 +3381,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1398.6,
-      "preco_link": 1474.2
+      "preco_link": 1474.2,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0042",
@@ -2720,7 +3405,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1398.6,
-      "preco_link": 1474.2
+      "preco_link": 1474.2,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0043",
@@ -2739,7 +3429,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1398.6,
-      "preco_link": 1474.2
+      "preco_link": 1474.2,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-c71.jpg"
+      ]
     },
     {
       "codigo": "XMI-0044",
@@ -2758,7 +3453,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2375.4,
-      "preco_link": 2503.8
+      "preco_link": 2503.8,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0045",
@@ -2777,7 +3477,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2375.4,
-      "preco_link": 2503.8
+      "preco_link": 2503.8,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0046",
@@ -2796,7 +3501,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2375.4,
-      "preco_link": 2503.8
+      "preco_link": 2503.8,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-m8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0047",
@@ -2815,7 +3525,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2863.8,
-      "preco_link": 3018.6
+      "preco_link": 3018.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x7-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x7-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0048",
@@ -2834,7 +3549,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2786.1,
-      "preco_link": 2936.7
+      "preco_link": 2936.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0049",
@@ -2853,7 +3573,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2786.1,
-      "preco_link": 2936.7
+      "preco_link": 2936.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0050",
@@ -2872,7 +3597,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 3940.5,
-      "preco_link": 4153.5
+      "preco_link": 4153.5,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-max-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x8-pro-max-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0051",
@@ -2891,7 +3621,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 3940.5,
-      "preco_link": 4153.5
+      "preco_link": 4153.5,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-max-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x8-pro-max-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0052",
@@ -2910,7 +3645,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2075.7,
-      "preco_link": 2187.9
+      "preco_link": 2187.9,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14s.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14s.jpg"
+      ]
     },
     {
       "codigo": "XMI-0053",
@@ -2929,7 +3669,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2380.95,
-      "preco_link": 2509.65
+      "preco_link": 2509.65,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-14-pro-plus-5g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0054",
@@ -2948,7 +3693,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2203.35,
-      "preco_link": 2322.45
+      "preco_link": 2322.45,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-redmi-note-15-pro-4g.jpg"
+      ]
     },
     {
       "codigo": "XMI-0055",
@@ -2967,7 +3717,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2863.8,
-      "preco_link": 3018.6
+      "preco_link": 3018.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/xiaomi-poco-x7-pro-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/xiaomi-poco-x7-pro-5g.jpg"
+      ]
     },
     {
       "codigo": "RLM-0001",
@@ -2986,7 +3741,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1520.7,
-      "preco_link": 1602.9
+      "preco_link": 1602.9,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-note-70.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-note-70.jpg"
+      ]
     },
     {
       "codigo": "RLM-0002",
@@ -3005,7 +3765,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1520.7,
-      "preco_link": 1602.9
+      "preco_link": 1602.9,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-note-70.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-note-70.jpg"
+      ]
     },
     {
       "codigo": "RLM-0003",
@@ -3024,7 +3789,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1653.9,
-      "preco_link": 1743.3
+      "preco_link": 1743.3,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-note-70.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-note-70.jpg"
+      ]
     },
     {
       "codigo": "RLM-0004",
@@ -3043,7 +3813,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1653.9,
-      "preco_link": 1743.3
+      "preco_link": 1743.3,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-note-70.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-note-70.jpg"
+      ]
     },
     {
       "codigo": "RLM-0005",
@@ -3062,7 +3837,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1565.1,
-      "preco_link": 1649.7
+      "preco_link": 1649.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c71.jpg"
+      ]
     },
     {
       "codigo": "RLM-0006",
@@ -3081,7 +3861,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1565.1,
-      "preco_link": 1649.7
+      "preco_link": 1649.7,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c71.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c71.jpg"
+      ]
     },
     {
       "codigo": "RLM-0007",
@@ -3100,7 +3885,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1864.8,
-      "preco_link": 1965.6
+      "preco_link": 1965.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c71-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c71-5g.jpg"
+      ]
     },
     {
       "codigo": "RLM-0008",
@@ -3119,7 +3909,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 1864.8,
-      "preco_link": 1965.6
+      "preco_link": 1965.6,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c71-5g.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c71-5g.jpg"
+      ]
     },
     {
       "codigo": "RLM-0009",
@@ -3138,7 +3933,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2109,
-      "preco_link": 2223
+      "preco_link": 2223,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c85.jpg"
+      ]
     },
     {
       "codigo": "RLM-0010",
@@ -3157,7 +3957,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2109,
-      "preco_link": 2223
+      "preco_link": 2223,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/realme-realme-c85.jpg",
+      "fotos": [
+        "/imagens/produtos/realme-realme-c85.jpg"
+      ]
     },
     {
       "codigo": "FNE-0002",
@@ -3177,7 +3982,12 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2163.39,
-      "preco_link": 2280.33
+      "preco_link": 2280.33,
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
+      "foto_url": "/imagens/produtos/fone-airpods-pro-3.jpg",
+      "fotos": [
+        "/imagens/produtos/fone-airpods-pro-3.jpg"
+      ]
     },
     {
       "codigo": "ACS-0010",
@@ -3185,7 +3995,7 @@
       "nome_interno": "⚡ Cabo Lightning:",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR002",
       "custo": 15,
       "preco_venda": 738.15,
@@ -3197,7 +4007,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 738.15,
-      "preco_link": 778.05
+      "preco_link": 778.05,
+      "oculto": true,
+      "motivo_oculto": "linha com emoji virou produto duplicado",
+      "foto_url": "/imagens/produtos/acessorio-cabo-lightning.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-cabo-lightning.jpg"
+      ]
     },
     {
       "codigo": "ACS-0010",
@@ -3205,7 +4021,7 @@
       "nome_interno": "⚡ Fonte 35W:",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR002",
       "custo": 60,
       "preco_venda": 788.1,
@@ -3217,7 +4033,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 788.1,
-      "preco_link": 830.7
+      "preco_link": 830.7,
+      "oculto": true,
+      "motivo_oculto": "linha com emoji virou produto duplicado",
+      "foto_url": "/imagens/produtos/acessorio-fonte-35w.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-35w.jpg"
+      ]
     },
     {
       "codigo": "ACS-0010",
@@ -3225,7 +4047,7 @@
       "nome_interno": "⚡ Fonte 20W:",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR002",
       "custo": 40,
       "preco_venda": 765.9,
@@ -3237,7 +4059,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 765.9,
-      "preco_link": 807.3
+      "preco_link": 807.3,
+      "oculto": true,
+      "motivo_oculto": "linha com emoji virou produto duplicado",
+      "foto_url": "/imagens/produtos/acessorio-fonte-20w.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-fonte-20w.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3245,7 +4073,7 @@
       "nome_interno": "ista atualizada  05/06/",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 2100,
       "preco_venda": 3052.5,
@@ -3257,7 +4085,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 3052.5,
-      "preco_link": 3217.5
+      "preco_link": 3217.5,
+      "oculto": true,
+      "motivo_oculto": "fragmento de cabecalho/data da tabela do fornecedor",
+      "foto_url": "/imagens/produtos/acessorio-ista-atualizada.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-ista-atualizada.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3265,7 +4099,7 @@
       "nome_interno": "SILVE",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 6600,
       "preco_venda": 8269.5,
@@ -3277,7 +4111,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 8269.5,
-      "preco_link": 8716.5
+      "preco_link": 8716.5,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-silve.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-silve.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3285,7 +4125,7 @@
       "nome_interno": "LARANJA",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 6350,
       "preco_venda": 7992,
@@ -3297,7 +4137,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 7992,
-      "preco_link": 8424
+      "preco_link": 8424,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3305,7 +4151,7 @@
       "nome_interno": "AZUL",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 6350,
       "preco_venda": 7992,
@@ -3317,7 +4163,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 7992,
-      "preco_link": 8424
+      "preco_link": 8424,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3325,7 +4177,7 @@
       "nome_interno": "16 256GB  🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 3750,
       "preco_venda": 4884,
@@ -3337,7 +4189,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4884,
-      "preco_link": 5148
+      "preco_link": 5148,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-16.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-16.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3345,7 +4203,7 @@
       "nome_interno": "15  256GB  🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 2600,
       "preco_venda": 3607.5,
@@ -3357,7 +4215,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 3607.5,
-      "preco_link": 3802.5
+      "preco_link": 3802.5,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-15.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-15.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3365,7 +4229,7 @@
       "nome_interno": "15  128GB  🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 2500,
       "preco_venda": 3496.5,
@@ -3377,7 +4241,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 3496.5,
-      "preco_link": 3685.5
+      "preco_link": 3685.5,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-15.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-15.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3385,7 +4255,7 @@
       "nome_interno": "14 PRO MAX 128 GB 🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 3000,
       "preco_venda": 4051.5,
@@ -3397,7 +4267,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4051.5,
-      "preco_link": 4270.5
+      "preco_link": 4270.5,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-14-pro-max.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-14-pro-max.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3405,7 +4281,7 @@
       "nome_interno": "BRANCO",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 1880,
       "preco_venda": 2808.3,
@@ -3417,7 +4293,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2808.3,
-      "preco_link": 2960.1
+      "preco_link": 2960.1,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0011",
@@ -3425,7 +4307,7 @@
       "nome_interno": "12PRO 128GB 🇺🇸",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 1690,
       "preco_venda": 2597.4,
@@ -3437,7 +4319,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 2597.4,
-      "preco_link": 2737.8
+      "preco_link": 2737.8,
+      "oculto": true,
+      "motivo_oculto": "e um iPhone classificado como Acessorio",
+      "foto_url": "/imagens/produtos/acessorio-12pro.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-12pro.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3445,7 +4333,7 @@
       "nome_interno": "PRETO",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 4475,
       "preco_venda": 5910.75,
@@ -3457,7 +4345,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 5910.75,
-      "preco_link": 6230.25
+      "preco_link": 6230.25,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3465,7 +4359,7 @@
       "nome_interno": "PRETO",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 3575,
       "preco_venda": 4689.75,
@@ -3477,7 +4371,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 4689.75,
-      "preco_link": 4943.25
+      "preco_link": 4943.25,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3485,7 +4385,7 @@
       "nome_interno": "ROSA.",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 2075,
       "preco_venda": 3024.75,
@@ -3497,7 +4397,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 3024.75,
-      "preco_link": 3188.25
+      "preco_link": 3188.25,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3505,7 +4411,7 @@
       "nome_interno": "STARLIGHT",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 5850,
       "preco_venda": 7437,
@@ -3517,7 +4423,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 7437,
-      "preco_link": 7839
+      "preco_link": 7839,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-acessorio.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-acessorio.jpg"
+      ]
     },
     {
       "codigo": "ACS-0012",
@@ -3525,7 +4437,7 @@
       "nome_interno": "SKY BLUE",
       "categoria": "Acessório",
       "condicao": "Lacrado",
-      "status": "Disponível",
+      "status": "Consultar Disponibilidade",
       "fornecedor": "FOR001",
       "custo": 5850,
       "preco_venda": 7437,
@@ -3537,7 +4449,13 @@
       "origem": null,
       "garantia": null,
       "preco_cartao": 7437,
-      "preco_link": 7839
+      "preco_link": 7839,
+      "oculto": true,
+      "motivo_oculto": "nome e so uma cor solta (linha de cor virou produto)",
+      "foto_url": "/imagens/produtos/acessorio-sky-blue.jpg",
+      "fotos": [
+        "/imagens/produtos/acessorio-sky-blue.jpg"
+      ]
     },
     {
       "codigo": "IPH-0071",
@@ -3560,11 +4478,14 @@
       ],
       "origem": null,
       "garantia": null,
-      "descricao": "",
+      "descricao": "Tela de 6,5\" · 256 GB de armazenamento · 1 câmera traseira · Conector USB-C\nModelo mais fino da linha, com ilha dinâmica\nAparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [
+        "/imagens/produtos/iphone-iphone-17-air.jpg"
+      ],
+      "foto_url": "/imagens/produtos/iphone-iphone-17-air.jpg"
     },
     {
       "codigo": "MCB-0004",
@@ -3588,11 +4509,14 @@
       ],
       "origem": null,
       "garantia": null,
-      "descricao": "",
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [
+        "/imagens/produtos/macbook-macbook-neo-6gpu-5gpu-8-ram-ssd.jpg"
+      ],
+      "foto_url": "/imagens/produtos/macbook-macbook-neo-6gpu-5gpu-8-ram-ssd.jpg"
     },
     {
       "codigo": "XMI-0056",
@@ -3613,11 +4537,14 @@
       "cores": [],
       "origem": null,
       "garantia": null,
-      "descricao": "",
+      "descricao": "Aparelho novo, lacrado de fábrica, com nota fiscal.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [
+        "/imagens/produtos/xiaomi-note15-5g.jpg"
+      ],
+      "foto_url": "/imagens/produtos/xiaomi-note15-5g.jpg"
     }
   ]
 }

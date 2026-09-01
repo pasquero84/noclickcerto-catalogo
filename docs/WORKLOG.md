@@ -67,3 +67,21 @@
   produto (queda >40%), mediana dos pares (categoria+geração; categorias
   heterogêneas comparam por faixa de preço) e piso absoluto por categoria.
   Item reprovado vira "Consultar Disponibilidade"; o resto publica.
+
+## 2026-08-31 (correção pós-feedback) — Claude
+- 🔴 Corrigido o corte de imagem que o Stefano flagrou: `.c-media` estava
+  `object-fit:cover` (recortava o aparelho verticalmente) — agora `contain`
+  com padding, aspect-ratio 1:1.
+- 🔴 Grid mobile estava em 1 coluna (`minmax(288px,1fr)` não cabia 2 em
+  375px) — o Stefano queria "2 a 4 itens por rolada". Agora 2 colunas fixas
+  até 640px, com tipografia/padding compactados pra caber sem espremer.
+- 🔴 `api/p.js` (página de produto) ainda estava no tema ESCURO antigo
+  enquanto o catálogo virou claro — "muda o padrão pra cor azul", flagrado
+  pelo Stefano. Reescrita no mesmo tema claro, com a foto do produto e a
+  mesma âncora de preço do card.
+- Adicionada âncora de preço "De R$[link] / Economize R$X pagando no Pix" no
+  card e na página de produto — persuasão real, calculada da própria fórmula
+  de pagamento, não número inventado.
+- Imagens de iPhone passam a ser por FAMÍLIA + COR (antes era só família — o
+  card dizia "Azul" mostrando foto laranja). 113 imagens geradas no total,
+  58 distintas cobrindo os 71 iPhones visíveis.
