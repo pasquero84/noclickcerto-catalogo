@@ -2,7 +2,7 @@
   "meta": {
     "sistema": "NoClickCerto",
     "versao": "2.0",
-    "ultima_atualizacao": "2026-09-04",
+    "ultima_atualizacao": "2026-09-05",
     "total_produtos": 189,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
@@ -217,7 +217,6 @@
       ],
       "cores": [
         "Branco",
-        "Natural",
         "Preto",
         "Verde"
       ]
@@ -247,7 +246,6 @@
       ],
       "cores": [
         "Branco",
-        "Natural",
         "Preto",
         "Verde"
       ]
@@ -277,7 +275,6 @@
       ],
       "cores": [
         "Branco",
-        "Natural",
         "Preto",
         "Verde"
       ]
@@ -307,7 +304,6 @@
       ],
       "cores": [
         "Branco",
-        "Natural",
         "Preto",
         "Verde"
       ]
@@ -382,6 +378,9 @@
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
       "fotos": [
         "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
+      ],
+      "cores": [
+        "Preto"
       ]
     },
     {
