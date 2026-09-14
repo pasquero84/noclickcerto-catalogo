@@ -1,5 +1,22 @@
 # Worklog — NoClickCerto Catálogo
 
+## 2026-09-14 — Claude Sonnet 5 · produção presa num deploy de 3 meses atrás
+
+- **Achado (pedido do Stefano — "cadê o design novo que eu fiz"):** o site em
+  `catalogo.noclickcerto.com.br` estava servindo, byte a byte, o commit
+  `e647a5b` de **05/06/2026** — 3 meses e 15+ commits atrás, incluindo todo o
+  "redesign comercial" de 31/08. Ninguém tinha notado porque o site respondia
+  normal (200 OK), só que com o design antigo.
+- Não achei automação nenhuma causando isso (sem cron, sem script de deploy,
+  `~/catalogo-backups/` não é referenciado em lugar nenhum do projeto) —
+  parece ter sido um `vercel --prod` rodado de algum jeito errado há tempos,
+  e como ninguém olhou o site comparando com o código, ficou assim.
+- **Corrigido:** `vercel --prod --yes` a partir do commit atual (`95ff6e1`).
+  Confirmado por diff byte a byte contra produção: `0`.
+- **Prevenção:** `scripts/verificar-deploy.sh` — baixa a produção e compara
+  com o `index.html` do commit atual. Rodar antes de confiar que "já está no
+  ar" (e principalmente antes de dizer isso pro Stefano).
+
 ## 2026-08-31 — Claude
 - Nova fórmula de precificação, fechada com o Stefano por voz (venda de iPhone,
   fornecedor da 25 de março): substitui a margem percentual (28%) por margem
