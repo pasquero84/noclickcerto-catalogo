@@ -1,5 +1,46 @@
 # Worklog — NoClickCerto Catálogo
 
+## 2026-10-21 — Claude Opus 5.5 · parsers EasyStore/Trend, publicação sem token
+
+Sessão-dona do catálogo aberta pela revisão geral (DEC-2026-029).
+
+- **Causa do lixo** ("• 16 Pro Max 256GB — R$ 4.", custo R$650): o regex de preço
+  lia `R$ 4.650` como `650` (pegava o pedaço depois do ponto de milhar). Vinha
+  desde a tabela de 28/09 — **IPH-0078 estava à venda**: 14 Pro Max a R$1.640 no
+  Pix com custo real R$2.990.
+- **Parser reescrito** com testes sobre o texto real (`tests/fixtures/`): EasyStore
+  formato novo (•, —, cores depois de `🔋 90%+ |`, variante do cabeçalho
+  "🔥 IPHONE 12 pro"), EasyStore "novidades" (cor em emoji, `💙 256GB — R$ 6.640`),
+  Trend (`*R$7450*`, `Laranja | Silver`), "Dorudo.5140". Prova: o texto CRU de
+  19/10 (Trend) e 20/10 (EasyStore) reproduz exatamente o que tinha sido
+  normalizado à mão — 0 novos, 0 alterados.
+- **Bugs de preço achados no caminho:** margem por categoria não era aplicada na
+  ingestão (Apple Pencil R$499 sairia a R$1.149 → agora R$998); o mesmo fornecedor
+  com o aparelho em 2 seções ficava com o último preço, não o maior; e como o
+  leitor roda uma ingestão por mensagem, o último fornecedor a falar ditava o
+  preço. Agora cada produto guarda `cotacoes` por fornecedor (3 dias) e vale a maior.
+- **Auditor:** AirPods Pro 3 era comparado com AirPods Max e Watch SE com Ultra 3
+  (travaria 2 produtos com preço certo). Pares refinados, com teste.
+- **Publicação por git push** (SSH funciona sem interação, inclusive sem agent).
+  A API do admin dependia do `GITHUB_TOKEN` da Vercel, vencido; e o erro saía
+  com código 0, então o WhatsApp avisava "catálogo atualizado" sem nada no ar.
+  Agora `ingerir --publicar` recusa rodar sobre `catalogo.json` sujo e alinha com
+  `origin/main` antes.
+- **Limpeza:** 16 lixos ocultos (IPH-0073, 0076, 0077–0090). O `catalogo.json`
+  local sujo com o lixo das rodadas automáticas de 21/10 foi descartado.
+- **Publicado:** `4418787` (Trend 19/10 + EasyStore 20/10, grava cotações) e
+  `dfa8329` (EasyStore 21/10: 9 novos — iPhone 18 Pro Max, 16 Pro Max, 15 Pro Max
+  CPO, Watch Ultra 3, AirPods Max/Max 2, 2 Apple Pencil, MacBook Air M5 — e 10
+  preços). Produção = commit, byte a byte; `/p/IPH-0078` → 404.
+- **Leitor (`~/wa-fornecedores`, commit local `742c47b`):** contador de preço vem do
+  parser (o Trend era "ignorado, 0 linhas com preço"); cada mensagem guardada em
+  `listas/historico/` (a tabela de seminovos de 21/10 se perdeu por sobrescrita).
+  Reiniciado 21/10 17:34, conectado aos 2 grupos.
+- **Token (pendência do Stefano):** GitHub → token fine-grained só pro repo
+  `pasquero84/noclickcerto-catalogo`, permissão Contents: leitura e escrita →
+  Vercel, projeto `noclickcerto-catalogo` → Settings → Environment Variables →
+  `GITHUB_TOKEN` → colar → Redeploy. Só o /admin depende disso agora.
+
 ## 2026-09-14 — Claude Sonnet 5 · produção presa num deploy de 3 meses atrás
 
 - **Achado (pedido do Stefano — "cadê o design novo que eu fiz"):** o site em
