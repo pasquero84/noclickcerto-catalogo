@@ -21,6 +21,7 @@ import { parseTabelaFornecedor } from './parse-fornecedor.mjs';
 
 const RUIDO_NOME = [
   /\b(ll\/?a|lla)\b/gi,        // código de origem americana
+  /\b(us|usa)\b/gi,           // Trend escreve "iPhone 17 Pro Max 256GB US🇺🇸"
   /\bjapon[eê]s\b/gi,
   /\bglobal\b/gi,
   /\([^)]*\)/g,                 // "(6GPU/5GPU/8 RAM/256 GB SSD)"
@@ -125,7 +126,12 @@ export function consolidar(listas) {
       for (const v of p.variacoes) if (v.cor) alvo.cores.add(v.cor);
       if (p.fornecedor) {
         alvo.fornecedores.add(p.fornecedor);
-        alvo.precosPorFornecedor[p.fornecedor] = maiorAqui;
+        // O mesmo fornecedor repete o aparelho em seções diferentes (Trend:
+        // "com caixa" R$6.500 e "sem caixa" R$6.450) — vale a maior.
+        alvo.precosPorFornecedor[p.fornecedor] = Math.max(
+          alvo.precosPorFornecedor[p.fornecedor] ?? 0,
+          maiorAqui
+        );
       }
       if (!alvo.bateria && p.bateria) alvo.bateria = p.bateria;
       // Nome mais descritivo ganha (o Trend escreve por extenso, ajuda o cliente).

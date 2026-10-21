@@ -11,12 +11,12 @@
 //   - margem fixa: R$650 até R$4.000 de custo, R$850 acima
 //
 // uso:
-//   bun scripts/ingerir.mjs <arq.txt:FOR001> [arq2.txt:FOR002]     (dry-run)
+//   bun scripts/ingerir.mjs <arq.txt:FOR001[:AAAA-MM-DD]> [arq2.txt:FOR002]  (dry-run)
 //   bun scripts/ingerir.mjs ... --aplicar                          (grava json)
 //   bun scripts/ingerir.mjs ... --aplicar --publicar               (sobe pro ar)
 // ============================================================
 
-import { parseTabelaFornecedor } from './parse-fornecedor.mjs';
+import { parseTabelaFornecedor, nomeDeProdutoValido } from './parse-fornecedor.mjs';
 import { consolidar, chaveProduto } from './consolidar.mjs';
 import { auditarCatalogo, bloquear, relatorio } from './auditor.mjs';
 
@@ -84,12 +84,39 @@ if (!entradas.length) {
   process.exit(1);
 }
 
+// 0. publicando: parte do catálogo que está no ar (origin/main), nunca de uma
+//    cópia local velha ou suja. Até 21/10 a publicação era pela API do admin;
+//    quando ela falhava (token do GitHub vencido, `Bad credentials`) o
+//    catalogo.json local ficava alterado sem commit e a rodada seguinte
+//    empilhava em cima — foi assim que o lixo de 20 e 21/10 se acumulou.
+const git = (...a) => Bun.spawnSync(['git', ...a], { stdout: 'pipe', stderr: 'pipe' });
+const saidaGit = (r) => (r.stdout.toString() + r.stderr.toString()).trim();
+if (PUBLICAR) {
+  const sujo = saidaGit(git('status', '--porcelain', '--', 'catalogo.json'));
+  if (sujo) {
+    console.error('!! catalogo.json tem alteração local sem commit — não publico em cima disso.');
+    console.error('   confira com `git diff catalogo.json` e descarte (`git checkout -- catalogo.json`) ou commite.');
+    process.exit(1);
+  }
+  const fetch_ = git('fetch', '--quiet', 'origin', 'main');
+  const ff = fetch_.exitCode === 0 ? git('merge', '--ff-only', '--quiet', 'origin/main') : fetch_;
+  if (ff.exitCode !== 0) {
+    console.error(`!! não consegui alinhar com origin/main: ${saidaGit(ff)}`);
+    process.exit(1);
+  }
+}
+
 // 1. parse + consolida
+// Entrada: arquivo:FORNECEDOR[:AAAA-MM-DD]. A data é a da tabela (padrão:
+// hoje) — serve pra reprocessar uma lista antiga sem fingir que é cotação nova.
+const HOJE = new Date().toLocaleDateString('sv-SE'); // AAAA-MM-DD no fuso local
 const listas = [];
+const dataCotacao = {};
 for (const entrada of entradas) {
-  const [arquivo, fornecedor] = entrada.split(':');
+  const [arquivo, fornecedor = 'FOR001', data = HOJE] = entrada.split(':');
   const texto = await Bun.file(arquivo).text();
-  listas.push(parseTabelaFornecedor(texto, { fornecedor: fornecedor || 'FOR001' }));
+  listas.push(parseTabelaFornecedor(texto, { fornecedor }));
+  dataCotacao[fornecedor] = data;
 }
 const consolidado = consolidar(listas);
 
@@ -113,18 +140,39 @@ for (const p of produtos) {
 
 const novos = [];
 const atualizados = [];
+const recusados = [];
+
+// REGRA DO MAIOR PREÇO entre rodadas: o leitor do WhatsApp roda uma ingestão
+// por MENSAGEM, então EasyStore às 10h e Trend às 14h nunca chegam juntos no
+// consolidar(). Sem memória, o último a falar ditava o preço (Trend 16 Pro Max
+// R$4.300 derrubaria o R$4.650 da EasyStore da manhã). Cada produto guarda a
+// última cotação de cada fornecedor e o custo é a maior das cotações recentes.
+const JANELA_COTACAO_DIAS = 3;
+const diasAtras = (data) => (Date.parse(HOJE) - Date.parse(data)) / 86_400_000;
+
+function cotacaoVencedora(cotacoes) {
+  const recentes = Object.entries(cotacoes).filter(([, q]) => diasAtras(q.data) <= JANELA_COTACAO_DIAS);
+  recentes.sort((a, b) => b[1].custo - a[1].custo);
+  return recentes[0] ? { fornecedor: recentes[0][0], custo: recentes[0][1].custo } : null;
+}
 
 for (const c of consolidado) {
-  const precos = calcPrecos(c.custo);
   const existentes = indice.get(c.chave);
 
   if (existentes?.length) {
     for (const existente of existentes) {
       const antes = existente.preco_pix;
+      const cotacoes = { ...(existente.cotacoes || {}) };
+      for (const [f, custo] of Object.entries(c.precosPorFornecedor)) cotacoes[f] = { custo, data: dataCotacao[f] || HOJE };
+      const venc = cotacaoVencedora(cotacoes) || { fornecedor: c.fornecedorPreco, custo: c.custo };
+      // Margem pela categoria do PRODUTO DO CATÁLOGO (Acessório 100%, Fone R$500,
+      // aparelho R$650/R$850) — sem ela, um Apple Pencil de R$499 saía por R$1.149.
+      const precos = calcPrecos(venc.custo, existente.categoria);
       Object.assign(existente, {
-        custo: c.custo,
+        custo: venc.custo,
         ...precos,
-        fornecedor: c.fornecedorPreco || existente.fornecedor,
+        fornecedor: venc.fornecedor || existente.fornecedor,
+        cotacoes,
       });
       if (c.cores.length) existente.cores = c.cores;
       if (c.bateria) existente.bateria = c.bateria;
@@ -134,7 +182,17 @@ for (const c of consolidado) {
       }
     }
   } else {
+    // Última barreira contra produto lixo ("• 16 Pro 128GB — R$ 3.", "Dorudo.",
+    // "Burgundy —"): o parser já não gera isso, mas se um formato novo de
+    // fornecedor escapar, o item fica de fora e aparece no relatório.
+    if (!nomeDeProdutoValido(c.nome)) {
+      recusados.push(c);
+      continue;
+    }
     const codigo = proximoCodigo(c.categoria, produtos);
+    const cotacoes = Object.fromEntries(
+      Object.entries(c.precosPorFornecedor).map(([f, custo]) => [f, { custo, data: dataCotacao[f] || HOJE }])
+    );
     const novo = {
       codigo,
       nome: c.nome,
@@ -143,7 +201,8 @@ for (const c of consolidado) {
       status: 'Disponível',
       fornecedor: c.fornecedorPreco || 'FOR001',
       custo: c.custo,
-      ...precos,
+      ...calcPrecos(c.custo, c.categoria),
+      cotacoes,
       bateria: c.bateria,
       cores: c.cores,
       origem: null,
@@ -168,6 +227,9 @@ console.log(`  ${novos.length} novos · ${atualizados.length} com preço alterad
 for (const n of novos) {
   console.log(`  + ${n.codigo}  ${n.nome}`);
   console.log(`      custo ${R(n.custo)} → PIX ${R(n.preco_pix)} · link 10× ${R(n.preco_10x)}`);
+}
+for (const r of recusados) {
+  console.log(`  ✗ RECUSADO (nome parece sobra de lista): "${r.nome}" custo ${R(r.custo)}`);
 }
 for (const a of atualizados) {
   const seta = a.depois > a.antes ? '↑' : '↓';
@@ -203,37 +265,29 @@ if (!PUBLICAR) {
   process.exit(0);
 }
 
-// 4. publica via a própria API do admin (usa o GITHUB_TOKEN que vive no
-//    Vercel; o git push local não funciona porque o Keychain não responde
-//    sem interação).
-const BASE = 'https://catalogo.noclickcerto.com.br';
-const senha = process.env.ADMIN_PASSWORD;
-if (!senha) {
-  console.error('!! defina ADMIN_PASSWORD no ambiente pra publicar');
-  process.exit(1);
+// 4. publica com commit + push no GitHub; a Vercel republica sozinha a cada
+//    push na main. A chave SSH do Mac funciona sem interação (testado 21/10,
+//    inclusive sem ssh-agent, que é como o launchd do leitor roda).
+//    Antes era pela API do admin (/api/save), que depende do GITHUB_TOKEN
+//    guardado na Vercel — quando ele venceu (`Bad credentials`, 20/10) a
+//    publicação parou e o erro nem derrubava o processo: o WhatsApp avisava
+//    "catálogo já está atualizado" sem nada ter ido pro ar.
+const mensagem = `Tabela dos fornecedores ${catalogo.meta.ultima_atualizacao} (${novos.length} novos, ${atualizados.length} atualizados)`;
+if (!saidaGit(git('status', '--porcelain', '--', 'catalogo.json'))) {
+  console.log('✓ nada mudou no catálogo — nada a publicar');
+  process.exit(0);
 }
-
-const auth = await fetch(`${BASE}/api/auth`, {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ password: senha }),
-}).then((r) => r.json());
-
-if (!auth.token) {
-  console.error('!! falha na autenticação do admin:', auth);
-  process.exit(1);
+const passos = [
+  ['add', 'catalogo.json'],
+  ['commit', '--quiet', '-m', mensagem, '--', 'catalogo.json'],
+  ['push', '--quiet', 'origin', 'HEAD:main'],
+];
+for (const passo of passos) {
+  const r = git(...passo);
+  if (r.exitCode !== 0) {
+    console.error(`!! erro ao publicar (git ${passo[0]}): ${saidaGit(r)}`);
+    process.exit(1);
+  }
 }
-
-const save = await fetch(`${BASE}/api/save`, {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-    Authorization: `Bearer ${auth.token}`,
-  },
-  body: JSON.stringify({
-    catalog: catalogo,
-    message: `Tabela dos fornecedores ${catalogo.meta.ultima_atualizacao} (${novos.length} novos, ${atualizados.length} atualizados)`,
-  }),
-}).then((r) => r.json());
-
-console.log(save.success || save.commit ? '✓ publicado — Vercel republica em ~30s' : `!! erro ao publicar: ${JSON.stringify(save)}`);
+const sha = saidaGit(git('rev-parse', '--short', 'HEAD'));
+console.log(`✓ publicado (commit ${sha}) — Vercel republica em ~30s`);

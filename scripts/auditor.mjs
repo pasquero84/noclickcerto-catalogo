@@ -55,10 +55,21 @@ function faixa(custo) {
   if (custo < 150) return '50-150';
   if (custo < 400) return '150-400';
   if (custo < 1000) return '400-1k';
-  return '1k+';
+  // 21/10: AirPods Pro 3 (R$1.299) caía na mesma faixa dos AirPods Max
+  // (R$2.650+) e era travado como "menos da metade da mediana".
+  if (custo < 2000) return '1k-2k';
+  return '2k+';
+}
+// Apple Watch: o número não separa a linha — "SE 3" e "Ultra 3" são geração 3
+// e custam R$1.499 vs R$4.450. O par é a LINHA (SE / Ultra / Series).
+function linhaDoRelogio(nome) {
+  if (/ultra/i.test(nome)) return 'ultra';
+  if (/\bse\b/i.test(nome)) return 'se';
+  return 'series';
 }
 function chavePar(p) {
   if (HETEROGENEAS.has(p.categoria)) return `${p.categoria}|faixa:${faixa(p.custo)}`;
+  if (p.categoria === 'Apple Watch') return `${p.categoria}|${p.condicao}|${linhaDoRelogio(p.nome)}`;
   return `${p.categoria}|${p.condicao}|${geracao(p.nome)}`;
 }
 function mediana(ns) {
