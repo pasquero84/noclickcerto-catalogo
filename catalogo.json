@@ -2,7 +2,7 @@
   "meta": {
     "sistema": "NoClickCerto",
     "versao": "2.0",
-    "ultima_atualizacao": "2026-10-20",
+    "ultima_atualizacao": "2026-10-21",
     "total_produtos": 210,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
@@ -481,7 +481,17 @@
       "foto_url": "/imagens/produtos/iphone-iphone-16-pro-max-preto.jpg",
       "fotos": [
         "/imagens/produtos/iphone-iphone-16-pro-max.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 4300,
+          "data": "2026-10-19"
+        },
+        "FOR001": {
+          "custo": 4650,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0018",
@@ -510,7 +520,13 @@
       "foto_url": "/imagens/produtos/iphone-iphone-16-pro-desert.jpg",
       "fotos": [
         "/imagens/produtos/iphone-iphone-16-pro.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 3700,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0019",
@@ -580,13 +596,24 @@
       "preco_link": 4680,
       "cores": [
         "Azul",
+        "Branco",
         "Preto"
       ],
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-16-branco.jpg",
       "fotos": [
         "/imagens/produtos/iphone-iphone-16.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 3250,
+          "data": "2026-10-19"
+        },
+        "FOR001": {
+          "custo": 3350,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0022",
@@ -639,7 +666,13 @@
         "Azul",
         "Natural",
         "Preto"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 3800,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0024",
@@ -668,7 +701,13 @@
         "Azul",
         "Natural",
         "Preto"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 3800,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0025",
@@ -720,7 +759,13 @@
       "cores": [
         "Azul",
         "Preto"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 3300,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0027",
@@ -748,7 +793,13 @@
       "cores": [
         "Azul",
         "Preto"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 3300,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0028",
@@ -777,7 +828,17 @@
         "Azul",
         "Preto",
         "Rosa"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 2400,
+          "data": "2026-10-19"
+        },
+        "FOR001": {
+          "custo": 2440,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0029",
@@ -806,7 +867,17 @@
         "Azul",
         "Preto",
         "Rosa"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 2400,
+          "data": "2026-10-19"
+        },
+        "FOR001": {
+          "custo": 2440,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0030",
@@ -834,7 +905,13 @@
       "cores": [
         "Preto",
         "Roxo"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2990,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0031",
@@ -842,7 +919,7 @@
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
-      "fornecedor": "FOR001",
+      "fornecedor": "FOR002",
       "custo": 2400,
       "preco_venda": 3385.5,
       "preco_pix": 3050,
@@ -861,7 +938,13 @@
       ],
       "cores": [
         "Gold"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 2400,
+          "data": "2026-10-19"
+        }
+      }
     },
     {
       "codigo": "IPH-0032",
@@ -891,7 +974,13 @@
         "Branco",
         "Preto",
         "Roxo"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1825,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0033",
@@ -921,7 +1010,13 @@
         "Branco",
         "Preto",
         "Roxo"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1825,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0034",
@@ -951,7 +1046,13 @@
         "Branco",
         "Preto",
         "Roxo"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1825,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0035",
@@ -981,7 +1082,13 @@
         "Branco",
         "Preto",
         "Roxo"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1825,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0036",
@@ -1009,7 +1116,13 @@
       "cores": [
         "Azul",
         "Branco"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2520,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0037",
@@ -1037,7 +1150,13 @@
       "cores": [
         "Azul",
         "Branco"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2520,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0038",
@@ -1160,8 +1279,19 @@
       ],
       "cores": [
         "Azul",
+        "Branco",
         "Preto"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 2170,
+          "data": "2026-10-19"
+        },
+        "FOR001": {
+          "custo": 2250,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0043",
@@ -1188,8 +1318,19 @@
       ],
       "cores": [
         "Azul",
+        "Branco",
         "Preto"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 2170,
+          "data": "2026-10-19"
+        },
+        "FOR001": {
+          "custo": 2250,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0044",
@@ -1204,7 +1345,7 @@
       "preco_10x": 280.8,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": "84%",
+      "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2664,
@@ -1219,7 +1360,13 @@
         "Branco",
         "Preto",
         "Verde"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1750,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0045",
@@ -1234,7 +1381,7 @@
       "preco_10x": 269.1,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": "84%",
+      "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2553,
@@ -1249,7 +1396,13 @@
         "Branco",
         "Preto",
         "Rosa"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1650,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0046",
@@ -1264,7 +1417,7 @@
       "preco_10x": 269.1,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": "84%",
+      "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2553,
@@ -1279,7 +1432,13 @@
         "Branco",
         "Preto",
         "Rosa"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1650,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0047",
@@ -1294,7 +1453,7 @@
       "preco_10x": 269.1,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": "84%",
+      "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2553,
@@ -1309,7 +1468,13 @@
         "Branco",
         "Preto",
         "Rosa"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1650,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0048",
@@ -1317,7 +1482,7 @@
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
-      "fornecedor": "FOR001",
+      "fornecedor": "FOR002",
       "custo": 1900,
       "preco_venda": 2830.5,
       "preco_pix": 2550,
@@ -1337,7 +1502,13 @@
       "cores": [
         "Branco",
         "Dourado"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 1900,
+          "data": "2026-10-19"
+        }
+      }
     },
     {
       "codigo": "IPH-0049",
@@ -1345,7 +1516,7 @@
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
-      "fornecedor": "FOR001",
+      "fornecedor": "FOR002",
       "custo": 1900,
       "preco_venda": 2830.5,
       "preco_pix": 2550,
@@ -1365,7 +1536,13 @@
       "cores": [
         "Branco",
         "Dourado"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 1900,
+          "data": "2026-10-19"
+        }
+      }
     },
     {
       "codigo": "IPH-0050",
@@ -1373,7 +1550,7 @@
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
-      "fornecedor": "FOR001",
+      "fornecedor": "FOR002",
       "custo": 1900,
       "preco_venda": 2830.5,
       "preco_pix": 2550,
@@ -1393,7 +1570,13 @@
       "cores": [
         "Branco",
         "Dourado"
-      ]
+      ],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 1900,
+          "data": "2026-10-19"
+        }
+      }
     },
     {
       "codigo": "IPH-0051",
@@ -1432,7 +1615,7 @@
       "preco_10x": 269.1,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": "100%",
+      "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2553,
@@ -1444,7 +1627,13 @@
       ],
       "cores": [
         "Dourado"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1650,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0053",
@@ -1459,7 +1648,7 @@
       "preco_10x": 269.1,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": "100%",
+      "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
       "preco_cartao": 2553,
@@ -1471,7 +1660,13 @@
       ],
       "cores": [
         "Dourado"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1650,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0054",
@@ -1799,7 +1994,13 @@
       "cores": [
         "Azul",
         "Branco"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2520,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0067",
@@ -1862,7 +2063,7 @@
       "preco_10x": 269.1,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": "90%+",
+      "bateria": "85%+",
       "origem": "USA",
       "garantia": "1 mês",
       "preco_cartao": 2553,
@@ -1874,7 +2075,13 @@
       ],
       "cores": [
         "Dourado"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1650,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0070",
@@ -5301,7 +5508,7 @@
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
-      "fornecedor": "FOR001",
+      "fornecedor": "FOR002",
       "custo": 7450,
       "preco_venda": 9213,
       "preco_pix": 8300,
@@ -5320,7 +5527,13 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 7450,
+          "data": "2026-10-19"
+        }
+      }
     },
     {
       "codigo": "IPH-0092",
@@ -5328,7 +5541,7 @@
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
-      "fornecedor": "FOR001",
+      "fornecedor": "FOR002",
       "custo": 6500,
       "preco_venda": 8158.5,
       "preco_pix": 7350,
@@ -5348,7 +5561,13 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 6500,
+          "data": "2026-10-19"
+        }
+      }
     },
     {
       "codigo": "IPH-0093",
@@ -5356,7 +5575,7 @@
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
-      "fornecedor": "FOR001",
+      "fornecedor": "FOR002",
       "custo": 6500,
       "preco_venda": 8158.5,
       "preco_pix": 7350,
@@ -5375,7 +5594,13 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "cotacoes": {
+        "FOR002": {
+          "custo": 6500,
+          "data": "2026-10-19"
+        }
+      }
     },
     {
       "codigo": "IPH-0094",
@@ -5392,7 +5617,7 @@
       "preco_10x": 450.45,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": null,
+      "bateria": "89%+",
       "cores": [
         "Dourado",
         "Preto"
@@ -5403,7 +5628,13 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 3200,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0095",
@@ -5420,7 +5651,7 @@
       "preco_10x": 389.61,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": null,
+      "bateria": "85%+",
       "cores": [
         "Preto",
         "Roxo"
@@ -5431,7 +5662,13 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2680,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0096",
@@ -5448,7 +5685,7 @@
       "preco_10x": 308.88,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": null,
+      "bateria": "83%+",
       "cores": [
         "Branco",
         "Preto"
@@ -5459,7 +5696,13 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1990,
+          "data": "2026-10-20"
+        }
+      }
     },
     {
       "codigo": "IPH-0097",
@@ -5476,7 +5719,7 @@
       "preco_10x": 230.49,
       "lucro_pix": 650,
       "lucro_cartao": 650,
-      "bateria": null,
+      "bateria": "85%+",
       "cores": [
         "Branco",
         "Preto"
@@ -5487,7 +5730,13 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1320,
+          "data": "2026-10-20"
+        }
+      }
     }
   ]
 }
