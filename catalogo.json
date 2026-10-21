@@ -4743,7 +4743,9 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0074",
@@ -4824,7 +4826,9 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0077",
@@ -4855,7 +4859,9 @@
         "motivos": [
           "R$ 990 é menos da metade da mediana dos pares (R$ 3.700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0078",
@@ -4880,7 +4886,9 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0079",
@@ -4911,7 +4919,9 @@
         "motivos": [
           "R$ 850 é menos da metade da mediana dos pares (R$ 1.825)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0080",
@@ -4942,7 +4952,9 @@
         "motivos": [
           "R$ 800 é menos da metade da mediana dos pares (R$ 3.700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0081",
@@ -4973,7 +4985,9 @@
         "motivos": [
           "R$ 800 é menos da metade da mediana dos pares (R$ 3.225)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0082",
@@ -5005,7 +5019,9 @@
           "R$ 690 é menos da metade da mediana dos pares (R$ 2.340)",
           "custo abaixo do piso de iPhone (R$ 700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0083",
@@ -5037,7 +5053,9 @@
           "R$ 680 é menos da metade da mediana dos pares (R$ 1.825)",
           "custo abaixo do piso de iPhone (R$ 700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0084",
@@ -5069,7 +5087,9 @@
           "R$ 520 é menos da metade da mediana dos pares (R$ 2.340)",
           "custo abaixo do piso de iPhone (R$ 700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0085",
@@ -5101,7 +5121,9 @@
           "R$ 440 é menos da metade da mediana dos pares (R$ 3.225)",
           "custo abaixo do piso de iPhone (R$ 700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0086",
@@ -5133,7 +5155,9 @@
           "R$ 350 é menos da metade da mediana dos pares (R$ 3.700)",
           "custo abaixo do piso de iPhone (R$ 700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0087",
@@ -5165,7 +5189,9 @@
           "R$ 300 é menos da metade da mediana dos pares (R$ 3.225)",
           "custo abaixo do piso de iPhone (R$ 700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0088",
@@ -5197,7 +5223,9 @@
           "R$ 250 é menos da metade da mediana dos pares (R$ 2.340)",
           "custo abaixo do piso de iPhone (R$ 700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0089",
@@ -5229,7 +5257,9 @@
           "R$ 200 é menos da metade da mediana dos pares (R$ 1.825)",
           "custo abaixo do piso de iPhone (R$ 700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0090",
@@ -5261,7 +5291,9 @@
           "R$ 100 é menos da metade da mediana dos pares (R$ 1.740)",
           "custo abaixo do piso de iPhone (R$ 700)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-21: nome lixo de leitura da tabela (parser antigo); aparelho real já existe com nome certo"
     },
     {
       "codigo": "IPH-0091",
