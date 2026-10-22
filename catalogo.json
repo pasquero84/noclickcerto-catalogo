@@ -613,8 +613,7 @@
       "preco_cartao": 4440,
       "preco_link": 4680,
       "cores": [
-        "Azul",
-        "Preto"
+        "Branco"
       ],
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica, botão de Controle da Câmera e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 90%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-16-branco.jpg",
@@ -624,7 +623,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 3250,
-          "data": "2026-10-19"
+          "data": "2026-10-22"
         },
         "FOR001": {
           "custo": 3350,
@@ -842,14 +841,12 @@
         "/imagens/produtos/iphone-iphone-15.jpg"
       ],
       "cores": [
-        "Azul",
-        "Preto",
-        "Rosa"
+        "Preto"
       ],
       "cotacoes": {
         "FOR002": {
           "custo": 2400,
-          "data": "2026-10-19"
+          "data": "2026-10-22"
         },
         "FOR001": {
           "custo": 2440,
@@ -881,14 +878,12 @@
         "/imagens/produtos/iphone-iphone-15.jpg"
       ],
       "cores": [
-        "Azul",
-        "Preto",
-        "Rosa"
+        "Preto"
       ],
       "cotacoes": {
         "FOR002": {
           "custo": 2400,
-          "data": "2026-10-19"
+          "data": "2026-10-22"
         },
         "FOR001": {
           "custo": 2440,
@@ -1750,9 +1745,7 @@
       "preco_cartao": 8157.39,
       "preco_link": 8598.33,
       "cores": [
-        "Azul",
-        "Laranja",
-        "Silver"
+        "Laranja"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1789,9 +1782,7 @@
       "preco_cartao": 8157.39,
       "preco_link": 8598.33,
       "cores": [
-        "Azul",
-        "Laranja",
-        "Silver"
+        "Laranja"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1828,9 +1819,7 @@
       "preco_cartao": 8157.39,
       "preco_link": 8598.33,
       "cores": [
-        "Azul",
-        "Laranja",
-        "Silver"
+        "Laranja"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -5728,7 +5717,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 7450,
-          "data": "2026-10-19"
+          "data": "2026-10-22"
         }
       }
     },
@@ -5739,12 +5728,12 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR002",
-      "custo": 6500,
-      "preco_venda": 8158.5,
-      "preco_pix": 7350,
-      "preco_cartao": 8158.5,
-      "preco_link": 8599.5,
-      "preco_10x": 859.95,
+      "custo": 6450,
+      "preco_venda": 8103,
+      "preco_pix": 7300,
+      "preco_cartao": 8103,
+      "preco_link": 8541,
+      "preco_10x": 854.1,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
@@ -5761,8 +5750,8 @@
       "fotos": [],
       "cotacoes": {
         "FOR002": {
-          "custo": 6500,
-          "data": "2026-10-19"
+          "custo": 6450,
+          "data": "2026-10-22"
         }
       }
     },
@@ -5795,7 +5784,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 6500,
-          "data": "2026-10-19"
+          "data": "2026-10-22"
         }
       }
     },
