@@ -3,7 +3,7 @@
     "sistema": "NoClickCerto",
     "versao": "2.0",
     "ultima_atualizacao": "2026-10-22",
-    "total_produtos": 239,
+    "total_produtos": 251,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
@@ -1737,20 +1737,22 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR001",
-      "custo": 6190,
-      "preco_venda": 7814.4,
-      "preco_pix": 7040,
-      "preco_10x": 823.68,
+      "fornecedor": "FOR002",
+      "custo": 6499,
+      "preco_venda": 8157.39,
+      "preco_pix": 7349,
+      "preco_10x": 859.83,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 7814.4,
-      "preco_link": 8236.8,
+      "preco_cartao": 8157.39,
+      "preco_link": 8598.33,
       "cores": [
-        "Laranja"
+        "Azul",
+        "Laranja",
+        "Silver"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1760,6 +1762,10 @@
       "cotacoes": {
         "FOR001": {
           "custo": 6190,
+          "data": "2026-10-22"
+        },
+        "FOR002": {
+          "custo": 6499,
           "data": "2026-10-22"
         }
       }
@@ -1770,20 +1776,22 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR001",
-      "custo": 6190,
-      "preco_venda": 7814.4,
-      "preco_pix": 7040,
-      "preco_10x": 823.68,
+      "fornecedor": "FOR002",
+      "custo": 6499,
+      "preco_venda": 8157.39,
+      "preco_pix": 7349,
+      "preco_10x": 859.83,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 7814.4,
-      "preco_link": 8236.8,
+      "preco_cartao": 8157.39,
+      "preco_link": 8598.33,
       "cores": [
-        "Laranja"
+        "Azul",
+        "Laranja",
+        "Silver"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1794,6 +1802,10 @@
         "FOR001": {
           "custo": 6190,
           "data": "2026-10-22"
+        },
+        "FOR002": {
+          "custo": 6499,
+          "data": "2026-10-22"
         }
       }
     },
@@ -1803,20 +1815,22 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR001",
-      "custo": 6190,
-      "preco_venda": 7814.4,
-      "preco_pix": 7040,
-      "preco_10x": 823.68,
+      "fornecedor": "FOR002",
+      "custo": 6499,
+      "preco_venda": 8157.39,
+      "preco_pix": 7349,
+      "preco_10x": 859.83,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 7814.4,
-      "preco_link": 8236.8,
+      "preco_cartao": 8157.39,
+      "preco_link": 8598.33,
       "cores": [
-        "Laranja"
+        "Azul",
+        "Laranja",
+        "Silver"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1826,6 +1840,10 @@
       "cotacoes": {
         "FOR001": {
           "custo": 6190,
+          "data": "2026-10-22"
+        },
+        "FOR002": {
+          "custo": 6499,
           "data": "2026-10-22"
         }
       }
@@ -6839,6 +6857,419 @@
       "lancamento": false,
       "promocao": false,
       "fotos": []
+    },
+    {
+      "codigo": "IPH-0102",
+      "nome": "iPhone 18 Max 256GB LL/A",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 8999,
+      "preco_venda": 10932.39,
+      "preco_pix": 9849,
+      "preco_cartao": 10932.39,
+      "preco_link": 11523.33,
+      "preco_10x": 1152.33,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 8999,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Glacial"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "IPH-0103",
+      "nome": "iPhone 18 Pro 256GB LL/A",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 7449,
+      "preco_venda": 9211.89,
+      "preco_pix": 8299,
+      "preco_cartao": 9211.89,
+      "preco_link": 9709.83,
+      "preco_10x": 970.98,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 7449,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Bordô"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "IPH-0104",
+      "nome": "iPhone 17 Max 256GB ANATEL",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 6849,
+      "preco_venda": 8545.89,
+      "preco_pix": 7699,
+      "preco_cartao": 8545.89,
+      "preco_link": 9007.83,
+      "preco_10x": 900.78,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 6849,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Laranja"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "IPH-0105",
+      "nome": "iPhone 17 Max 256GB LL/A",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 6849,
+      "preco_venda": 8545.89,
+      "preco_pix": 7699,
+      "preco_cartao": 8545.89,
+      "preco_link": 9007.83,
+      "preco_10x": 900.78,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 6849,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Azul",
+        "Laranja",
+        "Silver"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "IPH-0106",
+      "nome": "iPhone 17 Pro 256GB ANATEL",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 6449,
+      "preco_venda": 8101.89,
+      "preco_pix": 7299,
+      "preco_cartao": 8101.89,
+      "preco_link": 8539.83,
+      "preco_10x": 853.98,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 6449,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Laranja"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "IPH-0107",
+      "nome": "iPhone 17 256GB HN",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 5149,
+      "preco_venda": 6658.89,
+      "preco_pix": 5999,
+      "preco_cartao": 6658.89,
+      "preco_link": 7018.83,
+      "preco_10x": 701.88,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 5149,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Branco",
+        "Lavander"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "IPH-0108",
+      "nome": "iPhone 16 128GB",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 4099,
+      "preco_venda": 5493.39,
+      "preco_pix": 4949,
+      "preco_cartao": 5493.39,
+      "preco_link": 5790.33,
+      "preco_10x": 579.03,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 4099,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Branco",
+        "Verde"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "IPH-0109",
+      "nome": "iPhone 15 Plus 256GB",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 4099,
+      "preco_venda": 5493.39,
+      "preco_pix": 4949,
+      "preco_cartao": 5493.39,
+      "preco_link": 5790.33,
+      "preco_10x": 579.03,
+      "lucro_pix": 850,
+      "lucro_cartao": 850,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 4099,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Rosa"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "IPH-0110",
+      "nome": "iPhone 16 CPO 128GB",
+      "categoria": "iPhone",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 3899,
+      "preco_venda": 5049.39,
+      "preco_pix": 4549,
+      "preco_cartao": 5049.39,
+      "preco_link": 5322.33,
+      "preco_10x": 532.23,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 3899,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Rosa"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "APW-0008",
+      "nome": "Apple Watch Alpine Loop",
+      "categoria": "Apple Watch",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 2099,
+      "preco_venda": 3051.39,
+      "preco_pix": 2749,
+      "preco_cartao": 3051.39,
+      "preco_link": 3216.33,
+      "preco_10x": 321.63,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 2099,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Black",
+        "Garmin",
+        "Space Gray",
+        "Whitestone"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "APW-0009",
+      "nome": "Apple Watch Fonte 20W USB-C Apple",
+      "categoria": "Apple Watch",
+      "condicao": "Lacrado",
+      "status": "Consultar Disponibilidade",
+      "fornecedor": "FOR002",
+      "custo": 110,
+      "preco_venda": 843.6,
+      "preco_pix": 760,
+      "preco_cartao": 843.6,
+      "preco_link": 889.2,
+      "preco_10x": 88.92,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 110,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": [],
+      "auditoria_bloqueio": {
+        "em": "2026-10-22",
+        "motivos": [
+          "R$ 110 é menos da metade da mediana dos pares (R$ 2.099)",
+          "custo abaixo do piso de Apple Watch (R$ 400)"
+        ]
+      }
+    },
+    {
+      "codigo": "APW-0010",
+      "nome": "Apple Watch Cabo Lightning 2M Apple",
+      "categoria": "Apple Watch",
+      "condicao": "Lacrado",
+      "status": "Consultar Disponibilidade",
+      "fornecedor": "FOR002",
+      "custo": 110,
+      "preco_venda": 843.6,
+      "preco_pix": 760,
+      "preco_cartao": 843.6,
+      "preco_link": 889.2,
+      "preco_10x": 88.92,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 110,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": [],
+      "auditoria_bloqueio": {
+        "em": "2026-10-22",
+        "motivos": [
+          "R$ 110 é menos da metade da mediana dos pares (R$ 2.099)",
+          "custo abaixo do piso de Apple Watch (R$ 400)"
+        ]
+      }
     }
   ]
 }
