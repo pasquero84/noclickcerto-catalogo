@@ -2,8 +2,8 @@
   "meta": {
     "sistema": "NoClickCerto",
     "versao": "2.0",
-    "ultima_atualizacao": "2026-10-21",
-    "total_produtos": 219,
+    "ultima_atualizacao": "2026-10-22",
+    "total_produtos": 220,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
@@ -6090,6 +6090,37 @@
         "FOR001": {
           "custo": 475,
           "data": "2026-10-21"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0057",
+      "nome": "Redmi Pad 2 256GB cinza",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1275,
+      "preco_venda": 2136.75,
+      "preco_pix": 1925,
+      "preco_cartao": 2136.75,
+      "preco_link": 2252.25,
+      "preco_10x": 225.23,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1275,
+          "data": "2026-10-22"
         }
       },
       "bateria": null,
