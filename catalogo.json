@@ -3,7 +3,7 @@
     "sistema": "NoClickCerto",
     "versao": "2.0",
     "ultima_atualizacao": "2026-10-22",
-    "total_produtos": 220,
+    "total_produtos": 238,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
@@ -2873,22 +2873,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 630,
-      "preco_venda": 1420.8,
-      "preco_pix": 1280,
-      "preco_10x": 149.76,
+      "custo": 740,
+      "preco_venda": 1542.9,
+      "preco_pix": 1390,
+      "preco_10x": 162.63,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1420.8,
-      "preco_link": 1497.6,
+      "preco_cartao": 1542.9,
+      "preco_link": 1626.3,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-a5.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 740,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0004",
@@ -2993,22 +2999,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 590,
-      "preco_venda": 1376.4,
-      "preco_pix": 1240,
-      "preco_10x": 145.08,
+      "custo": 670,
+      "preco_venda": 1465.2,
+      "preco_pix": 1320,
+      "preco_10x": 154.44,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1376.4,
-      "preco_link": 1450.8,
+      "preco_cartao": 1465.2,
+      "preco_link": 1544.4,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 670,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0009",
@@ -3017,22 +3029,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 590,
-      "preco_venda": 1376.4,
-      "preco_pix": 1240,
-      "preco_10x": 145.08,
+      "custo": 670,
+      "preco_venda": 1465.2,
+      "preco_pix": 1320,
+      "preco_10x": 154.44,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1376.4,
-      "preco_link": 1450.8,
+      "preco_cartao": 1465.2,
+      "preco_link": 1544.4,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 670,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0010",
@@ -3041,22 +3059,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 590,
-      "preco_venda": 1376.4,
-      "preco_pix": 1240,
-      "preco_10x": 145.08,
+      "custo": 670,
+      "preco_venda": 1465.2,
+      "preco_pix": 1320,
+      "preco_10x": 154.44,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1376.4,
-      "preco_link": 1450.8,
+      "preco_cartao": 1465.2,
+      "preco_link": 1544.4,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-a7-pro.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-a7-pro.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 670,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0011",
@@ -3065,22 +3089,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 975,
-      "preco_venda": 1803.75,
-      "preco_pix": 1625,
-      "preco_10x": 190.12,
+      "custo": 1080,
+      "preco_venda": 1920.3,
+      "preco_pix": 1730,
+      "preco_10x": 202.41,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1803.75,
-      "preco_link": 1901.25,
+      "preco_cartao": 1920.3,
+      "preco_link": 2024.1,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-15.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-15.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1080,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0012",
@@ -3089,22 +3119,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 960,
-      "preco_venda": 1787.1,
-      "preco_pix": 1610,
-      "preco_10x": 188.37,
+      "custo": 930,
+      "preco_venda": 1753.8,
+      "preco_pix": 1580,
+      "preco_10x": 184.86,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1787.1,
-      "preco_link": 1883.7,
+      "preco_cartao": 1753.8,
+      "preco_link": 1848.6,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-15c.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 930,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0013",
@@ -3113,22 +3149,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 960,
-      "preco_venda": 1787.1,
-      "preco_pix": 1610,
-      "preco_10x": 188.37,
+      "custo": 930,
+      "preco_venda": 1753.8,
+      "preco_pix": 1580,
+      "preco_10x": 184.86,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1787.1,
-      "preco_link": 1883.7,
+      "preco_cartao": 1753.8,
+      "preco_link": 1848.6,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-15c.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 930,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0014",
@@ -3137,22 +3179,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 960,
-      "preco_venda": 1787.1,
-      "preco_pix": 1610,
-      "preco_10x": 188.37,
+      "custo": 930,
+      "preco_venda": 1753.8,
+      "preco_pix": 1580,
+      "preco_10x": 184.86,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1787.1,
-      "preco_link": 1883.7,
+      "preco_cartao": 1753.8,
+      "preco_link": 1848.6,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-15c.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 930,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0015",
@@ -3161,22 +3209,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 780,
-      "preco_venda": 1587.3,
-      "preco_pix": 1430,
-      "preco_10x": 167.31,
+      "custo": 750,
+      "preco_venda": 1554,
+      "preco_pix": 1400,
+      "preco_10x": 163.8,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1587.3,
-      "preco_link": 1673.1,
+      "preco_cartao": 1554,
+      "preco_link": 1638,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-15c.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 750,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0016",
@@ -3185,22 +3239,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 780,
-      "preco_venda": 1587.3,
-      "preco_pix": 1430,
-      "preco_10x": 167.31,
+      "custo": 750,
+      "preco_venda": 1554,
+      "preco_pix": 1400,
+      "preco_10x": 163.8,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1587.3,
-      "preco_link": 1673.1,
+      "preco_cartao": 1554,
+      "preco_link": 1638,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-15c.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 750,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0017",
@@ -3209,22 +3269,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1220,
-      "preco_venda": 2075.7,
-      "preco_pix": 1870,
-      "preco_10x": 218.79,
+      "custo": 1175,
+      "preco_venda": 2025.75,
+      "preco_pix": 1825,
+      "preco_10x": 213.53,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2075.7,
-      "preco_link": 2187.9,
+      "preco_cartao": 2025.75,
+      "preco_link": 2135.25,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-note-14s.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-note-14s.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1175,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0018",
@@ -3233,22 +3299,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1220,
-      "preco_venda": 2075.7,
-      "preco_pix": 1870,
-      "preco_10x": 218.79,
+      "custo": 1175,
+      "preco_venda": 2025.75,
+      "preco_pix": 1825,
+      "preco_10x": 213.53,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2075.7,
-      "preco_link": 2187.9,
+      "preco_cartao": 2025.75,
+      "preco_link": 2135.25,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-note-14s.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-note-14s.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1175,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0019",
@@ -3497,22 +3569,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1790,
-      "preco_venda": 2708.4,
-      "preco_pix": 2440,
-      "preco_10x": 285.48,
+      "custo": 1750,
+      "preco_venda": 2664,
+      "preco_pix": 2400,
+      "preco_10x": 280.8,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2708.4,
-      "preco_link": 2854.8,
+      "preco_cartao": 2664,
+      "preco_link": 2808,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1750,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0030",
@@ -3521,22 +3599,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1790,
-      "preco_venda": 2708.4,
-      "preco_pix": 2440,
-      "preco_10x": 285.48,
+      "custo": 1750,
+      "preco_venda": 2664,
+      "preco_pix": 2400,
+      "preco_10x": 280.8,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2708.4,
-      "preco_link": 2854.8,
+      "preco_cartao": 2664,
+      "preco_link": 2808,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1750,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0031",
@@ -3545,22 +3629,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 685,
-      "preco_venda": 1481.85,
-      "preco_pix": 1335,
-      "preco_10x": 156.19,
+      "custo": 820,
+      "preco_venda": 1631.7,
+      "preco_pix": 1470,
+      "preco_10x": 171.99,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1481.85,
-      "preco_link": 1561.95,
+      "preco_cartao": 1631.7,
+      "preco_link": 1719.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-poco-c85.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 820,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0032",
@@ -3569,46 +3659,58 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 685,
-      "preco_venda": 1481.85,
-      "preco_pix": 1335,
-      "preco_10x": 156.19,
+      "custo": 820,
+      "preco_venda": 1631.7,
+      "preco_pix": 1470,
+      "preco_10x": 171.99,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1481.85,
-      "preco_link": 1561.95,
+      "preco_cartao": 1631.7,
+      "preco_link": 1719.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-poco-c85.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 820,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0033",
       "nome": "Poco C85 6/128 Roxo",
       "categoria": "Xiaomi",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 685,
-      "preco_venda": 1481.85,
-      "preco_pix": 1335,
-      "preco_10x": 156.19,
+      "custo": 820,
+      "preco_venda": 1631.7,
+      "preco_pix": 1470,
+      "preco_10x": 171.99,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1481.85,
-      "preco_link": 1561.95,
+      "preco_cartao": 1631.7,
+      "preco_link": 1719.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-poco-c85.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-poco-c85.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 820,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0034",
@@ -3704,7 +3806,13 @@
       "foto_url": "/imagens/produtos/xiaomi-poco-c81-pro.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-poco-c81-pro.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 720,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0038",
@@ -4049,22 +4157,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1220,
-      "preco_venda": 2075.7,
-      "preco_pix": 1870,
-      "preco_10x": 218.79,
+      "custo": 1175,
+      "preco_venda": 2025.75,
+      "preco_pix": 1825,
+      "preco_10x": 213.53,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2075.7,
-      "preco_link": 2187.9,
+      "preco_cartao": 2025.75,
+      "preco_link": 2135.25,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-note-14s.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-redmi-note-14s.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1175,
+          "data": "2026-10-22"
+        }
+      }
     },
     {
       "codigo": "XMI-0053",
@@ -6120,6 +6234,570 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1275,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0058",
+      "nome": "Poco F8 Ultra 5g 12/256 preto",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 3950,
+      "preco_venda": 5106,
+      "preco_pix": 4600,
+      "preco_cartao": 5106,
+      "preco_link": 5382,
+      "preco_10x": 538.2,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 3950,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0059",
+      "nome": "Poco x8promax 5g 12/512 preto azul",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 3060,
+      "preco_venda": 4118.1,
+      "preco_pix": 3710,
+      "preco_cartao": 4118.1,
+      "preco_link": 4340.7,
+      "preco_10x": 434.07,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 3060,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0060",
+      "nome": "Poco x8promax 5g 12/256 preto azul",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 2820,
+      "preco_venda": 3851.7,
+      "preco_pix": 3470,
+      "preco_cartao": 3851.7,
+      "preco_link": 4059.9,
+      "preco_10x": 405.99,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2820,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0061",
+      "nome": "Poco x8pro 5g 12/512 preto branco",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 2480,
+      "preco_venda": 3474.3,
+      "preco_pix": 3130,
+      "preco_cartao": 3474.3,
+      "preco_link": 3662.1,
+      "preco_10x": 366.21,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2480,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0062",
+      "nome": "Note17 pro max 5G 8/256 preto azul verde roxo",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 2430,
+      "preco_venda": 3418.8,
+      "preco_pix": 3080,
+      "preco_cartao": 3418.8,
+      "preco_link": 3603.6,
+      "preco_10x": 360.36,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2430,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0063",
+      "nome": "Poco x8pro 5g 8/256 preto amerlo verde",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 2150,
+      "preco_venda": 3108,
+      "preco_pix": 2800,
+      "preco_cartao": 3108,
+      "preco_link": 3276,
+      "preco_10x": 327.6,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2150,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0064",
+      "nome": "Note17 pro 5G 8/128 preto azul roxo",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1800,
+      "preco_venda": 2719.5,
+      "preco_pix": 2450,
+      "preco_cartao": 2719.5,
+      "preco_link": 2866.5,
+      "preco_10x": 286.65,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1800,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0065",
+      "nome": "Poco x8 5g 8/256 branco",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1650,
+      "preco_venda": 2553,
+      "preco_pix": 2300,
+      "preco_cartao": 2553,
+      "preco_link": 2691,
+      "preco_10x": 269.1,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1650,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0066",
+      "nome": "Note14pro+ 5g 8/256 azul",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1600,
+      "preco_venda": 2497.5,
+      "preco_pix": 2250,
+      "preco_cartao": 2497.5,
+      "preco_link": 2632.5,
+      "preco_10x": 263.25,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1600,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0067",
+      "nome": "Note 15pro 4g 8/256 preto azul titanum",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1550,
+      "preco_venda": 2442,
+      "preco_pix": 2200,
+      "preco_cartao": 2442,
+      "preco_link": 2574,
+      "preco_10x": 257.4,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1550,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0068",
+      "nome": "Note17 4G 8/256 preto",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1400,
+      "preco_venda": 2275.5,
+      "preco_pix": 2050,
+      "preco_cartao": 2275.5,
+      "preco_link": 2398.5,
+      "preco_10x": 239.85,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1400,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0069",
+      "nome": "Note14s 12/512 preto",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Consultar Disponibilidade",
+      "fornecedor": "FOR001",
+      "custo": 1390,
+      "preco_venda": 2264.4,
+      "preco_pix": 2040,
+      "preco_cartao": 2264.4,
+      "preco_link": 2386.8,
+      "preco_10x": 238.68,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1390,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": [],
+      "auditoria_bloqueio": {
+        "em": "2026-10-22",
+        "motivos": [
+          "R$ 1.390 é menos da metade da mediana dos pares (R$ 2.860)"
+        ]
+      }
+    },
+    {
+      "codigo": "XMI-0070",
+      "nome": "Redmi 17 6/256 roxo azul",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1250,
+      "preco_venda": 2109,
+      "preco_pix": 1900,
+      "preco_cartao": 2109,
+      "preco_link": 2223,
+      "preco_10x": 222.3,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1250,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0071",
+      "nome": "Note 15 4g 6/128 preto",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1120,
+      "preco_venda": 1964.7,
+      "preco_pix": 1770,
+      "preco_cartao": 1964.7,
+      "preco_link": 2070.9,
+      "preco_10x": 207.09,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1120,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0072",
+      "nome": "Redmi 15 6/128 preto cinza",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 925,
+      "preco_venda": 1748.25,
+      "preco_pix": 1575,
+      "preco_cartao": 1748.25,
+      "preco_link": 1842.75,
+      "preco_10x": 184.28,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 925,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0073",
+      "nome": "Redmi 17 4/128 preto roxo azul",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 900,
+      "preco_venda": 1720.5,
+      "preco_pix": 1550,
+      "preco_cartao": 1720.5,
+      "preco_link": 1813.5,
+      "preco_10x": 181.35,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 900,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0074",
+      "nome": "Poco c71 4/128 Preto dorudo",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 720,
+      "preco_venda": 1520.7,
+      "preco_pix": 1370,
+      "preco_cartao": 1520.7,
+      "preco_link": 1602.9,
+      "preco_10x": 160.29,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 720,
+          "data": "2026-10-22"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0075",
+      "nome": "Poco c81pro 4/64 preto",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 630,
+      "preco_venda": 1420.8,
+      "preco_pix": 1280,
+      "preco_cartao": 1420.8,
+      "preco_link": 1497.6,
+      "preco_10x": 149.76,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 630,
           "data": "2026-10-22"
         }
       },
