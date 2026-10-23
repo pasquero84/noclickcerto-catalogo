@@ -2,7 +2,7 @@
   "meta": {
     "sistema": "NoClickCerto",
     "versao": "2.0",
-    "ultima_atualizacao": "2026-10-22",
+    "ultima_atualizacao": "2026-10-23",
     "total_produtos": 251,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
@@ -6237,7 +6237,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1275,
-          "data": "2026-10-22"
+          "data": "2026-10-23"
         }
       },
       "bateria": null,
@@ -6622,7 +6622,7 @@
       "promocao": false,
       "fotos": [],
       "auditoria_bloqueio": {
-        "em": "2026-10-22",
+        "em": "2026-10-23",
         "motivos": [
           "R$ 1.390 é menos da metade da mediana dos pares (R$ 2.860)"
         ]
@@ -7215,7 +7215,7 @@
       "promocao": false,
       "fotos": [],
       "auditoria_bloqueio": {
-        "em": "2026-10-22",
+        "em": "2026-10-23",
         "motivos": [
           "R$ 110 é menos da metade da mediana dos pares (R$ 2.099)",
           "custo abaixo do piso de Apple Watch (R$ 400)"
@@ -7253,7 +7253,7 @@
       "promocao": false,
       "fotos": [],
       "auditoria_bloqueio": {
-        "em": "2026-10-22",
+        "em": "2026-10-23",
         "motivos": [
           "R$ 110 é menos da metade da mediana dos pares (R$ 2.099)",
           "custo abaixo do piso de Apple Watch (R$ 400)"
