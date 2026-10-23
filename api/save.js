@@ -1,26 +1,12 @@
-const crypto = require('crypto');
-
-function verifyToken(token, secret) {
-  if (!token || !secret) return false;
-  const parts = token.split('.');
-  if (parts.length !== 2) return false;
-  const [payload, sig] = parts;
-  const expires = parseInt(payload, 10);
-  if (isNaN(expires) || Date.now() > expires) return false;
-  const expected = crypto.createHmac('sha256', secret).update(payload).digest('hex');
-  return crypto.timingSafeEqual(Buffer.from(sig), Buffer.from(expected));
-}
+const { tokenValido, tokenDaRequisicao, cors } = require('./_auth');
 
 module.exports = async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  cors(res, 'POST, OPTIONS');
 
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
-  const token = (req.headers.authorization || '').replace('Bearer ', '');
-  if (!verifyToken(token, process.env.ADMIN_PASSWORD)) {
+  if (!tokenValido(tokenDaRequisicao(req))) {
     return res.status(401).json({ error: 'Não autorizado' });
   }
 

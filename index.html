@@ -435,7 +435,7 @@ function render(){
    servia o catálogo do cache local e o cliente via PREÇO ANTIGO — flagrado em
    31/08/2026 (página mostrava 181 produtos e preço velho com o servidor já em
    184 e preço novo). Preço errado na tela é prejuízo, não detalhe. */
-fetch('/catalogo.json',{cache:'no-cache'})
+fetch('/catalogo.publico.json',{cache:'no-cache'})
   .then(r=>r.json())
   .then(data=>{
     /* itens marcados como oculto=true são lixo de leitura de tabela do

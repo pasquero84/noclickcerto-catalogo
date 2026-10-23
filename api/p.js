@@ -47,10 +47,15 @@ function garantia(p) {
 export default async function handler(req, res) {
   const codigo = String(req.query.c || req.query.codigo || '').toUpperCase().trim();
 
-  const origem = `https://${req.headers.host}`;
+  // Host só do próprio projeto (domínio ou preview *.vercel.app); qualquer outro
+  // cai no domínio oficial. Lê a versão PÚBLICA do catálogo (sem custo/margem).
+  const host = String(req.headers.host || '');
+  const origem = /^catalogo\.noclickcerto\.com\.br$|^noclickcerto-catalogo[a-z0-9-]*\.vercel\.app$/.test(host)
+    ? `https://${host}`
+    : 'https://catalogo.noclickcerto.com.br';
   let catalogo;
   try {
-    const r = await fetch(`${origem}/catalogo.json`, { headers: { 'User-Agent': 'ncc-p/1.0' } });
+    const r = await fetch(`${origem}/catalogo.publico.json`, { headers: { 'User-Agent': 'ncc-p/1.0' } });
     catalogo = await r.json();
   } catch {
     res.status(500).send('catálogo indisponível');

@@ -1,27 +1,38 @@
-const crypto = require('crypto');
+const { senhaConfere, emitirToken, cors } = require('./_auth');
 
-function sign(data, secret) {
-  return crypto.createHmac('sha256', secret).update(String(data)).digest('hex');
-}
+// Limite de tentativas por IP. Memória da instância serverless: segura o
+// chute em sequência (que cai quase sempre na mesma instância quente), não é
+// muro absoluto — pra isso, regra de rate limit no Firewall da Vercel.
+const JANELA_MS = 15 * 60 * 1000;
+const MAX_ERROS = 5;
+const erros = new Map(); // ip -> { n, desde }
 
-module.exports = function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+const ipDe = (req) => String(req.headers['x-forwarded-for'] || req.socket?.remoteAddress || '?').split(',')[0].trim();
+const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 
+module.exports = async function handler(req, res) {
+  cors(res, 'POST, OPTIONS');
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
-  const { password } = req.body || {};
-  const adminPassword = process.env.ADMIN_PASSWORD;
+  const ip = ipDe(req);
+  const agora = Date.now();
+  const reg = erros.get(ip);
+  if (reg && agora - reg.desde < JANELA_MS && reg.n >= MAX_ERROS) {
+    res.setHeader('Retry-After', String(Math.ceil((reg.desde + JANELA_MS - agora) / 1000)));
+    return res.status(429).json({ error: 'Muitas tentativas. Espere 15 minutos.' });
+  }
 
-  if (!adminPassword || password !== adminPassword) {
+  const { password } = req.body || {};
+  if (!senhaConfere(password)) {
+    const atual = reg && agora - reg.desde < JANELA_MS ? reg : { n: 0, desde: agora };
+    atual.n += 1;
+    erros.set(ip, atual);
+    await espera(800); // atrasa o chute em massa
     return res.status(401).json({ error: 'Senha incorreta' });
   }
 
-  const expires = Date.now() + 30 * 24 * 60 * 60 * 1000;
-  const payload = String(expires);
-  const token = `${payload}.${sign(payload, adminPassword)}`;
-
+  erros.delete(ip);
+  const { token, expires } = emitirToken(30 * 24 * 60 * 60 * 1000);
   res.json({ success: true, token, expires });
 };

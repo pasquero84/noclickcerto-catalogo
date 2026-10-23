@@ -1,28 +1,14 @@
-const crypto = require('crypto');
-
-function verifyToken(token, secret) {
-  if (!token || !secret) return false;
-  const parts = token.split('.');
-  if (parts.length !== 2) return false;
-  const [payload, sig] = parts;
-  const expires = parseInt(payload, 10);
-  if (isNaN(expires) || Date.now() > expires) return false;
-  const expected = crypto.createHmac('sha256', secret).update(payload).digest('hex');
-  return crypto.timingSafeEqual(Buffer.from(sig), Buffer.from(expected));
-}
+const { tokenValido, tokenDaRequisicao, cors, caminhoDeImagemValido } = require('./_auth');
 
 // Increase body size limit for image uploads
 export const config = { api: { bodyParser: { sizeLimit: '5mb' } } };
 
 module.exports = async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, DELETE, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  cors(res, 'POST, DELETE, OPTIONS');
 
   if (req.method === 'OPTIONS') return res.status(200).end();
 
-  const token = (req.headers.authorization || '').replace('Bearer ', '');
-  if (!verifyToken(token, process.env.ADMIN_PASSWORD)) {
+  if (!tokenValido(tokenDaRequisicao(req))) {
     return res.status(401).json({ error: 'Não autorizado' });
   }
 
@@ -65,9 +51,9 @@ module.exports = async function handler(req, res) {
 
       const putJson = await putRes.json();
       if (putJson.content && putJson.content.download_url) {
-        // Use raw.githubusercontent.com for direct image access
-        const rawUrl = `https://raw.githubusercontent.com/${REPO}/main/${path}`;
-        res.json({ success: true, url: rawUrl, path });
+        // Caminho do próprio site (a Vercel republica em ~30s depois do commit).
+        // O endereço raw do GitHub para de funcionar com o repositório privado.
+        res.json({ success: true, url: `/${path}`, path });
       } else {
         res.status(500).json({ error: putJson.message || 'Erro ao fazer upload' });
       }
@@ -80,6 +66,11 @@ module.exports = async function handler(req, res) {
   else if (req.method === 'DELETE') {
     const { path: imgPath } = req.body || {};
     if (!imgPath) return res.status(400).json({ error: 'path é obrigatório' });
+    // Só apaga foto. Antes aceitava qualquer caminho do repositório
+    // (catalogo.json, vercel.json, api/*.js) — auditoria de 23/10.
+    if (!caminhoDeImagemValido(imgPath)) {
+      return res.status(400).json({ error: 'só dá pra apagar arquivo de imagens/' });
+    }
 
     try {
       const getRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${imgPath}`, { headers: HEADERS });

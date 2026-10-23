@@ -4,5 +4,9 @@
   "private": true,
   "engines": {
     "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build-publico.mjs",
+    "test": "bun test tests/parse-fornecedor.test.mjs tests/auditor.test.mjs tests/build-publico.test.mjs tests/api-admin.test.mjs"
   }
 }
