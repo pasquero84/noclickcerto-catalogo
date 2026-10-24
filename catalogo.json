@@ -6907,7 +6907,9 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "oculto": true,
+      "oculto_motivo": "2026-10-24: \"Max\" do Trend = Pro Max; duplicado de IPH-0098"
     },
     {
       "codigo": "IPH-0103",
@@ -6973,7 +6975,9 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "oculto": true,
+      "oculto_motivo": "2026-10-24: \"Max\" do Trend = Pro Max; duplicado de IPH-0054/0055 (17 Pro Max 256GB Anatel)"
     },
     {
       "codigo": "IPH-0105",
@@ -7008,7 +7012,9 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "oculto": true,
+      "oculto_motivo": "2026-10-24: \"Max\" do Trend = Pro Max; duplicado de IPH-0001..0003 (17 Pro Max 256GB)"
     },
     {
       "codigo": "IPH-0106",

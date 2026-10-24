@@ -19,6 +19,7 @@
 import { parseTabelaFornecedor, nomeDeProdutoValido } from './parse-fornecedor.mjs';
 import { consolidar, chaveProduto } from './consolidar.mjs';
 import { auditarCatalogo, bloquear, relatorio } from './auditor.mjs';
+import { validarEstrutura, relatorioEstrutura } from './validar-catalogo.mjs';
 
 const MARGEM_ATE_4K = 650;
 const MARGEM_ACIMA_4K = 850;
@@ -244,6 +245,13 @@ for (const a of atualizados) {
 // lembrar de rodar, é parte do próprio pipeline de ingestão.
 const reprovados = auditarCatalogo(produtos, antesDeHoje);
 console.log(relatorio(reprovados, produtos.length));
+
+// 3c. Estrutura (nome lixo, código repetido, margem de aparelho em acessório).
+// Só AVISA — o auditor acima já trava preço por item; travar a publicação
+// inteira por um nome feio tiraria o catálogo todo do ar. Aparece no aviso
+// do WhatsApp porque vai no stdout.
+const estrutura = validarEstrutura(produtos);
+if (estrutura.length) console.log(`\n⚠️  ESTRUTURA: ${estrutura.length} problema(s) — corrigir à mão\n${relatorioEstrutura(estrutura)}`);
 
 if (!APLICAR) {
   console.log('\n(dry-run — nada foi gravado. use --aplicar)');
