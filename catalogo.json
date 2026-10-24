@@ -7211,7 +7211,9 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "oculto": true,
+      "oculto_motivo": "2026-10-24: parser misturou Ultra 3 (custo R$4.299), S11 e Garmin num produto só, vendendo a R$2.799"
     },
     {
       "codigo": "APW-0009",
@@ -7249,7 +7251,9 @@
           "R$ 110 é menos da metade da mediana dos pares (R$ 2.099)",
           "custo abaixo do piso de Apple Watch (R$ 400)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-24: fonte classificada como Apple Watch (parser); entra de novo como acessório"
     },
     {
       "codigo": "APW-0010",
@@ -7287,7 +7291,9 @@
           "R$ 110 é menos da metade da mediana dos pares (R$ 2.099)",
           "custo abaixo do piso de Apple Watch (R$ 400)"
         ]
-      }
+      },
+      "oculto": true,
+      "oculto_motivo": "2026-10-24: cabo classificado como Apple Watch (parser); entra de novo como acessório"
     }
   ]
 }
