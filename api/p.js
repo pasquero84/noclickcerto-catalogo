@@ -44,19 +44,20 @@ function garantia(p) {
   return geracao > 14 ? '6 meses de garantia' : '3 meses de garantia';
 }
 
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
 export default async function handler(req, res) {
   const codigo = String(req.query.c || req.query.codigo || '').toUpperCase().trim();
 
-  // Host só do próprio projeto (domínio ou preview *.vercel.app); qualquer outro
-  // cai no domínio oficial. Lê a versão PÚBLICA do catálogo (sem custo/margem).
-  const host = String(req.headers.host || '');
-  const origem = /^catalogo\.noclickcerto\.com\.br$|^noclickcerto-catalogo[a-z0-9-]*\.vercel\.app$/.test(host)
-    ? `https://${host}`
-    : 'https://catalogo.noclickcerto.com.br';
+  // Lê a versão PÚBLICA do catálogo (sem custo/margem), gerada no build e
+  // empacotada junto com esta função (vercel.json → functions.includeFiles).
+  // Antes buscava por HTTP no próprio Host: dependia de rede, confiava no
+  // cabeçalho Host e quebrava em preview protegido por login.
+  const origem = 'https://catalogo.noclickcerto.com.br';
   let catalogo;
   try {
-    const r = await fetch(`${origem}/catalogo.publico.json`, { headers: { 'User-Agent': 'ncc-p/1.0' } });
-    catalogo = await r.json();
+    catalogo = JSON.parse(readFileSync(join(process.cwd(), 'public', 'catalogo.publico.json'), 'utf8'));
   } catch {
     res.status(500).send('catálogo indisponível');
     return;

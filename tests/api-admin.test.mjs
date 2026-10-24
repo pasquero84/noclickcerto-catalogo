@@ -64,3 +64,28 @@ test('DELETE de imagem só aceita imagens/', () => {
     assert.equal(A.caminhoDeImagemValido(ruim), false, String(ruim));
   }
 });
+
+test('/p/ lê o catálogo público empacotado (sem rede, sem Host) e esconde oculto', async () => {
+  const { execFileSync } = await import('node:child_process');
+  const { join, dirname } = await import('node:path');
+  const { fileURLToPath } = await import('node:url');
+  const raiz = join(dirname(fileURLToPath(import.meta.url)), '..');
+  execFileSync('node', [join(raiz, 'scripts/build-publico.mjs')], { cwd: raiz });
+  const { default: pagina } = await import('../api/p.js');
+  const cwd = process.cwd();
+  process.chdir(raiz);
+  try {
+    const abrir = (c) => new Promise((ok) => {
+      const res = { code: 200, headers: {}, setHeader(k, v) { this.headers[k] = v; }, status(c2) { this.code = c2; return this; }, send(b) { this.body = b; ok(this); }, end() { ok(this); } };
+      pagina({ query: { c }, headers: { host: 'evil.example.com' } }, res);
+    });
+    const ok = await abrir('IPH-0001');
+    assert.equal(ok.code, 200);
+    assert.match(ok.body, /iPhone 17 Pro Max/);
+    assert.match(ok.body, /https:\/\/catalogo\.noclickcerto\.com\.br\/p\/IPH-0001/); // og:url canônico, não o Host
+    assert.doesNotMatch(ok.body, /evil\.example\.com/);
+    assert.notEqual((await abrir('APW-0008')).code, 200); // oculto
+  } finally {
+    process.chdir(cwd);
+  }
+});
