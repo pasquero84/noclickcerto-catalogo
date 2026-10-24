@@ -27,7 +27,7 @@ import {
   contaLinhasComPreco,
   nomeDeProdutoValido,
 } from '../scripts/parse-fornecedor.mjs';
-import { consolidar } from '../scripts/consolidar.mjs';
+import { consolidar, chaveProduto } from '../scripts/consolidar.mjs';
 
 const FIX = join(dirname(fileURLToPath(import.meta.url)), 'fixtures');
 const AMOSTRAS = join(dirname(fileURLToPath(import.meta.url)), '..', 'scripts', 'amostras');
@@ -217,4 +217,18 @@ test('nenhum arquivo real gera produto lixo', () => {
     [AMOSTRAS, 'easystore-20260831.txt'], [AMOSTRAS, 'trend-20260831.txt'],
   ];
   for (const [dir, arq] of arquivos) semLixo(parseTabelaFornecedor(ler(dir, arq)));
+});
+
+test('nome limpo no catálogo casa com o nome cru do fornecedor (IPH-0072/0074/0075)', () => {
+  const ch = (nomeOriginal) => chaveProduto({ nomeOriginal, categoria: 'iPhone', condicao: 'Lacrado' });
+  assert.equal(ch('iPhone 16 Plus 256GB IND'), ch('16 PLUS 256Gb IND'));
+  assert.equal(ch('iPhone 16 256GB CPO (garantia 1 ano)'), ch('16 256GB CPO *Garntia 1 ano*'));
+  assert.equal(ch('iPhone 16 128GB CPO (garantia 1 ano)'), ch('16 128GB CPO    *Garntia 1 ano*'));
+  // CPO continua sendo outro produto, diferente do lacrado comum
+  assert.notEqual(ch('iPhone 16 128GB CPO (garantia 1 ano)'), ch('iPhone 16 128GB'));
+  // e o parser, lendo a tabela de 01/09, cai na mesma chave do catálogo
+  const ps = parseTabelaFornecedor(ler(FIX, 'easystore-2026-09-01.txt'), { fornecedor: 'FOR001' });
+  const chaves = ps.map((p) => chaveProduto(p));
+  assert.ok(chaves.includes(ch('iPhone 16 128GB CPO (garantia 1 ano)')));
+  assert.ok(chaves.includes(ch('iPhone 16 256GB CPO (garantia 1 ano)')));
 });

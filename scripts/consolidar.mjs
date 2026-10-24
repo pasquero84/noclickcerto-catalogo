@@ -22,6 +22,7 @@ import { parseTabelaFornecedor } from './parse-fornecedor.mjs';
 const RUIDO_NOME = [
   /\b(ll\/?a|lla)\b/gi,        // código de origem americana
   /\b(us|usa)\b/gi,           // Trend escreve "iPhone 17 Pro Max 256GB US🇺🇸"
+  /\bgar[a-z]*tia\s*(de\s*)?\d+\s*anos?\b/gi, // "*Garntia 1 ano*" (EasyStore) — garantia não é outro aparelho
   /\bjapon[eê]s\b/gi,
   /\bglobal\b/gi,
   /\([^)]*\)/g,                 // "(6GPU/5GPU/8 RAM/256 GB SSD)"
