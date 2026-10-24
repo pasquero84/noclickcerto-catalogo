@@ -1,6 +1,6 @@
 # Status operacional — Catálogo NoClickCerto
 
-Atualizado: **21/10/2026** (sessão-dona "Catálogo e fornecedores", Claude)
+Atualizado: **24/10/2026** (branch `seguranca-catalogo-2026-10-23`, ainda NÃO em produção) (sessão-dona "Catálogo e fornecedores", Claude)
 
 ## No ar
 - `catalogo.noclickcerto.com.br` — **219 produtos, 185 visíveis** (34 ocultos são
@@ -24,17 +24,21 @@ texto real dos fornecedores (`tests/fixtures/`). Formato novo de fornecedor? Sal
 texto cru em `tests/fixtures/` e escreva o teste ANTES de mexer no parser.
 
 ## Pendências
-- 🟡 **Token GitHub da Vercel vencido** (`GITHUB_TOKEN`, `Bad credentials`): só afeta o
-  botão **Salvar do /admin**. A ingestão automática não usa mais esse token.
-  Troca é do Stefano (nunca copiar segredo): ver WORKLOG 21/10.
-- 🟡 Conferir com a EasyStore se o **iPhone 16 Pro Max 256GB (IPH-0099, R$7.030 Pix)**
-  da tabela de 21/10 é lacrado ou CPO — a mensagem põe "CPO com 1 ano de garantia"
-  logo depois dele, de forma ambígua. Entrou como lacrado sem "CPO" no nome.
-- ⚪ Nomes feios mas corretos de 01/09: IPH-0072 "16 PLUS 256Gb IND",
-  IPH-0074/0075 "… CPO *Garntia 1 ano*". Renomear muda a chave de casamento — só
-  com cuidado.
-- ⚪ `scripts/validar-catalogo.mjs` + teste (30/09, nunca commitados) — portão
-  estrutural útil, mas o limite de 12 caracteres barra nome legítimo ("Buds 5 Pro",
-  "AirPods Max"). Calibrar antes de ligar.
-- ⚪ Senha do admin escrita como valor padrão no `~/wa-fornecedores/server.mjs` —
-  hoje não é mais usada pela publicação; tirar do código.
+- 🔴 **Publicar a branch `seguranca-catalogo-2026-10-23`** (só com OK do Stefano). Preview testado
+  em 24/10: site, /p/ e admin 200; scripts/docs/tabelas cruas 404; catálogo público sem custo,
+  margem, fornecedor nem cotações; cabeçalhos de segurança presentes. Antes do merge, apagar da
+  pasta principal as cópias soltas `scripts/validar-catalogo.mjs` e `tests/validar-catalogo.test.mjs`
+  (agora estão versionadas na branch e o git recusa sobrescrever arquivo não rastreado).
+- 🟡 **Duas chaves que só o Stefano cria** (nunca colar em chat nem em arquivo):
+  - `ADMIN_TOKEN_SECRET`: no Terminal, `openssl rand -hex 32 | pbcopy` (copia um segredo aleatório sem mostrar).
+    Vercel → projeto noclickcerto-catalogo → Settings → Environment Variables → Add → nome `ADMIN_TOKEN_SECRET`,
+    valor ⌘V, Production + Preview → Save.
+  - `GITHUB_TOKEN` novo: github.com/settings/personal-access-tokens/new → só o repositório
+    `pasquero84/noclickcerto-catalogo`, permissão Contents = Read and write, validade 1 ano → Generate → copiar.
+    Vercel → noclickcerto-catalogo → Settings → Environment Variables → `GITHUB_TOKEN` → Edit → colar → Save →
+    Deployments → Redeploy. Sem ele o /admin abre mas não carrega nem salva.
+- 🟡 Depois do deploy: tornar o repositório privado (seguro: nenhuma foto usa raw.githubusercontent).
+- ⚪ Garmin: a seção GARMIN do Trend é pulada (não há aba no site). Se for vender, criar categoria/aba.
+- ⚪ "Cabo Lightning", "Fonte 35W", "Fonte 20W" de primeira linha do Trend casam com os lixos antigos
+  ACS-0010 (ocultos, código repetido) e por isso não aparecem. Resolver junto com a limpeza dos ACS-0010/0011/0012.
+- ⚪ Conferir com a EasyStore se o IPH-0099 (16 Pro Max 256GB, 21/10) é lacrado ou CPO.
