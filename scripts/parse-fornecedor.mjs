@@ -57,6 +57,15 @@ const SECOES = [
   { re: /macbook/i, condicao: 'Lacrado', categoria: 'MacBook' },
   { re: /ipad/i, condicao: 'Lacrado', categoria: 'iPad' },
   { re: /apple\s*watch/i, condicao: 'Lacrado', categoria: 'Apple Watch' },
+  // Trend 22/10: "*IPHONES CPO - - -*", "*AIRPODS- - -*", "*ACESSÓRIOS- - -*",
+  // "*ACESSÓRIOS ORIGINAIS APPLE*". Ancoradas no começo: "AirPods Pro 3" sem
+  // preço na linha é PRODUTO, não cabeçalho.
+  { re: /^iphones?\s*cpo\b/i, condicao: 'Lacrado', categoria: 'iPhone' },
+  { re: /^airpods[\s-]*$/i, condicao: 'Lacrado', categoria: 'Fone' },
+  { re: /^acess[óo]rios?\b/i, condicao: 'Lacrado', categoria: 'Acessório' },
+  // Garmin não tem aba no site: a seção é pulada de propósito (decisão do
+  // Stefano se quiser vender — aí cria categoria e aba).
+  { re: /^garmin[\s-]*$/i, condicao: 'Lacrado', categoria: null, ignorar: true },
 ];
 
 // Cores conhecidas — usado pra decidir se uma linha SEM preço é cor do produto
@@ -68,7 +77,7 @@ const CORES = [
   'desert', 'titanio', 'titânio', 'natural', 'citrus', 'meia noite', 'estelar',
   'lilas', 'lilás', 'bege', 'creme', 'ultramarine', 'teal', 'sage', 'space',
   'starlight', 'midnight', 'midnget', 'indigo', 'blush', 'burgundy', 'lavanda',
-  'sky', 'blue', 'black', 'white', 'pink', 'orange', 'cosmic', 'deep', 'mist',
+  'sky', 'skyblue', 'blue', 'black', 'white', 'pink', 'orange', 'cosmic', 'deep', 'mist',
 ];
 
 // Erros de digitação recorrentes dos fornecedores -> nome certo da cor.
@@ -93,10 +102,10 @@ const RE_APARELHO = /\b(iphone|ipad|mac|macbook|imac|airpods?|airtag|watch|penci
 //     "R$ 4.650" virava preço 650 e nome "• 16 Pro Max 256GB — R$ 4.".
 // O ponto solto continua permitido antes do preço: a EasyStore escreve
 // "Dorudo.5140" e "Branco .3710".
-const RE_PRECO = /(?<![\d/]|\d[.,])(?:r\$\s*)?(\d{1,3}(?:\.\d{3})+|\d{3,6})(?:,(\d{2}))?\s*$/i;
+const RE_PRECO = /(?<![\d/]|\d[.,])(r\$\s*)?(\d{1,3}(?:\.\d{3})+|\d{2,6})(?:,(\d{2}))?\s*$/i;
 // Capacidade: "256GB", "1TB", "Pro128GB" (colado) e o padrão RAM/armazenamento
 // "8/256" que EasyStore e Trend usam em MacBook e Xiaomi.
-const RE_CAPACIDADE = /(?<!\d)\d{2,4}\s*(gb|tb)\b|\b\d{1,2}\s*\/\s*\d{2,4}\b/i;
+const RE_CAPACIDADE = /(?<!\d)\d{1,4}\s*(gb|tb)\b|\b\d{1,2}\s*\/\s*\d{2,4}\b/i;
 // iPhone com capacidade sem "GB": "16 Promax 256 CPO" (EasyStore 01/09).
 const RE_IPHONE_CAP_SOLTA = /^(iphone\s*)?\d{1,2}\s*(pro\s*max|promax|pro|plus|max|mini|air|e)?\s+(64|128|256|512)\b/i;
 const RE_BATERIA = /(\d{2,3})\s*%|bateria/i;
@@ -104,6 +113,7 @@ const RE_BATERIA = /(\d{2,3})\s*%|bateria/i;
 // "🔥 iPhone 17 Pro Max 🇺🇸". Vale como "pai" pras linhas de baixo.
 const RE_PAI_IPHONE = /^iphone\s*(\d{1,2})\s*(pro\s*max|promax|pro|plus|max|mini|air|e)?\s*$/i;
 const RE_SEPARADOR = /^[━─—_=\-\s]{5,}$/;
+const RE_PRODUTO_SEM_PRECO = /\b\d{2}\s*mm\b|\b(iphone|ipad|macbook|airpods|airtag|watch|ultra|pencil|redmi|poco|xiaomi|realme|galaxy|buds)\b/i;
 
 function limpa(s) {
   return s
@@ -131,11 +141,15 @@ function ehRuido(linha) {
 function extraiPreco(linha) {
   const m = limpa(linha).match(RE_PRECO);
   if (!m) return null;
-  const inteiro = m[1].replace(/\./g, '');
-  const centavos = m[2] ? `.${m[2]}` : '';
+  const comCifrao = Boolean(m[1]);
+  const inteiro = m[2].replace(/\./g, '');
+  const centavos = m[3] ? `.${m[3]}` : '';
   const v = parseFloat(inteiro + centavos);
-  // Preço de aparelho: abaixo de 100 quase sempre é capacidade/ruído solto.
-  return Number.isFinite(v) && v >= 100 ? v : null;
+  // Número solto abaixo de 100 quase sempre é capacidade/ruído ("Note 15", "40mm").
+  // Com "R$" na frente é preço mesmo: o Trend vende cabo a "R$15" (22/10).
+  // E número de 2 dígitos solto nunca é preço.
+  if (!comCifrao && (v < 100 || inteiro.length < 3)) return null;
+  return Number.isFinite(v) && v >= 10 ? v : null;
 }
 
 function semPreco(linha) {
@@ -152,6 +166,9 @@ function detectaSecao(linha) {
   // guarda, "MACBOOK NEO 8/256" (produto) virava cabeçalho de seção e o
   // produto sumia, sobrando só a linha da cor.
   if (extraiPreco(l) || temCapacidade(l)) return null;
+  // Nem número: "MacBook Pro M5 Chip Pro 16" (…1TB…)" sem preço na linha é
+  // produto (Trend 22/10); cabeçalho é "Macbooks - - -", "IPHONES SEMINOVOS".
+  if (/\d/.test(l)) return null;
   return SECOES.find((s) => s.re.test(l)) || null;
 }
 
@@ -176,8 +193,11 @@ function ehLinhaDeCor(linha) {
   const palavras = resto.split(/[\s,/|]+/).filter(Boolean);
   if (palavras.every((p) => CORES.includes(p.replace(/\.$/, '')))) return true;
   if (!extraiPreco(linha)) return false;
-  if (palavras.length > 3 || /\d/.test(resto) || RE_APARELHO.test(resto)) return false;
-  return /^[\p{L}\s,/|.]+$/u.test(resto);
+  if (/\d/.test(resto) || RE_APARELHO.test(resto) || !/^[\p{L}\s,/|.]+$/u.test(resto)) return false;
+  // Conta por cor (separadas por | / ,), não por palavra: "Skyblue | Starlight |
+  // Silver | Midnight R$7499" (Trend 22/10) são 4 cores de 1 palavra cada.
+  const segmentos = resto.split(/[,/|]/).map((x) => x.trim()).filter(Boolean);
+  return segmentos.length <= 8 && segmentos.every((x) => x.split(/\s+/).length <= 3);
 }
 
 function extraiCores(linha) {
@@ -203,15 +223,23 @@ function coresDaBateria(linha) {
     .map(normalizaCor);
 }
 
+// Acessório manda sobre a seção: o Trend (22/10) emendou "Fonte 20W" e "Cabo
+// Lightning" logo depois da seção APPLEWATCH e eles viraram "Apple Watch Fonte
+// 20W" com margem de relógio.
+const RE_ACESSORIO = /\b(fonte|cabo|carregador|adaptador|capa|capinha|pel[íi]cula|earpods|pencil|pulseira)\b/i;
+
 function detectaCategoria(nome) {
   const n = nome.toLowerCase();
+  if (RE_ACESSORIO.test(n)) return 'Acessório';
   if (/iphone|\bip\b|^\d{1,2}\s*(pro|air|plus|mini|e\b|promax|\d{2,4}\s*gb|\d{2,3}\b)/.test(n)) return 'iPhone';
   if (/ipad/.test(n)) return 'iPad';
   if (/macbook|mac\s*book/.test(n)) return 'MacBook';
   if (/watch|\b\d{2}\s*mm\b/.test(n)) return 'Apple Watch';
   if (/xiaomi|redmi|poco|note\s*\d/.test(n)) return 'Xiaomi';
   if (/realme/.test(n)) return 'Realme';
-  if (/airpods|fone|buds/.test(n)) return 'Fone';
+  // Fone = sem fio (AirPods, Buds), margem fixa de aparelho. "Fone Tipo C" de
+  // R$50 com fio é acessório (cai no fim).
+  if (/airpods|buds/.test(n)) return 'Fone';
   if (/tablet|galaxy tab/.test(n)) return 'Tablet';
   return 'Acessório';
 }
@@ -232,7 +260,10 @@ function nomeBonito(nome, categoria) {
       .replace(/(pro|air|plus|mini|max)(\d)/gi, '$1 $2')
       .replace(/\b(pro\s*max|promax|pro|max|plus|mini|air)\b/gi, (w) =>
         w.toLowerCase().replace(/\s+/g, '') === 'promax' ? 'Pro Max' : VARIANTES[w.toLowerCase()])
-      .replace(RE_IPHONE_CAP_SOLTA, (m) => (/gb$/i.test(m) ? m : `${m}GB`));
+      .replace(RE_IPHONE_CAP_SOLTA, (m) => (/gb$/i.test(m) ? m : `${m}GB`))
+      // O Trend (22/10) escreve "iPhone 17 Max" pro 17 Pro Max — não existe
+      // "17 Max". Sem isso, virava produto duplicado com preço próprio.
+      .replace(/\b(\d{2})\s+Max\b/, '$1 Pro Max');
     n = `iPhone ${n}`;
   } else if (categoria === 'iPad') {
     n = n.replace(/^ipad/i, 'iPad');
@@ -289,8 +320,9 @@ export function parseTabelaFornecedor(texto, { fornecedor = null } = {}) {
     // logo depois da seção "IPHONE LACRADOS" — o fornecedor emenda categorias
     // sem cabeçalho novo). Só cai na seção quando o nome não denuncia nada.
     const porNome = detectaCategoria(nomeCru);
-    const categoria =
-      porNome !== 'Acessório' && porNome !== secao?.categoria
+    const categoria = RE_ACESSORIO.test(nomeCru)
+      ? 'Acessório'
+      : porNome !== 'Acessório' && porNome !== secao?.categoria
         ? porNome
         : secao?.categoria || porNome;
     let nome = nomeBonito(nomeCru, categoria);
@@ -338,9 +370,17 @@ export function parseTabelaFornecedor(texto, { fornecedor = null } = {}) {
     }
 
     if (ehRuido(bruta)) continue;
+    if (secao?.ignorar) continue;
 
     const preco = extraiPreco(bruta);
     const resto = semPreco(bruta);
+
+    // Trend 22/10: o preço vem sozinho na linha de baixo ("🎧*AirPods Pro 3*" /
+    // "🔘*R$1270*").
+    if (!resto && preco) {
+      if (atual && !atual.variacoes.length) addCor(null, preco);
+      continue;
+    }
 
     // Marcador "CPO" solto (sem preço/capacidade): vale pros iPhones de baixo.
     if (!preco && !temCapacidade(resto) && /\bcpo\b/i.test(resto)) {
@@ -389,8 +429,11 @@ export function parseTabelaFornecedor(texto, { fornecedor = null } = {}) {
     // Caso contrário: começa produto novo.
     let nome = resto;
     if (!nome || nome.length < 3) continue;
-    // Precisa parecer aparelho: ter capacidade OU preço.
-    if (!temCapacidade(nome) && !preco) continue;
+    // Precisa parecer aparelho: ter capacidade, preço, tamanho de relógio
+    // ("Ultra 3 49mm") ou nome de aparelho ("AirPods Pro 3", "Pencil USBC") —
+    // nesses dois últimos o preço vem na linha de baixo.
+    if (!temCapacidade(nome) && !preco && !RE_PRODUTO_SEM_PRECO.test(nome)) continue;
+    if (!preco && (RE_BATERIA.test(nome) || /https?:|www\./i.test(nome))) continue;
     // Item da EasyStore sem a variante que está no cabeçalho:
     // "🔥 IPHONE 12 pro" + "• 12 128 GB" = iPhone 12 Pro 128GB.
     if (pai?.variante) {

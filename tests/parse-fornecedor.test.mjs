@@ -232,3 +232,49 @@ test('nome limpo no catálogo casa com o nome cru do fornecedor (IPH-0072/0074/0
   assert.ok(chaves.includes(ch('iPhone 16 128GB CPO (garantia 1 ano)')));
   assert.ok(chaves.includes(ch('iPhone 16 256GB CPO (garantia 1 ano)')));
 });
+
+test('Trend 23/10 (formato novo: preço na linha de baixo, seções AIRPODS/ACESSÓRIOS/APPLEWATCH)', () => {
+  // Defeitos que este arquivo causou no ar em 22-23/10: MacBooks e AirPods
+  // sumiram; Ultra 3 (R$4.299), S11 e Garmin viraram "Apple Watch Alpine Loop"
+  // a R$2.799; fonte e cabo viraram Apple Watch; "17 Max" virou outro produto.
+  const ps = parseTabelaFornecedor(ler(FIX, 'trend-2026-10-23.txt'), { fornecedor: 'FOR002' });
+  semLixo(ps.filter((p) => p.categoria !== 'Acessório')); // acessório tem preço < R$100 de verdade
+  assert.deepEqual(resumo(ps), [
+    'iPhone 18 Pro Max 256GB LL/A | iPhone/Lacrado | Glacial:8999',
+    'iPhone 18 Pro 256GB LL/A | iPhone/Lacrado | Bordô:7399',
+    'iPhone 17 Pro Max 256GB ANATEL | iPhone/Lacrado | Laranja:6849',
+    'iPhone 17 Pro Max 256GB LL/A | iPhone/Lacrado | Laranja:6649, Azul:6649, Silver:6799',
+    'iPhone 17 Pro 256GB ANATEL | iPhone/Lacrado | Laranja:6449',
+    'iPhone 17 Pro 256GB LL/A | iPhone/Lacrado | Silver:6449, Azul:6499',
+    'iPhone 17 256GB HN | iPhone/Lacrado | Branco:5149, Lavander:5149',
+    'iPhone 16 128GB | iPhone/Lacrado | Verde:3949, Branco:4099',
+    'iPhone 15 Plus 256GB | iPhone/Lacrado | Rosa:4099',
+    'iPhone 16 CPO 128GB | iPhone/Lacrado | Rosa:3899',
+    'MacBook Pro M5 Chip Pro 16" (15 CPU/16 GPU/24 RAM/1TB SSD) | MacBook/Lacrado | Silver:17550',
+    'MacBook Pro M5 Chip Pro 14" (15 CPU/16 GPU/24 RAM/1TB SSD) | MacBook/Lacrado | Spaceblack:15500',
+    'MacBook Air M5 13" (10CPU/8GPU/16 RAM/512GB SSD) | MacBook/Lacrado | Skyblue:7499, Starlight:7499, Silver:7499, Midnight:7499',
+    'AirPods Pro 3 | Fone/Lacrado | —:1270',
+    'AirPods 4 ANC | Fone/Lacrado | —:949',
+    'Pencil USBC | Acessório/Lacrado | —:449',
+    'Apple Watch Ultra 3 49mm | Apple Watch/Lacrado | Alpine Loop:4299',
+    'Apple Watch S11 Gps 46mm M/L | Apple Watch/Lacrado | Space Gray:2149',
+    // seção GARMIN pulada de propósito (não tem aba no site)
+    'Fonte 20W USB-C Apple | Acessório/Lacrado | —:110',
+    'Cabo Lightning 2M Apple | Acessório/Lacrado | —:110',
+    'Cabo Tipo C-C 1M Apple | Acessório/Lacrado | —:60',
+    'EarPods USB-C Apple | Acessório/Lacrado | —:80',
+    'Cabo Lightning | Acessório/Lacrado | —:15',
+    'Fonte 35W | Acessório/Lacrado | —:60',
+    'Fonte 20W | Acessório/Lacrado | —:40',
+    'Fone Tipo C | Acessório/Lacrado | —:50',
+  ]);
+});
+
+test('"iPhone 17 Max" do Trend casa com o 17 Pro Max da EasyStore', () => {
+  const tr = parseTabelaFornecedor(ler(FIX, 'trend-2026-10-23.txt'), { fornecedor: 'FOR002' });
+  const es = parseTabelaFornecedor(ler(FIX, 'easystore-2026-10-21-novidades.txt'), { fornecedor: 'FOR001' });
+  const c = consolidar([tr, es]);
+  const pm = c.find((p) => p.chave === 'iPhone|Lacrado|17 pro max|256');
+  assert.deepEqual(pm.precosPorFornecedor, { FOR001: 6850, FOR002: 6799 });
+  assert.equal(pm.custo, 6850); // vale o MAIOR
+});
