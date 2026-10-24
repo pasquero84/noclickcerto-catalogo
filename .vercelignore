@@ -1,0 +1,6 @@
+# Não sobe pra Vercel (o build só precisa de index.html, imagens/, admin/, api/, scripts/ e catalogo.json)
+.claude
+public
+docs
+tests
+*.md
