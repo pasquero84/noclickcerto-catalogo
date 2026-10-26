@@ -2,8 +2,8 @@
   "meta": {
     "sistema": "NoClickCerto",
     "versao": "2.0",
-    "ultima_atualizacao": "2026-10-23",
-    "total_produtos": 251,
+    "ultima_atualizacao": "2026-10-26",
+    "total_produtos": 252,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
@@ -6266,7 +6266,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1275,
-          "data": "2026-10-23"
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
@@ -6651,7 +6651,7 @@
       "promocao": false,
       "fotos": [],
       "auditoria_bloqueio": {
-        "em": "2026-10-23",
+        "em": "2026-10-26",
         "motivos": [
           "R$ 1.390 é menos da metade da mediana dos pares (R$ 2.860)"
         ]
@@ -7300,6 +7300,37 @@
       },
       "oculto": true,
       "oculto_motivo": "2026-10-24: cabo classificado como Apple Watch (parser); entra de novo como acessório"
+    },
+    {
+      "codigo": "XMI-0076",
+      "nome": "Xiaomi Buds 5 Pro",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 400,
+      "preco_venda": 1165.5,
+      "preco_pix": 1050,
+      "preco_cartao": 1165.5,
+      "preco_link": 1228.5,
+      "preco_10x": 122.85,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 400,
+          "data": "2026-10-26"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
     }
   ]
 }
