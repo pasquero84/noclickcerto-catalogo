@@ -3,7 +3,7 @@
     "sistema": "NoClickCerto",
     "versao": "2.0",
     "ultima_atualizacao": "2026-10-26",
-    "total_produtos": 252,
+    "total_produtos": 260,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
@@ -7319,6 +7319,254 @@
       "cotacoes": {
         "FOR001": {
           "custo": 400,
+          "data": "2026-10-26"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "RLM-0011",
+      "nome": "Realme 14 12/512 branco",
+      "categoria": "Realme",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1640,
+      "preco_venda": 2541.9,
+      "preco_pix": 2290,
+      "preco_cartao": 2541.9,
+      "preco_link": 2679.3,
+      "preco_10x": 267.93,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1640,
+          "data": "2026-10-26"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "RLM-0012",
+      "nome": "Realme c85pro 8/256 roxo verde",
+      "categoria": "Realme",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 1260,
+      "preco_venda": 2120.1,
+      "preco_pix": 1910,
+      "preco_cartao": 2120.1,
+      "preco_link": 2234.7,
+      "preco_10x": 223.47,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 1260,
+          "data": "2026-10-26"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "RLM-0013",
+      "nome": "Realme c100x 4/128 azul",
+      "categoria": "Realme",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 940,
+      "preco_venda": 1764.9,
+      "preco_pix": 1590,
+      "preco_cartao": 1764.9,
+      "preco_link": 1860.3,
+      "preco_10x": 186.03,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 940,
+          "data": "2026-10-26"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0077",
+      "nome": "Realme note 70 8/256 preto",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 925,
+      "preco_venda": 1748.25,
+      "preco_pix": 1575,
+      "preco_cartao": 1748.25,
+      "preco_link": 1842.75,
+      "preco_10x": 184.28,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 925,
+          "data": "2026-10-26"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "RLM-0014",
+      "nome": "Realme c100i 4/128 azul roxo",
+      "categoria": "Realme",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 910,
+      "preco_venda": 1731.6,
+      "preco_pix": 1560,
+      "preco_cartao": 1731.6,
+      "preco_link": 1825.2,
+      "preco_10x": 182.52,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 910,
+          "data": "2026-10-26"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0078",
+      "nome": "Realme note 80 4/128 preto azul",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 840,
+      "preco_venda": 1653.9,
+      "preco_pix": 1490,
+      "preco_cartao": 1653.9,
+      "preco_link": 1743.3,
+      "preco_10x": 174.33,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 840,
+          "data": "2026-10-26"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0079",
+      "nome": "Realme note 70 4/128 preto dorudo",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 770,
+      "preco_venda": 1576.2,
+      "preco_pix": 1420,
+      "preco_cartao": 1576.2,
+      "preco_link": 1661.4,
+      "preco_10x": 166.14,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 770,
+          "data": "2026-10-26"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0080",
+      "nome": "Realme note 60x 4/128 preto verde",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 690,
+      "preco_venda": 1487.4,
+      "preco_pix": 1340,
+      "preco_cartao": 1487.4,
+      "preco_link": 1567.8,
+      "preco_10x": 156.78,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 690,
           "data": "2026-10-26"
         }
       },
