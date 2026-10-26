@@ -37,10 +37,10 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 6850,
-      "preco_venda": 8547,
-      "preco_pix": 7700,
-      "preco_10x": 900.9,
+      "custo": 7050,
+      "preco_venda": 8769,
+      "preco_pix": 7900,
+      "preco_10x": 924.3,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
@@ -54,16 +54,15 @@
         "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
       ],
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
-      "preco_cartao": 8547,
-      "preco_link": 9009,
+      "preco_cartao": 8769,
+      "preco_link": 9243,
       "cores": [
-        "Azul",
-        "Branco"
+        "Azul"
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 6850,
-          "data": "2026-10-23"
+          "custo": 7050,
+          "data": "2026-10-26"
         }
       }
     },
@@ -74,20 +73,19 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 6850,
-      "preco_venda": 8547,
-      "preco_pix": 7700,
-      "preco_10x": 900.9,
+      "custo": 7050,
+      "preco_venda": 8769,
+      "preco_pix": 7900,
+      "preco_10x": 924.3,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8547,
-      "preco_link": 9009,
+      "preco_cartao": 8769,
+      "preco_link": 9243,
       "cores": [
-        "Azul",
-        "Branco"
+        "Azul"
       ],
       "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão japonesa. A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -96,8 +94,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 6850,
-          "data": "2026-10-23"
+          "custo": 7050,
+          "data": "2026-10-26"
         }
       }
     },
@@ -108,20 +106,19 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 6850,
-      "preco_venda": 8547,
-      "preco_pix": 7700,
-      "preco_10x": 900.9,
+      "custo": 7050,
+      "preco_venda": 8769,
+      "preco_pix": 7900,
+      "preco_10x": 924.3,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8547,
-      "preco_link": 9009,
+      "preco_cartao": 8769,
+      "preco_link": 9243,
       "cores": [
-        "Azul",
-        "Branco"
+        "Azul"
       ],
       "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -130,8 +127,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 6850,
-          "data": "2026-10-23"
+          "custo": 7050,
+          "data": "2026-10-26"
         }
       }
     },
@@ -1729,22 +1726,20 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 6499,
-      "preco_venda": 8157.39,
-      "preco_pix": 7349,
-      "preco_10x": 859.83,
+      "fornecedor": "FOR001",
+      "custo": 6550,
+      "preco_venda": 8214,
+      "preco_pix": 7400,
+      "preco_10x": 865.8,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8157.39,
-      "preco_link": 8598.33,
+      "preco_cartao": 8214,
+      "preco_link": 8658,
       "cores": [
-        "Azul",
-        "Laranja",
-        "Silver"
+        "Branco"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1753,8 +1748,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 6190,
-          "data": "2026-10-23"
+          "custo": 6550,
+          "data": "2026-10-26"
         },
         "FOR002": {
           "custo": 6499,
@@ -1768,22 +1763,20 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 6499,
-      "preco_venda": 8157.39,
-      "preco_pix": 7349,
-      "preco_10x": 859.83,
+      "fornecedor": "FOR001",
+      "custo": 6550,
+      "preco_venda": 8214,
+      "preco_pix": 7400,
+      "preco_10x": 865.8,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8157.39,
-      "preco_link": 8598.33,
+      "preco_cartao": 8214,
+      "preco_link": 8658,
       "cores": [
-        "Azul",
-        "Laranja",
-        "Silver"
+        "Branco"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1792,8 +1785,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 6190,
-          "data": "2026-10-23"
+          "custo": 6550,
+          "data": "2026-10-26"
         },
         "FOR002": {
           "custo": 6499,
@@ -1807,22 +1800,20 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 6499,
-      "preco_venda": 8157.39,
-      "preco_pix": 7349,
-      "preco_10x": 859.83,
+      "fornecedor": "FOR001",
+      "custo": 6550,
+      "preco_venda": 8214,
+      "preco_pix": 7400,
+      "preco_10x": 865.8,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8157.39,
-      "preco_link": 8598.33,
+      "preco_cartao": 8214,
+      "preco_link": 8658,
       "cores": [
-        "Azul",
-        "Laranja",
-        "Silver"
+        "Branco"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1831,8 +1822,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 6190,
-          "data": "2026-10-23"
+          "custo": 6550,
+          "data": "2026-10-26"
         },
         "FOR002": {
           "custo": 6499,
@@ -5079,7 +5070,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 4600,
-          "data": "2026-10-23"
+          "data": "2026-10-26"
         }
       }
     },
@@ -5959,23 +5950,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 8890,
-      "preco_venda": 10811.4,
-      "preco_pix": 9740,
-      "preco_cartao": 10811.4,
-      "preco_link": 11395.8,
-      "preco_10x": 1139.58,
+      "custo": 9000,
+      "preco_venda": 10933.5,
+      "preco_pix": 9850,
+      "preco_cartao": 10933.5,
+      "preco_link": 11524.5,
+      "preco_10x": 1152.45,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "cotacoes": {
         "FOR001": {
-          "custo": 8890,
-          "data": "2026-10-23"
+          "custo": 9000,
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
       "cores": [
-        "Burgundy",
         "Glacial"
       ],
       "origem": null,
@@ -5993,18 +5983,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 7290,
-      "preco_venda": 9035.4,
-      "preco_pix": 8140,
-      "preco_cartao": 9035.4,
-      "preco_link": 9523.8,
-      "preco_10x": 952.38,
+      "custo": 7900,
+      "preco_venda": 9712.5,
+      "preco_pix": 8750,
+      "preco_cartao": 9712.5,
+      "preco_link": 10237.5,
+      "preco_10x": 1023.75,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "cotacoes": {
         "FOR001": {
-          "custo": 7290,
-          "data": "2026-10-23"
+          "custo": 7900,
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
@@ -6026,18 +6016,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 6180,
-      "preco_venda": 7803.3,
-      "preco_pix": 7030,
-      "preco_cartao": 7803.3,
-      "preco_link": 8225.1,
-      "preco_10x": 822.51,
+      "custo": 6190,
+      "preco_venda": 7814.4,
+      "preco_pix": 7040,
+      "preco_cartao": 7814.4,
+      "preco_link": 8236.8,
+      "preco_10x": 823.68,
       "lucro_pix": 850,
       "lucro_cartao": 850,
       "cotacoes": {
         "FOR001": {
-          "custo": 6180,
-          "data": "2026-10-23"
+          "custo": 6190,
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
@@ -6070,7 +6060,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 5100,
-          "data": "2026-10-23"
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
@@ -6103,7 +6093,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 4350,
-          "data": "2026-10-23"
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
@@ -6134,7 +6124,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2850,
-          "data": "2026-10-23"
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
@@ -6168,7 +6158,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2650,
-          "data": "2026-10-23"
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
@@ -6204,7 +6194,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 480,
-          "data": "2026-10-23"
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
@@ -6235,7 +6225,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 460,
-          "data": "2026-10-23"
+          "data": "2026-10-26"
         }
       },
       "bateria": null,
