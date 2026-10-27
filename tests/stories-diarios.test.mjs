@@ -28,12 +28,12 @@ test('regras 2-5: 10x (link ÷ 10) primeiro, Pix "super desconto", entrega grát
   const t = textos(e);
   assert.equal(t.parcela, `10x de R$ ${(e.produto.preco_link / 10).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`);
   assert.match(t.pixRotulo, /super desconto/);
-  assert.match(t.entrega, /Entrega grátis em Ubatuba/);
+  assert.equal(t.entrega, 'Entrega grátis em Ubatuba — de Itamambuca à Praia Grande · outras regiões, consulte');
   assert.equal(t.confianca, 'Compre com quem você confia');
   assert.equal(t.golpe, 'Evite cair em golpes na internet');
   const html = htmlDoStory(e, '');
   assert.ok(html.indexOf(t.parcela) < html.indexOf(t.pix), '10x tem que vir antes do Pix');
-  for (const s of [t.parcela, t.pix, 'super desconto', 'Entrega grátis', 'Compre com quem você confia', 'golpes na internet', t.garantia]) assert.ok(html.includes(s), s);
+  for (const s of [t.parcela, t.pix, 'super desconto', 'Entrega grátis em Ubatuba', 'de Itamambuca à Praia Grande', 'outras regiões, consulte', 'Compre com quem você confia', 'golpes na internet', t.garantia]) assert.ok(html.includes(s), s);
 });
 
 test('regra 5: 3 meses até o 14, 6 meses do 15 em diante', () => {

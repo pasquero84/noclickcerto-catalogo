@@ -6,7 +6,8 @@
 //   1. sempre iPhone, aparelho do catálogo com o preço ATUAL do catalogo.json
 //   2. sempre com preço: PRIMEIRO 10x no cartão (preco_link ÷ 10), DEPOIS o Pix
 //      como "super desconto"
-//   3. sempre ENTREGA GRÁTIS em Ubatuba (lista de bairros: pendente com ele)
+//   3. sempre ENTREGA GRÁTIS em Ubatuba, de Itamambuca à Praia Grande; outras
+//      regiões: consultar valores (regra dele de 27/10)
 //   4. sempre "Compre com quem você confia — evite cair em golpes na internet"
 //   5. garantia: 3 meses até o iPhone 14, 6 meses do 15 em diante
 //   + modelo diferente a cada story, sem repetir o mesmo modelo na semana
@@ -34,8 +35,12 @@ const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 export const PASTA_SAIDA = '/Volumes/Externo SSD/01-NoClickCerto/Marca e Artes/Stories Catalogo';
 const DIAS_SEM_REPETIR = 7;
 
-// Quando o Stefano passar os bairros/regiões com entrega grátis, entram aqui.
-export const ENTREGA = { titulo: 'Entrega grátis', detalhe: 'em Ubatuba' };
+// Regra do Stefano (27/10/2026): grátis de Itamambuca à Praia Grande; fora disso, consultar.
+export const ENTREGA = {
+  titulo: 'Entrega grátis em Ubatuba',
+  detalhe: 'de Itamambuca à Praia Grande',
+  fora: 'outras regiões, consulte',
+};
 export const WHATSAPP = '(12) 99104-8039'; // o mesmo do catálogo (meta.whatsapp)
 
 // "iPhone 16 Pro Max 256GB Preto" -> { modelo: "iPhone 16 Pro Max", geracao: 16 }
@@ -120,7 +125,7 @@ export function textos(escolha) {
     pix: brl(p.preco_pix),
     pixRotulo: 'no Pix · super desconto',
     garantia: `${garantiaMeses(escolha.geracao)} meses de garantia`,
-    entrega: `${ENTREGA.titulo} ${ENTREGA.detalhe}`,
+    entrega: `${ENTREGA.titulo} — ${ENTREGA.detalhe} · ${ENTREGA.fora}`,
     confianca: 'Compre com quem você confia',
     golpe: 'Evite cair em golpes na internet',
     codigo: p.codigo,
@@ -142,10 +147,10 @@ export function htmlDoStory(escolha, fotoB64) {
     text-transform:uppercase;color:rgba(255,255,255,.7);margin-top:8px}
   .tag{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);border-radius:40px;
     padding:14px 26px;font-size:22px;font-weight:700;letter-spacing:2px;text-transform:uppercase}
-  .foto{position:absolute;top:390px;left:200px;width:680px;height:520px;border-radius:44px;
+  .foto{position:absolute;top:380px;left:220px;width:640px;height:480px;border-radius:44px;
     background:#fff url(data:image/jpeg;base64,${fotoB64}) center/contain no-repeat;
     box-shadow:0 30px 80px rgba(0,0,0,.45)}
-  .info{position:absolute;top:950px;left:72px;right:72px}
+  .info{position:absolute;top:898px;left:72px;right:72px}
   h1{font-family:'Barlow Condensed',sans-serif;font-size:116px;font-weight:700;line-height:.92;
     letter-spacing:-1px}
   .sub{font-size:30px;font-weight:600;color:rgba(255,255,255,.78);margin-top:14px}
@@ -156,12 +161,14 @@ export function htmlDoStory(escolha, fotoB64) {
   .parc small{font-family:'Inter',sans-serif;font-size:30px;font-weight:600;color:rgba(255,255,255,.8);margin-left:12px}
   .pix{margin-top:14px;font-size:34px;font-weight:600;color:rgba(255,255,255,.85)}
   .pix b{font-family:'Barlow Condensed',sans-serif;font-size:66px;font-weight:700;color:#5ce6a8;margin:0 8px}
-  .selos{position:absolute;top:1412px;left:72px;right:72px;display:flex;gap:18px}
+  .selos{position:absolute;top:1366px;left:72px;right:72px;display:flex;gap:18px}
   .selo{flex:1;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:22px;
     padding:20px 18px;text-align:center;font-size:27px;font-weight:700;line-height:1.25;
     display:flex;align-items:center;justify-content:center}
-  .selo.entrega{background:#25d366;color:#06301c;border-color:#25d366}
-  .rodape{position:absolute;top:1532px;left:72px;right:72px;text-align:center}
+  .selo.entrega{flex:1.55;background:#25d366;color:#06301c;border-color:#25d366;font-size:28px;line-height:1.15}
+  .selo.entrega small{display:block;font-size:25px;font-weight:700;margin-top:4px}
+  .selo.entrega em{display:block;font-style:normal;font-size:20px;font-weight:600;opacity:.78;margin-top:4px}
+  .rodape{position:absolute;top:1528px;left:72px;right:72px;text-align:center}
   .confia{font-family:'Barlow Condensed',sans-serif;font-size:54px;font-weight:700;line-height:1}
   .golpe{font-size:26px;font-weight:600;color:#ffc759;margin-top:10px}
   .zap{font-size:24px;font-weight:600;color:rgba(255,255,255,.7);margin-top:12px}
@@ -180,7 +187,7 @@ export function htmlDoStory(escolha, fotoB64) {
   </div>
 </div>
 <div class="selos">
-  <div class="selo entrega">${esc(ENTREGA.titulo)}<br>${esc(ENTREGA.detalhe)}</div>
+  <div class="selo entrega"><div>${esc(ENTREGA.titulo)}<small>${esc(ENTREGA.detalhe)}</small><em>${esc(ENTREGA.fora)}</em></div></div>
   <div class="selo">${esc(t.garantia)}</div>
 </div>
 <div class="rodape">

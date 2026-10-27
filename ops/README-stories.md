@@ -17,7 +17,8 @@ Estado em 27/10/2026: gerador pronto, **postagem DESLIGADA** até o Stefano apro
    `launchctl load ~/Library/LaunchAgents/com.noclickcerto.stories.plist`.
    Log: `~/Library/NCK/stories/stories.log`.
 
+## Regras fixas
+- Entrega grátis em Ubatuba de Itamambuca à Praia Grande; outras regiões, consultar (Stefano, 27/10).
+
 ## Pendente
-- Lista de bairros/regiões com entrega grátis em Ubatuba (hoje a arte diz só "Entrega grátis em Ubatuba";
-  quando vier a lista, muda `ENTREGA` em `scripts/stories-diarios.mjs`).
 - O SSD precisa estar montado às 11h (as artes nascem lá).
