@@ -513,7 +513,7 @@
         },
         "FOR001": {
           "custo": 4650,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -548,7 +548,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 3700,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -606,18 +606,18 @@
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 3250,
-      "preco_venda": 4329,
-      "preco_pix": 3900,
-      "preco_10x": 456.3,
+      "fornecedor": "FOR001",
+      "custo": 3350,
+      "preco_venda": 4440,
+      "preco_pix": 4000,
+      "preco_10x": 468,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "90%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4329,
-      "preco_link": 4563,
+      "preco_cartao": 4440,
+      "preco_link": 4680,
       "cores": [
         "Branco"
       ],
@@ -633,7 +633,7 @@
         },
         "FOR001": {
           "custo": 3350,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -668,17 +668,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 3800,
-      "preco_venda": 4939.5,
-      "preco_pix": 4450,
-      "preco_10x": 520.65,
+      "custo": 3700,
+      "preco_venda": 4828.5,
+      "preco_pix": 4350,
+      "preco_10x": 508.95,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4939.5,
-      "preco_link": 5206.5,
+      "preco_cartao": 4828.5,
+      "preco_link": 5089.5,
       "descricao": "Tela de 6,7\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-15-pro-max-preto.jpg",
       "fotos": [
@@ -691,8 +691,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 3800,
-          "data": "2026-10-22"
+          "custo": 3700,
+          "data": "2026-10-27"
         }
       }
     },
@@ -703,17 +703,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 3800,
-      "preco_venda": 4939.5,
-      "preco_pix": 4450,
-      "preco_10x": 520.65,
+      "custo": 3700,
+      "preco_venda": 4828.5,
+      "preco_pix": 4350,
+      "preco_10x": 508.95,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4939.5,
-      "preco_link": 5206.5,
+      "preco_cartao": 4828.5,
+      "preco_link": 5089.5,
       "descricao": "Tela de 6,7\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nEstrutura em titânio, tela ProMotion, ilha dinâmica e Botão de Ação\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-15-pro-max-azul.jpg",
       "fotos": [
@@ -726,8 +726,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 3800,
-          "data": "2026-10-22"
+          "custo": 3700,
+          "data": "2026-10-27"
         }
       }
     },
@@ -785,7 +785,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 3300,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -819,7 +819,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 3300,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -830,17 +830,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 2440,
-      "preco_venda": 3429.9,
-      "preco_pix": 3090,
-      "preco_10x": 361.53,
+      "custo": 2475,
+      "preco_venda": 3468.75,
+      "preco_pix": 3125,
+      "preco_10x": 365.63,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "88%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3429.9,
-      "preco_link": 3615.3,
+      "preco_cartao": 3468.75,
+      "preco_link": 3656.25,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-15-preto.jpg",
       "fotos": [
@@ -855,8 +855,8 @@
           "data": "2026-10-22"
         },
         "FOR001": {
-          "custo": 2440,
-          "data": "2026-10-22"
+          "custo": 2475,
+          "data": "2026-10-27"
         }
       }
     },
@@ -867,17 +867,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 2440,
-      "preco_venda": 3429.9,
-      "preco_pix": 3090,
-      "preco_10x": 361.53,
+      "custo": 2475,
+      "preco_venda": 3468.75,
+      "preco_pix": 3125,
+      "preco_10x": 365.63,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "88%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3429.9,
-      "preco_link": 3615.3,
+      "preco_cartao": 3468.75,
+      "preco_link": 3656.25,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector USB-C\nIlha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 88%+.\nGarantia de 6 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-15-azul.jpg",
       "fotos": [
@@ -892,8 +892,8 @@
           "data": "2026-10-22"
         },
         "FOR001": {
-          "custo": 2440,
-          "data": "2026-10-22"
+          "custo": 2475,
+          "data": "2026-10-27"
         }
       }
     },
@@ -904,17 +904,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 2990,
-      "preco_venda": 4040.4,
-      "preco_pix": 3640,
-      "preco_10x": 425.88,
+      "custo": 2950,
+      "preco_venda": 3996,
+      "preco_pix": 3600,
+      "preco_10x": 421.2,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "89%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 4040.4,
-      "preco_link": 4258.8,
+      "preco_cartao": 3996,
+      "preco_link": 4212,
       "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 89%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-14-pro-max-roxo.jpg",
       "fotos": [
@@ -926,8 +926,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 2990,
-          "data": "2026-10-22"
+          "custo": 2950,
+          "data": "2026-10-27"
         }
       }
     },
@@ -937,18 +937,18 @@
       "categoria": "iPhone",
       "condicao": "Seminovo",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 2400,
-      "preco_venda": 3385.5,
-      "preco_pix": 3050,
-      "preco_10x": 356.85,
+      "fornecedor": "FOR001",
+      "custo": 2500,
+      "preco_venda": 3496.5,
+      "preco_pix": 3150,
+      "preco_10x": 368.55,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3385.5,
-      "preco_link": 3568.5,
+      "preco_cartao": 3496.5,
+      "preco_link": 3685.5,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion e ilha dinâmica\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-14-pro-preto.jpg",
       "fotos": [
@@ -961,6 +961,10 @@
         "FOR002": {
           "custo": 2400,
           "data": "2026-10-19"
+        },
+        "FOR001": {
+          "custo": 2500,
+          "data": "2026-10-27"
         }
       }
     },
@@ -971,17 +975,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1825,
-      "preco_venda": 2747.25,
-      "preco_pix": 2475,
-      "preco_10x": 289.58,
+      "custo": 1800,
+      "preco_venda": 2719.5,
+      "preco_pix": 2450,
+      "preco_10x": 286.65,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "83%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2747.25,
-      "preco_link": 2895.75,
+      "preco_cartao": 2719.5,
+      "preco_link": 2866.5,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-14-azul.jpg",
       "fotos": [
@@ -995,8 +999,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1825,
-          "data": "2026-10-22"
+          "custo": 1800,
+          "data": "2026-10-27"
         }
       }
     },
@@ -1007,17 +1011,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1825,
-      "preco_venda": 2747.25,
-      "preco_pix": 2475,
-      "preco_10x": 289.58,
+      "custo": 1800,
+      "preco_venda": 2719.5,
+      "preco_pix": 2450,
+      "preco_10x": 286.65,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "83%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2747.25,
-      "preco_link": 2895.75,
+      "preco_cartao": 2719.5,
+      "preco_link": 2866.5,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-14-preto.jpg",
       "fotos": [
@@ -1031,8 +1035,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1825,
-          "data": "2026-10-22"
+          "custo": 1800,
+          "data": "2026-10-27"
         }
       }
     },
@@ -1043,17 +1047,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1825,
-      "preco_venda": 2747.25,
-      "preco_pix": 2475,
-      "preco_10x": 289.58,
+      "custo": 1800,
+      "preco_venda": 2719.5,
+      "preco_pix": 2450,
+      "preco_10x": 286.65,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "83%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2747.25,
-      "preco_link": 2895.75,
+      "preco_cartao": 2719.5,
+      "preco_link": 2866.5,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-14-roxo.jpg",
       "fotos": [
@@ -1067,8 +1071,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1825,
-          "data": "2026-10-22"
+          "custo": 1800,
+          "data": "2026-10-27"
         }
       }
     },
@@ -1079,17 +1083,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1825,
-      "preco_venda": 2747.25,
-      "preco_pix": 2475,
-      "preco_10x": 289.58,
+      "custo": 1800,
+      "preco_venda": 2719.5,
+      "preco_pix": 2450,
+      "preco_10x": 286.65,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "83%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2747.25,
-      "preco_link": 2895.75,
+      "preco_cartao": 2719.5,
+      "preco_link": 2866.5,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 83%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-14-branco.jpg",
       "fotos": [
@@ -1103,8 +1107,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1825,
-          "data": "2026-10-22"
+          "custo": 1800,
+          "data": "2026-10-27"
         }
       }
     },
@@ -1115,17 +1119,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 2520,
-      "preco_venda": 3518.7,
-      "preco_pix": 3170,
-      "preco_10x": 370.89,
+      "custo": 2590,
+      "preco_venda": 3596.4,
+      "preco_pix": 3240,
+      "preco_10x": 379.08,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3518.7,
-      "preco_link": 3708.9,
+      "preco_cartao": 3596.4,
+      "preco_link": 3790.8,
       "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-branco.jpg",
       "fotos": [
@@ -1137,8 +1141,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 2520,
-          "data": "2026-10-22"
+          "custo": 2590,
+          "data": "2026-10-27"
         }
       }
     },
@@ -1149,17 +1153,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 2520,
-      "preco_venda": 3518.7,
-      "preco_pix": 3170,
-      "preco_10x": 370.89,
+      "custo": 2590,
+      "preco_venda": 3596.4,
+      "preco_pix": 3240,
+      "preco_10x": 379.08,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3518.7,
-      "preco_link": 3708.9,
+      "preco_cartao": 3596.4,
+      "preco_link": 3790.8,
       "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-azul.jpg",
       "fotos": [
@@ -1171,8 +1175,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 2520,
-          "data": "2026-10-22"
+          "custo": 2590,
+          "data": "2026-10-27"
         }
       }
     },
@@ -1306,7 +1310,7 @@
         },
         "FOR001": {
           "custo": 2250,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -1344,7 +1348,7 @@
         },
         "FOR001": {
           "custo": 2250,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -1380,7 +1384,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1750,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -1391,17 +1395,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1650,
-      "preco_venda": 2553,
-      "preco_pix": 2300,
-      "preco_10x": 269.1,
+      "custo": 1640,
+      "preco_venda": 2541.9,
+      "preco_pix": 2290,
+      "preco_10x": 267.93,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2553,
-      "preco_link": 2691,
+      "preco_cartao": 2541.9,
+      "preco_link": 2679.3,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-13-branco.jpg",
       "fotos": [
@@ -1415,8 +1419,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1650,
-          "data": "2026-10-22"
+          "custo": 1640,
+          "data": "2026-10-27"
         }
       }
     },
@@ -1427,17 +1431,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1650,
-      "preco_venda": 2553,
-      "preco_pix": 2300,
-      "preco_10x": 269.1,
+      "custo": 1640,
+      "preco_venda": 2541.9,
+      "preco_pix": 2290,
+      "preco_10x": 267.93,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2553,
-      "preco_link": 2691,
+      "preco_cartao": 2541.9,
+      "preco_link": 2679.3,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-13-rosa.jpg",
       "fotos": [
@@ -1451,8 +1455,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1650,
-          "data": "2026-10-22"
+          "custo": 1640,
+          "data": "2026-10-27"
         }
       }
     },
@@ -1463,17 +1467,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1650,
-      "preco_venda": 2553,
-      "preco_pix": 2300,
-      "preco_10x": 269.1,
+      "custo": 1640,
+      "preco_venda": 2541.9,
+      "preco_pix": 2290,
+      "preco_10x": 267.93,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "84%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 2553,
-      "preco_link": 2691,
+      "preco_cartao": 2541.9,
+      "preco_link": 2679.3,
       "descricao": "Tela de 6,1\" · 128 GB de armazenamento · 2 câmeras traseiras (principal e ultra-angular) · Conector Lightning\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 84%.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-13-preto.jpg",
       "fotos": [
@@ -1487,8 +1491,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1650,
-          "data": "2026-10-22"
+          "custo": 1640,
+          "data": "2026-10-27"
         }
       }
     },
@@ -2036,17 +2040,17 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 2520,
-      "preco_venda": 3518.7,
-      "preco_pix": 3170,
-      "preco_10x": 370.89,
+      "custo": 2590,
+      "preco_venda": 3596.4,
+      "preco_pix": 3240,
+      "preco_10x": 379.08,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "85%+",
       "origem": "USA",
       "garantia": "3 meses",
-      "preco_cartao": 3518.7,
-      "preco_link": 3708.9,
+      "preco_cartao": 3596.4,
+      "preco_link": 3790.8,
       "descricao": "Tela de 6,7\" · 128 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector Lightning\nTela ProMotion\nAparelho seminovo, testado antes de sair daqui, com saúde de bateria 85%+.\nGarantia de 3 meses.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/iphone-iphone-13-pro-max-verde.jpg",
       "fotos": [
@@ -2058,8 +2062,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 2520,
-          "data": "2026-10-22"
+          "custo": 2590,
+          "data": "2026-10-27"
         }
       }
     },
@@ -5915,7 +5919,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 3200,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -5949,7 +5953,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2680,
-          "data": "2026-10-22"
+          "data": "2026-10-27"
         }
       }
     },
@@ -5960,12 +5964,12 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1990,
-      "preco_venda": 2930.4,
-      "preco_pix": 2640,
-      "preco_cartao": 2930.4,
-      "preco_link": 3088.8,
-      "preco_10x": 308.88,
+      "custo": 1975,
+      "preco_venda": 2913.75,
+      "preco_pix": 2625,
+      "preco_cartao": 2913.75,
+      "preco_link": 3071.25,
+      "preco_10x": 307.13,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "83%+",
@@ -5982,8 +5986,8 @@
       "fotos": [],
       "cotacoes": {
         "FOR001": {
-          "custo": 1990,
-          "data": "2026-10-22"
+          "custo": 1975,
+          "data": "2026-10-27"
         }
       }
     },
@@ -5994,12 +5998,12 @@
       "condicao": "Seminovo",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1320,
-      "preco_venda": 2186.7,
-      "preco_pix": 1970,
-      "preco_cartao": 2186.7,
-      "preco_link": 2304.9,
-      "preco_10x": 230.49,
+      "custo": 1300,
+      "preco_venda": 2164.5,
+      "preco_pix": 1950,
+      "preco_cartao": 2164.5,
+      "preco_link": 2281.5,
+      "preco_10x": 228.15,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": "85%+",
@@ -6016,8 +6020,8 @@
       "fotos": [],
       "cotacoes": {
         "FOR001": {
-          "custo": 1320,
-          "data": "2026-10-22"
+          "custo": 1300,
+          "data": "2026-10-27"
         }
       }
     },
