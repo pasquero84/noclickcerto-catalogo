@@ -2,7 +2,7 @@
   "meta": {
     "sistema": "NoClickCerto",
     "versao": "2.0",
-    "ultima_atualizacao": "2026-10-26",
+    "ultima_atualizacao": "2026-10-27",
     "total_produtos": 271,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
@@ -2733,22 +2733,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 500,
-      "preco_venda": 1110,
-      "preco_pix": 1000,
-      "preco_10x": 117,
+      "custo": 400,
+      "preco_venda": 999,
+      "preco_pix": 900,
+      "preco_10x": 105.3,
       "lucro_pix": 500,
       "lucro_cartao": 500,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1110,
-      "preco_link": 1170,
+      "preco_cartao": 999,
+      "preco_link": 1053,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/fone-buds-5-pro.jpg",
       "fotos": [
         "/imagens/produtos/fone-buds-5-pro.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 400,
+          "data": "2026-10-27"
+        }
+      }
     },
     {
       "codigo": "TAB-0001",
@@ -6320,7 +6326,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1275,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6705,7 +6711,7 @@
       "promocao": false,
       "fotos": [],
       "auditoria_bloqueio": {
-        "em": "2026-10-26",
+        "em": "2026-10-27",
         "motivos": [
           "R$ 1.390 é menos da metade da mediana dos pares (R$ 2.860)"
         ]
