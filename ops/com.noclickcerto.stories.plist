@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- NÃO instalado. Ver ops/README-stories.md. Dois horários: 11h (story 1) e 18h (story 2). -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.noclickcerto.stories</string>
+  <key>ProgramArguments</key>
+  <array><string>/bin/bash</string><string>-c</string>
+    <string>H=$(date +%H); [ "$H" = "11" ] &amp;&amp; exec "$HOME/noclickcerto-catalogo/ops/stories-agendado.sh" 1; [ "$H" = "18" ] &amp;&amp; exec "$HOME/noclickcerto-catalogo/ops/stories-agendado.sh" 2</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>11</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Hour</key><integer>18</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+  <key>StandardOutPath</key><string>/tmp/noclickcerto-stories.out</string>
+  <key>StandardErrorPath</key><string>/tmp/noclickcerto-stories.out</string>
+</dict>
+</plist>

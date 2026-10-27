@@ -30,7 +30,7 @@ test('catálogo público não tem custo, margem, fornecedor, cotações nem prod
 test('public/ só tem a lista fechada (nada de scripts, tests, docs, catalogo.json)', () => {
   execFileSync('node', [join(RAIZ, 'scripts/build-publico.mjs')], { cwd: RAIZ });
   const pub = join(RAIZ, 'public');
-  assert.deepEqual(readdirSync(pub).sort(), ['admin', 'catalogo.publico.json', 'favicon.svg', 'imagens', 'index.html']);
+  assert.deepEqual(readdirSync(pub).filter((f) => f !== 'stories').sort(), ['admin', 'catalogo.publico.json', 'favicon.svg', 'imagens', 'index.html']);
   assert.deepEqual(readdirSync(join(pub, 'admin')), ['index.html']);
   assert.ok(!existsSync(join(pub, 'catalogo.json')));
 });

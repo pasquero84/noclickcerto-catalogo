@@ -41,6 +41,9 @@ const CAMPOS_META = [
 // Arquivos e pastas do site. admin/index.html é a tela de login + painel; sem
 // a senha ela não mostra nada (o catálogo completo vem de /api/catalogo).
 const ARQUIVOS_DO_SITE = ['index.html', 'favicon.svg', 'imagens', 'admin/index.html'];
+// Opcionais: só copia se existir. stories/ = JPEGs dos Stories do Instagram
+// (a API da Meta exige URL pública; scripts/postar-story.mjs põe aqui).
+const OPCIONAIS = ['stories'];
 
 const so = (obj, campos) =>
   Object.fromEntries(campos.filter((c) => obj[c] !== undefined).map((c) => [c, obj[c]]));
@@ -61,6 +64,11 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     const origem = join(RAIZ, item);
     if (!existsSync(origem)) throw new Error(`build: falta ${item}`);
     cpSync(origem, join(SAIDA, item), { recursive: true });
+  }
+
+  for (const item of OPCIONAIS) {
+    const origem = join(RAIZ, item);
+    if (existsSync(origem)) cpSync(origem, join(SAIDA, item), { recursive: true });
   }
 
   const catalogo = JSON.parse(readFileSync(join(RAIZ, 'catalogo.json'), 'utf8'));
