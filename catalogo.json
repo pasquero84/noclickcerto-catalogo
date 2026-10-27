@@ -2926,7 +2926,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 740,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3052,7 +3052,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 670,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3082,7 +3082,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 670,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3112,7 +3112,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 670,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3172,7 +3172,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 920,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3202,7 +3202,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 920,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3232,7 +3232,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 920,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3262,7 +3262,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 750,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3292,7 +3292,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 750,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3634,7 +3634,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1780,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3664,7 +3664,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1780,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3694,7 +3694,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 840,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3724,7 +3724,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 840,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3754,7 +3754,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 840,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -3868,7 +3868,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 720,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       }
     },
@@ -4119,46 +4119,58 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1860,
-      "preco_venda": 2786.1,
-      "preco_pix": 2510,
-      "preco_10x": 293.67,
+      "custo": 2310,
+      "preco_venda": 3285.6,
+      "preco_pix": 2960,
+      "preco_10x": 346.32,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2786.1,
-      "preco_link": 2936.7,
+      "preco_cartao": 3285.6,
+      "preco_link": 3463.2,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2310,
+          "data": "2026-10-27"
+        }
+      }
     },
     {
       "codigo": "XMI-0049",
       "nome": "Poco X8 Pro 5G 8/256 Verde",
       "categoria": "Xiaomi",
       "condicao": "Lacrado",
-      "status": "Consultar Disponibilidade",
+      "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1860,
-      "preco_venda": 2786.1,
-      "preco_pix": 2510,
-      "preco_10x": 293.67,
+      "custo": 2310,
+      "preco_venda": 3285.6,
+      "preco_pix": 2960,
+      "preco_10x": 346.32,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2786.1,
-      "preco_link": 2936.7,
+      "preco_cartao": 3285.6,
+      "preco_link": 3463.2,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-poco-x8-pro-5g.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 2310,
+          "data": "2026-10-27"
+        }
+      }
     },
     {
       "codigo": "XMI-0050",
@@ -6357,7 +6369,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 3950,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6419,7 +6431,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2820,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6481,7 +6493,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2430,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6543,7 +6555,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1810,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6563,18 +6575,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1650,
-      "preco_venda": 2553,
-      "preco_pix": 2300,
-      "preco_cartao": 2553,
-      "preco_link": 2691,
-      "preco_10x": 269.1,
+      "custo": 1940,
+      "preco_venda": 2874.9,
+      "preco_pix": 2590,
+      "preco_cartao": 2874.9,
+      "preco_link": 3030.3,
+      "preco_10x": 303.03,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "cotacoes": {
         "FOR001": {
-          "custo": 1650,
-          "data": "2026-10-23"
+          "custo": 1940,
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6605,7 +6617,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1600,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6636,7 +6648,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1550,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6656,18 +6668,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1390,
-      "preco_venda": 2264.4,
-      "preco_pix": 2040,
-      "preco_cartao": 2264.4,
-      "preco_link": 2386.8,
-      "preco_10x": 238.68,
+      "custo": 1380,
+      "preco_venda": 2253.3,
+      "preco_pix": 2030,
+      "preco_cartao": 2253.3,
+      "preco_link": 2375.1,
+      "preco_10x": 237.51,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "cotacoes": {
         "FOR001": {
-          "custo": 1390,
-          "data": "2026-10-26"
+          "custo": 1380,
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6735,7 +6747,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1250,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6755,18 +6767,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1120,
-      "preco_venda": 1964.7,
-      "preco_pix": 1770,
-      "preco_cartao": 1964.7,
-      "preco_link": 2070.9,
-      "preco_10x": 207.09,
+      "custo": 1100,
+      "preco_venda": 1942.5,
+      "preco_pix": 1750,
+      "preco_cartao": 1942.5,
+      "preco_link": 2047.5,
+      "preco_10x": 204.75,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "cotacoes": {
         "FOR001": {
-          "custo": 1120,
-          "data": "2026-10-26"
+          "custo": 1100,
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6797,7 +6809,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 905,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6828,7 +6840,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 900,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
@@ -6859,7 +6871,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 720,
-          "data": "2026-10-26"
+          "data": "2026-10-27"
         }
       },
       "bateria": null,
