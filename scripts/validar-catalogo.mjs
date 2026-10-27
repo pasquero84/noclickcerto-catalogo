@@ -29,7 +29,7 @@
  * publicados e nos nomes legítimos ("iPhone 17 Pro Max 256GB Japonês Laranja",
  * "MacBook Air M4 13 256GB Meia-noite", "AirPods Pro 3 USB-C").
  */
-const APARELHO = /iphone|ipad|imac|macbook|airpods|airtag|watch|pencil|buds|redmi|poco|realme|galaxy/i;
+const APARELHO = /iphone|ipad|imac|macbook|airpods|airtag|watch|pencil|buds|fone|cabo|fonte|earpods|redmi|poco|realme|galaxy/i;
 
 export function nomeCorrompido(nome) {
   if (typeof nome !== "string") return "não é texto";

@@ -278,3 +278,9 @@ test('"iPhone 17 Max" do Trend casa com o 17 Pro Max da EasyStore', () => {
   assert.deepEqual(pm.precosPorFornecedor, { FOR001: 6850, FOR002: 6799 });
   assert.equal(pm.custo, 6850); // vale o MAIOR
 });
+
+test('"Xiaomi Buds 5 Pro" é Fone e casa com o FNE-0001 "Buds 5 Pro" (não vira XMI)', () => {
+  const ps = parseTabelaFornecedor('Aparelhos xiaomi versão global\nXiaomi Buds 5 Pro 400\nRedmi15C 4/128 preto verde 780', { fornecedor: 'FOR001' });
+  assert.deepEqual(ps.map((p) => `${p.nomeOriginal}|${p.categoria}`), ['Xiaomi Buds 5 Pro|Fone', 'Redmi15C 4/128 preto verde|Xiaomi']);
+  assert.equal(chaveProduto(ps[0]), chaveProduto({ nomeOriginal: 'Buds 5 Pro', categoria: 'Fone', condicao: 'Lacrado' }));
+});

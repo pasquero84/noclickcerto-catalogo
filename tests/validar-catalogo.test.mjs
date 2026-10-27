@@ -49,6 +49,8 @@ test("nome: produto de verdade passa — inclusive os que começam com minúscul
     "AirTag Pack com 4 unidades",
     "Buds 5 Pro",
     "AirPods Max",
+    "Fone Tipo C",
+    "Fonte 35W",
   ];
   for (const nome of legitimos) {
     assert.equal(nomeCorrompido(nome), null, `barrou nome bom: ${JSON.stringify(nome)} → ${nomeCorrompido(nome)}`);

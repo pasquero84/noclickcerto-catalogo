@@ -7383,7 +7383,9 @@
       "destaque": false,
       "lancamento": false,
       "promocao": false,
-      "fotos": []
+      "fotos": [],
+      "oculto": true,
+      "oculto_motivo": "2026-10-27: \"Xiaomi Buds 5 Pro\" entrou como celular Xiaomi (margem R$650); é o mesmo fone do FNE-0001 \"Buds 5 Pro\" (margem de fone R$500)"
     },
     {
       "codigo": "RLM-0011",

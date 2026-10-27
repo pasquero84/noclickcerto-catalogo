@@ -231,6 +231,9 @@ const RE_ACESSORIO = /\b(fonte|cabo|carregador|adaptador|capa|capinha|pel[íi]cu
 function detectaCategoria(nome) {
   const n = nome.toLowerCase();
   if (RE_ACESSORIO.test(n)) return 'Acessório';
+  // Fone sem fio antes da marca: "Xiaomi Buds 5 Pro" é Fone (margem R$500), não
+  // celular Xiaomi (R$650) — em 25/10 virou XMI-0076, duplicando o FNE-0001.
+  if (/airpods|buds/.test(n)) return 'Fone';
   if (/iphone|\bip\b|^\d{1,2}\s*(pro|air|plus|mini|e\b|promax|\d{2,4}\s*gb|\d{2,3}\b)/.test(n)) return 'iPhone';
   if (/ipad/.test(n)) return 'iPad';
   if (/macbook|mac\s*book/.test(n)) return 'MacBook';
