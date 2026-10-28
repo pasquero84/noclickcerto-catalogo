@@ -238,3 +238,9 @@ Sessão-dona do catálogo aberta pela revisão geral (DEC-2026-029).
   — achado e corrigido um bug ali: a categoria só era calculada DEPOIS de
   chamar calcPrecos (ordem errada, ia quebrar a publicação pelo admin).
   Nome "🎧 AirPods Pro 3:" limpo pra "AirPods Pro 3".
+
+## 2026-10-28 — Claude (Opus 5.5) — margem nova + fila de stories (branch margem-30-40-2026-10-28, NÃO publicado)
+- `scripts/precos.mjs`: não-celular (acessório, fone, MacBook, Watch, iPad, tablet, robô, console; Redmi Pad/Buds pelo nome) = Pix custo×1,30 e 10x custo×1,40 (total). Celular segue R$650/R$850. Pedido do Stefano via Gerente, 28/10.
+- `scripts/reprecificar.mjs`: aplica a regra ao catálogo inteiro (ensaio por padrão; 53 visíveis mudam). Esperando o ok do Stefano na amostra antes de `--aplicar`.
+- `scripts/fila-stories.mjs`: 3 stories/dia (iPhone + outro celular + acessório/eletrônico), pasta `Stories Catalogo/Fila-<data>/` com revisao.html. Nada postado.
+- Atenção: a ingestão automática roda na main; esta regra só vale quando o branch for mesclado.

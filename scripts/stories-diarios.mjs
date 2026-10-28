@@ -118,13 +118,14 @@ export function textos(escolha) {
   const capacidade = (p.nome.match(/\b\d{2,4}\s*(GB|TB)\b/i) || [''])[0].replace(/\s+/g, '');
   return {
     titulo: escolha.modelo,
-    subtitulo: [capacidade, p.condicao].filter(Boolean).join(' · '),
+    subtitulo: escolha.subtitulo || [capacidade, p.condicao].filter(Boolean).join(' · '),
     bateria: p.condicao === 'Seminovo' && p.bateria && /\d/.test(p.bateria) ? `Bateria ${p.bateria}` : '',
     parcela: `10x de ${brlC(parcela10x(p))}`,
     parcelaRotulo: 'no cartão',
     pix: brl(p.preco_pix),
     pixRotulo: 'no Pix · super desconto',
-    garantia: `${garantiaMeses(escolha.geracao)} meses de garantia`,
+    // fila de 28/10 (acessório/eletrônico/Xiaomi): garantia vem pronta — a do site, "Lacrado de fábrica"
+    garantia: escolha.garantia || `${garantiaMeses(escolha.geracao)} meses de garantia`,
     entrega: `${ENTREGA.titulo} — ${ENTREGA.detalhe} · ${ENTREGA.fora}`,
     confianca: 'Compre com quem você confia',
     golpe: 'Evite cair em golpes na internet',
@@ -134,6 +135,8 @@ export function textos(escolha) {
 
 export function htmlDoStory(escolha, fotoB64) {
   const t = textos(escolha);
+  // Nome comprido ("Redmi Note 15 Pro 5G") não cabe em 116px numa linha.
+  const tamTitulo = t.titulo.length > 21 ? 84 : t.titulo.length > 17 ? 100 : 116;
   return `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -179,7 +182,7 @@ export function htmlDoStory(escolha, fotoB64) {
 </div>
 <div class="foto"></div>
 <div class="info">
-  <h1>${esc(t.titulo)}</h1>
+  <h1 style="font-size:${tamTitulo}px">${esc(t.titulo)}</h1>
   <div class="sub">${esc(t.subtitulo)}${t.bateria ? ` · <b>${esc(t.bateria)}</b>` : ''}</div>
   <div class="preco">
     <div class="parc">${esc(t.parcela)}<small>${esc(t.parcelaRotulo)}</small></div>
