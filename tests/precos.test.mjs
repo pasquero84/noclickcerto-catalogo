@@ -1,10 +1,11 @@
 // Regra de preço aprovada pelo Stefano em 28/10/2026:
-//   celular: margem fixa R$650 até 4.000 de custo, R$850 acima;
-//   não-celular até R$4.000: 35% no Pix / 46% em 10x; acima: R$850 fixos;
+//   celular e aparelho (Watch, iPad, MacBook, tablet…): margem fixa R$650 até
+//   4.000 de custo, R$850 acima;
+//   acessório menor (fone, tag, caixinha de som, cabo) até R$4.000: 35% no Pix / 46% em 10x;
 //   todo preço termina em ,90.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { calcPrecos, ehCelular, final90 } from '../scripts/precos.mjs';
+import { calcPrecos, ehCelular, ehAcessorio, final90 } from '../scripts/precos.mjs';
 import { reprecificar } from '../scripts/reprecificar.mjs';
 import { ajustarTabela } from '../scripts/ajustes-tabela.mjs';
 
@@ -16,22 +17,25 @@ test('final ,90 sempre pra cima', () => {
   assert.equal(final90(3800), 3800.9);
 });
 
-test('não-celular até R$4.000: Pix = custo×1,35 e 10x = custo×1,46, em ,90', () => {
-  for (const cat of ['Acessório', 'Fone', 'MacBook', 'Apple Watch', 'iPad', 'Tablet', 'Robô', 'Console']) {
+test('acessório menor até R$4.000: Pix = custo×1,35 e 10x = custo×1,46, em ,90', () => {
+  for (const cat of ['Acessório', 'Fone']) {
     const p = calcPrecos(110, cat, 'x');
     assert.equal(p.preco_pix, 148.9, cat); // 148,50
     assert.equal(p.preco_link, 160.9, cat); // 160,60
     assert.equal(p.preco_10x, 16.09, cat);
   }
-  assert.equal(calcPrecos(4000, 'Apple Watch', 'Watch').preco_pix, 5400.9);
+  assert.equal(calcPrecos(400, 'Xiaomi', 'Redmi Buds 6').preco_pix, 540.9);
 });
 
-test('não-celular acima de R$4.000 (MacBook): margem fixa de R$850, como celular', () => {
-  const p = calcPrecos(7750, 'MacBook', 'MacBook Air M5');
-  assert.equal(p.preco_pix, 8600.9);
-  assert.equal(p.preco_cartao, 9547.9); // 8600,90 × 1,11 = 9547,00 -> ,90 acima
-  assert.equal(p.preco_link, 10063.9);
-  assert.equal(p.preco_10x, 1006.39);
+test('Apple Watch, iPad, MacBook, tablet, robô: margem antiga (R$650/R$850, cartão +11%, link +17%)', () => {
+  for (const cat of ['Apple Watch', 'iPad', 'MacBook', 'Tablet', 'Robô', 'Console']) {
+    const p = calcPrecos(2949, cat, 'x');
+    assert.equal(p.preco_pix, 3599.9, cat);
+    assert.equal(p.preco_cartao, 3995.9, cat); // 3599,90 × 1,11 = 3995,89
+    assert.equal(p.preco_link, 4211.9, cat); // 3599,90 × 1,17 = 4211,88
+  }
+  assert.equal(calcPrecos(7750, 'MacBook', 'MacBook Air M5').preco_pix, 8600.9);
+  assert.equal(calcPrecos(1275, 'Xiaomi', 'Redmi Pad 2 256GB cinza').preco_pix, 1925.9);
 });
 
 test('celular: R$650 até 4.000 de custo e R$850 acima, em ,90', () => {
@@ -40,7 +44,11 @@ test('celular: R$650 até 4.000 de custo e R$850 acima, em ,90', () => {
   assert.equal(calcPrecos(1540, 'Xiaomi', 'Note15 5G 8/256').preco_pix, 2190.9);
 });
 
-test('na categoria Xiaomi, Redmi Pad, Buds e robô contam como não-celular', () => {
+test('na categoria Xiaomi, Redmi Pad, Buds e robô contam como não-celular; só Buds é acessório', () => {
+  assert.equal(ehAcessorio('Xiaomi', 'Redmi Buds 6'), true);
+  assert.equal(ehAcessorio('Xiaomi', 'Redmi Pad 2'), false);
+  assert.equal(ehAcessorio('Apple Watch', 'Apple Watch S12 46mm'), false);
+  assert.equal(ehAcessorio('Acessório', 'AirTag Pack com 4'), true);
   assert.equal(ehCelular('Xiaomi', 'Redmi Pad 2 256GB cinza'), false);
   assert.equal(ehCelular('Xiaomi', 'Redmi Buds 6'), false);
   assert.equal(ehCelular('Xiaomi', 'Redmi Note 14 Pro 5G'), true);

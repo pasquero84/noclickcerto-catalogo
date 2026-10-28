@@ -1,17 +1,17 @@
 // ============================================================
 // PREÇO DE VENDA — custo do fornecedor -> preços do catálogo
 //
-// CELULAR (iPhone, Xiaomi/Redmi/Poco, Realme): margem fixa no Pix,
-//   R$650 até R$4.000 de custo e R$850 acima; cartão +11%, link 10x +17%.
+// CELULAR E APARELHO (iPhone, Xiaomi/Redmi/Poco, Realme, Apple Watch, iPad,
+//   MacBook, tablet, robô, console…): margem fixa no Pix, R$650 até R$4.000 de
+//   custo e R$850 acima; cartão +11%, link 10x +17%. O Stefano manteve essa
+//   margem pro Watch e pro iPad: "é um produto da Apple" (28/10/2026).
 //
-// O QUE NÃO É CELULAR (Stefano, 28/10/2026): acessório, fone, AirTag, cabo,
-//   fonte, Apple Watch, iPad, tablet, robô, console…
+// ACESSÓRIO MENOR (Stefano, 28/10/2026): fone, AirTag/tag, caixinha de som,
+//   cabo, fonte, Pencil…
 //   custo até R$4.000:  à vista (Pix) = custo × 1,35
 //                       até 10x       = custo × 1,46 (preço total; parcela = total ÷ 10)
-//   (começou 30%/40%; o Stefano subiu pra 35%/46% no mesmo dia, 28/10)
-//   custo acima disso (MacBook): margem fixa de R$850, igual à do celular.
-// Antes disso: Acessório 100% do custo e Fone R$500 fixos (31/08), e o resto
-// caía na margem de celular.
+//   (começou 30%/40%; ele subiu pra 35%/46% e tirou Watch/iPad no mesmo dia)
+// Antes disso: Acessório 100% do custo e Fone R$500 fixos (31/08).
 //
 // TODO preço (Pix, cartão, link) termina em ,90, sempre arredondando pra
 // cima: R$143,00 -> R$143,90; R$1.233,95 -> R$1.234,90. A parcela é o total ÷ 10.
@@ -33,6 +33,9 @@ const CATEGORIAS_NAO_CELULAR = new Set([
 // A categoria Xiaomi mistura celular com Redmi Pad, Buds, robô, TAG… — pelo nome.
 const NOME_NAO_CELULAR = /\b(pad|buds|band|watch|robot|rob[ôo]|vacuum|aspirador|air\s*tag|tag|ps5|playstation|console|xbox|switch|tv|caixa de som|speaker)\b/i;
 
+const CATEGORIAS_ACESSORIO = new Set(['Acessório', 'Fone']);
+const NOME_ACESSORIO = /\b(buds|band|air\s*tag|tag|caixa de som|caixinha de som|speaker|fone)\b/i;
+
 const r2 = (n) => Math.round(n * 100) / 100;
 
 /** Próximo valor terminado em ,90 (nunca abaixo do calculado). */
@@ -47,8 +50,13 @@ export function ehCelular(categoria, nome = '') {
   return !NOME_NAO_CELULAR.test(nome);
 }
 
+/** Acessório menor (fone, tag, caixinha de som, cabo…) — o que leva 35%/46%. */
+export function ehAcessorio(categoria, nome = '') {
+  return CATEGORIAS_ACESSORIO.has(categoria) || NOME_ACESSORIO.test(nome);
+}
+
 export function calcPrecos(custo, categoria, nome = '') {
-  if (!ehCelular(categoria, nome) && custo <= LIMITE_MARGEM) {
+  if (ehAcessorio(categoria, nome) && custo <= LIMITE_MARGEM) {
     const pix = final90(custo * (1 + MARGEM_VISTA));
     const parcelado = final90(custo * (1 + MARGEM_PARCELADO));
     return {

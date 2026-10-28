@@ -25,7 +25,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { PASTA_SAIDA, escolherDoDia, htmlDoStory, textos } from './stories-diarios.mjs';
-import { calcPrecos, ehCelular } from './precos.mjs';
+import { calcPrecos, ehCelular, ehAcessorio } from './precos.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DIAS_COTACAO = 7;
@@ -108,7 +108,7 @@ if (import.meta.main) {
       writeFileSync(`${base}.html`, htmlDoStory(e, foto));
       await Bun.$`${CHROME} --headless --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1080,1920 --virtual-time-budget=8000 --screenshot=${base}.png file://${base}.html`.quiet();
       const t = textos(e);
-      const precoNovo = !ehCelular(e.produto.categoria, e.produto.nome);
+      const precoNovo = ehAcessorio(e.produto.categoria, e.produto.nome);
       registro.push({ data, story: i + 1, codigo: e.produto.codigo, titulo: t.titulo, categoria: e.produto.categoria,
         custo: e.produto.custo, parcela: t.parcela, pix: t.pix, garantia: t.garantia, png: `${nome}.png`, preco_pendente: precoNovo });
       console.log(`✓ ${data} #${i + 1} ${e.produto.codigo} ${t.titulo} — ${t.parcela} | ${t.pix} Pix${precoNovo ? '  (margem nova, pendente)' : ''}`);

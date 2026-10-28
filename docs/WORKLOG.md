@@ -249,3 +249,4 @@ Sessão-dona do catálogo aberta pela revisão geral (DEC-2026-029).
 - Pra não desfazer na próxima tabela: `ingerir.mjs` manda a cotação do duplicado escondido pro que ficou; o parser põe Realme e Redmi Pad antes da regra do Xiaomi; `chaveProduto` ignora "Seminovo/Lacrado" no nome.
 - Ensaio no catálogo da main (dcdcac8): 231 visíveis mudam (185 celulares só +R$0,90). Aplicar: mesclar na main, `bun scripts/reprecificar.mjs --aplicar`, commit e push — só com o ok digitado do Stefano.
 - (fim do dia) Stefano, direto nesta sessão: margem do não-celular sobe pra 35% no Pix e 46% no crédito 10x (era 30%/40%). Resto da regra igual.
+- (fim do dia, 2) Stefano: Apple Watch e iPad mantêm a margem antiga ("é um produto da Apple"); 35%/46% só pro acessório menor — fone, tag, caixinha de som, cabo, fonte, Pencil (`ehAcessorio` em precos.mjs). MacBook, tablet, robô e console também ficam na margem antiga. Todos seguem com o final ,90.
