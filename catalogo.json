@@ -3,7 +3,7 @@
     "sistema": "NoClickCerto",
     "versao": "2.0",
     "ultima_atualizacao": "2026-10-28",
-    "total_produtos": 274,
+    "total_produtos": 275,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
@@ -7446,7 +7446,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1640,
-          "data": "2026-10-26"
+          "data": "2026-10-28"
         }
       },
       "bateria": null,
@@ -7466,18 +7466,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1260,
-      "preco_venda": 2120.1,
-      "preco_pix": 1910,
-      "preco_cartao": 2120.1,
-      "preco_link": 2234.7,
-      "preco_10x": 223.47,
+      "custo": 1280,
+      "preco_venda": 2142.3,
+      "preco_pix": 1930,
+      "preco_cartao": 2142.3,
+      "preco_link": 2258.1,
+      "preco_10x": 225.81,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "cotacoes": {
         "FOR001": {
-          "custo": 1260,
-          "data": "2026-10-26"
+          "custo": 1280,
+          "data": "2026-10-28"
         }
       },
       "bateria": null,
@@ -7508,7 +7508,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 940,
-          "data": "2026-10-26"
+          "data": "2026-10-28"
         }
       },
       "bateria": null,
@@ -7570,7 +7570,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 910,
-          "data": "2026-10-26"
+          "data": "2026-10-28"
         }
       },
       "bateria": null,
@@ -7601,7 +7601,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 840,
-          "data": "2026-10-26"
+          "data": "2026-10-28"
         }
       },
       "bateria": null,
@@ -7621,18 +7621,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 770,
-      "preco_venda": 1576.2,
-      "preco_pix": 1420,
-      "preco_cartao": 1576.2,
-      "preco_link": 1661.4,
-      "preco_10x": 166.14,
+      "custo": 790,
+      "preco_venda": 1598.4,
+      "preco_pix": 1440,
+      "preco_cartao": 1598.4,
+      "preco_link": 1684.8,
+      "preco_10x": 168.48,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "cotacoes": {
         "FOR001": {
-          "custo": 770,
-          "data": "2026-10-26"
+          "custo": 790,
+          "data": "2026-10-28"
         }
       },
       "bateria": null,
@@ -7652,18 +7652,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 690,
-      "preco_venda": 1487.4,
-      "preco_pix": 1340,
-      "preco_cartao": 1487.4,
-      "preco_link": 1567.8,
-      "preco_10x": 156.78,
+      "custo": 710,
+      "preco_venda": 1509.6,
+      "preco_pix": 1360,
+      "preco_cartao": 1509.6,
+      "preco_link": 1591.2,
+      "preco_10x": 159.12,
       "lucro_pix": 650,
       "lucro_cartao": 650,
       "cotacoes": {
         "FOR001": {
-          "custo": 690,
-          "data": "2026-10-26"
+          "custo": 710,
+          "data": "2026-10-28"
         }
       },
       "bateria": null,
@@ -8122,6 +8122,37 @@
         "Bluch",
         "Indigo"
       ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "XMI-0081",
+      "nome": "Realme note 70 8/256 preto dorudo",
+      "categoria": "Xiaomi",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 950,
+      "preco_venda": 1776,
+      "preco_pix": 1600,
+      "preco_cartao": 1776,
+      "preco_link": 1872,
+      "preco_10x": 187.2,
+      "lucro_pix": 650,
+      "lucro_cartao": 650,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 950,
+          "data": "2026-10-28"
+        }
+      },
+      "bateria": null,
+      "cores": [],
       "origem": null,
       "garantia": null,
       "descricao": "",
