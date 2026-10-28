@@ -244,3 +244,7 @@ Sessão-dona do catálogo aberta pela revisão geral (DEC-2026-029).
 - `scripts/reprecificar.mjs`: aplica a regra ao catálogo inteiro (ensaio por padrão; 53 visíveis mudam). Esperando o ok do Stefano na amostra antes de `--aplicar`.
 - `scripts/fila-stories.mjs`: 3 stories/dia (iPhone + outro celular + acessório/eletrônico), pasta `Stories Catalogo/Fila-<data>/` com revisao.html. Nada postado.
 - Atenção: a ingestão automática roda na main; esta regra só vale quando o branch for mesclado.
+- (tarde) Regra FINAL aprovada pelo Stefano (via Gerente): não-celular até R$4.000 de custo = 30%/40%; acima (MacBook, Watch Ultra) = R$850 fixos como celular; TODO preço termina em ,90 (pra cima — celular sobe R$0,90). Site e story mostram os centavos do Pix (antes arredondavam).
+- `scripts/ajustes-tabela.mjs` (roda dentro do reprecificar): esconde 8 duplicados com `duplicado_de` (o código antigo fica, com foto e o maior custo recente), XMI-0077..0081 -> Realme, XMI-0057 -> Tablet (vira duplicado do TAB-0002), IPH-0028 ganha "Seminovo" no nome, ACS-0010/11/12 seguem ocultos.
+- Pra não desfazer na próxima tabela: `ingerir.mjs` manda a cotação do duplicado escondido pro que ficou; o parser põe Realme e Redmi Pad antes da regra do Xiaomi; `chaveProduto` ignora "Seminovo/Lacrado" no nome.
+- Ensaio no catálogo da main (dcdcac8): 231 visíveis mudam (185 celulares só +R$0,90). Aplicar: mesclar na main, `bun scripts/reprecificar.mjs --aplicar`, commit e push — só com o ok digitado do Stefano.

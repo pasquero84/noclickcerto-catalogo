@@ -264,7 +264,7 @@ img{max-width:100%;display:block}
 
 <script>
 const WA="5512991048039";
-const R=v=>new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL',minimumFractionDigits:0,maximumFractionDigits:0}).format(v);
+const R=v=>new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL',minimumFractionDigits:v%1?2:0,maximumFractionDigits:v%1?2:0}).format(v);
 const R2=v=>new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(v);
 const W=c=>`https://wa.me/${WA}?text=${encodeURIComponent("Olá.\nTenho interesse no produto "+c+".\nGostaria de mais informações.")}`;
 const WC=c=>`https://wa.me/${WA}?text=${encodeURIComponent("Olá.\nGostaria de consultar disponibilidade do produto "+c+".")}`;

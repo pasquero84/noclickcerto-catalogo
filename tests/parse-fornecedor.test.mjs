@@ -284,3 +284,14 @@ test('"Xiaomi Buds 5 Pro" é Fone e casa com o FNE-0001 "Buds 5 Pro" (não vira 
   assert.deepEqual(ps.map((p) => `${p.nomeOriginal}|${p.categoria}`), ['Xiaomi Buds 5 Pro|Fone', 'Redmi15C 4/128 preto verde|Xiaomi']);
   assert.equal(chaveProduto(ps[0]), chaveProduto({ nomeOriginal: 'Buds 5 Pro', categoria: 'Fone', condicao: 'Lacrado' }));
 });
+
+test('28/10: Realme e Redmi Pad na seção XIAOMI não entram como Xiaomi', () => {
+  const txt = 'XIAOMI\nRealme note 70 8/256 preto R$925\nRedmi Pad 2 256GB cinza R$1275\nRedmi Note 15 4G 8/256 R$1230\n';
+  const cats = parseTabelaFornecedor(txt, { fornecedor: 'FOR001' }).map((p) => p.categoria);
+  assert.deepEqual(cats, ['Realme', 'Tablet', 'Xiaomi']);
+});
+
+test('28/10: "Seminovo" no nome do catálogo (IPH-0028) não muda a chave', () => {
+  const k = (nome) => chaveProduto({ nomeOriginal: nome, categoria: 'iPhone', condicao: 'Seminovo' });
+  assert.equal(k('iPhone 15 128GB Preto Seminovo'), k('15 128GB'));
+});

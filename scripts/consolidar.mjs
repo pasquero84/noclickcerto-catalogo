@@ -29,6 +29,7 @@ const RUIDO_NOME = [
   /\bssd\b/gi,
   /\bram\b/gi,
   /\bgpu\b/gi,
+  /\b(seminovos?|lacrados?)\b/gi, // a condição já é campo da chave; "iPhone 15 128GB Preto Seminovo" (IPH-0028) casa com o "15 128GB" da lista
 ];
 
 /**

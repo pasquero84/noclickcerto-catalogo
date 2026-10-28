@@ -238,12 +238,15 @@ function detectaCategoria(nome) {
   if (/ipad/.test(n)) return 'iPad';
   if (/macbook|mac\s*book/.test(n)) return 'MacBook';
   if (/watch|\b\d{2}\s*mm\b/.test(n)) return 'Apple Watch';
-  if (/xiaomi|redmi|poco|note\s*\d/.test(n)) return 'Xiaomi';
+  // Realme e Redmi Pad antes da regra do Xiaomi: "Realme note 70" casava com
+  // "note 70" e "Redmi Pad 2" com "redmi" — entraram como XMI-0077..0081 e
+  // XMI-0057 (corrigido em 28/10).
   if (/realme/.test(n)) return 'Realme';
+  if (/\bpad\b|tablet|galaxy tab/.test(n)) return 'Tablet';
+  if (/xiaomi|redmi|poco|note\s*\d/.test(n)) return 'Xiaomi';
   // Fone = sem fio (AirPods, Buds), margem fixa de aparelho. "Fone Tipo C" de
   // R$50 com fio é acessório (cai no fim).
   if (/airpods|buds/.test(n)) return 'Fone';
-  if (/tablet|galaxy tab/.test(n)) return 'Tablet';
   return 'Acessório';
 }
 

@@ -1,22 +1,43 @@
-// Regra de preço — celular margem fixa; o resto 30% Pix / 40% em 10x (28/10/2026).
+// Regra de preço aprovada pelo Stefano em 28/10/2026:
+//   celular: margem fixa R$650 até 4.000 de custo, R$850 acima;
+//   não-celular até R$4.000: 30% no Pix / 40% em 10x; acima: R$850 fixos;
+//   todo preço termina em ,90.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { calcPrecos, ehCelular } from '../scripts/precos.mjs';
+import { calcPrecos, ehCelular, final90 } from '../scripts/precos.mjs';
 import { reprecificar } from '../scripts/reprecificar.mjs';
+import { ajustarTabela } from '../scripts/ajustes-tabela.mjs';
 
-test('acessório, fone, MacBook, Watch, tablet, robô: Pix = custo×1,30 e 10x = custo×1,40', () => {
-  for (const cat of ['Acessório', 'Fone', 'MacBook', 'Apple Watch', 'iPad', 'Tablet', 'Robô', 'Console']) {
-    const p = calcPrecos(100, cat, 'x');
-    assert.equal(p.preco_pix, 130, cat);
-    assert.equal(p.preco_link, 140, cat);
-    assert.equal(p.preco_10x, 14, cat);
-  }
+test('final ,90 sempre pra cima', () => {
+  assert.equal(final90(143), 143.9);
+  assert.equal(final90(143.9), 143.9);
+  assert.equal(final90(143.91), 144.9);
+  assert.equal(final90(1233.7), 1233.9);
+  assert.equal(final90(3800), 3800.9);
 });
 
-test('celular não muda: R$650 até 4.000 de custo e R$850 acima', () => {
-  assert.equal(calcPrecos(4000, 'iPhone', 'iPhone 16 Pro').preco_pix, 4650);
-  assert.equal(calcPrecos(4001, 'iPhone', 'iPhone 16 Pro').preco_pix, 4851);
-  assert.equal(calcPrecos(1540, 'Xiaomi', 'Note15 5G 8/256').preco_pix, 2190);
+test('não-celular até R$4.000: Pix = custo×1,30 e 10x = custo×1,40, em ,90', () => {
+  for (const cat of ['Acessório', 'Fone', 'MacBook', 'Apple Watch', 'iPad', 'Tablet', 'Robô', 'Console']) {
+    const p = calcPrecos(110, cat, 'x');
+    assert.equal(p.preco_pix, 143.9, cat);
+    assert.equal(p.preco_link, 154.9, cat);
+    assert.equal(p.preco_10x, 15.49, cat);
+  }
+  assert.equal(calcPrecos(4000, 'Apple Watch', 'Watch').preco_pix, 5200.9);
+});
+
+test('não-celular acima de R$4.000 (MacBook): margem fixa de R$850, como celular', () => {
+  const p = calcPrecos(7750, 'MacBook', 'MacBook Air M5');
+  assert.equal(p.preco_pix, 8600.9);
+  assert.equal(p.preco_cartao, 9547.9); // 8600,90 × 1,11 = 9547,00 -> ,90 acima
+  assert.equal(p.preco_link, 10063.9);
+  assert.equal(p.preco_10x, 1006.39);
+});
+
+test('celular: R$650 até 4.000 de custo e R$850 acima, em ,90', () => {
+  assert.equal(calcPrecos(4000, 'iPhone', 'iPhone 16 Pro').preco_pix, 4650.9);
+  assert.equal(calcPrecos(4001, 'iPhone', 'iPhone 16 Pro').preco_pix, 4851.9);
+  assert.equal(calcPrecos(1540, 'Xiaomi', 'Note15 5G 8/256').preco_pix, 2190.9);
 });
 
 test('na categoria Xiaomi, Redmi Pad, Buds e robô contam como não-celular', () => {
@@ -26,15 +47,40 @@ test('na categoria Xiaomi, Redmi Pad, Buds e robô contam como não-celular', ()
   assert.equal(ehCelular('iPhone', 'iPhone 15 Pro Max'), true);
 });
 
-test('reprecificar só mexe em não-celular e respeita produto sem custo', () => {
+test('reprecificar passa todo produto visível com custo (celular também, pelo ,90)', () => {
   const cat = { produtos: [
     { codigo: 'ACS-1', nome: 'Cabo', categoria: 'Acessório', custo: 60, preco_pix: 120, preco_link: 140.4 },
     { codigo: 'IPH-1', nome: 'iPhone 13', categoria: 'iPhone', custo: 2000, preco_pix: 2650 },
     { codigo: 'ACS-2', nome: 'Capa', categoria: 'Acessório', preco_pix: 50 },
+    { codigo: 'ACS-3', nome: 'Lixo', categoria: 'Acessório', custo: 15, preco_pix: 30, oculto: true },
   ] };
   const m = reprecificar(cat);
-  assert.deepEqual(m.map((x) => x.codigo), ['ACS-1']);
-  assert.equal(cat.produtos[0].preco_pix, 78);
-  assert.equal(cat.produtos[0].preco_10x, 8.4);
-  assert.equal(cat.produtos[1].preco_pix, 2650);
+  assert.deepEqual(m.map((x) => x.codigo), ['ACS-1', 'IPH-1']);
+  assert.equal(cat.produtos[0].preco_pix, 78.9);
+  assert.equal(cat.produtos[0].preco_10x, 8.49);
+  assert.equal(cat.produtos[1].preco_pix, 2650.9);
+  assert.equal(cat.produtos[3].preco_pix, 30);
+  assert.deepEqual(reprecificar(cat), []); // segunda passada não muda nada
+});
+
+test('ajustes: duplicado some, o que fica leva foto e custo mais recente; categoria e nome corrigidos', () => {
+  const cat = { produtos: [
+    { codigo: 'ACS-0013', nome: 'Apple Pencil USB-C', categoria: 'Acessório', condicao: 'Lacrado', custo: 480, cotacoes: { FOR001: { custo: 480, data: '2026-10-28' } } },
+    { codigo: 'ACS-0015', nome: 'Pencil USBC', categoria: 'Acessório', condicao: 'Lacrado', custo: 490, foto_url: '/p.jpg', cotacoes: { FOR002: { custo: 490, data: '2026-10-28' } } },
+    { codigo: 'APW-0011', nome: 'Apple Watch Ultra 3 49mm', categoria: 'Apple Watch', condicao: 'Lacrado', custo: 4549, cotacoes: { FOR002: { custo: 4549, data: '2026-10-27' } } },
+    { codigo: 'APW-0017', nome: 'Apple Watch Ultra 3 49mm Caixa Natural', categoria: 'Apple Watch', condicao: 'Lacrado', custo: 4449, cotacoes: { FOR002: { custo: 4449, data: '2026-10-28' } } },
+    { codigo: 'XMI-0078', nome: 'Realme note 80 4/128 preto azul', categoria: 'Xiaomi', condicao: 'Lacrado', custo: 840 },
+    { codigo: 'IPH-0028', nome: 'iPhone 15 128GB Preto', categoria: 'iPhone', condicao: 'Seminovo', custo: 2475 },
+  ] };
+  ajustarTabela(cat);
+  const [pencil, pencil2, watch, watch2, realme, iph] = cat.produtos;
+  assert.equal(pencil.custo, 490); // maior entre fornecedores
+  assert.equal(pencil.foto_url, '/p.jpg');
+  assert.equal(pencil2.oculto, true);
+  assert.equal(pencil2.duplicado_de, 'ACS-0013');
+  assert.equal(watch.custo, 4449); // mesmo fornecedor: vale a cotação mais nova
+  assert.equal(watch2.oculto, true);
+  assert.equal(realme.categoria, 'Realme');
+  assert.equal(iph.nome, 'iPhone 15 128GB Preto Seminovo');
+  assert.deepEqual(ajustarTabela(cat), []); // roda de novo sem mexer
 });

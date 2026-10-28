@@ -97,11 +97,15 @@ const antesDeHoje = new Map(produtos.map((p) => [p.codigo, { custo: p.custo }]))
 // tem uma linha por cor (XMI-0012 Preto, 0013 Azul, 0014 Verde = o mesmo
 // aparelho), enquanto a tabela nova traz as cores juntas. Se atualizasse só
 // um, o mesmo aparelho ficaria com preços diferentes no site.
+// Duplicado escondido (`duplicado_de`, 28/10): a cotação que chega pelo nome
+// dele vai pro cadastro que ficou no site, não pro escondido.
+const porCodigo = new Map(produtos.map((p) => [p.codigo, p]));
 const indice = new Map();
 for (const p of produtos) {
   const k = chaveProduto({ nomeOriginal: p.nome, categoria: p.categoria, condicao: p.condicao });
+  const alvo = (p.duplicado_de && porCodigo.get(p.duplicado_de)) || p;
   if (!indice.has(k)) indice.set(k, []);
-  indice.get(k).push(p);
+  if (!indice.get(k).includes(alvo)) indice.get(k).push(alvo);
 }
 
 const novos = [];

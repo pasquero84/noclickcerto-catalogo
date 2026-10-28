@@ -2,8 +2,10 @@
 // ============================================================
 // REPRECIFICAR — aplica a regra de precos.mjs a todo o catálogo, a partir do
 // custo que já está gravado. A ingestão só reprecifica o que chega na tabela
-// do dia; quando a REGRA muda (28/10: 30%/40% pra tudo que não é celular),
-// este script passa o resto.
+// do dia; quando a REGRA muda (28/10: 30%/40% pra tudo que não é celular até
+// R$4.000 de custo, e todo preço terminando em ,90), este script passa o resto.
+// Antes do preço, aplica os ajustes de tabela aprovados no mesmo dia
+// (duplicados, categorias, nomes — ver ajustes-tabela.mjs).
 //
 // uso: bun scripts/reprecificar.mjs              (ensaio: mostra o que mudaria)
 //      bun scripts/reprecificar.mjs --aplicar    (grava catalogo.json; publicar é à parte)
@@ -12,7 +14,8 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { calcPrecos, ehCelular } from './precos.mjs';
+import { calcPrecos } from './precos.mjs';
+import { ajustarTabela } from './ajustes-tabela.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ARQ = join(RAIZ, 'catalogo.json');
@@ -20,7 +23,7 @@ const ARQ = join(RAIZ, 'catalogo.json');
 export function reprecificar(catalogo) {
   const mudancas = [];
   for (const p of catalogo.produtos || []) {
-    if (p.oculto || !(p.custo > 0) || ehCelular(p.categoria, p.nome)) continue;
+    if (p.oculto || !(p.custo > 0)) continue;
     const novo = calcPrecos(p.custo, p.categoria, p.nome);
     if (novo.preco_pix === p.preco_pix && novo.preco_link === p.preco_link) continue;
     mudancas.push({ codigo: p.codigo, nome: p.nome, categoria: p.categoria, oculto: !!p.oculto, custo: p.custo,
@@ -32,6 +35,9 @@ export function reprecificar(catalogo) {
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const catalogo = JSON.parse(readFileSync(ARQ, 'utf8'));
+  const ajustes = ajustarTabela(catalogo);
+  for (const a of ajustes) console.log(`ajuste  ${a}`);
+  if (ajustes.length) console.log('');
   const mudancas = reprecificar(catalogo);
   const brl = (n) => n?.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   for (const m of mudancas) {
