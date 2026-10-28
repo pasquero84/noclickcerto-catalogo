@@ -8,7 +8,7 @@
 //   - catálogo mestre CRESCE, nunca remove produto (regra antiga, mantida)
 //   - código de produto nunca muda, é vínculo permanente
 //   - preço do fornecedor MAIS CARO quando o produto existe nos dois
-//   - margem fixa: R$650 até R$4.000 de custo, R$850 acima
+//   - margem: celular R$650/R$850 fixos; o resto 30% Pix / 40% em 10x (precos.mjs)
 //
 // uso:
 //   bun scripts/ingerir.mjs <arq.txt:FOR001[:AAAA-MM-DD]> [arq2.txt:FOR002]  (dry-run)
@@ -20,44 +20,9 @@ import { parseTabelaFornecedor, nomeDeProdutoValido } from './parse-fornecedor.m
 import { consolidar, chaveProduto } from './consolidar.mjs';
 import { auditarCatalogo, bloquear, relatorio } from './auditor.mjs';
 import { validarEstrutura, relatorioEstrutura } from './validar-catalogo.mjs';
+import { calcPrecos } from './precos.mjs';
 
-const MARGEM_ATE_4K = 650;
-const MARGEM_ACIMA_4K = 850;
-const LIMITE_MARGEM = 4000;
-const TAXA_CARTAO = 0.11;
-const TAXA_LINK = 0.17;
-const PARCELAS = 10;
-
-// Margens especiais por categoria, fechadas com o Stefano em 31/08/2026:
-// a fórmula de R$650/R$850 é pra CELULAR. Cabo/fonte/EarPods/AirTag
-// ("Acessório") a preço fixo ficavam absurdos (cabo de R$15 vendendo por
-// R$665) — ele pediu percentual pra esses. Fone SEM FIO (AirPods, Buds) é
-// caro feito celular, então margem fixa também, só que menor: R$500.
-const MARGEM_PCT_POR_CATEGORIA = { Acessório: 1.0 }; // 100% do custo
-const MARGEM_FIXA_POR_CATEGORIA = { Fone: 500 };
-
-export function calcPrecos(custo, categoria) {
-  let margem;
-  if (categoria in MARGEM_PCT_POR_CATEGORIA) {
-    margem = Math.round(custo * MARGEM_PCT_POR_CATEGORIA[categoria] * 100) / 100;
-  } else if (categoria in MARGEM_FIXA_POR_CATEGORIA) {
-    margem = MARGEM_FIXA_POR_CATEGORIA[categoria];
-  } else {
-    margem = custo <= LIMITE_MARGEM ? MARGEM_ATE_4K : MARGEM_ACIMA_4K;
-  }
-  const pix = Math.round((custo + margem) * 100) / 100;
-  const cartao = Math.round(pix * (1 + TAXA_CARTAO) * 100) / 100;
-  const link = Math.round(pix * (1 + TAXA_LINK) * 100) / 100;
-  return {
-    preco_venda: cartao,
-    preco_pix: pix,
-    preco_cartao: cartao,
-    preco_link: link,
-    preco_10x: Math.round((link / PARCELAS) * 100) / 100,
-    lucro_pix: margem,
-    lucro_cartao: margem,
-  };
-}
+// Regra de preço (celular × o resto) mora em precos.mjs, testável sem rodar a ingestão.
 
 const PREFIXOS = {
   iPhone: 'IPH', iPad: 'IPD', MacBook: 'MCB', 'Apple Watch': 'APW',
@@ -168,7 +133,7 @@ for (const c of consolidado) {
       const venc = cotacaoVencedora(cotacoes) || { fornecedor: c.fornecedorPreco, custo: c.custo };
       // Margem pela categoria do PRODUTO DO CATÁLOGO (Acessório 100%, Fone R$500,
       // aparelho R$650/R$850) — sem ela, um Apple Pencil de R$499 saía por R$1.149.
-      const precos = calcPrecos(venc.custo, existente.categoria);
+      const precos = calcPrecos(venc.custo, existente.categoria, existente.nome);
       Object.assign(existente, {
         custo: venc.custo,
         ...precos,
@@ -202,7 +167,7 @@ for (const c of consolidado) {
       status: 'Disponível',
       fornecedor: c.fornecedorPreco || 'FOR001',
       custo: c.custo,
-      ...calcPrecos(c.custo, c.categoria),
+      ...calcPrecos(c.custo, c.categoria, c.nome),
       cotacoes,
       bateria: c.bateria,
       cores: c.cores,
