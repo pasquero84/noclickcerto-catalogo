@@ -1,6 +1,6 @@
 // Regra de preço aprovada pelo Stefano em 28/10/2026:
 //   celular: margem fixa R$650 até 4.000 de custo, R$850 acima;
-//   não-celular até R$4.000: 30% no Pix / 40% em 10x; acima: R$850 fixos;
+//   não-celular até R$4.000: 35% no Pix / 46% em 10x; acima: R$850 fixos;
 //   todo preço termina em ,90.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
@@ -16,14 +16,14 @@ test('final ,90 sempre pra cima', () => {
   assert.equal(final90(3800), 3800.9);
 });
 
-test('não-celular até R$4.000: Pix = custo×1,30 e 10x = custo×1,40, em ,90', () => {
+test('não-celular até R$4.000: Pix = custo×1,35 e 10x = custo×1,46, em ,90', () => {
   for (const cat of ['Acessório', 'Fone', 'MacBook', 'Apple Watch', 'iPad', 'Tablet', 'Robô', 'Console']) {
     const p = calcPrecos(110, cat, 'x');
-    assert.equal(p.preco_pix, 143.9, cat);
-    assert.equal(p.preco_link, 154.9, cat);
-    assert.equal(p.preco_10x, 15.49, cat);
+    assert.equal(p.preco_pix, 148.9, cat); // 148,50
+    assert.equal(p.preco_link, 160.9, cat); // 160,60
+    assert.equal(p.preco_10x, 16.09, cat);
   }
-  assert.equal(calcPrecos(4000, 'Apple Watch', 'Watch').preco_pix, 5200.9);
+  assert.equal(calcPrecos(4000, 'Apple Watch', 'Watch').preco_pix, 5400.9);
 });
 
 test('não-celular acima de R$4.000 (MacBook): margem fixa de R$850, como celular', () => {
@@ -56,8 +56,8 @@ test('reprecificar passa todo produto visível com custo (celular também, pelo 
   ] };
   const m = reprecificar(cat);
   assert.deepEqual(m.map((x) => x.codigo), ['ACS-1', 'IPH-1']);
-  assert.equal(cat.produtos[0].preco_pix, 78.9);
-  assert.equal(cat.produtos[0].preco_10x, 8.49);
+  assert.equal(cat.produtos[0].preco_pix, 81.9); // 60 × 1,35 = 81
+  assert.equal(cat.produtos[0].preco_10x, 8.79); // 60 × 1,46 = 87,60 -> 87,90
   assert.equal(cat.produtos[1].preco_pix, 2650.9);
   assert.equal(cat.produtos[3].preco_pix, 30);
   assert.deepEqual(reprecificar(cat), []); // segunda passada não muda nada

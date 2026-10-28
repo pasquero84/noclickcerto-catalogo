@@ -6,8 +6,9 @@
 //
 // O QUE NÃO É CELULAR (Stefano, 28/10/2026): acessório, fone, AirTag, cabo,
 //   fonte, Apple Watch, iPad, tablet, robô, console…
-//   custo até R$4.000:  à vista (Pix) = custo × 1,30
-//                       até 10x       = custo × 1,40 (preço total; parcela = total ÷ 10)
+//   custo até R$4.000:  à vista (Pix) = custo × 1,35
+//                       até 10x       = custo × 1,46 (preço total; parcela = total ÷ 10)
+//   (começou 30%/40%; o Stefano subiu pra 35%/46% no mesmo dia, 28/10)
 //   custo acima disso (MacBook): margem fixa de R$850, igual à do celular.
 // Antes disso: Acessório 100% do custo e Fone R$500 fixos (31/08), e o resto
 // caía na margem de celular.
@@ -23,8 +24,8 @@ const TAXA_CARTAO = 0.11;
 const TAXA_LINK = 0.17;
 const PARCELAS = 10;
 
-export const MARGEM_VISTA = 0.30;
-export const MARGEM_PARCELADO = 0.40;
+export const MARGEM_VISTA = 0.35;
+export const MARGEM_PARCELADO = 0.46;
 
 const CATEGORIAS_NAO_CELULAR = new Set([
   'Acessório', 'Fone', 'MacBook', 'Apple Watch', 'iPad', 'Tablet', 'Robô', 'Console',
