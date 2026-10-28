@@ -2,7 +2,7 @@
   "meta": {
     "sistema": "NoClickCerto",
     "versao": "2.0",
-    "ultima_atualizacao": "2026-10-27",
+    "ultima_atualizacao": "2026-10-28",
     "total_produtos": 274,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
@@ -2768,7 +2768,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 400,
-          "data": "2026-10-27"
+          "data": "2026-10-28"
         }
       }
     },
@@ -6361,7 +6361,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1275,
-          "data": "2026-10-27"
+          "data": "2026-10-28"
         }
       },
       "bateria": null,
@@ -6746,7 +6746,7 @@
       "promocao": false,
       "fotos": [],
       "auditoria_bloqueio": {
-        "em": "2026-10-27",
+        "em": "2026-10-28",
         "motivos": [
           "R$ 1.390 é menos da metade da mediana dos pares (R$ 2.860)"
         ]
