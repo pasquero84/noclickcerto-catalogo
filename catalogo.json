@@ -3,7 +3,7 @@
     "sistema": "NoClickCerto",
     "versao": "2.0",
     "ultima_atualizacao": "2026-10-30",
-    "total_produtos": 281,
+    "total_produtos": 282,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
@@ -7511,7 +7511,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1640,
-          "data": "2026-10-28"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -7531,18 +7531,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1280,
-      "preco_venda": 2143.9,
-      "preco_pix": 1930.9,
-      "preco_cartao": 2143.9,
-      "preco_link": 2259.9,
-      "preco_10x": 225.99,
+      "custo": 1330,
+      "preco_venda": 2198.9,
+      "preco_pix": 1980.9,
+      "preco_cartao": 2198.9,
+      "preco_link": 2317.9,
+      "preco_10x": 231.79,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 1280,
-          "data": "2026-10-28"
+          "custo": 1330,
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -7573,7 +7573,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 940,
-          "data": "2026-10-28"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -7637,7 +7637,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 910,
-          "data": "2026-10-28"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -7688,18 +7688,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 790,
-      "preco_venda": 1599.9,
-      "preco_pix": 1440.9,
-      "preco_cartao": 1599.9,
-      "preco_link": 1685.9,
-      "preco_10x": 168.59,
+      "custo": 900,
+      "preco_venda": 1721.9,
+      "preco_pix": 1550.9,
+      "preco_cartao": 1721.9,
+      "preco_link": 1814.9,
+      "preco_10x": 181.49,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 790,
-          "data": "2026-10-28"
+          "custo": 900,
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -8420,6 +8420,37 @@
         "FOR002": {
           "custo": 749,
           "data": "2026-10-29"
+        }
+      },
+      "bateria": null,
+      "cores": [],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "RLM-0015",
+      "nome": "Realme 71 4/128 branco",
+      "categoria": "Realme",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR001",
+      "custo": 870,
+      "preco_venda": 1688.9,
+      "preco_pix": 1520.9,
+      "preco_cartao": 1688.9,
+      "preco_link": 1779.9,
+      "preco_10x": 177.99,
+      "lucro_pix": 650.9,
+      "lucro_cartao": 650.9,
+      "cotacoes": {
+        "FOR001": {
+          "custo": 870,
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
