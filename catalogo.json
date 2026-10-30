@@ -2990,7 +2990,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 740,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -3116,7 +3116,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 670,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -3146,7 +3146,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 670,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -3176,7 +3176,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 670,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -3236,7 +3236,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 920,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -3266,7 +3266,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 920,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -3296,7 +3296,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 920,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -3326,7 +3326,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 750,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -3356,7 +3356,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 750,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -3679,17 +3679,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1780,
-      "preco_venda": 2698.9,
-      "preco_pix": 2430.9,
-      "preco_10x": 284.49,
+      "custo": 1830,
+      "preco_venda": 2753.9,
+      "preco_pix": 2480.9,
+      "preco_10x": 290.29,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2698.9,
-      "preco_link": 2844.9,
+      "preco_cartao": 2753.9,
+      "preco_link": 2902.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
       "fotos": [
@@ -3697,8 +3697,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1780,
-          "data": "2026-10-29"
+          "custo": 1830,
+          "data": "2026-10-30"
         }
       }
     },
@@ -3709,17 +3709,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1780,
-      "preco_venda": 2698.9,
-      "preco_pix": 2430.9,
-      "preco_10x": 284.49,
+      "custo": 1830,
+      "preco_venda": 2753.9,
+      "preco_pix": 2480.9,
+      "preco_10x": 290.29,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2698.9,
-      "preco_link": 2844.9,
+      "preco_cartao": 2753.9,
+      "preco_link": 2902.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
       "fotos": [
@@ -3727,8 +3727,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1780,
-          "data": "2026-10-29"
+          "custo": 1830,
+          "data": "2026-10-30"
         }
       }
     },
@@ -3932,7 +3932,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 720,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -4202,7 +4202,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2290,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -4232,7 +4232,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2290,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       }
     },
@@ -6457,7 +6457,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 3950,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6508,18 +6508,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 2820,
-      "preco_venda": 3852.9,
-      "preco_pix": 3470.9,
-      "preco_cartao": 3852.9,
-      "preco_link": 4061.9,
-      "preco_10x": 406.19,
+      "custo": 2880,
+      "preco_venda": 3919.9,
+      "preco_pix": 3530.9,
+      "preco_cartao": 3919.9,
+      "preco_link": 4131.9,
+      "preco_10x": 413.19,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 2820,
-          "data": "2026-10-29"
+          "custo": 2880,
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6581,7 +6581,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2430,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6643,7 +6643,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1810,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6663,18 +6663,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1890,
-      "preco_venda": 2820.9,
-      "preco_pix": 2540.9,
-      "preco_cartao": 2820.9,
-      "preco_link": 2972.9,
-      "preco_10x": 297.29,
+      "custo": 1880,
+      "preco_venda": 2809.9,
+      "preco_pix": 2530.9,
+      "preco_cartao": 2809.9,
+      "preco_link": 2961.9,
+      "preco_10x": 296.19,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 1890,
-          "data": "2026-10-29"
+          "custo": 1880,
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6705,7 +6705,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1600,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6756,18 +6756,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1380,
-      "preco_venda": 2254.9,
-      "preco_pix": 2030.9,
-      "preco_cartao": 2254.9,
-      "preco_link": 2376.9,
-      "preco_10x": 237.69,
+      "custo": 1390,
+      "preco_venda": 2265.9,
+      "preco_pix": 2040.9,
+      "preco_cartao": 2265.9,
+      "preco_link": 2387.9,
+      "preco_10x": 238.79,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 1380,
-          "data": "2026-10-29"
+          "custo": 1390,
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6824,18 +6824,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1250,
-      "preco_venda": 2110.9,
-      "preco_pix": 1900.9,
-      "preco_cartao": 2110.9,
-      "preco_link": 2224.9,
-      "preco_10x": 222.49,
+      "custo": 1220,
+      "preco_venda": 2076.9,
+      "preco_pix": 1870.9,
+      "preco_cartao": 2076.9,
+      "preco_link": 2189.9,
+      "preco_10x": 218.99,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 1250,
-          "data": "2026-10-29"
+          "custo": 1220,
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6866,7 +6866,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1120,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6897,7 +6897,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 905,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -6917,18 +6917,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 900,
-      "preco_venda": 1721.9,
-      "preco_pix": 1550.9,
-      "preco_cartao": 1721.9,
-      "preco_link": 1814.9,
-      "preco_10x": 181.49,
+      "custo": 940,
+      "preco_venda": 1765.9,
+      "preco_pix": 1590.9,
+      "preco_cartao": 1765.9,
+      "preco_link": 1861.9,
+      "preco_10x": 186.19,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 900,
-          "data": "2026-10-29"
+          "custo": 940,
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
@@ -8256,7 +8256,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2900,
-          "data": "2026-10-29"
+          "data": "2026-10-30"
         }
       },
       "bateria": null,
