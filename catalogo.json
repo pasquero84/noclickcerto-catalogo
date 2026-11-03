@@ -7499,7 +7499,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1640,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7519,18 +7519,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1330,
-      "preco_venda": 2198.9,
-      "preco_pix": 1980.9,
-      "preco_cartao": 2198.9,
-      "preco_link": 2317.9,
-      "preco_10x": 231.79,
+      "custo": 1320,
+      "preco_venda": 2187.9,
+      "preco_pix": 1970.9,
+      "preco_cartao": 2187.9,
+      "preco_link": 2306.9,
+      "preco_10x": 230.69,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 1330,
-          "data": "2026-10-30"
+          "custo": 1320,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7550,18 +7550,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 940,
-      "preco_venda": 1765.9,
-      "preco_pix": 1590.9,
-      "preco_cartao": 1765.9,
-      "preco_link": 1861.9,
-      "preco_10x": 186.19,
+      "custo": 930,
+      "preco_venda": 1754.9,
+      "preco_pix": 1580.9,
+      "preco_cartao": 1754.9,
+      "preco_link": 1849.9,
+      "preco_10x": 184.99,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 940,
-          "data": "2026-10-30"
+          "custo": 930,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7625,7 +7625,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 910,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7676,18 +7676,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 900,
-      "preco_venda": 1721.9,
-      "preco_pix": 1550.9,
-      "preco_cartao": 1721.9,
-      "preco_link": 1814.9,
-      "preco_10x": 181.49,
+      "custo": 840,
+      "preco_venda": 1654.9,
+      "preco_pix": 1490.9,
+      "preco_cartao": 1654.9,
+      "preco_link": 1744.9,
+      "preco_10x": 174.49,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 900,
-          "data": "2026-10-30"
+          "custo": 840,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -8441,7 +8441,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 870,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
