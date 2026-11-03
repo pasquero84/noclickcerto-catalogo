@@ -2959,17 +2959,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 740,
-      "preco_venda": 1543.9,
-      "preco_pix": 1390.9,
-      "preco_10x": 162.79,
+      "custo": 780,
+      "preco_venda": 1588.9,
+      "preco_pix": 1430.9,
+      "preco_10x": 167.49,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1543.9,
-      "preco_link": 1627.9,
+      "preco_cartao": 1588.9,
+      "preco_link": 1674.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-a5.jpg",
       "fotos": [
@@ -2977,8 +2977,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 740,
-          "data": "2026-10-30"
+          "custo": 780,
+          "data": "2026-11-03"
         }
       }
     },
@@ -3104,7 +3104,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 670,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       }
     },
@@ -3134,7 +3134,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 670,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       }
     },
@@ -3164,7 +3164,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 670,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       }
     },
@@ -3205,17 +3205,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 920,
-      "preco_venda": 1743.9,
-      "preco_pix": 1570.9,
-      "preco_10x": 183.89,
+      "custo": 980,
+      "preco_venda": 1810.9,
+      "preco_pix": 1630.9,
+      "preco_10x": 190.89,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1743.9,
-      "preco_link": 1838.9,
+      "preco_cartao": 1810.9,
+      "preco_link": 1908.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
       "fotos": [
@@ -3223,8 +3223,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 920,
-          "data": "2026-10-30"
+          "custo": 980,
+          "data": "2026-11-03"
         }
       }
     },
@@ -3235,17 +3235,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 920,
-      "preco_venda": 1743.9,
-      "preco_pix": 1570.9,
-      "preco_10x": 183.89,
+      "custo": 980,
+      "preco_venda": 1810.9,
+      "preco_pix": 1630.9,
+      "preco_10x": 190.89,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1743.9,
-      "preco_link": 1838.9,
+      "preco_cartao": 1810.9,
+      "preco_link": 1908.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
       "fotos": [
@@ -3253,8 +3253,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 920,
-          "data": "2026-10-30"
+          "custo": 980,
+          "data": "2026-11-03"
         }
       }
     },
@@ -3265,17 +3265,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 920,
-      "preco_venda": 1743.9,
-      "preco_pix": 1570.9,
-      "preco_10x": 183.89,
+      "custo": 980,
+      "preco_venda": 1810.9,
+      "preco_pix": 1630.9,
+      "preco_10x": 190.89,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1743.9,
-      "preco_link": 1838.9,
+      "preco_cartao": 1810.9,
+      "preco_link": 1908.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-15c.jpg",
       "fotos": [
@@ -3283,8 +3283,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 920,
-          "data": "2026-10-30"
+          "custo": 980,
+          "data": "2026-11-03"
         }
       }
     },
@@ -3667,17 +3667,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1830,
-      "preco_venda": 2753.9,
-      "preco_pix": 2480.9,
-      "preco_10x": 290.29,
+      "custo": 1850,
+      "preco_venda": 2776.9,
+      "preco_pix": 2500.9,
+      "preco_10x": 292.69,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2753.9,
-      "preco_link": 2902.9,
+      "preco_cartao": 2776.9,
+      "preco_link": 2926.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
       "fotos": [
@@ -3685,8 +3685,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1830,
-          "data": "2026-10-30"
+          "custo": 1850,
+          "data": "2026-11-03"
         }
       }
     },
@@ -3697,17 +3697,17 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1830,
-      "preco_venda": 2753.9,
-      "preco_pix": 2480.9,
-      "preco_10x": 290.29,
+      "custo": 1850,
+      "preco_venda": 2776.9,
+      "preco_pix": 2500.9,
+      "preco_10x": 292.69,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 2753.9,
-      "preco_link": 2902.9,
+      "preco_cartao": 2776.9,
+      "preco_link": 2926.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-redmi-note-15-pro-5g.jpg",
       "fotos": [
@@ -3715,8 +3715,8 @@
       ],
       "cotacoes": {
         "FOR001": {
-          "custo": 1830,
-          "data": "2026-10-30"
+          "custo": 1850,
+          "data": "2026-11-03"
         }
       }
     },
@@ -4003,22 +4003,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 610,
-      "preco_venda": 1399.9,
-      "preco_pix": 1260.9,
-      "preco_10x": 147.59,
+      "custo": 780,
+      "preco_venda": 1588.9,
+      "preco_pix": 1430.9,
+      "preco_10x": 167.49,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1399.9,
-      "preco_link": 1475.9,
+      "preco_cartao": 1588.9,
+      "preco_link": 1674.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-poco-c71.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 780,
+          "data": "2026-11-03"
+        }
+      }
     },
     {
       "codigo": "XMI-0042",
@@ -4027,22 +4033,28 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 610,
-      "preco_venda": 1399.9,
-      "preco_pix": 1260.9,
-      "preco_10x": 147.59,
+      "custo": 780,
+      "preco_venda": 1588.9,
+      "preco_pix": 1430.9,
+      "preco_10x": 167.49,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 1399.9,
-      "preco_link": 1475.9,
+      "preco_cartao": 1588.9,
+      "preco_link": 1674.9,
       "descricao": "Aparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/produtos/xiaomi-poco-c71.jpg",
       "fotos": [
         "/imagens/produtos/xiaomi-poco-c71.jpg"
-      ]
+      ],
+      "cotacoes": {
+        "FOR001": {
+          "custo": 780,
+          "data": "2026-11-03"
+        }
+      }
     },
     {
       "codigo": "XMI-0043",
@@ -4190,7 +4202,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2290,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       }
     },
@@ -4220,7 +4232,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2290,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       }
     },
@@ -6444,7 +6456,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 3950,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6464,18 +6476,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 3060,
-      "preco_venda": 4119.9,
-      "preco_pix": 3710.9,
-      "preco_cartao": 4119.9,
-      "preco_link": 4341.9,
-      "preco_10x": 434.19,
+      "custo": 3040,
+      "preco_venda": 4096.9,
+      "preco_pix": 3690.9,
+      "preco_cartao": 4096.9,
+      "preco_link": 4318.9,
+      "preco_10x": 431.89,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 3060,
-          "data": "2026-10-26"
+          "custo": 3040,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6506,7 +6518,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2880,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6568,7 +6580,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2430,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6630,7 +6642,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 1810,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6650,18 +6662,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1880,
-      "preco_venda": 2809.9,
-      "preco_pix": 2530.9,
-      "preco_cartao": 2809.9,
-      "preco_link": 2961.9,
-      "preco_10x": 296.19,
+      "custo": 1890,
+      "preco_venda": 2820.9,
+      "preco_pix": 2540.9,
+      "preco_cartao": 2820.9,
+      "preco_link": 2972.9,
+      "preco_10x": 297.29,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 1880,
-          "data": "2026-10-30"
+          "custo": 1890,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6681,18 +6693,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1600,
-      "preco_venda": 2498.9,
-      "preco_pix": 2250.9,
-      "preco_cartao": 2498.9,
-      "preco_link": 2633.9,
-      "preco_10x": 263.39,
+      "custo": 1590,
+      "preco_venda": 2487.9,
+      "preco_pix": 2240.9,
+      "preco_cartao": 2487.9,
+      "preco_link": 2621.9,
+      "preco_10x": 262.19,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 1600,
-          "data": "2026-10-30"
+          "custo": 1590,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6743,18 +6755,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1390,
-      "preco_venda": 2265.9,
-      "preco_pix": 2040.9,
-      "preco_cartao": 2265.9,
-      "preco_link": 2387.9,
-      "preco_10x": 238.79,
+      "custo": 1400,
+      "preco_venda": 2276.9,
+      "preco_pix": 2050.9,
+      "preco_cartao": 2276.9,
+      "preco_link": 2399.9,
+      "preco_10x": 239.99,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 1390,
-          "data": "2026-10-30"
+          "custo": 1400,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6811,18 +6823,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 1220,
-      "preco_venda": 2076.9,
-      "preco_pix": 1870.9,
-      "preco_cartao": 2076.9,
-      "preco_link": 2189.9,
-      "preco_10x": 218.99,
+      "custo": 1240,
+      "preco_venda": 2098.9,
+      "preco_pix": 1890.9,
+      "preco_cartao": 2098.9,
+      "preco_link": 2212.9,
+      "preco_10x": 221.29,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 1220,
-          "data": "2026-10-30"
+          "custo": 1240,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6873,18 +6885,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 905,
-      "preco_venda": 1727.9,
-      "preco_pix": 1555.9,
-      "preco_cartao": 1727.9,
-      "preco_link": 1820.9,
-      "preco_10x": 182.09,
+      "custo": 940,
+      "preco_venda": 1765.9,
+      "preco_pix": 1590.9,
+      "preco_cartao": 1765.9,
+      "preco_link": 1861.9,
+      "preco_10x": 186.19,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 905,
-          "data": "2026-10-30"
+          "custo": 940,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -6904,18 +6916,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR001",
-      "custo": 940,
-      "preco_venda": 1765.9,
-      "preco_pix": 1590.9,
-      "preco_cartao": 1765.9,
-      "preco_link": 1861.9,
-      "preco_10x": 186.19,
+      "custo": 960,
+      "preco_venda": 1788.9,
+      "preco_pix": 1610.9,
+      "preco_cartao": 1788.9,
+      "preco_link": 1884.9,
+      "preco_10x": 188.49,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
         "FOR001": {
-          "custo": 940,
-          "data": "2026-10-30"
+          "custo": 960,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -8242,7 +8254,7 @@
       "cotacoes": {
         "FOR001": {
           "custo": 2900,
-          "data": "2026-10-30"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
