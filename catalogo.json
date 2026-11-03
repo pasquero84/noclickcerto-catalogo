@@ -3,7 +3,7 @@
     "sistema": "NoClickCerto",
     "versao": "2.0",
     "ultima_atualizacao": "2026-11-03",
-    "total_produtos": 284,
+    "total_produtos": 286,
     "whatsapp": "5512991048039",
     "instagram": "@noclickcerto.oficial",
     "prazo_entrega": "Até 3 dias úteis",
@@ -37,10 +37,10 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR002",
-      "custo": 7249,
-      "preco_venda": 8990.9,
-      "preco_pix": 8099.9,
-      "preco_10x": 947.69,
+      "custo": 7299,
+      "preco_venda": 9046.9,
+      "preco_pix": 8149.9,
+      "preco_10x": 953.59,
       "lucro_pix": 850.9,
       "lucro_cartao": 850.9,
       "bateria": null,
@@ -54,11 +54,13 @@
         "/imagens/fornecedor/iphone-lacrado-easystore.jpg"
       ],
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
-      "preco_cartao": 8990.9,
-      "preco_link": 9476.9,
+      "preco_cartao": 9046.9,
+      "preco_link": 9535.9,
       "cores": [
         "Azul",
-        "Branco"
+        "Branco",
+        "Laranja",
+        "Silver"
       ],
       "cotacoes": {
         "FOR001": {
@@ -66,8 +68,8 @@
           "data": "2026-11-03"
         },
         "FOR002": {
-          "custo": 7249,
-          "data": "2026-11-02"
+          "custo": 7299,
+          "data": "2026-11-03"
         }
       }
     },
@@ -78,20 +80,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR002",
-      "custo": 7249,
-      "preco_venda": 8990.9,
-      "preco_pix": 8099.9,
-      "preco_10x": 947.69,
+      "custo": 7299,
+      "preco_venda": 9046.9,
+      "preco_pix": 8149.9,
+      "preco_10x": 953.59,
       "lucro_pix": 850.9,
       "lucro_cartao": 850.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8990.9,
-      "preco_link": 9476.9,
+      "preco_cartao": 9046.9,
+      "preco_link": 9535.9,
       "cores": [
         "Azul",
-        "Branco"
+        "Branco",
+        "Laranja",
+        "Silver"
       ],
       "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão japonesa. A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -104,8 +108,8 @@
           "data": "2026-11-03"
         },
         "FOR002": {
-          "custo": 7249,
-          "data": "2026-11-02"
+          "custo": 7299,
+          "data": "2026-11-03"
         }
       }
     },
@@ -116,20 +120,22 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR002",
-      "custo": 7249,
-      "preco_venda": 8990.9,
-      "preco_pix": 8099.9,
-      "preco_10x": 947.69,
+      "custo": 7299,
+      "preco_venda": 9046.9,
+      "preco_pix": 8149.9,
+      "preco_10x": 953.59,
       "lucro_pix": 850.9,
       "lucro_cartao": 850.9,
       "bateria": null,
       "origem": null,
       "garantia": null,
-      "preco_cartao": 8990.9,
-      "preco_link": 9476.9,
+      "preco_cartao": 9046.9,
+      "preco_link": 9535.9,
       "cores": [
         "Azul",
-        "Branco"
+        "Branco",
+        "Laranja",
+        "Silver"
       ],
       "descricao": "Tela de 6,9\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -142,8 +148,8 @@
           "data": "2026-11-03"
         },
         "FOR002": {
-          "custo": 7249,
-          "data": "2026-11-02"
+          "custo": 7299,
+          "data": "2026-11-03"
         }
       }
     },
@@ -1717,7 +1723,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 7249,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "cores": [
@@ -1750,7 +1756,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 7249,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "cores": [
@@ -1777,7 +1783,8 @@
       "preco_link": 9103.9,
       "cores": [
         "Azul",
-        "Branco"
+        "Branco",
+        "Laranja"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1790,8 +1797,8 @@
           "data": "2026-11-03"
         },
         "FOR002": {
-          "custo": 6599,
-          "data": "2026-11-02"
+          "custo": 6749,
+          "data": "2026-11-03"
         }
       }
     },
@@ -1815,7 +1822,8 @@
       "preco_link": 9103.9,
       "cores": [
         "Azul",
-        "Branco"
+        "Branco",
+        "Laranja"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1828,8 +1836,8 @@
           "data": "2026-11-03"
         },
         "FOR002": {
-          "custo": 6599,
-          "data": "2026-11-02"
+          "custo": 6749,
+          "data": "2026-11-03"
         }
       }
     },
@@ -1853,7 +1861,8 @@
       "preco_link": 9103.9,
       "cores": [
         "Azul",
-        "Branco"
+        "Branco",
+        "Laranja"
       ],
       "descricao": "Tela de 6,3\" · 256 GB de armazenamento · 3 câmeras traseiras (principal, ultra-angular e teleobjetiva) · Conector USB-C\nTela ProMotion com taxa de atualização adaptativa e ilha dinâmica\nVersão LL/A (modelo americano). A garantia da Apple é global.\nAparelho novo, lacrado de fábrica.\nNota fiscal disponível mediante solicitação, com acréscimo de 8%.\nEntrega grátis em Ubatuba. Pagamento até as 15h, entrega em até 48h úteis.",
       "foto_url": "/imagens/fornecedor/iphone-lacrado-easystore.jpg",
@@ -1866,8 +1875,8 @@
           "data": "2026-11-03"
         },
         "FOR002": {
-          "custo": 6599,
-          "data": "2026-11-02"
+          "custo": 6749,
+          "data": "2026-11-03"
         }
       }
     },
@@ -2522,7 +2531,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 110,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       }
     },
@@ -2552,7 +2561,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 110,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       }
     },
@@ -2582,7 +2591,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 60,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       }
     },
@@ -2612,7 +2621,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 80,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       }
     },
@@ -2792,7 +2801,7 @@
       "auditoria_bloqueio": {
         "em": "2026-11-03",
         "motivos": [
-          "R$ 400 é menos da metade da mediana dos pares (R$ 835)"
+          "R$ 400 é menos da metade da mediana dos pares (R$ 840)"
         ]
       }
     },
@@ -4691,7 +4700,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 15,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       }
     },
@@ -4723,7 +4732,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 60,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       }
     },
@@ -4755,7 +4764,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 40,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       }
     },
@@ -6106,13 +6115,13 @@
       "categoria": "iPhone",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 8899,
-      "preco_venda": 10822.9,
-      "preco_pix": 9749.9,
-      "preco_cartao": 10822.9,
-      "preco_link": 11407.9,
-      "preco_10x": 1140.79,
+      "fornecedor": "FOR001",
+      "custo": 8850,
+      "preco_venda": 10768.9,
+      "preco_pix": 9700.9,
+      "preco_cartao": 10768.9,
+      "preco_link": 11350.9,
+      "preco_10x": 1135.09,
       "lucro_pix": 850.9,
       "lucro_cartao": 850.9,
       "cotacoes": {
@@ -6121,15 +6130,17 @@
           "data": "2026-11-03"
         },
         "FOR002": {
-          "custo": 8899,
-          "data": "2026-11-02"
+          "custo": 8849,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
       "cores": [
         "Bordo",
+        "Bordô",
         "Glacial",
-        "Preto"
+        "Preto",
+        "Silver"
       ],
       "origem": null,
       "garantia": null,
@@ -6361,7 +6372,7 @@
         },
         "FOR002": {
           "custo": 490,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7197,7 +7208,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 6850,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7230,7 +7241,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 5549,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7254,18 +7265,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR002",
-      "custo": 4349,
-      "preco_venda": 5771.9,
-      "preco_pix": 5199.9,
-      "preco_cartao": 5771.9,
-      "preco_link": 6083.9,
-      "preco_10x": 608.39,
+      "custo": 4449,
+      "preco_venda": 5882.9,
+      "preco_pix": 5299.9,
+      "preco_cartao": 5882.9,
+      "preco_link": 6200.9,
+      "preco_10x": 620.09,
       "lucro_pix": 850.9,
       "lucro_cartao": 850.9,
       "cotacoes": {
         "FOR002": {
-          "custo": 4349,
-          "data": "2026-11-02"
+          "custo": 4449,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7287,18 +7298,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR002",
-      "custo": 4299,
-      "preco_venda": 5716.9,
-      "preco_pix": 5149.9,
-      "preco_cartao": 5716.9,
-      "preco_link": 6025.9,
-      "preco_10x": 602.59,
+      "custo": 4349,
+      "preco_venda": 5771.9,
+      "preco_pix": 5199.9,
+      "preco_cartao": 5771.9,
+      "preco_link": 6083.9,
+      "preco_10x": 608.39,
       "lucro_pix": 850.9,
       "lucro_cartao": 850.9,
       "cotacoes": {
         "FOR002": {
-          "custo": 4299,
-          "data": "2026-11-02"
+          "custo": 4349,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7798,7 +7809,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 7849,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -7900,7 +7911,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 949,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -8096,7 +8107,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 50,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -8127,7 +8138,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 2949,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -8160,7 +8171,7 @@
       "cotacoes": {
         "FOR002": {
           "custo": 2650,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -8308,13 +8319,13 @@
       "categoria": "Apple Watch",
       "condicao": "Lacrado",
       "status": "Disponível",
-      "fornecedor": "FOR002",
-      "custo": 1600,
-      "preco_venda": 2498.9,
-      "preco_pix": 2250.9,
-      "preco_cartao": 2498.9,
-      "preco_link": 2633.9,
-      "preco_10x": 263.39,
+      "fornecedor": "FOR001",
+      "custo": 1550,
+      "preco_venda": 2443.9,
+      "preco_pix": 2200.9,
+      "preco_cartao": 2443.9,
+      "preco_link": 2575.9,
+      "preco_10x": 257.59,
       "lucro_pix": 650.9,
       "lucro_cartao": 650.9,
       "cotacoes": {
@@ -8323,12 +8334,13 @@
           "data": "2026-11-03"
         },
         "FOR002": {
-          "custo": 1600,
-          "data": "2026-11-02"
+          "custo": 1550,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
       "cores": [
+        "Midnight",
         "Starlight"
       ],
       "origem": null,
@@ -8414,18 +8426,18 @@
       "condicao": "Lacrado",
       "status": "Disponível",
       "fornecedor": "FOR002",
-      "custo": 720,
-      "preco_venda": 1051.9,
-      "preco_pix": 972.9,
-      "preco_cartao": 1051.9,
-      "preco_link": 1051.9,
-      "preco_10x": 105.19,
-      "lucro_pix": 252.9,
-      "lucro_cartao": 331.9,
+      "custo": 730,
+      "preco_venda": 1065.9,
+      "preco_pix": 985.9,
+      "preco_cartao": 1065.9,
+      "preco_link": 1065.9,
+      "preco_10x": 106.59,
+      "lucro_pix": 255.9,
+      "lucro_cartao": 335.9,
       "cotacoes": {
         "FOR002": {
-          "custo": 720,
-          "data": "2026-11-02"
+          "custo": 730,
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
@@ -8520,13 +8532,79 @@
       "cotacoes": {
         "FOR002": {
           "custo": 1700,
-          "data": "2026-11-02"
+          "data": "2026-11-03"
         }
       },
       "bateria": null,
       "cores": [
         "Midnight",
         "Starlight"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "MCB-0010",
+      "nome": "MacBook Neo A18Pro 13\" (6CPU/5GPU/8 RAM/256GB SSD)",
+      "categoria": "MacBook",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 5000,
+      "preco_venda": 6494.9,
+      "preco_pix": 5850.9,
+      "preco_cartao": 6494.9,
+      "preco_link": 6845.9,
+      "preco_10x": 684.59,
+      "lucro_pix": 850.9,
+      "lucro_cartao": 850.9,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 5000,
+          "data": "2026-11-03"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Silver"
+      ],
+      "origem": null,
+      "garantia": null,
+      "descricao": "",
+      "destaque": false,
+      "lancamento": false,
+      "promocao": false,
+      "fotos": []
+    },
+    {
+      "codigo": "APW-0019",
+      "nome": "Apple Watch Ultra 3 49mm Caixa Preta",
+      "categoria": "Apple Watch",
+      "condicao": "Lacrado",
+      "status": "Disponível",
+      "fornecedor": "FOR002",
+      "custo": 4449,
+      "preco_venda": 5882.9,
+      "preco_pix": 5299.9,
+      "preco_cartao": 5882.9,
+      "preco_link": 6200.9,
+      "preco_10x": 620.09,
+      "lucro_pix": 850.9,
+      "lucro_cartao": 850.9,
+      "cotacoes": {
+        "FOR002": {
+          "custo": 4449,
+          "data": "2026-11-03"
+        }
+      },
+      "bateria": null,
+      "cores": [
+        "Alpine Loop"
       ],
       "origem": null,
       "garantia": null,
